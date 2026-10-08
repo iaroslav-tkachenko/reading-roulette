@@ -15,6 +15,11 @@ dd { font-size: 1.05rem; font-weight: 600; }
 .spin-button { margin-top: 20px; padding: 12px 28px; border: 1px solid #365e4c; border-radius: 8px; background: #365e4c; color: #fff; font-weight: 700; letter-spacing: 0.06em; cursor: pointer; }
 .spin-button:hover { background: #294b3c; }
 .spin-button:active { background: #203c30; }
+.prompt-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin-bottom: 12px; }
+.copy-button { padding: 10px 18px; border: 1px solid #365e4c; border-radius: 8px; background: #365e4c; color: #fff; font-weight: 700; cursor: pointer; }
+.copy-button:hover { background: #294b3c; }
+.copy-status { min-height: 1.5em; margin: 0; color: #294b3c; font-size: 0.9rem; }
+button:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #b25b26; outline-offset: 3px; }
 textarea { display: block; width: 100%; min-height: 350px; padding: 16px; border: 1px solid #d8e1d6; border-radius: 8px; background: #fafbf8; font-size: 0.9rem; line-height: 1.7; resize: vertical; }
 
 @media (max-width: 640px) {

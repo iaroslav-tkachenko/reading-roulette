@@ -2,9 +2,9 @@
 
 A static prompt builder for language-learning reading practice, built with React, TypeScript, and Vite. Product scope and architectural constraints live in [PROJECT.md](PROJECT.md).
 
-The app includes reading preferences, small static Topic / Format / Tone catalogs, all 15 requested CEFR choices, and a browser-generated prompt preview. Press **SPIN** to independently select a random topic, format, and tone. The preview uses that same combination and your current preferences. Changing preferences preserves the combination, and repeated combinations are allowed.
+The app includes reading preferences, small static Topic / Format / Tone catalogs, all 15 requested CEFR choices, and a browser-generated prompt preview. Press **SPIN** to independently select a random topic, format, and tone. The preview uses that same combination and your current preferences. Changing preferences preserves the combination, and repeated combinations are allowed. **Copy prompt** copies the complete current preview after a click and confirms success only for the prompt that was copied. If browser clipboard access is unavailable or rejected, select the preview text and copy it manually (Ctrl+C on Windows/Linux or ⌘C on macOS).
 
-Before the first SPIN, a starter combination and its prompt are already available. SPIN supports keyboard activation with visible focus. Random selection and prompt composition run locally without network requests or additional dependencies. Animated reels and a dedicated Copy prompt button remain future stages; settings and results are not saved.
+Before the first SPIN, a starter combination and its prompt are already available. SPIN and Copy prompt support keyboard activation with visible focus. Random selection and prompt composition run locally without network requests or additional dependencies. The prompt includes the selected language, a level tuning instruction, the static length range, and guidance for topic, format, and tone. Plus/minus level choices tune around standard CEFR levels; they are not separate official levels. The app does not check or guarantee an external model's output. Animated reels, history, and saved settings remain future stages.
 
 ## Local development
 

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ReadingSettingsForm } from './components/ReadingSettingsForm'
 import { formats } from './data/formats'
 import { languages } from './data/languages'
@@ -22,6 +22,22 @@ function App() {
     cefrLevel: 'A2',
     textLength: 'short',
   })
+  const [copyStatus, setCopyStatus] = useState<{ prompt: string; kind: 'success' | 'error' } | null>(null)
+  const prompt = buildPrompt(settings, combination)
+
+  useEffect(() => {
+    setCopyStatus(null)
+  }, [prompt])
+
+  async function copyPrompt() {
+    try {
+      if (!navigator.clipboard?.writeText) throw new Error('Clipboard API unavailable')
+      await navigator.clipboard.writeText(prompt)
+      setCopyStatus({ prompt, kind: 'success' })
+    } catch {
+      setCopyStatus({ prompt, kind: 'error' })
+    }
+  }
 
   return (
     <main className="app-shell">
@@ -57,8 +73,18 @@ function App() {
       <section className="panel" aria-labelledby="prompt-heading">
         <h2 id="prompt-heading">Prompt preview</h2>
         <p className="section-note">Use this prompt in your preferred AI chat to create the reading text.</p>
+        <div className="prompt-actions">
+          <button className="copy-button" type="button" onClick={copyPrompt}>Copy prompt</button>
+          <p className="copy-status" aria-live="polite" aria-atomic="true">
+            {copyStatus?.prompt === prompt
+              ? copyStatus.kind === 'success'
+                ? 'Prompt copied. Paste it into your AI chat.'
+                : 'Could not copy automatically. Select the prompt below and copy it manually.'
+              : ''}
+          </p>
+        </div>
         <label className="sr-only" htmlFor="prompt-preview">Generated reading prompt</label>
-        <textarea id="prompt-preview" readOnly value={buildPrompt(settings, combination)} />
+        <textarea id="prompt-preview" readOnly value={prompt} />
       </section>
     </main>
   )
