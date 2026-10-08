@@ -12,6 +12,9 @@ select { width: 100%; padding: 12px 10px; border: 1px solid #b8c9be; border-radi
 .combination-grid div { padding: 16px; border-radius: 10px; background: #f0f5ee; }
 dt { margin-bottom: 6px; color: #52665d; font-size: 0.8rem; }
 dd { font-size: 1.05rem; font-weight: 600; }
+.spin-button { margin-top: 20px; padding: 12px 28px; border: 1px solid #365e4c; border-radius: 8px; background: #365e4c; color: #fff; font-weight: 700; letter-spacing: 0.06em; cursor: pointer; }
+.spin-button:hover { background: #294b3c; }
+.spin-button:active { background: #203c30; }
 textarea { display: block; width: 100%; min-height: 350px; padding: 16px; border: 1px solid #d8e1d6; border-radius: 8px; background: #fafbf8; font-size: 0.9rem; line-height: 1.7; resize: vertical; }
 
 @media (max-width: 640px) {

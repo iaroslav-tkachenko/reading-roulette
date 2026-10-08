@@ -14,9 +14,11 @@ The plus/minus variants are internal difficulty tuning labels around the six sta
 
 ## Topic × Format × Tone
 
-The intended primary interaction is a slot machine with three reels: **Topic**, **Format**, and **Tone**. SPIN will randomly select one item from each static catalog. Together with the user settings, this combination becomes a prompt assembled locally with ordinary TypeScript. Users can then copy it into their preferred LLM chat.
+The primary interaction is **SPIN**, which independently selects one item from each static catalog: **Topic**, **Format**, and **Tone**. Repeating a previous combination is allowed. Together with the user settings, this combination becomes a prompt assembled locally with ordinary TypeScript. Users can then use it in their preferred LLM chat.
 
-The current foundation contains a fixed starter combination and a live prompt preview. Random selection, reel animation, SPIN, and a dedicated copy action belong to later stages.
+The screen starts with a fixed starter combination and a live prompt preview. Pressing SPIN updates the combination and its prompt together. Changing Language, CEFR Level, or Text Length updates the prompt while preserving the selected combination. Selection happens only on button activation, not during rendering. The button supports keyboard activation and visible focus, and the result is announced politely to assistive technology.
+
+Random selection is a separate typed TypeScript function. Empty catalogs or missing selected entries produce explicit errors instead of undefined; an invalid random sample also produces an explicit error. No dependencies, history, persistence, or repeat prevention are used. Animated reels and a dedicated Copy prompt action remain future stages.
 
 ## Zero-inference / static-only architecture
 
@@ -35,6 +37,7 @@ src/
   components/  Reusable UI components
   data/        Static product catalogs and instructions
   prompt/      Pure TypeScript prompt composition
+  random/      UI-independent random combination selection
   types/       Shared domain types
   App.tsx      Single-screen composition and local React state
   App.css      Screen layout

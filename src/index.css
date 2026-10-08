@@ -12,8 +12,8 @@
 * { box-sizing: border-box; }
 body { margin: 0; min-width: 320px; }
 h1, h2, p, dl, dd { margin: 0; }
-select, textarea { font: inherit; color: inherit; }
-select:focus-visible, textarea:focus-visible { outline: 3px solid #437c66; outline-offset: 3px; }
+button, select, textarea { font: inherit; color: inherit; }
+button:focus-visible, select:focus-visible, textarea:focus-visible { outline: 3px solid #437c66; outline-offset: 3px; }
 
 .sr-only {
   position: absolute;
