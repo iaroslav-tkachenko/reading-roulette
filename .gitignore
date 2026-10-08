@@ -1,0 +1,30 @@
+# Dependencies and local package-manager caches
+node_modules/
+.pnpm-store/
+.pnpm-cache/
+.npm/
+
+# Build output and TypeScript caches
+dist/
+dist-ssr/
+*.tsbuildinfo
+
+# Logs and temporary files
+logs/
+*.log
+*.local
+*.tmp
+*.swp
+*.swo
+
+# Local environment files; keep documented examples
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
