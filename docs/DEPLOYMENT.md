@@ -45,4 +45,12 @@ Publishing should use a normal commit/push, preserve existing history, and wait 
 
 The project-base path and Actions deployment approach follow the [Vite static deployment guide](https://vite.dev/guide/static-deploy.html#github-pages). Workflow permissions, environment, artifact upload and deployment follow [GitHub Pages custom workflow documentation](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). Action revisions were resolved from the official GitHub repositories before configuring this workflow.
 
-Publication verification will be recorded here after the first successful deployment. Interactive browser verification remains subject to availability of the in-app Browser; a connection failure does not count as a passing browser check.
+Initial publication was verified on October 9, 2026 at 15:28 UTC:
+
+- [Release commit 44fd22d](https://github.com/iaroslav-tkachenko/reading-roulette/commit/44fd22d5b733e3015a29c86c73ece4d8ac1cf639) reached main through a normal push.
+- [Actions run 37951791942](https://github.com/iaroslav-tkachenko/reading-roulette/actions/runs/37951791942) passed the build and deployment jobs.
+- Public release.json matched that exact commit; HTML, JavaScript, CSS, and favicon returned HTTP 200. All three assets matched the local production build by SHA-256. Details are in the [initial deployment audit](validation/deployment-audit-2026-10-09.json).
+- GitHub README and content-status document blob SHAs matched the committed local files. The repository homepage points to the Pages site.
+- Interactive browser verification could not run: loading the in-app Browser runtime failed with EPERM. Visual layout, keyboard, clipboard, and accessibility remain unverified after the Angle migration.
+
+This is evidence for the initial release, rather than a claim that its commit remains the latest deployment. Subsequent pushes repeat the workflow; check the successful run and public release.json for the current revision. Publishing the documentation record itself does not change the application assets.

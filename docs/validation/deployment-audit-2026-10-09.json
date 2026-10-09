@@ -1,0 +1,33 @@
+{
+  "verifiedAt": "2026-10-09T15:28:15.711Z",
+  "site": "https://iaroslav-tkachenko.github.io/reading-roulette/",
+  "commit": "44fd22d5b733e3015a29c86c73ece4d8ac1cf639",
+  "workflowRun": "https://github.com/iaroslav-tkachenko/reading-roulette/actions/runs/37951791942",
+  "releaseRevisionMatches": true,
+  "htmlStatus": 200,
+  "assets": [
+    {
+      "url": "https://iaroslav-tkachenko.github.io/reading-roulette/favicon.svg",
+      "status": 200,
+      "bytes": 247,
+      "sha256": "cb7882fce2e877522cef903f7260e4921ac9ca8c8ef6d07dfc466c71438b5c99",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://iaroslav-tkachenko.github.io/reading-roulette/assets/index-B-0DbIUt.js",
+      "status": 200,
+      "bytes": 228265,
+      "sha256": "3fa4a475be27b3838419d8c661f61b781ac0871488097130d86d7751fd34edc7",
+      "matchesLocalBuild": true
+    },
+    {
+      "url": "https://iaroslav-tkachenko.github.io/reading-roulette/assets/index-DKfUNL-L.css",
+      "status": 200,
+      "bytes": 2469,
+      "sha256": "03810907346c247659a75b7a8ae03c0900f367f6fa4b3161e68f5748d06750ef",
+      "matchesLocalBuild": true
+    }
+  ],
+  "scope": "Public deployment revision, HTML and asset HTTP responses, asset hashes against local production build; browser interactions and external AI results excluded",
+  "browserCheck": "Blocked: EPERM loading the in-app Browser runtime; visual layout, keyboard, clipboard and accessibility unverified"
+}
