@@ -1,5 +1,7 @@
 import type { ContentOption } from '../types/reading'
 
+// Legacy supporting vocabulary, retained for future format instructions.
+// Tone is not a reel, a ReadingCombination field, or an independently randomized choice.
 export const tones = [
   { id: 'warm', label: 'Warm', promptHint: 'Friendly and encouraging.' },
   { id: 'curious', label: 'Curious', promptHint: 'Exploratory and inquisitive.' },

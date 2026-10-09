@@ -10,8 +10,9 @@ export function buildPrompt(settings: ReadingSettings, combination: ReadingCombi
     `Length: approximately ${textLengths[settings.textLength].wordRange} words.`,
     `Topic: ${combination.topic.label}. ${combination.topic.promptHint}`,
     `Format: ${combination.format.label}. ${combination.format.promptHint}`,
-    `Tone: ${combination.tone.label}. ${combination.tone.promptHint}`,
-    'Keep vocabulary, grammar, and sentence complexity within the selected difficulty target, even when the topic or tone is complex. Prefer simpler language over simplifying or changing the requested topic, format, or tone.',
+    `Angle: ${combination.angle.label}. ${combination.angle.promptHint}`,
+    'Use a register, emotional tone, and narrative perspective appropriate to the format and angle. Keep formal documents neutral.',
+    'Keep vocabulary, grammar, and sentence complexity within the selected difficulty target, even when the topic or angle is complex. Prefer simpler language over simplifying or changing the requested topic, format, or angle.',
     'Return only the reading text, without translations, exercises, or commentary.',
   ].join('\n\n')
 }

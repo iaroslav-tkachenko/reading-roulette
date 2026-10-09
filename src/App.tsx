@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { ReadingSettingsForm } from './components/ReadingSettingsForm'
 import { formats } from './data/formats'
 import { languages } from './data/languages'
-import { tones } from './data/tones'
+import { angles } from './data/angles'
 import { topics } from './data/topics'
 import { buildPrompt } from './prompt/buildPrompt'
 import { selectReadingCombination } from './random/selectReadingCombination'
@@ -12,7 +12,7 @@ import './App.css'
 const starterCombination: ReadingCombination = {
   topic: topics[0],
   format: formats[0],
-  tone: tones[0],
+  angle: angles[0],
 }
 
 function App() {
@@ -54,11 +54,11 @@ function App() {
 
       <section className="panel" aria-labelledby="combination-heading">
         <h2 id="combination-heading">Your reading combination</h2>
-        <p className="section-note" id="spin-description">Start with this combination or press SPIN to randomly choose a topic, format, and tone. Repeats are possible.</p>
+        <p className="section-note" id="spin-description">Start with this combination or press SPIN to choose a topic, format, and compatible angle — the specific idea to explore. Repeats are possible.</p>
         <dl className="combination-grid" aria-live="polite" aria-atomic="true">
           <div><dt>Topic</dt><dd>{combination.topic.label}</dd></div>
           <div><dt>Format</dt><dd>{combination.format.label}</dd></div>
-          <div><dt>Tone</dt><dd>{combination.tone.label}</dd></div>
+          <div><dt>Angle</dt><dd>{combination.angle.label}</dd></div>
         </dl>
         <button
           className="spin-button"

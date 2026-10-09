@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#26343e" />
+    <title>Reading Roulette · Motion preview</title>
+    <link rel="stylesheet" href="./preview.css" />
+  </head>
+  <body>
+    <aside class="review-bar" aria-label="Prototype review controls">
+      <span>Motion study <span class="review-note">· simplified artwork · local prototype</span></span>
+      <div class="review-options">
+        <label><input id="long-test" type="checkbox" /> Next spin: long labels</label>
+        <label><input id="reduce-test" type="checkbox" /> Without motion</label>
+      </div>
+    </aside>
+    <main>
+      <header>
+        <div class="utility"><button id="help-button" type="button">How to use <span aria-hidden="true">?</span></button></div>
+        <h1>Reading Roulette</h1>
+        <p class="subtitle">Try your luck. Find your next great read.</p>
+      </header>
+      <section class="machine" aria-label="Reading roulette machine">
+        <div class="settings">
+          <label class="language-field">Language<select id="language"></select><span class="helper" aria-hidden="true">&nbsp;</span></label>
+          <label>CEFR Level<select id="level"></select><span class="helper" aria-hidden="true">&nbsp;</span></label>
+          <label>Text Length<select id="length" aria-describedby="word-range"></select><span id="word-range" class="helper"></span></label>
+        </div>
+        <dl id="semantic-result" class="sr-only" aria-label="Current reading combination" aria-busy="false"></dl>
+        <div id="reels" class="reels" aria-hidden="true"></div>
+        <div class="keyboard">
+          <div class="decor-keys" aria-hidden="true"><span>Q</span><span>W</span><span>E</span><span>A</span><span>S</span><span>D</span></div>
+          <button id="spin" type="button" aria-describedby="spin-note"><span aria-hidden="true">↻</span> <span id="spin-label">SPIN</span></button>
+          <div class="decor-keys" aria-hidden="true"><span>I</span><span>O</span><span>P</span><span>J</span><span>K</span><span>L</span></div>
+        </div>
+        <p id="spin-note" class="sr-only">Choose a topic, format and compatible angle — the specific idea to explore. Repeats are possible.</p>
+      </section>
+      <section class="paper" aria-labelledby="prompt-heading">
+        <div class="paper-heading"><h2 id="prompt-heading">Prompt preview</h2><span class="paper-stamp" aria-hidden="true">READ · EXPLORE · REPEAT</span></div>
+        <label class="sr-only" for="prompt">Generated reading prompt</label>
+        <textarea id="prompt" readonly spellcheck="false" wrap="soft"></textarea>
+        <div class="copy-row"><button id="copy" type="button" aria-describedby="visible-status">Copy prompt</button></div>
+        <p id="visible-status" class="status"></p>
+      </section>
+      <p id="announce" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+      <footer><p>Choose your settings. Spin the machine. Take the prompt to your favourite AI chat.</p><output id="review-metric" aria-live="off">Ready to try · Topic → Format → Angle · 1.48 s</output></footer>
+    </main>
+    <dialog id="help" aria-labelledby="help-title">
+      <h2 id="help-title">How to use</h2>
+      <ol><li>Choose your language, level and length.</li><li>Spin to get a ready-to-use prompt.</li><li>Paste it into any AI chat to create a text for reading practice.</li></ol>
+      <form method="dialog"><button>Close</button></form>
+    </dialog>
+    <script type="module" src="./preview.ts"></script>
+  </body>
+</html>

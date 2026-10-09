@@ -1,13 +1,13 @@
 import { formats } from '../data/formats'
-import { tones } from '../data/tones'
+import { angles } from '../data/angles'
 import { topics } from '../data/topics'
 import type { ContentOption, ReadingCombination } from '../types/reading'
 
-function pickOption(
-  catalog: readonly ContentOption[],
+function pickOption<T extends ContentOption>(
+  catalog: readonly T[],
   name: string,
   random: () => number,
-): ContentOption {
+): T {
   if (catalog.length === 0) {
     throw new Error(`Cannot select from the empty ${name} catalog.`)
   }
@@ -25,11 +25,21 @@ function pickOption(
   return option
 }
 
-// Each catalog gets its own draw. Repeats are allowed; no browser APIs are needed.
+// Three draws: topic, format, then an angle compatible with that format.
+// Repeats are allowed; decorative animation must not affect these draws.
 export function selectReadingCombination(random: () => number = Math.random): ReadingCombination {
+  const topic = pickOption(topics, 'topic', random)
+  const format = pickOption(formats, 'format', random)
+  // Resolve every allowed ID before drawing, so broken catalog references fail explicitly.
+  const compatibleAngles = format.angleIds.map((id) => {
+    const angle = angles.find((option) => option.id === id)
+    if (!angle) throw new Error(`Unknown angle "${id}" in format "${format.id}".`)
+    return angle
+  })
+
   return {
-    topic: pickOption(topics, 'topic', random),
-    format: pickOption(formats, 'format', random),
-    tone: pickOption(tones, 'tone', random),
+    topic,
+    format,
+    angle: pickOption(compatibleAngles, 'compatible angle', random),
   }
 }

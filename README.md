@@ -1,48 +1,64 @@
 # Reading Roulette
 
-A static prompt builder for language-learning reading practice, built with React, TypeScript, and Vite. Product scope and architectural constraints live in [PROJECT.md](PROJECT.md).
+A static prompt builder for language-learning reading practice, built with React, TypeScript, and Vite. Choose your reading preferences, press **SPIN**, and copy the resulting prompt into your preferred AI chat to generate the text.
 
-The app includes reading preferences, small static Topic / Format / Tone catalogs, all 15 requested CEFR choices, and a browser-generated prompt preview. Press **SPIN** to independently select a random topic, format, and tone. The preview uses that same combination and your current preferences. Changing preferences preserves the combination, and repeated combinations are allowed. **Copy prompt** copies the complete current preview after a click and confirms success only for the prompt that was copied. If browser clipboard access is unavailable or rejected, select the preview text and copy it manually (Ctrl+C on Windows/Linux or ⌘C on macOS).
+**[Open Reading Roulette](https://iaroslav-tkachenko.github.io/reading-roulette/)** · [Build and deployment runs](https://github.com/iaroslav-tkachenko/reading-roulette/actions/workflows/pages.yml)
 
-Before the first SPIN, a starter combination and its prompt are already available. SPIN and Copy prompt support keyboard activation with visible focus. Random selection and prompt composition run locally without network requests or additional dependencies. The prompt includes the selected language, a level tuning instruction, the static length range, and guidance for topic, format, and tone. Plus/minus level choices tune around standard CEFR levels; they are not separate official levels. The app does not check or guarantee an external model's output. Animated reels, history, and saved settings remain future stages.
+## Current application
+
+The implemented starter catalogs contain 3 topics, 3 formats, 4 angles, and 4 languages: English, German, Spanish, and French. All 15 requested CEFR choices and Short / Medium / Long are available. Plus/minus choices tune around standard CEFR levels; they are internal difficulty labels.
+
+SPIN selects a **Topic × Format × Angle** combination. The angle comes from the selected format's compatible entries; repeated combinations are allowed. The screen and prompt use the same combination. Changing preferences preserves that combination and immediately updates the prompt. Before the first spin, a starter combination is already available.
+
+**Copy prompt** copies the full current preview after a click, with confirmation tied to the exact prompt copied. If clipboard access is unavailable, select and copy the preview manually. SPIN and Copy support keyboard activation and visible focus. Selection and prompt composition run locally; no backend, model API, credentials, analytics, or remote data loading is required. The external AI chat generates the reading text, whose level, length, and accuracy the app cannot guarantee.
+
+Register, tone, genre, and narrative perspective are supporting instructions within formats and angles, without separate controls or hidden random draws. Angle replaces the former Tone reel throughout current code and specifications. Older design PNGs retain Tone as historical visual references.
+
+## Approved requirements and remaining implementation
+
+The full catalogs and rules are approved in documentation. The website currently runs the smaller starter implementation described above.
+
+| Area | Approved specification | Current implementation |
+| --- | --- | --- |
+| Reading balance | [6 families and weights by level](docs/READING_FAMILIES.md), including visual reading | Family selection and weighting pending |
+| Topic | [26 topics and beginner restrictions](docs/TOPICS.md) | 3 starter topics |
+| Format | [44 formats and recognizable structures](docs/FORMATS.md), including sourced news, speeches, IT follow-ups, and visual formats | 3 text-only starter formats |
+| Angle | [30 angles, minimum profiles, and compatibility](docs/ANGLES.md) | 4 starter angles; compatibility checked by format |
+| Level and length | [Profile ranges, 44-format length matrix, and settings behavior](docs/LEVELS_LENGTH.md) | Uniform word ranges; eligibility filters and update confirmation pending |
+| Content status | [Fiction, training, factual, and sourced material](docs/CONTENT_STATUS.md) | Conditional labels, source blocks, and visual-output prompts pending |
+| Design and motion | [Design](docs/design/DESIGN.md), [motion specification](docs/design/MOTION.md), and [local prototype](docs/design/motion-preview/README.md) | Final design and animated reels pending in the main app |
+| Languages | Original top-eight request plus Russian, Portuguese, and Serbian | 4 languages; canonical full list needs to be recovered or agreed before implementation |
+
+All future UI and catalog work must follow [the catalog contract](docs/CATALOGS.md). For animated SPIN, prepare the entire valid combination and prompt before motion starts; Angle selection must not wait for another reel to stop. The approved filters must preserve valid combinations and clear invalid ones with an explicit new SPIN. The approved prompt-update confirmation must leave the updated text and Copy immediately available. These are requirements for future implementation.
+
+See [PROJECT.md](PROJECT.md) for architecture, the [system audit](docs/CATALOG_VALIDATION.md) for remaining work and coverage limits, and [deployment documentation](docs/DEPLOYMENT.md) for publication and verification.
 
 ## Local development
 
-Prerequisites: Node.js 22.12+ and pnpm 10.22.0. This foundation was prepared using Node.js 24.
+Prerequisites: Node.js 22.12+ and pnpm 10.22.0. CI uses Node.js 24.
 
 ```sh
-pnpm install
+pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-Open the local URL printed by Vite (usually http://localhost:5173).
+Open the URL printed by Vite, usually http://localhost:5173. The separate motion prototype is available only through the development server at `/docs/design/motion-preview/`; it is not included in the deployed site.
 
 ## Verification and production build
 
 ```sh
+node docs/validation/audit-catalogs.mjs
+node docs/validation/audit-starter-runtime.mjs
 pnpm typecheck
 pnpm build
 git diff --check
 pnpm preview
 ```
 
-`build` checks TypeScript and writes static production assets to `dist/`. `preview` serves that build locally. No backend, AI API, credentials, or environment variables are required.
+`build` checks TypeScript and writes static assets to `dist/`. GitHub Actions repeats the audits, checks the motion prototype's TypeScript, and builds with `--base=/reading-roulette/` before publishing to GitHub Pages. For a local preview of that deployment build, run `pnpm build --base=/reading-roulette/` and open the preview server's `/reading-roulette/` path.
 
-GitHub Pages deployment has not been configured. Choose the appropriate Vite base path when hosting is implemented.
+The catalog audit covers 45 level/length settings, 1,980 base format eligibility cases, 44 authored review scenarios, and 12 boundary cases. The starter audit covers all 27 compatible combinations and 4,860 prompts, random-source boundaries, invalid inputs, and Markdown links. Neither audit validates external AI output or the complete future semantic allowlist.
 
-## SPIN verification
+Interactive browser verification after the Angle migration remains incomplete: the in-app Browser runtime failed to load with EPERM. Build, audit, and HTTP/asset checks do not establish visual, keyboard, clipboard, or accessibility verification. Historical checks are retained in the [motion verification record](docs/design/motion-preview/VERIFICATION.md).
 
-To check the current interaction in a local browser:
-
-1. On initial load, confirm that Daily life / Short story / Warm appears both in the combination and in the prompt, with English / A2 / Short preferences.
-2. Press SPIN several times. Each result must use existing catalog entries, and the Topic, Format, and Tone lines in the prompt must match the displayed combination. Repeated combinations are valid.
-3. Change Language, CEFR Level, and Text Length after a spin. Each change must update the corresponding prompt instruction without changing the selected combination.
-4. Use Tab to reach SPIN, confirm the visible focus outline, and activate the button with both Enter and Space.
-5. Check the browser console for errors and inspect the current screen for layout issues.
-
-Stage 1 was verified locally on October 8, 2026:
-
-- TypeScript checking, the production build, and Git whitespace checks passed.
-- One-off Node.js checks covered all 27 catalog combinations, three independent draws per selection, random-source boundaries, allowed repeats, 500 default-random selections, explicit errors for empty or sparse catalogs and invalid random samples, and all 4,860 combinations of catalog results and reading preferences. No test framework or persistent test suite was added.
-- Browser checks passed for initial load, six consecutive spins (including a repeated result), prompt/result consistency, all three preference changes after a spin, keyboard activation, and visible focus. No console warnings or errors or obvious layout issues were observed on the tested desktop screen.
-- Implementation self-review checked state consistency, separation of selection from UI, typing, accessibility, and the static-only boundaries. Random selection runs only in the click handler; the prompt is derived from the same combination state used for the displayed result.
+For manual acceptance, check the initial Daily life / Short story / Unexpected discovery result with English / A2 / Short; spin several times and compare the prompt with the displayed result; change each preference; activate SPIN and Copy with the keyboard; inspect console output and responsive layout.

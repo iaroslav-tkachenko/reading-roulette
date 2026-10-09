@@ -1,0 +1,1936 @@
+{
+  "date": "2026-10-09",
+  "scope": "Approved document metadata and authored review scenarios; not full runtime compatibility",
+  "counts": {
+    "topics": 26,
+    "formats": 44,
+    "angles": 30,
+    "families": 6,
+    "levels": 15,
+    "lengths": 3
+  },
+  "familyNames": [
+    "Художественное чтение",
+    "Информационное чтение",
+    "Мнения и аргументы",
+    "Личное общение",
+    "Практическое и деловое чтение",
+    "Визуальное чтение"
+  ],
+  "modelCounts": {
+    "prose": 27,
+    "brief-prose": 4,
+    "compact-message": 3,
+    "list-items": 2,
+    "form-fields": 1,
+    "visual-caption": 4,
+    "visual-sequence": 2,
+    "visual-report": 1
+  },
+  "statusCounts": {
+    "fiction": 7,
+    "training": 26,
+    "factual": 9,
+    "sourced": 2
+  },
+  "formatLevelLengthChecks": 1980,
+  "settings": [
+    {
+      "level": "A1",
+      "profile": "A1",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 15,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        5,
+        5,
+        2
+      ],
+      "baseWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ],
+      "normalizedWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ]
+    },
+    {
+      "level": "A1",
+      "profile": "A1",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 11,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        2
+      ],
+      "baseWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ],
+      "normalizedWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ]
+    },
+    {
+      "level": "A1",
+      "profile": "A1",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 10,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        1
+      ],
+      "baseWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ],
+      "normalizedWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ]
+    },
+    {
+      "level": "A1+",
+      "profile": "A1",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 15,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        5,
+        5,
+        2
+      ],
+      "baseWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ],
+      "normalizedWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ]
+    },
+    {
+      "level": "A1+",
+      "profile": "A1",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 11,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        2
+      ],
+      "baseWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ],
+      "normalizedWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ]
+    },
+    {
+      "level": "A1+",
+      "profile": "A1",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 10,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        1
+      ],
+      "baseWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ],
+      "normalizedWeights": [
+        15,
+        10,
+        0,
+        25,
+        20,
+        30
+      ]
+    },
+    {
+      "level": "A2-",
+      "profile": "A1",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 15,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        5,
+        5,
+        2
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        21.052631578947366,
+        15.789473684210526,
+        0,
+        26.31578947368421,
+        15.789473684210526,
+        21.052631578947366
+      ]
+    },
+    {
+      "level": "A2-",
+      "profile": "A1",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 11,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        2
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        21.052631578947366,
+        15.789473684210526,
+        0,
+        26.31578947368421,
+        15.789473684210526,
+        21.052631578947366
+      ]
+    },
+    {
+      "level": "A2-",
+      "profile": "A1",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 10,
+      "familyCounts": [
+        1,
+        2,
+        0,
+        4,
+        2,
+        1
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        21.052631578947366,
+        15.789473684210526,
+        0,
+        26.31578947368421,
+        15.789473684210526,
+        21.052631578947366
+      ]
+    },
+    {
+      "level": "A2",
+      "profile": "A2",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 29,
+      "familyCounts": [
+        3,
+        6,
+        1,
+        6,
+        8,
+        5
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ]
+    },
+    {
+      "level": "A2",
+      "profile": "A2",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 25,
+      "familyCounts": [
+        3,
+        6,
+        1,
+        5,
+        5,
+        5
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ]
+    },
+    {
+      "level": "A2",
+      "profile": "A2",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 19,
+      "familyCounts": [
+        3,
+        5,
+        0,
+        5,
+        4,
+        2
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        21.052631578947366,
+        15.789473684210526,
+        0,
+        26.31578947368421,
+        15.789473684210526,
+        21.052631578947366
+      ]
+    },
+    {
+      "level": "A2+",
+      "profile": "A2",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 29,
+      "familyCounts": [
+        3,
+        6,
+        1,
+        6,
+        8,
+        5
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ]
+    },
+    {
+      "level": "A2+",
+      "profile": "A2",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 25,
+      "familyCounts": [
+        3,
+        6,
+        1,
+        5,
+        5,
+        5
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ]
+    },
+    {
+      "level": "A2+",
+      "profile": "A2",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 19,
+      "familyCounts": [
+        3,
+        5,
+        0,
+        5,
+        4,
+        2
+      ],
+      "baseWeights": [
+        20,
+        15,
+        5,
+        25,
+        15,
+        20
+      ],
+      "normalizedWeights": [
+        21.052631578947366,
+        15.789473684210526,
+        0,
+        26.31578947368421,
+        15.789473684210526,
+        21.052631578947366
+      ]
+    },
+    {
+      "level": "B1-",
+      "profile": "A2",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 29,
+      "familyCounts": [
+        3,
+        6,
+        1,
+        6,
+        8,
+        5
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1-",
+      "profile": "A2",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 25,
+      "familyCounts": [
+        3,
+        6,
+        1,
+        5,
+        5,
+        5
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1-",
+      "profile": "A2",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 19,
+      "familyCounts": [
+        3,
+        5,
+        0,
+        5,
+        4,
+        2
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        27.77777777777778,
+        22.22222222222222,
+        0,
+        22.22222222222222,
+        16.666666666666664,
+        11.11111111111111
+      ]
+    },
+    {
+      "level": "B1",
+      "profile": "B1",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 41,
+      "familyCounts": [
+        6,
+        8,
+        4,
+        6,
+        11,
+        6
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1",
+      "profile": "B1",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 37,
+      "familyCounts": [
+        6,
+        8,
+        4,
+        5,
+        8,
+        6
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1",
+      "profile": "B1",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 29,
+      "familyCounts": [
+        6,
+        7,
+        3,
+        5,
+        6,
+        2
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1+",
+      "profile": "B1",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 41,
+      "familyCounts": [
+        6,
+        8,
+        4,
+        6,
+        11,
+        6
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1+",
+      "profile": "B1",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 37,
+      "familyCounts": [
+        6,
+        8,
+        4,
+        5,
+        8,
+        6
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B1+",
+      "profile": "B1",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 29,
+      "familyCounts": [
+        6,
+        7,
+        3,
+        5,
+        6,
+        2
+      ],
+      "baseWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        10,
+        20,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2-",
+      "profile": "B1",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 41,
+      "familyCounts": [
+        6,
+        8,
+        4,
+        6,
+        11,
+        6
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2-",
+      "profile": "B1",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 37,
+      "familyCounts": [
+        6,
+        8,
+        4,
+        5,
+        8,
+        6
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2-",
+      "profile": "B1",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 29,
+      "familyCounts": [
+        6,
+        7,
+        3,
+        5,
+        6,
+        2
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2",
+      "profile": "B2",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 44,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        6,
+        11,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2",
+      "profile": "B2",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 40,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        5,
+        8,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2",
+      "profile": "B2",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 32,
+      "familyCounts": [
+        6,
+        7,
+        5,
+        5,
+        6,
+        3
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2+",
+      "profile": "B2",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 44,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        6,
+        11,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2+",
+      "profile": "B2",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 40,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        5,
+        8,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "B2+",
+      "profile": "B2",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 32,
+      "familyCounts": [
+        6,
+        7,
+        5,
+        5,
+        6,
+        3
+      ],
+      "baseWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        15,
+        15,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1-",
+      "profile": "B2",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 44,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        6,
+        11,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1-",
+      "profile": "B2",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 40,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        5,
+        8,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1-",
+      "profile": "B2",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 32,
+      "familyCounts": [
+        6,
+        7,
+        5,
+        5,
+        6,
+        3
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1",
+      "profile": "C1+",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 44,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        6,
+        11,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1",
+      "profile": "C1+",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 40,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        5,
+        8,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1",
+      "profile": "C1+",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 32,
+      "familyCounts": [
+        6,
+        7,
+        5,
+        5,
+        6,
+        3
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1+",
+      "profile": "C1+",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 44,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        6,
+        11,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1+",
+      "profile": "C1+",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 40,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        5,
+        8,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C1+",
+      "profile": "C1+",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 32,
+      "familyCounts": [
+        6,
+        7,
+        5,
+        5,
+        6,
+        3
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C2",
+      "profile": "C1+",
+      "length": "short",
+      "eligibleFormatsBeforeTopicAngleRules": 44,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        6,
+        11,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C2",
+      "profile": "C1+",
+      "length": "medium",
+      "eligibleFormatsBeforeTopicAngleRules": 40,
+      "familyCounts": [
+        6,
+        8,
+        6,
+        5,
+        8,
+        7
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    },
+    {
+      "level": "C2",
+      "profile": "C1+",
+      "length": "long",
+      "eligibleFormatsBeforeTopicAngleRules": 32,
+      "familyCounts": [
+        6,
+        7,
+        5,
+        5,
+        6,
+        3
+      ],
+      "baseWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ],
+      "normalizedWeights": [
+        25,
+        20,
+        20,
+        10,
+        15,
+        10
+      ]
+    }
+  ],
+  "authoredScenarios": [
+    {
+      "formatId": "everyday-story",
+      "topicId": "home-household",
+      "angleId": "everyday-routine",
+      "level": "A1",
+      "scenario": "Утро взрослого героя дома",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "adventure-story",
+      "topicId": "travel",
+      "angleId": "problem-and-solution",
+      "level": "A2",
+      "scenario": "Герои находят путь к месту ночлега",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "detective-story",
+      "topicId": "city-life",
+      "angleId": "overlooked-detail",
+      "level": "B1",
+      "scenario": "Деталь помогает объяснить исчезновение ключа",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "science-fiction-story",
+      "topicId": "technology-digital-life",
+      "angleId": "unexpected-outcome",
+      "level": "B1",
+      "scenario": "Одна вымышленная технология меняет рабочую задачу",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "fantasy-story",
+      "topicId": "nature-wildlife",
+      "angleId": "unexpected-discovery",
+      "level": "B1",
+      "scenario": "Находка раскрывает одно правило волшебного леса",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "fable",
+      "topicId": "family-relationships",
+      "angleId": "problem-and-solution",
+      "level": "A2",
+      "scenario": "Притча о помощи и понятном результате",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "description",
+      "topicId": "home-household",
+      "angleId": "spatial-orientation",
+      "level": "A1",
+      "scenario": "Расположение предметов в явно учебной комнате",
+      "defaultStatus": "factual",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "explainer",
+      "topicId": "transport",
+      "angleId": "how-it-works",
+      "level": "A2",
+      "scenario": "Общий понятный процесс пересадки, без выдуманного действующего расписания",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "fact-file",
+      "topicId": "space-astronomy",
+      "angleId": "first-introduction",
+      "level": "A2",
+      "scenario": "Устойчивые базовые сведения о Луне",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "faq",
+      "topicId": "shopping-services",
+      "angleId": "clarifying-details",
+      "level": "A1",
+      "scenario": "Учебные вопросы покупателя о явно условных условиях заказа",
+      "defaultStatus": "factual",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "informational-interview",
+      "topicId": "hobbies-leisure",
+      "angleId": "first-introduction",
+      "level": "A2",
+      "scenario": "Вымышленный собеседник рассказывает о своём хобби",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "informational-report",
+      "topicId": "environment",
+      "angleId": "what-changed",
+      "level": "B1",
+      "scenario": "Обзор реально подтверждённых изменений, без мнимого собственного исследования",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "news-brief",
+      "topicId": "city-life",
+      "angleId": "what-changed",
+      "level": "A2",
+      "scenario": "Новость о городской услуге при наличии найденной публикации",
+      "defaultStatus": "sourced",
+      "effectiveStatus": "sourced",
+      "condition": "Requires actual external source discovery; not executed in this audit"
+    },
+    {
+      "formatId": "reportage",
+      "topicId": "culture-traditions",
+      "angleId": "what-changed",
+      "level": "B1",
+      "scenario": "Ход культурного события по реально прочитанным материалам",
+      "defaultStatus": "sourced",
+      "effectiveStatus": "sourced",
+      "condition": "Requires actual external source discovery; not executed in this audit"
+    },
+    {
+      "formatId": "short-review",
+      "topicId": "arts-entertainment",
+      "angleId": "feedback",
+      "level": "A2",
+      "scenario": "Учебный отзыв о вымышленной книге",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "comparative-review",
+      "topicId": "technology-digital-life",
+      "angleId": "comparing-two-options",
+      "level": "B1",
+      "scenario": "Сравнение двух явно вымышленных устройств по одинаковым критериям",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "opinion-column",
+      "topicId": "learning-education",
+      "angleId": "different-viewpoints",
+      "level": "B1",
+      "scenario": "Учебная позиция о способах организации обучения",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "argumentative-essay",
+      "topicId": "philosophy-ethics",
+      "angleId": "difficult-choice",
+      "level": "B2",
+      "scenario": "Понятная этическая ситуация с тезисом и контраргументом",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "written-debate",
+      "topicId": "society-public-life",
+      "angleId": "different-viewpoints",
+      "level": "B2",
+      "scenario": "Учебные позиции об использовании общественного пространства",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "speech",
+      "topicId": "learning-education",
+      "angleId": "first-introduction",
+      "level": "B1",
+      "scenario": "Приветствие вымышленных участников учебного курса",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "personal-note",
+      "topicId": "home-household",
+      "angleId": "request-for-help",
+      "level": "A1",
+      "scenario": "Короткая просьба вымышленному соседу по дому",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "message-exchange",
+      "topicId": "travel",
+      "angleId": "upcoming-plans",
+      "level": "A1",
+      "scenario": "Учебная переписка о ближайшей поездке",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "personal-letter",
+      "topicId": "family-relationships",
+      "angleId": "invitation",
+      "level": "A1",
+      "scenario": "Учебное приглашение на семейную встречу",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "diary-entry",
+      "topicId": "sports",
+      "angleId": "everyday-routine",
+      "level": "A1",
+      "scenario": "День вымышленного автора с простой спортивной активностью",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "everyday-conversation",
+      "topicId": "shopping-services",
+      "angleId": "clarifying-details",
+      "level": "A1",
+      "scenario": "Уточнение деталей вымышленного заказа",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "personal-blog-post",
+      "topicId": "hobbies-leisure",
+      "angleId": "unsuccessful-attempt",
+      "level": "A2",
+      "scenario": "Учебный личный опыт освоения хобби",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "notice",
+      "topicId": "city-life",
+      "angleId": "special-occasion",
+      "level": "A1",
+      "scenario": "Учебное объявление о встрече соседей",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "listing",
+      "topicId": "shopping-services",
+      "angleId": "first-introduction",
+      "level": "A1",
+      "scenario": "Учебное объявление о продаже предмета",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "menu",
+      "topicId": "food-cooking",
+      "angleId": "special-occasion",
+      "level": "A1",
+      "scenario": "Учебное праздничное меню с вымышленными ценами",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "schedule",
+      "topicId": "learning-education",
+      "angleId": "upcoming-plans",
+      "level": "A1",
+      "scenario": "Учебное расписание занятий",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "sample-form",
+      "topicId": "learning-education",
+      "angleId": "first-introduction",
+      "level": "A1",
+      "scenario": "Анкета вымышленного участника курса",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "instructions",
+      "topicId": "food-cooking",
+      "angleId": "how-it-works",
+      "level": "A2",
+      "scenario": "Понятная последовательность обычных действий приготовления",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "practical-guide",
+      "topicId": "travel",
+      "angleId": "problem-and-solution",
+      "level": "A2",
+      "scenario": "Общие действия для организации вещей в поездке",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "business-email",
+      "topicId": "work-careers",
+      "angleId": "request-for-help",
+      "level": "A2",
+      "scenario": "Учебная просьба коллегам помочь с задачей",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "formal-notice",
+      "topicId": "city-life",
+      "angleId": "change-of-plans",
+      "level": "B1",
+      "scenario": "Учебное уведомление об изменении времени работы",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "progress-report",
+      "topicId": "work-careers",
+      "angleId": "what-changed",
+      "level": "B1",
+      "scenario": "Учебные выполненные задачи и следующие действия",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "it-meeting-follow-up",
+      "topicId": "work-careers",
+      "angleId": "decisions-and-next-steps",
+      "level": "B1",
+      "scenario": "Учебные решения, задачи, ответственные, сроки и открытые вопросы",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "picture-description",
+      "topicId": "home-household",
+      "angleId": "spatial-orientation",
+      "level": "A1",
+      "scenario": "Изображение комнаты и соответствующий текст",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "picture-story",
+      "topicId": "family-relationships",
+      "angleId": "everyday-routine",
+      "level": "A1",
+      "scenario": "Вымышленная последовательность простых домашних сцен",
+      "defaultStatus": "fiction",
+      "effectiveStatus": "fiction",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "illustrated-instructions",
+      "topicId": "food-cooking",
+      "angleId": "how-it-works",
+      "level": "A2",
+      "scenario": "Изображения последовательных действий и пояснения",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "map-guide",
+      "topicId": "city-life",
+      "angleId": "spatial-orientation",
+      "level": "A2",
+      "scenario": "План вымышленного района и пояснение расположения",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "infographic-explanation",
+      "topicId": "environment",
+      "angleId": "comparing-two-options",
+      "level": "A2",
+      "scenario": "Простое сравнение двух действий с ресурсами, без неподтверждённых чисел",
+      "defaultStatus": "factual",
+      "effectiveStatus": "factual",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "chart-description",
+      "topicId": "money-personal-finance",
+      "angleId": "noticeable-pattern",
+      "level": "B1",
+      "scenario": "График и описание явно учебных расходов",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    },
+    {
+      "formatId": "visual-report",
+      "topicId": "business-entrepreneurship",
+      "angleId": "noticeable-pattern",
+      "level": "B2",
+      "scenario": "Учебные заказы: таблица/график, анализ, ограничения",
+      "defaultStatus": "training",
+      "effectiveStatus": "training",
+      "condition": "Authored scenario; not generated by an external model"
+    }
+  ],
+  "boundaryCases": [
+    [
+      "A1",
+      "long",
+      "philosophy-ethics",
+      "argumentative-essay",
+      "difficult-choice",
+      false
+    ],
+    [
+      "A2",
+      "long",
+      "city-life",
+      "news-brief",
+      "what-changed",
+      false
+    ],
+    [
+      "A2",
+      "short",
+      "culture-traditions",
+      "reportage",
+      "what-changed",
+      false
+    ],
+    [
+      "A1",
+      "short",
+      "city-life",
+      "map-guide",
+      "spatial-orientation",
+      false
+    ],
+    [
+      "A2",
+      "short",
+      "city-life",
+      "map-guide",
+      "spatial-orientation",
+      true
+    ],
+    [
+      "A1",
+      "long",
+      "learning-education",
+      "sample-form",
+      "first-introduction",
+      false
+    ],
+    [
+      "B1",
+      "short",
+      "philosophy-ethics",
+      "argumentative-essay",
+      "difficult-choice",
+      false
+    ],
+    [
+      "A2-",
+      "short",
+      "work-careers",
+      "business-email",
+      "request-for-help",
+      false
+    ],
+    [
+      "B1-",
+      "short",
+      "money-personal-finance",
+      "chart-description",
+      "noticeable-pattern",
+      false
+    ],
+    [
+      "B2-",
+      "short",
+      "business-entrepreneurship",
+      "visual-report",
+      "noticeable-pattern",
+      false
+    ],
+    [
+      "A1",
+      "short",
+      "home-household",
+      "description",
+      "common-misconception",
+      false
+    ],
+    [
+      "A1",
+      "long",
+      "learning-education",
+      "schedule",
+      "upcoming-plans",
+      true
+    ]
+  ],
+  "documents": 17,
+  "localLinks": 166,
+  "notVerified": [
+    "Complete production Topic/Format/Angle allowlist and per-profile wording",
+    "Generated external reading texts, actual news sources, and image output",
+    "Browser interaction, clipboard, screen reader, and animation rendering"
+  ]
+}

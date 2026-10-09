@@ -16,6 +16,10 @@ export interface ContentOption {
   promptHint: string
 }
 
+export interface ReadingFormat extends ContentOption {
+  angleIds: readonly string[]
+}
+
 export interface ReadingSettings {
   language: Language
   cefrLevel: CefrLevel
@@ -24,6 +28,6 @@ export interface ReadingSettings {
 
 export interface ReadingCombination {
   topic: ContentOption
-  format: ContentOption
-  tone: ContentOption
+  format: ReadingFormat
+  angle: ContentOption
 }
