@@ -14,7 +14,8 @@ import { checkWheels } from './wheel-checks.mjs';
 import { checkPointers } from './pointer-checks.mjs';
 
 const sourceDir=path.dirname(fileURLToPath(import.meta.url));
-const dir=path.resolve(sourceDir,'../implementation-step10-v10');
+const dir=path.resolve(sourceDir,'../implementation-step3-v10');
+fs.mkdirSync(dir,{recursive:true});
 const root=path.resolve(sourceDir,'../../..');
 const ref=path.join(root,'docs/design/layered-v09-2026-10-11');
 const checks=[];
@@ -88,7 +89,7 @@ function withoutGroup(markup,id){
   }
   throw new Error('Unclosed group '+id);
 }
-const removeControlsAndRootDescription=markup=>withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(markup,'mechanical-cradle'),'wheel-rim-left'),'wheel-rim-right'),'spin-mechanism'),'spin-button'),'spin-caption'),'drum-typography'),'settings-fields')
+const removeControlsAndRootDescription=markup=>withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(markup,'help-button'),'mechanical-cradle'),'wheel-rim-left'),'wheel-rim-right'),'spin-mechanism'),'spin-button'),'spin-caption'),'drum-typography'),'settings-fields')
   .replace(/^<svg\b[^>]*>/,'<svg>')
   .replace(/<title id="scene-title">[\s\S]*?<\/desc>/,'')
   .replace(/<foreignObject\b[^>]*data-layer="spin-control"[\s\S]*?<\/foreignObject>/,'');
@@ -108,7 +109,7 @@ check('Accessible SVG group does not hide its controls as a single image',machin
 for(const [id,label] of [['reading-language','language-label'],['reading-cefr','cefr-label'],['reading-length','length-label']]){
   check(`${id} has an accessible visible label`,html.includes(`id="${label}"`) && html.includes(`aria-labelledby="${label}"`));
 }
-check('Full catalogs preserve wheels, key waves, drums, mechanical SPIN and Copy while help stays static',html.includes('data-stage="full-catalogs"') && html.includes('data-spinning="false"') && [...html.matchAll(/<button\b/g)].length===2 && !/<dialog|<textarea|<iframe/.test(html));
+check('Full catalogs preserve mechanical SPIN and Copy, with native help initially closed',html.includes('data-stage="full-catalogs"') && html.includes('data-spinning="false"') && [...html.matchAll(/<button\b/g)].length===4 && /<dialog\b[^>]*id="reading-help-dialog"/.test(html) && !/<dialog\b[^>]*\bopen="/.test(html) && html.includes('aria-haspopup="dialog"') && html.includes('aria-expanded="false"') && !/<textarea|<iframe/.test(html));
 check('SPIN is a native labeled button associated with the prompt',html.includes('id="spin-control" type="button" aria-label="SPIN" aria-controls="reading-prompt"') && html.includes('id="reading-prompt"'));
 check('Results have an initially empty polite atomic announcement',html.includes('role="status" aria-live="polite" aria-atomic="true"></p>'));
 
@@ -423,6 +424,6 @@ check('Production preserves all image and font bytes',hashes.filter(item=>!item.
 const urls=['http://127.0.0.1:5173/','http://127.0.0.1:5173/src/components/scene/MachineSettings.tsx','http://127.0.0.1:5173/src/App.css?direct','http://127.0.0.1:5174/reading-roulette/',...builtFiles.map(file=>'http://127.0.0.1:5174/reading-roulette/assets/'+file)];
 const http=await Promise.all(urls.map(async url=>{const response=await fetch(url);assert.equal(response.status,200,url);return {url,status:response.status,bytes:(await response.arrayBuffer()).byteLength};}));
 fs.writeFileSync(path.join(dir,'react-markup.html'),html+'\n');
-const report={date:'2026-10-11',stage:10,mechanicalRegressionFromStage:9,skippedStage:3,checksPassed:checks.length,checks,pointerScenarios,wheelScenarios,keyScenarios,keyWave:{keys:keyMotion.decorativeKeyOrder,travel:keyMotion.keyTravel,firstDelay:keyMotion.keyWaveDelay,stagger:keyMotion.keyWaveStagger,lastEnd:keyMotion.keyWaveDelay+keyMotion.keyWaveDuration},drumScenarios:drumChecks.scenarios,drumTransitions:drumChecks.transitions,pressScenarios,copyScenarios,copiedPromptCases,spinCases,spinPromptCases,spinExamples,settingScenarios:scenarios,proseCases,structuralCases,languages:languages.length,cefrLevels:Object.keys(cefrLevels).length,lengths:Object.keys(textLengths).length,http,hashes,browser:{status:'unverified',reason:'In-app Browser failed with EPERM realpath browser-client.mjs. Motion tests use fake clocks and Animation objects; clipboard uses test writers and a stub navigator. Tests do not verify browser rendering/fps, native event dispatch, live React DOM updates, touch behavior, focus or system clipboard.'}};
+const report={date:'2026-10-11',stage:3,fullCatalogStage:10,mechanicalRegressionFromStage:9,checksPassed:checks.length,checks,pointerScenarios,wheelScenarios,keyScenarios,keyWave:{keys:keyMotion.decorativeKeyOrder,travel:keyMotion.keyTravel,firstDelay:keyMotion.keyWaveDelay,stagger:keyMotion.keyWaveStagger,lastEnd:keyMotion.keyWaveDelay+keyMotion.keyWaveDuration},drumScenarios:drumChecks.scenarios,drumTransitions:drumChecks.transitions,pressScenarios,copyScenarios,copiedPromptCases,spinCases,spinPromptCases,spinExamples,settingScenarios:scenarios,proseCases,structuralCases,languages:languages.length,cefrLevels:Object.keys(cefrLevels).length,lengths:Object.keys(textLengths).length,http,hashes,browser:{status:'not-tested-by-this-script',reason:'These regression checks use SSR, fake animation clocks and clipboard writers. Native dialog interaction and layout are checked separately in browser-verification.json; system clipboard and physical phones are not tested here.'}};
 fs.writeFileSync(path.join(dir,'mechanical-verification.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({checksPassed:checks.length,pointerScenarios:pointerScenarios.length,wheelScenarios:wheelScenarios.length,keyScenarios:keyScenarios.length,drumScenarios:drumChecks.scenarios.length,drumTransitions:drumChecks.transitions,pressScenarios:pressScenarios.length,copyScenarios:copyScenarios.length,copiedPromptCases,spinCases,settingScenarios:scenarios,httpResources:http.length,browser:report.browser.status},null,2));

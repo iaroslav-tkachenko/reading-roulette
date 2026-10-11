@@ -309,13 +309,6 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 </g>
 <text x="784" y="225" textAnchor="middle" style={{"fontSize":"26px","fontStyle":"italic","fill":"#ffebca"}}>Try your luck. Find your next great read.</text>
 </g>
-<g id="help-button" data-layer="help-button">
-<title>Static help button illustration</title>
-<rect x="1361" y="80" width="153" height="41" rx="10" fill="#182629" stroke="#f4dfc0" strokeWidth="2"/>
-<circle cx="1387" cy="100" r="9" fill="none" stroke="#f4dfc0" strokeWidth="2"/>
-<text x="1387" y="106" textAnchor="middle" style={{"fontSize":"16px","fill":"#fff0d9"}}>?</text>
-<text x="1408" y="107" style={{"fontSize":"19px","fill":"#fff0d9"}}>How to use</text>
-</g>
 </svg>
   )
 }

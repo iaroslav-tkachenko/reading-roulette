@@ -1,0 +1,487 @@
+{
+  "date": "2026-10-11",
+  "url": "http://127.0.0.1:5173/",
+  "browser": "Headless Chromium",
+  "version": "153.0.8010.12",
+  "checksPassed": 150,
+  "checks": [
+    "Instructions start closed",
+    "Opening focuses the close button",
+    "Opening preserves all scene boxes, settings, prompt and scroll position",
+    "Approved copy contains all exams and metrics",
+    "Copy has no links or long dashes",
+    "Tab reaches the scrollable instructions",
+    "Tab wraps to the close button",
+    "Shift+Tab wraps back to the instructions",
+    "Native modal prevents focus entering background controls",
+    "Clicking inside the card keeps it open",
+    "Dragging from the card to the backdrop does not dismiss it",
+    "Escape: focus returns to How to use",
+    "Escape: expanded state resets",
+    "Escape: scroll lock is removed",
+    "Escape preserves the scene and reading state",
+    "Cross: focus returns to How to use",
+    "Cross: expanded state resets",
+    "Cross: scroll lock is removed",
+    "Backdrop: focus returns to How to use",
+    "Backdrop: expanded state resets",
+    "Backdrop: scroll lock is removed",
+    "Enter opens the instructions",
+    "Keyboard close: focus returns to How to use",
+    "Keyboard close: expanded state resets",
+    "Keyboard close: scroll lock is removed",
+    "Space opens the instructions",
+    "Space then Escape: focus returns to How to use",
+    "Space then Escape: expanded state resets",
+    "Space then Escape: scroll lock is removed",
+    "Repeated open/close: focus returns to How to use",
+    "Repeated open/close: expanded state resets",
+    "Repeated open/close: scroll lock is removed",
+    "Native close event: focus returns to How to use",
+    "Native close event: expanded state resets",
+    "Native close event: scroll lock is removed",
+    "Opening at a scrolled position preserves geometry and scroll",
+    "Scrolled close: focus returns to How to use",
+    "Scrolled close: expanded state resets",
+    "Scrolled close: scroll lock is removed",
+    "Closing restores the same scrolled position",
+    "Help can open during a spin",
+    "Spin completes while help is open",
+    "Help during SPIN: focus returns to How to use",
+    "Help during SPIN: expanded state resets",
+    "Help during SPIN: scroll lock is removed",
+    "SPIN and Copy are available after closing",
+    "1366x900: opening causes no scene shift",
+    "1366x900: card fits inside viewport",
+    "1366x900: instructions have no horizontal overflow",
+    "1366x900: close target is at least 44px",
+    "1366x900: final step can be reached",
+    "1366x900: close remains visible while content scrolls",
+    "1366x900 close: focus returns to How to use",
+    "1366x900 close: expanded state resets",
+    "1366x900 close: scroll lock is removed",
+    "1366x900: closing causes no scene shift",
+    "1536x864: opening causes no scene shift",
+    "1536x864: card fits inside viewport",
+    "1536x864: instructions have no horizontal overflow",
+    "1536x864: close target is at least 44px",
+    "1536x864: final step can be reached",
+    "1536x864: close remains visible while content scrolls",
+    "1536x864 close: focus returns to How to use",
+    "1536x864 close: expanded state resets",
+    "1536x864 close: scroll lock is removed",
+    "1536x864: closing causes no scene shift",
+    "1920x1080: opening causes no scene shift",
+    "1920x1080: card fits inside viewport",
+    "1920x1080: instructions have no horizontal overflow",
+    "1920x1080: close target is at least 44px",
+    "1920x1080: final step can be reached",
+    "1920x1080: close remains visible while content scrolls",
+    "1920x1080 close: focus returns to How to use",
+    "1920x1080 close: expanded state resets",
+    "1920x1080 close: scroll lock is removed",
+    "1920x1080: closing causes no scene shift",
+    "768x1024: opening causes no scene shift",
+    "768x1024: card fits inside viewport",
+    "768x1024: instructions have no horizontal overflow",
+    "768x1024: close target is at least 44px",
+    "768x1024: final step can be reached",
+    "768x1024: close remains visible while content scrolls",
+    "768x1024 close: focus returns to How to use",
+    "768x1024 close: expanded state resets",
+    "768x1024 close: scroll lock is removed",
+    "768x1024: closing causes no scene shift",
+    "390x844: opening causes no scene shift",
+    "390x844: card fits inside viewport",
+    "390x844: instructions have no horizontal overflow",
+    "390x844: close target is at least 44px",
+    "390x844: final step can be reached",
+    "390x844: close remains visible while content scrolls",
+    "390x844 close: focus returns to How to use",
+    "390x844 close: expanded state resets",
+    "390x844 close: scroll lock is removed",
+    "390x844: closing causes no scene shift",
+    "320x568: opening causes no scene shift",
+    "320x568: card fits inside viewport",
+    "320x568: instructions have no horizontal overflow",
+    "320x568: close target is at least 44px",
+    "320x568: final step can be reached",
+    "320x568: close remains visible while content scrolls",
+    "320x568 close: focus returns to How to use",
+    "320x568 close: expanded state resets",
+    "320x568 close: scroll lock is removed",
+    "320x568: closing causes no scene shift",
+    "844x390: opening causes no scene shift",
+    "844x390: card fits inside viewport",
+    "844x390: instructions have no horizontal overflow",
+    "844x390: close target is at least 44px",
+    "844x390: final step can be reached",
+    "844x390: close remains visible while content scrolls",
+    "844x390 close: focus returns to How to use",
+    "844x390 close: expanded state resets",
+    "844x390 close: scroll lock is removed",
+    "844x390: closing causes no scene shift",
+    "640x400: opening causes no scene shift",
+    "640x400: card fits inside viewport",
+    "640x400: instructions have no horizontal overflow",
+    "640x400: close target is at least 44px",
+    "640x400: final step can be reached",
+    "640x400: close remains visible while content scrolls",
+    "640x400 close: focus returns to How to use",
+    "640x400 close: expanded state resets",
+    "640x400 close: scroll lock is removed",
+    "640x400: closing causes no scene shift",
+    "Mobile trigger has a 44px touch target",
+    "Touch opening preserves the scrolled scene",
+    "390x667: card fits inside viewport",
+    "390x667: instructions have no horizontal overflow",
+    "390x667: close target is at least 44px",
+    "390x667: final step can be reached",
+    "390x667: close remains visible while content scrolls",
+    "Keyboard can scroll short-screen instructions",
+    "Touch cross: focus returns to How to use",
+    "Touch cross: expanded state resets",
+    "Touch cross: scroll lock is removed",
+    "Touch close preserves the scrolled scene",
+    "Touch backdrop: focus returns to How to use",
+    "Touch backdrop: expanded state resets",
+    "Touch backdrop: scroll lock is removed",
+    "667x390: card fits inside viewport",
+    "667x390: instructions have no horizontal overflow",
+    "667x390: close target is at least 44px",
+    "667x390: final step can be reached",
+    "667x390: close remains visible while content scrolls",
+    "Landscape touch cross: focus returns to How to use",
+    "Landscape touch cross: expanded state resets",
+    "Landscape touch cross: scroll lock is removed",
+    "No browser page errors or error console messages"
+  ],
+  "layouts": [
+    {
+      "card": {
+        "x": 383,
+        "y": 172.203125,
+        "width": 600,
+        "height": 555.59375,
+        "top": 172.203125,
+        "right": 983,
+        "bottom": 727.796875,
+        "left": 383
+      },
+      "close": {
+        "x": 914,
+        "y": 195.203125,
+        "width": 44,
+        "height": 44,
+        "top": 195.203125,
+        "right": 958,
+        "bottom": 239.203125,
+        "left": 914
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 476,
+        "scrollHeight": 476
+      },
+      "viewport": {
+        "width": 1366,
+        "height": 900
+      }
+    },
+    {
+      "card": {
+        "x": 468,
+        "y": 154.203125,
+        "width": 600,
+        "height": 555.59375,
+        "top": 154.203125,
+        "right": 1068,
+        "bottom": 709.796875,
+        "left": 468
+      },
+      "close": {
+        "x": 999,
+        "y": 177.203125,
+        "width": 44,
+        "height": 44,
+        "top": 177.203125,
+        "right": 1043,
+        "bottom": 221.203125,
+        "left": 999
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 476,
+        "scrollHeight": 476
+      },
+      "viewport": {
+        "width": 1536,
+        "height": 864
+      }
+    },
+    {
+      "card": {
+        "x": 660,
+        "y": 262.203125,
+        "width": 600,
+        "height": 555.59375,
+        "top": 262.203125,
+        "right": 1260,
+        "bottom": 817.796875,
+        "left": 660
+      },
+      "close": {
+        "x": 1191,
+        "y": 285.203125,
+        "width": 44,
+        "height": 44,
+        "top": 285.203125,
+        "right": 1235,
+        "bottom": 329.203125,
+        "left": 1191
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 476,
+        "scrollHeight": 476
+      },
+      "viewport": {
+        "width": 1920,
+        "height": 1080
+      }
+    },
+    {
+      "card": {
+        "x": 84,
+        "y": 234.203125,
+        "width": 600,
+        "height": 555.59375,
+        "top": 234.203125,
+        "right": 684,
+        "bottom": 789.796875,
+        "left": 84
+      },
+      "close": {
+        "x": 615,
+        "y": 257.203125,
+        "width": 44,
+        "height": 44,
+        "top": 257.203125,
+        "right": 659,
+        "bottom": 301.203125,
+        "left": 615
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 476,
+        "scrollHeight": 476
+      },
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      }
+    },
+    {
+      "card": {
+        "x": 12,
+        "y": 91.375,
+        "width": 366,
+        "height": 661.25,
+        "top": 91.375,
+        "right": 378,
+        "bottom": 752.625,
+        "left": 12
+      },
+      "close": {
+        "x": 317,
+        "y": 108.375,
+        "width": 44,
+        "height": 44,
+        "top": 108.375,
+        "right": 361,
+        "bottom": 152.375,
+        "left": 317
+      },
+      "content": {
+        "width": 364,
+        "scrollWidth": 364,
+        "height": 587,
+        "scrollHeight": 587
+      },
+      "viewport": {
+        "width": 390,
+        "height": 844
+      }
+    },
+    {
+      "card": {
+        "x": 12,
+        "y": 12,
+        "width": 296,
+        "height": 544,
+        "top": 12,
+        "right": 308,
+        "bottom": 556,
+        "left": 12
+      },
+      "close": {
+        "x": 247,
+        "y": 29,
+        "width": 44,
+        "height": 44,
+        "top": 29,
+        "right": 291,
+        "bottom": 73,
+        "left": 247
+      },
+      "content": {
+        "width": 294,
+        "scrollWidth": 294,
+        "height": 470,
+        "scrollHeight": 686
+      },
+      "viewport": {
+        "width": 320,
+        "height": 568
+      }
+    },
+    {
+      "card": {
+        "x": 122,
+        "y": 20,
+        "width": 600,
+        "height": 350,
+        "top": 20,
+        "right": 722,
+        "bottom": 370,
+        "left": 122
+      },
+      "close": {
+        "x": 653,
+        "y": 43,
+        "width": 44,
+        "height": 44,
+        "top": 43,
+        "right": 697,
+        "bottom": 87,
+        "left": 653
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 270,
+        "scrollHeight": 476
+      },
+      "viewport": {
+        "width": 844,
+        "height": 390
+      }
+    },
+    {
+      "card": {
+        "x": 20,
+        "y": 12,
+        "width": 600,
+        "height": 376,
+        "top": 12,
+        "right": 620,
+        "bottom": 388,
+        "left": 20
+      },
+      "close": {
+        "x": 559,
+        "y": 29,
+        "width": 44,
+        "height": 44,
+        "top": 29,
+        "right": 603,
+        "bottom": 73,
+        "left": 559
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 302,
+        "scrollHeight": 409
+      },
+      "viewport": {
+        "width": 640,
+        "height": 400
+      }
+    },
+    {
+      "card": {
+        "x": 12,
+        "y": 12,
+        "width": 366,
+        "height": 643,
+        "top": 12,
+        "right": 378,
+        "bottom": 655,
+        "left": 12
+      },
+      "close": {
+        "x": 317,
+        "y": 29,
+        "width": 44,
+        "height": 44,
+        "top": 29,
+        "right": 361,
+        "bottom": 73,
+        "left": 317
+      },
+      "content": {
+        "width": 364,
+        "scrollWidth": 364,
+        "height": 569,
+        "scrollHeight": 587
+      },
+      "viewport": {
+        "width": 390,
+        "height": 667
+      }
+    },
+    {
+      "card": {
+        "x": 33.5,
+        "y": 12,
+        "width": 600,
+        "height": 366,
+        "top": 12,
+        "right": 633.5,
+        "bottom": 378,
+        "left": 33.5
+      },
+      "close": {
+        "x": 572.5,
+        "y": 29,
+        "width": 44,
+        "height": 44,
+        "top": 29,
+        "right": 616.5,
+        "bottom": 73,
+        "left": 572.5
+      },
+      "content": {
+        "width": 598,
+        "scrollWidth": 598,
+        "height": 292,
+        "scrollHeight": 409
+      },
+      "viewport": {
+        "width": 667,
+        "height": 390
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "In-app Browser connection failed with EPERM.",
+    "Mobile checks use Chromium viewport and touch emulation, not a physical phone or Safari.",
+    "System clipboard, screen reader output and visual motion acceptance are outside these help checks."
+  ]
+}
