@@ -8,6 +8,8 @@ export type TextLength = 'short' | 'medium' | 'long'
 export interface Language {
   code: string
   name: string
+  displayName?: string
+  lengthUnit?: 'structure'
 }
 
 export interface ContentOption {

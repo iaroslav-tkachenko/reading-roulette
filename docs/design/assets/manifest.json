@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "date": "2026-10-10",
+  "status": "Stage 2 source artwork and static layer review; production integration pending",
+  "background": {
+    "file": "study-background-v1.png",
+    "mode": "cover; centered; static",
+    "mobile": "Center crop with dark fallback; no keyboard or side-wheel overflow"
+  },
+  "parts": [
+    {
+      "id": "chassis",
+      "file": "chassis-frame-v1.png",
+      "crop": [
+        17,
+        159,
+        1502,
+        710
+      ],
+      "purpose": "Static responsive outer frame",
+      "pivot": null
+    },
+    {
+      "id": "deck",
+      "file": "keyboard-deck-v1.png",
+      "crop": [
+        33,
+        147,
+        2105,
+        424
+      ],
+      "purpose": "Static keyboard platform",
+      "pivot": null
+    },
+    {
+      "id": "wheel",
+      "file": "wheel-v1.png",
+      "crop": [
+        46,
+        40,
+        1162,
+        1162
+      ],
+      "purpose": "Rotating side wheel, two instances",
+      "pivot": [
+        "50%",
+        "50%"
+      ]
+    },
+    {
+      "id": "keycap",
+      "file": "keycap-v1.png",
+      "crop": [
+        132,
+        100,
+        989,
+        1059
+      ],
+      "purpose": "Decorative typewriter keyboard, 19 instances; four animated keys Q/S/O/J; HTML letters",
+      "pivot": null
+    },
+    {
+      "id": "spin-face",
+      "file": "spin-face-v1.png",
+      "crop": [
+        52,
+        171,
+        1918,
+        425
+      ],
+      "purpose": "Movable SPIN face, independent of focus/housing",
+      "pivot": null
+    }
+  ],
+  "zOrder": [
+    "study",
+    "chassis-fill",
+    "chassis-frame",
+    "reel-paper-and-HTML",
+    "stationary-button-housing",
+    "movable-spin-face-and-HTML-label"
+  ],
+  "keyboard": {
+    "total": 19,
+    "leftRows": [
+      "QWERT",
+      "ASDFG"
+    ],
+    "rightRows": [
+      "YUIOP",
+      "HJKL"
+    ],
+    "movingKeys": [
+      "Q",
+      "S",
+      "O",
+      "J"
+    ],
+    "decorative": true,
+    "hiddenBelow": 768
+  },
+  "rasterPolicy": "Master PNG bytes are unchanged. SVG wrappers embed those same bytes and set a display viewport. No bitmap cutting, resampling, or recompression.",
+  "loading": "Source masters total about 10 MB. Display SVGs embed their PNGs; do not load both formats in production. Derivative/export budget belongs to stage 3."
+}

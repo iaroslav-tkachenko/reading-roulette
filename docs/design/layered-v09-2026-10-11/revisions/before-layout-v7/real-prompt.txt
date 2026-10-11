@@ -1,0 +1,17 @@
+Write an original reading text entirely in English for a language learner.
+
+Difficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.
+
+Length: approximately 250–350 words.
+
+Topic: Travel. Exploring a new place and its local culture.
+
+Format: Short story. A self-contained story with a clear beginning and ending. Choose a natural narrative perspective and a tone that suits the angle.
+
+Angle: Unexpected discovery. Focus on discovering something surprising that changes how the topic is understood.
+
+Use a register, emotional tone, and narrative perspective appropriate to the format and angle. Keep formal documents neutral.
+
+Keep vocabulary, grammar, and sentence complexity within the selected difficulty target, even when the topic or angle is complex. Prefer simpler language over simplifying or changing the requested topic, format, or angle.
+
+Return only the reading text, without translations, exercises, or commentary.

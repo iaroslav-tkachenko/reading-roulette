@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-11",
+  "stage": 1,
+  "referenceRevision": 10,
+  "url": "http://127.0.0.1:5173/",
+  "productionPreview": "http://127.0.0.1:5174/reading-roulette/",
+  "checksPassed": 20,
+  "checks": [
+    "Accepted v10 is the reference",
+    "Actual React machine preserves every SVG coordinate, label and layer",
+    "Actual React room preserves every decorative layer and coordinate",
+    "Actual React paper preserves texture, entry shadow, copy appearance and full text",
+    "Initial settings and combination match the accepted design",
+    "Full prompt comes from the existing generator and matches the reference",
+    "Scene is native React/SVG, with 42 raster instances and no iframe or flattened scene",
+    "Individual keys, drums and wheels are retained",
+    "Stage 1 has no live controls or animation",
+    "All 14 PNGs, local font and license are preserved byte for byte",
+    "Machine SVG scales to its artboard instead of its intrinsic 1536px width",
+    "Room and machine use one container width including with a scrollbar",
+    "Desk is tied to machine scale and page scrolling",
+    "Paper width and slot reveal remain unchanged",
+    "Prompt uses natural page scrolling",
+    "The local font is preloaded",
+    "Production includes all 14 matching PNGs and the local font",
+    "Production entry and assets use the GitHub Pages base",
+    "Production preserves responsive machine SVG sizing",
+    "Production font URL also uses the Pages base"
+  ],
+  "hashes": [
+    {
+      "file": "study-shell-v7.png",
+      "sha256": "a5431348bd2c41f8802756b8e9fc444c6a3d22ba385fc936f3e5dba48fe9f3df",
+      "referenceSha256": "a5431348bd2c41f8802756b8e9fc444c6a3d22ba385fc936f3e5dba48fe9f3df"
+    },
+    {
+      "file": "study-window-wide-v8.png",
+      "sha256": "b999109159865ac29c7a5bcb0af271b7a5eaa43a03f32b918342642ad36d6c57",
+      "referenceSha256": "b999109159865ac29c7a5bcb0af271b7a5eaa43a03f32b918342642ad36d6c57"
+    },
+    {
+      "file": "study-bookcase-wide-v8.png",
+      "sha256": "f396b914aa448b10004bb6c9562820292b0dcc3b749c63cf5438ea004abb0aaa",
+      "referenceSha256": "f396b914aa448b10004bb6c9562820292b0dcc3b749c63cf5438ea004abb0aaa"
+    },
+    {
+      "file": "desk-lamp-books-v7.png",
+      "sha256": "d4d66968b8d0edfd6f0f4bd65e54f8399d122b836a6afe0599b74a943172625b",
+      "referenceSha256": "d4d66968b8d0edfd6f0f4bd65e54f8399d122b836a6afe0599b74a943172625b"
+    },
+    {
+      "file": "desk-books-v7.png",
+      "sha256": "38102ee8e91f246945f7d109e5793887e91ce2aa6f26fc2ff484fe3f72f8cf52",
+      "referenceSha256": "38102ee8e91f246945f7d109e5793887e91ce2aa6f26fc2ff484fe3f72f8cf52"
+    },
+    {
+      "file": "desk-pen-cup-v7.png",
+      "sha256": "7180980aab024ef00507789e6e76f42b3a9f07f0469c62b61e98187a8b138b31",
+      "referenceSha256": "7180980aab024ef00507789e6e76f42b3a9f07f0469c62b61e98187a8b138b31"
+    },
+    {
+      "file": "chassis-v3.png",
+      "sha256": "9fc31f8e2547530a493250c71ebd220ad597bfa96623254dca4074ffbd1656e4",
+      "referenceSha256": "9fc31f8e2547530a493250c71ebd220ad597bfa96623254dca4074ffbd1656e4"
+    },
+    {
+      "file": "settings-v2.png",
+      "sha256": "be99dbbec700cc73419e26a2057854db19dc3b598527e64ba8c1145518f8e566",
+      "referenceSha256": "be99dbbec700cc73419e26a2057854db19dc3b598527e64ba8c1145518f8e566"
+    },
+    {
+      "file": "drum-v1.png",
+      "sha256": "f96ec516ad56591ba7364611f1b87e3db162a38d99bf8a86f948ef565605823d",
+      "referenceSha256": "f96ec516ad56591ba7364611f1b87e3db162a38d99bf8a86f948ef565605823d"
+    },
+    {
+      "file": "wheel-v1.png",
+      "sha256": "bfc76f4461a9aae3f041164435a0aa0ece380153fc9faefe51b615d4dc8c97a9",
+      "referenceSha256": "bfc76f4461a9aae3f041164435a0aa0ece380153fc9faefe51b615d4dc8c97a9"
+    },
+    {
+      "file": "mechanism-v2.png",
+      "sha256": "6c8d853cc6788762c9370f7bb79ebce5ad248bd7e37046f0664f3596ff5a52a6",
+      "referenceSha256": "6c8d853cc6788762c9370f7bb79ebce5ad248bd7e37046f0664f3596ff5a52a6"
+    },
+    {
+      "file": "key-v1.png",
+      "sha256": "8e3db6436151849c5d9eec91125a36e11ac7d914e2af29f86654cb871c9aa27e",
+      "referenceSha256": "8e3db6436151849c5d9eec91125a36e11ac7d914e2af29f86654cb871c9aa27e"
+    },
+    {
+      "file": "spin-button-v3.png",
+      "sha256": "82e5691612d586ab6c0b6a36b5a3ac578e6e73cef3e3f4b4e017d087387eb39d",
+      "referenceSha256": "82e5691612d586ab6c0b6a36b5a3ac578e6e73cef3e3f4b4e017d087387eb39d"
+    },
+    {
+      "file": "paper-v1.png",
+      "sha256": "389e8d8b94b7e3999e09ab7812fe58684f60e8ad5fa86372591ac17f203122bd",
+      "referenceSha256": "389e8d8b94b7e3999e09ab7812fe58684f60e8ad5fa86372591ac17f203122bd"
+    },
+    {
+      "file": "EBGaramond-Bold.ttf",
+      "sha256": "7a490c1332b83cefc351e1da5d4a8875752176552eabc70632c79d035abf33e9",
+      "referenceSha256": "7a490c1332b83cefc351e1da5d4a8875752176552eabc70632c79d035abf33e9"
+    },
+    {
+      "file": "EBGaramond-OFL.txt",
+      "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7",
+      "referenceSha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
+    }
+  ],
+  "http": [
+    {
+      "url": "http://127.0.0.1:5173/",
+      "status": 200,
+      "bytes": 865
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/layered-v09-2026-10-11/?v=10",
+      "status": 200,
+      "bytes": 22273
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/",
+      "status": 200,
+      "bytes": 749
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/chassis-v3-CJwVfM2L.png",
+      "status": 200,
+      "bytes": 1804231
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-books-v7-Y908fZTp.png",
+      "status": 200,
+      "bytes": 2423047
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-lamp-books-v7-BdAn1jIZ.png",
+      "status": 200,
+      "bytes": 1184894
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-pen-cup-v7-Bw-R51Hs.png",
+      "status": 200,
+      "bytes": 2246144
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/drum-v1-Bj5eGOVf.png",
+      "status": 200,
+      "bytes": 1436255
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/EBGaramond-Bold-B-wVKl-e.ttf",
+      "status": 200,
+      "bytes": 54544
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-Bk0N-ftT.js",
+      "status": 200,
+      "bytes": 251771
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-Doo2gtWZ.css",
+      "status": 200,
+      "bytes": 3156
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/key-v1-ccPO6OtX.png",
+      "status": 200,
+      "bytes": 1285423
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/mechanism-v2-C2B_U8bc.png",
+      "status": 200,
+      "bytes": 795748
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/paper-v1-D2Rww8ee.png",
+      "status": 200,
+      "bytes": 1436754
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/settings-v2-C2kOrZKD.png",
+      "status": 200,
+      "bytes": 960322
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/spin-button-v3-52Doy5V2.png",
+      "status": 200,
+      "bytes": 1948028
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-bookcase-wide-v8-BEteXnaz.png",
+      "status": 200,
+      "bytes": 2637515
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-shell-v7-3h6fZ6FV.png",
+      "status": 200,
+      "bytes": 2344272
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-window-wide-v8-ClKT6gYU.png",
+      "status": 200,
+      "bytes": 2327668
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/wheel-v1-F1wW89TE.png",
+      "status": 200,
+      "bytes": 1244822
+    }
+  ],
+  "geometry": [
+    {
+      "viewportWidth": 1366,
+      "scrollbarWidth": 0,
+      "availableWidth": 1366,
+      "machineWidth": 1366,
+      "wallY": 528.2578125,
+      "machineBottom": 670.5494791666666,
+      "paperTop": 608.296875,
+      "paperWidth": 761.2604166666666,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 1366,
+      "scrollbarWidth": 17,
+      "availableWidth": 1349,
+      "machineWidth": 1349,
+      "wallY": 521.68359375,
+      "machineBottom": 662.2044270833334,
+      "paperTop": 600.7265625,
+      "paperWidth": 751.7864583333334,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 1536,
+      "scrollbarWidth": 0,
+      "availableWidth": 1536,
+      "machineWidth": 1536,
+      "wallY": 594,
+      "machineBottom": 754,
+      "paperTop": 684,
+      "paperWidth": 856,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 1536,
+      "scrollbarWidth": 17,
+      "availableWidth": 1519,
+      "machineWidth": 1519,
+      "wallY": 587.42578125,
+      "machineBottom": 745.6549479166666,
+      "paperTop": 676.4296875,
+      "paperWidth": 846.5260416666666,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 1920,
+      "scrollbarWidth": 0,
+      "availableWidth": 1920,
+      "machineWidth": 1536,
+      "wallY": 594,
+      "machineBottom": 754,
+      "paperTop": 684,
+      "paperWidth": 856,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 1920,
+      "scrollbarWidth": 17,
+      "availableWidth": 1903,
+      "machineWidth": 1536,
+      "wallY": 594,
+      "machineBottom": 754,
+      "paperTop": 684,
+      "paperWidth": 856,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 4608,
+      "scrollbarWidth": 0,
+      "availableWidth": 4608,
+      "machineWidth": 1536,
+      "wallY": 594,
+      "machineBottom": 754,
+      "paperTop": 684,
+      "paperWidth": 856,
+      "method": "CSS geometry calculation; not a browser measurement"
+    },
+    {
+      "viewportWidth": 4608,
+      "scrollbarWidth": 17,
+      "availableWidth": 4591,
+      "machineWidth": 1536,
+      "wallY": 594,
+      "machineBottom": 754,
+      "paperTop": 684,
+      "paperWidth": 856,
+      "method": "CSS geometry calculation; not a browser measurement"
+    }
+  ],
+  "referenceHashes": [
+    {
+      "file": "index.html",
+      "sha256": "03e51bfec6dfcbfeb3f4070fe31dbbfa3d50bd1bc44415d29e34200dad646836"
+    },
+    {
+      "file": "machine.svg",
+      "sha256": "551bf569e410b179a89c48d9a4d4ad60be886996cb51ff5d0ccc3e3b638c0bbf"
+    },
+    {
+      "file": "preview.css",
+      "sha256": "987832758484e0c5de9cacda0700da4f3dbafcb8f8d94ddbe721b63b80a8c002"
+    },
+    {
+      "file": "layer-manifest.json",
+      "sha256": "6618ef13e01729227e98f661fdf22392431cd5676f4de8a66f4db6db7a7638ff"
+    }
+  ],
+  "browser": {
+    "status": "unverified",
+    "reason": "In-app Browser import failed with EPERM realpath browser-client.mjs. SSR equivalence, HTTP and SVG illustrations do not verify browser layout, zoom or font loading."
+  }
+}

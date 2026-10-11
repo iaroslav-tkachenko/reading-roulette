@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-10",
+  "change": "Restore approved full typewriter keyboard",
+  "pages": [
+    {
+      "file": "index.html",
+      "keys": 19,
+      "rows": [
+        "QWERT",
+        "ASDFG",
+        "YUIOP",
+        "HJKL"
+      ],
+      "movingSubset": "QSOJ"
+    },
+    {
+      "file": "long-labels.html",
+      "keys": 19,
+      "rows": [
+        "QWERT",
+        "ASDFG",
+        "YUIOP",
+        "HJKL"
+      ],
+      "movingSubset": "QSOJ"
+    }
+  ],
+  "masterPngsUnchanged": 6,
+  "http": [
+    {
+      "url": "http://127.0.0.1:5173/docs/design/artwork-review/",
+      "status": 200,
+      "servedKeyCount": 19
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/artwork-review/long-labels.html",
+      "status": 200,
+      "servedKeyCount": 19
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/artwork-review/assembly-illustration-v3.png",
+      "status": 200
+    }
+  ],
+  "browserVisualCheckPerformed": false,
+  "productionAppChanged": false,
+  "illustrationSha256": "29c73022c70aa79fcfe3007e5baa09070c026a3e83f7c97c23a8ea72eedf0ba6",
+  "stylesheet": {
+    "status": 200,
+    "type": "text/css"
+  }
+}

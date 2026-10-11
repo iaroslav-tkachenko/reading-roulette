@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-11",
+  "scope": "Restoration step 1, local main React UI",
+  "url": "http://127.0.0.1:5173/",
+  "status": "Implementation saved; visual acceptance open",
+  "build": "pnpm build --base=/reading-roulette/: passed",
+  "motionGroupsPassed": 13,
+  "diffCheckPassed": true,
+  "browser": "EPERM resolving browser-client.mjs; no screenshot, playback or native viewport measurements",
+  "desktopTargets": [
+    "1280x640",
+    "1366x768",
+    "1440x900"
+  ],
+  "mobileWidthTargets": [
+    390,
+    320
+  ],
+  "actualCssViewport": null,
+  "actualDpr": null,
+  "actualZoom": null,
+  "visualMatrixStatus": "not verified",
+  "changedFiles": [
+    {
+      "file": "src/App.tsx",
+      "beforeSha256": "2B51B796E7836862EC5ECCB054673B9B4D96240DC4BE0E77EE92F218CA5A2663",
+      "afterSha256": "20136B537BDAA54FBB70A5A987CA336875132D85853B14C99F77FED27B3D8C00"
+    },
+    {
+      "file": "src/App.css",
+      "beforeSha256": "FA98D33437819D6BE000F90B97F87046AEB183F46AC3F311DF4B85D0FDBEC167",
+      "afterSha256": "C3AE9ADAE8620AEC2EA2E000FA42F686263063DA090D99C46E682918E54FC2DA"
+    },
+    {
+      "file": "src/components/MachineArtwork.tsx",
+      "beforeSha256": "B5235635AB0332BC2DB59753588010AADA2B2561A0C226B699CCE1B318EF4C0A",
+      "afterSha256": "C3A3527367510231D30FF7DBA353040764D53B7A389B07E43CA699E26051A2C7"
+    },
+    {
+      "file": "src/components/RouletteReel.tsx",
+      "beforeSha256": "BA51B2C947C1F2E550F8923F20BAFAED08AE5AB013280D39BA19B29988CC9C9F",
+      "afterSha256": "B32AB7584B6AB7AA6AFD7DE92809028B525CE5F42477FB04667F4BAF3AF9D9E3"
+    },
+    {
+      "file": "docs/design/check-react-motion.mjs",
+      "beforeSha256": "C9F6E11327CF7BF32116755CAF82507BE45148BFF08D044154D69CFAD0963BDD",
+      "afterSha256": "A3513D98345573025613FB1EF348BC98A09A51B8FAEB1E97631377A8F16C04F9"
+    }
+  ]
+}

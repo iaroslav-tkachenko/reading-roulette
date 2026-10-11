@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-10",
+  "surface": "Actual App.tsx/components/motion/catalogs under simulated hooks, DOM, WAAPI and clock; not React DOM or browser rendering",
+  "count": 12,
+  "checks": [
+    "fixed starter; 19-key keyboard; no selection on StrictMode mount",
+    "single prepared selection; repeats/copy/settings guarded; button face and four keys/two wheels animate",
+    "sequential stops, remaining reels stay fast, atomic prompt commit, wheel orientation retained and cleanup",
+    "reduced motion immediate; mobile amplitudes and no hidden desktop effects; resize commits/cancels",
+    "stale clipboard completion cannot overwrite a spin; enabling reduced motion ends active effects",
+    "settings preserve combination; prompt/helper update; copy revision guard; 1600ms feedback",
+    "clipboard rejection leaves full manual preview; retry copies the full current prompt",
+    "hidden document and missing-finish watchdog recover once with no remaining effects",
+    "decorative feedback API failure preserves settings; missing animation API returns immediate result",
+    "empty-catalog selection error happens before successful-result animation",
+    "long-label fixture keeps full strings and a shared persistent dense envelope (no CSS geometry claim)",
+    "pagehide cancels without committing; BFCache restores idle; unmount prevents late state updates"
+  ],
+  "notVerified": [
+    "Browser visual geometry/zoom/font fallback",
+    "Native keyboard/focus/assistive technology and Clipboard permissions",
+    "Real frame scheduling/fps",
+    "Network loading on a public deployment"
+  ]
+}

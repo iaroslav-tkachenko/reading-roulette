@@ -1,0 +1,627 @@
+{
+  "date": "2026-10-11",
+  "stage": 5,
+  "skippedStage": 3,
+  "checksPassed": 35,
+  "checks": [
+    "All artwork, coordinates and typography outside live settings/results match v10",
+    "Every room and desk layer matches the accepted v10 reference",
+    "Initial paper, slot shadow and complete prompt match v10",
+    "Initial prompt still matches the accepted fixture",
+    "Three native selects and one SPIN overlay share SVG coordinates",
+    "Accessible SVG group does not hide its controls as a single image",
+    "reading-language has an accessible visible label",
+    "reading-cefr has an accessible visible label",
+    "reading-length has an accessible visible label",
+    "Stage 5 enables SPIN and Copy while help stays static",
+    "SPIN is a native labeled button associated with the prompt",
+    "Results have an initially empty polite atomic announcement",
+    "All eleven recovered languages are present once, in the original order",
+    "The language control contains the entire catalog",
+    "Approved length matrix covers every CEFR choice",
+    "All 495 setting combinations pass real control handlers, selected values and full prompt checks",
+    "405 word-based cases match every approved profile/length range",
+    "90 Japanese and Mandarin cases use structure without invented numeric targets",
+    "All three controls reject unknown values",
+    "Existing composition, SPIN, selects and responsive scaling CSS are unchanged",
+    "Native controls have visible keyboard focus and no motion",
+    "Field frames stay at the accepted SVG coordinates",
+    "All 27 combinations pass the real button wiring, selected labels, compatible neighbors and complete prompt",
+    "Every activation selects once; identical repeated results remain valid",
+    "Settings preserve all 27 selected results across 13365 prompts",
+    "SPIN focus is visible without added movement",
+    "Every artwork and font file remains byte-identical to v10",
+    "Copy is a native named button linked to readable prompt and live feedback",
+    "Copy feedback appears between the heading and prompt, reserves space and announces politely",
+    "Copy focus and feedback styles are included in production",
+    "Clipboard async races, rejection, retry, duplicate activation, unmount and missing API pass",
+    "All 13365 current prompts are passed to the writer without truncation or transformation",
+    "Production retains native control focus and responsive machine scaling",
+    "Production uses the GitHub Pages base",
+    "Production preserves all image and font bytes"
+  ],
+  "copyScenarios": [
+    "Full exact prompt; copying before settlement; success only after resolution; duplicate suppressed",
+    "Permission rejection is caught and a later retry succeeds",
+    "Prompt change ignores old resolve",
+    "Prompt change ignores old reject",
+    "Old completion cannot clear the busy state of a newer request",
+    "A → B → A invalidates old success even when text matches again",
+    "Unmount invalidates replies; setup after cleanup works for StrictMode",
+    "Synchronous clipboard failure is caught",
+    "Production adapter detects absent API and writes full text with the correct Clipboard receiver"
+  ],
+  "copiedPromptCases": 13365,
+  "spinCases": 27,
+  "spinPromptCases": 13365,
+  "spinExamples": [
+    {
+      "topic": "daily-life",
+      "format": "short-story",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "es",
+          "name": "Spanish"
+        },
+        "cefrLevel": "A1",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "short-story",
+      "angle": "change-of-plans",
+      "settings": {
+        "language": {
+          "code": "fr",
+          "name": "French"
+        },
+        "cefrLevel": "A1+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "short-story",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "ja",
+          "name": "Japanese",
+          "lengthUnit": "structure"
+        },
+        "cefrLevel": "A2-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "dialogue",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "de",
+          "name": "German"
+        },
+        "cefrLevel": "A2",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "dialogue",
+      "angle": "change-of-plans",
+      "settings": {
+        "language": {
+          "code": "ko",
+          "name": "Korean"
+        },
+        "cefrLevel": "A2+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "dialogue",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "it",
+          "name": "Italian"
+        },
+        "cefrLevel": "B1-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "article",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "zh",
+          "name": "Chinese (Mandarin)",
+          "displayName": "Chinese",
+          "lengthUnit": "structure"
+        },
+        "cefrLevel": "B1",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "article",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "ru",
+          "name": "Russian"
+        },
+        "cefrLevel": "B1+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "daily-life",
+      "format": "article",
+      "angle": "common-misconception",
+      "settings": {
+        "language": {
+          "code": "pt",
+          "name": "Portuguese"
+        },
+        "cefrLevel": "B2-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "short-story",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "sr",
+          "name": "Serbian"
+        },
+        "cefrLevel": "B2",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "short-story",
+      "angle": "change-of-plans",
+      "settings": {
+        "language": {
+          "code": "en",
+          "name": "English"
+        },
+        "cefrLevel": "B2+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "short-story",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "es",
+          "name": "Spanish"
+        },
+        "cefrLevel": "C1-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "dialogue",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "fr",
+          "name": "French"
+        },
+        "cefrLevel": "C1",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "dialogue",
+      "angle": "change-of-plans",
+      "settings": {
+        "language": {
+          "code": "ja",
+          "name": "Japanese",
+          "lengthUnit": "structure"
+        },
+        "cefrLevel": "C1+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "dialogue",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "de",
+          "name": "German"
+        },
+        "cefrLevel": "C2",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "article",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "ko",
+          "name": "Korean"
+        },
+        "cefrLevel": "A1",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "article",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "it",
+          "name": "Italian"
+        },
+        "cefrLevel": "A1+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "travel",
+      "format": "article",
+      "angle": "common-misconception",
+      "settings": {
+        "language": {
+          "code": "zh",
+          "name": "Chinese (Mandarin)",
+          "displayName": "Chinese",
+          "lengthUnit": "structure"
+        },
+        "cefrLevel": "A2-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "short-story",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "ru",
+          "name": "Russian"
+        },
+        "cefrLevel": "A2",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "short-story",
+      "angle": "change-of-plans",
+      "settings": {
+        "language": {
+          "code": "pt",
+          "name": "Portuguese"
+        },
+        "cefrLevel": "A2+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "short-story",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "sr",
+          "name": "Serbian"
+        },
+        "cefrLevel": "B1-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "dialogue",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "en",
+          "name": "English"
+        },
+        "cefrLevel": "B1",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "dialogue",
+      "angle": "change-of-plans",
+      "settings": {
+        "language": {
+          "code": "es",
+          "name": "Spanish"
+        },
+        "cefrLevel": "B1+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "dialogue",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "fr",
+          "name": "French"
+        },
+        "cefrLevel": "B2-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "article",
+      "angle": "unexpected-discovery",
+      "settings": {
+        "language": {
+          "code": "ja",
+          "name": "Japanese",
+          "lengthUnit": "structure"
+        },
+        "cefrLevel": "B2",
+        "textLength": "short"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "article",
+      "angle": "overlooked-detail",
+      "settings": {
+        "language": {
+          "code": "de",
+          "name": "German"
+        },
+        "cefrLevel": "B2+",
+        "textLength": "medium"
+      },
+      "drawsPerActivation": 3
+    },
+    {
+      "topic": "nature",
+      "format": "article",
+      "angle": "common-misconception",
+      "settings": {
+        "language": {
+          "code": "ko",
+          "name": "Korean"
+        },
+        "cefrLevel": "C1-",
+        "textLength": "long"
+      },
+      "drawsPerActivation": 3
+    }
+  ],
+  "settingScenarios": 495,
+  "proseCases": 405,
+  "structuralCases": 90,
+  "languages": 11,
+  "cefrLevels": 15,
+  "lengths": 3,
+  "http": [
+    {
+      "url": "http://127.0.0.1:5173/",
+      "status": 200,
+      "bytes": 865
+    },
+    {
+      "url": "http://127.0.0.1:5173/src/components/scene/MachineSettings.tsx",
+      "status": 200,
+      "bytes": 16761
+    },
+    {
+      "url": "http://127.0.0.1:5173/src/App.css?direct",
+      "status": 200,
+      "bytes": 4194
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/",
+      "status": 200,
+      "bytes": 749
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/chassis-v3-CJwVfM2L.png",
+      "status": 200,
+      "bytes": 1804231
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-books-v7-Y908fZTp.png",
+      "status": 200,
+      "bytes": 2423047
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-lamp-books-v7-BdAn1jIZ.png",
+      "status": 200,
+      "bytes": 1184894
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-pen-cup-v7-Bw-R51Hs.png",
+      "status": 200,
+      "bytes": 2246144
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/drum-v1-Bj5eGOVf.png",
+      "status": 200,
+      "bytes": 1436255
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/EBGaramond-Bold-B-wVKl-e.ttf",
+      "status": 200,
+      "bytes": 54544
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-C046QOkq.js",
+      "status": 200,
+      "bytes": 257833
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-DU99iNTO.css",
+      "status": 200,
+      "bytes": 4282
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/key-v1-ccPO6OtX.png",
+      "status": 200,
+      "bytes": 1285423
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/mechanism-v2-C2B_U8bc.png",
+      "status": 200,
+      "bytes": 795748
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/paper-v1-D2Rww8ee.png",
+      "status": 200,
+      "bytes": 1436754
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/settings-v2-C2kOrZKD.png",
+      "status": 200,
+      "bytes": 960322
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/spin-button-v3-52Doy5V2.png",
+      "status": 200,
+      "bytes": 1948028
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-bookcase-wide-v8-BEteXnaz.png",
+      "status": 200,
+      "bytes": 2637515
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-shell-v7-3h6fZ6FV.png",
+      "status": 200,
+      "bytes": 2344272
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-window-wide-v8-ClKT6gYU.png",
+      "status": 200,
+      "bytes": 2327668
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/wheel-v1-F1wW89TE.png",
+      "status": 200,
+      "bytes": 1244822
+    }
+  ],
+  "hashes": [
+    {
+      "file": "chassis-v3.png",
+      "sha256": "9fc31f8e2547530a493250c71ebd220ad597bfa96623254dca4074ffbd1656e4"
+    },
+    {
+      "file": "desk-books-v7.png",
+      "sha256": "38102ee8e91f246945f7d109e5793887e91ce2aa6f26fc2ff484fe3f72f8cf52"
+    },
+    {
+      "file": "desk-lamp-books-v7.png",
+      "sha256": "d4d66968b8d0edfd6f0f4bd65e54f8399d122b836a6afe0599b74a943172625b"
+    },
+    {
+      "file": "desk-pen-cup-v7.png",
+      "sha256": "7180980aab024ef00507789e6e76f42b3a9f07f0469c62b61e98187a8b138b31"
+    },
+    {
+      "file": "drum-v1.png",
+      "sha256": "f96ec516ad56591ba7364611f1b87e3db162a38d99bf8a86f948ef565605823d"
+    },
+    {
+      "file": "EBGaramond-Bold.ttf",
+      "sha256": "7a490c1332b83cefc351e1da5d4a8875752176552eabc70632c79d035abf33e9"
+    },
+    {
+      "file": "EBGaramond-OFL.txt",
+      "sha256": "0985066662eb755ed3683ae5482a81a9195b49ce3f7e165cc2388b3dbece7dd7"
+    },
+    {
+      "file": "key-v1.png",
+      "sha256": "8e3db6436151849c5d9eec91125a36e11ac7d914e2af29f86654cb871c9aa27e"
+    },
+    {
+      "file": "mechanism-v2.png",
+      "sha256": "6c8d853cc6788762c9370f7bb79ebce5ad248bd7e37046f0664f3596ff5a52a6"
+    },
+    {
+      "file": "paper-v1.png",
+      "sha256": "389e8d8b94b7e3999e09ab7812fe58684f60e8ad5fa86372591ac17f203122bd"
+    },
+    {
+      "file": "settings-v2.png",
+      "sha256": "be99dbbec700cc73419e26a2057854db19dc3b598527e64ba8c1145518f8e566"
+    },
+    {
+      "file": "spin-button-v3.png",
+      "sha256": "82e5691612d586ab6c0b6a36b5a3ac578e6e73cef3e3f4b4e017d087387eb39d"
+    },
+    {
+      "file": "study-bookcase-wide-v8.png",
+      "sha256": "f396b914aa448b10004bb6c9562820292b0dcc3b749c63cf5438ea004abb0aaa"
+    },
+    {
+      "file": "study-shell-v7.png",
+      "sha256": "a5431348bd2c41f8802756b8e9fc444c6a3d22ba385fc936f3e5dba48fe9f3df"
+    },
+    {
+      "file": "study-window-wide-v8.png",
+      "sha256": "b999109159865ac29c7a5bcb0af271b7a5eaa43a03f32b918342642ad36d6c57"
+    },
+    {
+      "file": "wheel-v1.png",
+      "sha256": "bfc76f4461a9aae3f041164435a0aa0ece380153fc9faefe51b615d4dc8c97a9"
+    }
+  ],
+  "browser": {
+    "status": "unverified",
+    "reason": "In-app Browser failed with EPERM realpath browser-client.mjs. Clipboard uses test writers and a stub navigator, not the system clipboard. Tests do not verify paste into another application, live React DOM updates, keyboard activation or visual layout."
+  }
+}

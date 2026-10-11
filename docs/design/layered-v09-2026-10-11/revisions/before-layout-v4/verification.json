@@ -1,0 +1,291 @@
+{
+  "date": "2026-10-11",
+  "revision": 3,
+  "url": "http://127.0.0.1:5173/docs/design/layered-v09-2026-10-11/",
+  "checksPassed": 21,
+  "checks": [
+    "19 individually placed keycaps",
+    "3 individually placed drums",
+    "2 individually placed wheels",
+    "28 machine raster instances / 9 unique runtime artwork files",
+    "All 28 machine images and both paper layers present in HTML",
+    "Every raster layer scales uniformly",
+    "Each foreground source has actual transparency",
+    "Mechanical cradle has transparent center; SPIN face is painted",
+    "No custom script, handlers, forms or motion in static artifact",
+    "Composite QA render and original screenshot are not scene layers",
+    "Gallery contains nine inline artwork previews",
+    "Original prompts and both sets of correction prompts are preserved",
+    "Open help popup removed; small static help button retained",
+    "Both keyboard rows fit with at least 30 units above and below",
+    "Heading, subtitle and upper machine lifted together by 64 units",
+    "Fixture matches the current actual product generator",
+    "Full prompt appears verbatim in the page, with 9 paragraphs",
+    "Long prompt reflows in HTML with page scrolling",
+    "Background covers the viewport independently of machine height",
+    "Calculated background coverage has no exposed margins in 9 viewport sizes",
+    "All runtime and gallery asset paths exist"
+  ],
+  "http": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 17940
+    },
+    {
+      "file": "layers.html",
+      "status": 200,
+      "bytes": 10470
+    },
+    {
+      "file": "scene.svg",
+      "status": 200,
+      "bytes": 18606
+    },
+    {
+      "file": "machine.svg",
+      "status": 200,
+      "bytes": 14641
+    },
+    {
+      "file": "viewport.svg",
+      "status": 200,
+      "bytes": 18055
+    },
+    {
+      "file": "preview.css",
+      "status": 200,
+      "bytes": 4425
+    },
+    {
+      "file": "layer-manifest.json",
+      "status": 200,
+      "bytes": 8196
+    },
+    {
+      "file": "generation-prompts.json",
+      "status": 200,
+      "bytes": 17587
+    },
+    {
+      "file": "generation-prompts-v2.json",
+      "status": 200,
+      "bytes": 3392
+    },
+    {
+      "file": "generation-prompts-v3.json",
+      "status": 200,
+      "bytes": 2577
+    },
+    {
+      "file": "prompt-fixture.json",
+      "status": 200,
+      "bytes": 2058
+    },
+    {
+      "file": "real-prompt.txt",
+      "status": 200,
+      "bytes": 1091
+    },
+    {
+      "file": "assets/EBGaramond-Bold.ttf",
+      "status": 200,
+      "bytes": 54544
+    },
+    {
+      "file": "assets/study-clear-v3.png",
+      "status": 200,
+      "bytes": 2489826
+    },
+    {
+      "file": "assets/paper-v1.png",
+      "status": 200,
+      "bytes": 1436754
+    },
+    {
+      "file": "assets/study-clear-v3.svg",
+      "status": 200,
+      "bytes": 130
+    },
+    {
+      "file": "assets/paper-v1.svg",
+      "status": 200,
+      "bytes": 127
+    },
+    {
+      "file": "assets/chassis-v2.png",
+      "status": 200,
+      "bytes": 2091873
+    },
+    {
+      "file": "assets/settings-v2.png",
+      "status": 200,
+      "bytes": 960322
+    },
+    {
+      "file": "assets/drum-v1.png",
+      "status": 200,
+      "bytes": 1436255
+    },
+    {
+      "file": "assets/wheel-v1.png",
+      "status": 200,
+      "bytes": 1244822
+    },
+    {
+      "file": "assets/mechanism-v2.png",
+      "status": 200,
+      "bytes": 795748
+    },
+    {
+      "file": "assets/key-v1.png",
+      "status": 200,
+      "bytes": 1285423
+    },
+    {
+      "file": "assets/spin-button-v3.png",
+      "status": 200,
+      "bytes": 1948028
+    },
+    {
+      "file": "assets/chassis-v2.svg",
+      "status": 200,
+      "bytes": 128
+    },
+    {
+      "file": "assets/settings-v2.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/drum-v1.svg",
+      "status": 200,
+      "bytes": 127
+    },
+    {
+      "file": "assets/wheel-v1.svg",
+      "status": 200,
+      "bytes": 128
+    },
+    {
+      "file": "assets/mechanism-v2.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/key-v1.svg",
+      "status": 200,
+      "bytes": 126
+    },
+    {
+      "file": "assets/spin-button-v3.svg",
+      "status": 200,
+      "bytes": 132
+    }
+  ],
+  "keyboardClearance": {
+    "above": 33.798,
+    "below": 34.15999999999997,
+    "units": "SVG source units; front rim landmark visually identified in the new chassis artwork"
+  },
+  "viewportCalculations": [
+    {
+      "width": 320,
+      "height": 700,
+      "backgroundWidth": 1118.4475806451615,
+      "backgroundHeight": 700,
+      "machineWidth": 320,
+      "paperWidth": 288,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "backgroundWidth": 1348.5282258064517,
+      "backgroundHeight": 844,
+      "machineWidth": 390,
+      "paperWidth": 351,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "backgroundWidth": 1636.1290322580644,
+      "backgroundHeight": 1024,
+      "machineWidth": 768,
+      "paperWidth": 459,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "backgroundWidth": 1280,
+      "backgroundHeight": 801.1104100946372,
+      "machineWidth": 1280,
+      "paperWidth": 765,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "backgroundWidth": 1366,
+      "backgroundHeight": 854.9350157728707,
+      "machineWidth": 1366,
+      "paperWidth": 816.3984375,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "backgroundWidth": 1440,
+      "backgroundHeight": 901.2492113564668,
+      "machineWidth": 1440,
+      "paperWidth": 860.625,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1920,
+      "height": 1000,
+      "backgroundWidth": 1920,
+      "backgroundHeight": 1201.6656151419559,
+      "machineWidth": 1536,
+      "paperWidth": 918,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "backgroundWidth": 2560,
+      "backgroundHeight": 1602.2208201892745,
+      "machineWidth": 1536,
+      "paperWidth": 918,
+      "method": "CSS geometry calculation; not browser measurement"
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "backgroundWidth": 3439.9999999999995,
+      "backgroundHeight": 2152.9842271293373,
+      "machineWidth": 1536,
+      "paperWidth": 918,
+      "method": "CSS geometry calculation; not browser measurement"
+    }
+  ],
+  "visual": {
+    "method": "Offline resvg illustrations of the same machine, paper layers and full real prompt; nominal desktop text wrapping. HTML layout and wrapping are not browser-verified.",
+    "fullFile": "assembly-render-v3.png",
+    "size": [
+      1920,
+      1614
+    ],
+    "viewportFile": "viewport-render-v3.png",
+    "viewportSize": [
+      1920,
+      1000
+    ]
+  },
+  "browser": {
+    "status": "unverified",
+    "reason": "Browser runtime import failed again: EPERM realpath browser-client.mjs. HTTP and offline SVG rendering do not establish browser screenshot, layout or font loading verification."
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-11",
+  "frame": {
+    "file": "reel-cradle-v1.png",
+    "width": 1619,
+    "height": 971,
+    "bytes": 1107393,
+    "sha256": "8c9afb90e1e56b23d050d88ca02ab41624bc1f4bbeb9a1c0eed8edf42a983e10",
+    "transparentPixels": 1021485,
+    "partialAlphaPixels": 548063,
+    "opaquePixels": 2501,
+    "boundsAboveAlpha8": [
+      25,
+      139,
+      1594,
+      828
+    ],
+    "centerAlpha": 0,
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "wrapperViewBox": [
+    25,
+    139,
+    1569,
+    689
+  ],
+  "keycapFace": {
+    "method": "Centroid of bright ivory pixels in original keycap, excluding dark sidewall; not browser glyph alignment",
+    "count": 429067,
+    "master": [
+      625.8475855752132,
+      515.189529840328
+    ],
+    "displayPercent": [
+      49.93403291963733,
+      39.20581018322266
+    ]
+  },
+  "originals": [
+    {
+      "file": "chassis-frame-v1.png",
+      "unchanged": true
+    },
+    {
+      "file": "keyboard-deck-v1.png",
+      "unchanged": true
+    },
+    {
+      "file": "keycap-v1.png",
+      "unchanged": true
+    },
+    {
+      "file": "spin-face-v1.png",
+      "unchanged": true
+    },
+    {
+      "file": "study-background-v1.png",
+      "unchanged": true
+    },
+    {
+      "file": "wheel-v1.png",
+      "unchanged": true
+    }
+  ]
+}

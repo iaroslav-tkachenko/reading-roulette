@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-11",
+  "scope": "Current starter runtime with restored languages and level-dependent prose ranges; HTTP and browser interactions excluded",
+  "runtimeCounts": {
+    "topics": 3,
+    "formats": 3,
+    "angles": 4,
+    "languages": 11,
+    "levels": 15,
+    "lengths": 3
+  },
+  "combinations": 27,
+  "prompts": 13365,
+  "randomSelections": 500,
+  "invalidSamples": 15,
+  "brokenReferencesAndEmptySets": "passed",
+  "documents": 47,
+  "localLinks": 290
+}

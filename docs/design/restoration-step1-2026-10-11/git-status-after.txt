@@ -1,0 +1,34 @@
+ M PROJECT.md
+ M docs/CATALOGS.md
+ M docs/design/DESIGN.md
+ M docs/design/MOTION.md
+ M docs/design/MOTION_BRIEF.md
+ M docs/design/motion-preview/README.md
+ M docs/design/motion-preview/VERIFICATION.md
+ M docs/design/motion-preview/index.html
+ M docs/design/motion-preview/preview.css
+ M docs/design/motion-preview/preview.ts
+ M src/App.css
+ M src/App.tsx
+ M src/components/ReadingSettingsForm.tsx
+ M src/index.css
+?? docs/design/ASSEMBLY.md
+?? docs/design/ASSETS.md
+?? docs/design/HANDOFF-DESIGN-MOTION-2026-10-11.md
+?? docs/design/IMPLEMENTATION.md
+?? docs/design/artwork-review/
+?? docs/design/assembly-motion-regression-2026-10-11.json
+?? docs/design/assembly-verification-2026-10-11.json
+?? docs/design/assets/
+?? docs/design/catalog-regression-stage3-2026-10-10.json
+?? docs/design/check-react-motion.mjs
+?? docs/design/feedback/
+?? docs/design/motion-preview/check-motion.mjs
+?? docs/design/motion-preview/motion-v2-checks-2026-10-10.json
+?? docs/design/react-motion-checks-2026-10-10.json
+?? docs/design/restoration-step1-2026-10-11/
+?? docs/design/runtime-regression-stage3-2026-10-10.json
+?? docs/design/stage3-verification-2026-10-11.json
+?? src/components/MachineArtwork.tsx
+?? src/components/RouletteReel.tsx
+?? src/motion/

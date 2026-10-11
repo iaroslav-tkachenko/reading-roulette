@@ -1,0 +1,37 @@
+{
+  "study-shell-v7.png": {
+    "file": "study-shell-v7.png",
+    "source": "study-clear-v3.png",
+    "transparent": false,
+    "prompt": "Edit target: attached evening study background. Preserve the same worn dark teal plaster, warm wooden desktop, far left window with ivy and far right tall wooden bookshelf with old books and the shelf globe. Keep exactly the same wall-to-tabletop meeting height around 57.8 percent of the image. REMOVE the entire brass desk lamp, ALL books standing or lying on the tabletop at left, the entire foreground stack of flat books at bottom left, the entire pen cup and pens at right, and tabletop books at far right. These items will be separate transparent layers. Restore coherent empty wood and plaster behind removed items. Keep window, ivy, shelf, shelf books and globe intact. No machine or interface. Keep original exquisite painterly realistic worn materials and warm evening lighting, soft golden pool of light on the left desk can remain. Wide landscape. No vertical front edge of table, no new objects.",
+    "tool": "Built-in ImageGen"
+  },
+  "desk-lamp-books-v7.png": {
+    "file": "desk-lamp-books-v7.png",
+    "source": "study-clear-v3.png",
+    "transparent": true,
+    "prompt": "Use attached study as visual reference. Draw a COMPLETE isolated brass antique desk lamp together with a small group of 3 upright old leather books beside its foot, as one transparent-background production artwork. Match exactly its warm worn golden brass, jointed angled arm, broad curved shade pointing down and right, rounded stepped heavy base, warm amber light. COMPLETE entire lamp from shade to base, entire arm and all book edges, generous transparent margin, no cropping at canvas edges. Lamp tall and slender, overall group visible width:height around 0.55:1. Fully closed books, exquisite painterly realistic style. View slightly from above, same as study. Whole group stands on ONE baseline, base and books fully resolved, subtle tight contact shadow only. NO wall, NO floor/desk plane, NO shelf, NO text, no other objects, actual transparent background.",
+    "tool": "Built-in ImageGen"
+  },
+  "desk-books-v7.png": {
+    "file": "desk-books-v7.png",
+    "source": "study-clear-v3.png",
+    "transparent": true,
+    "prompt": "Use attached study as visual reference. Reconstruct the COMPLETE foreground stack of 3 old closed leather books and a single antique pen resting diagonally across the top, as one transparent PNG object. Worn teal/olive/burgundy covers, aged parchment page edges, warm golden highlights, original exquisite painterly realistic style and slightly elevated camera. Draw ALL sides of the books, all corners and complete pen tip, no edge cropping. Small low stack, visible width:height around 1.5:1, orientation as original lower-left study pile. Generous transparent margin around whole object, subtle tight contact shadow. No table, no wall, no surrounding scenery or UI, no text, actual transparent background.",
+    "tool": "Built-in ImageGen"
+  },
+  "desk-pen-cup-v7.png": {
+    "file": "desk-pen-cup-v7.png",
+    "source": "study-clear-v3.png",
+    "transparent": true,
+    "prompt": "Use attached study as visual reference. Reconstruct a COMPLETE isolated cream ceramic pen cup with subtle blue botanical ornament, holding 4 antique fountain pens and pencils, as one transparent PNG object. Preserve original worn ceramic, dark wood pens with golden brass tips, warm right-side amber highlights, exquisite painterly realistic illustration and slightly elevated camera. Show the entire cup rim, both sides, whole oval base and ALL pen tips, with generous transparent margin. Cup visible width:height including pens about 0.65:1. Draw complete self-contained silhouette. Subtle tight contact shadow only. NO tabletop, NO wall, NO shelf, NO globe, NO extra books, no UI or words. Actual transparent background.",
+    "tool": "Built-in ImageGen"
+  },
+  "chassis-v3.png": {
+    "file": "chassis-v3.png",
+    "source": "chassis-v2.png",
+    "transparent": true,
+    "prompt": "Edit target: attached isolated burgundy machine chassis. Preserve width, perspective, beautiful worn dark red enamel, warm brass outline, symmetric wide trapezoidal keyboard platform, front wall, black paper slot and feet. Make only the empty TOP platform about 15 percent shallower in front-to-back visible depth: bring the front rim upward, and move the front wall, paper slot and feet upward with it. Keep back rim position and width unchanged. Front wall height unchanged. Aim overall visible width:height about 3.6:1 instead of 3.24:1, so whole lower chassis becomes around 10 percent shorter, leaving moderate room for two rows of keys. No keys or buttons or text, no upper mechanism. Actual transparent background and full clean uncut silhouette.",
+    "tool": "Built-in ImageGen"
+  }
+}

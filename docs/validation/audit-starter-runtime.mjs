@@ -28,7 +28,7 @@ const { formats } = await load('src/data/formats.ts');
 const { angles } = await load('src/data/angles.ts');
 const { languages } = await load('src/data/languages.ts');
 const { cefrLevels } = await load('src/data/cefrLevels.ts');
-const { textLengths } = await load('src/data/textLengths.ts');
+const { textLengths, getTextLength } = await load('src/data/textLengths.ts');
 const { selectReadingCombination } = await load('src/random/selectReadingCombination.ts');
 const { buildPrompt } = await load('src/prompt/buildPrompt.ts');
 for (const catalog of [topics, formats, angles]) {
@@ -60,7 +60,14 @@ for (let t = 0; t < topics.length; t++) {
         assert(prompt.includes(`Angle: ${selected.angle.label}. ${selected.angle.promptHint}`));
         assert(prompt.includes(`entirely in ${language.name}`));
         assert(prompt.includes(`Difficulty target: ${cefrLevel} (`));
-        assert(prompt.includes(textLengths[textLength].wordRange));
+        const lengthDetails = getTextLength({ language, cefrLevel, textLength });
+        assert(prompt.includes(lengthDetails.instruction));
+        if (language.lengthUnit === 'structure') {
+          assert.equal(lengthDetails.wordRange, null);
+          assert(!/\d+[–-]\d+/.test(lengthDetails.instruction));
+        } else {
+          assert(prompt.includes(lengthDetails.wordRange));
+        }
         assert(!/^Tone:/m.test(prompt));
         prompts++;
       }
@@ -109,6 +116,6 @@ for (const document of documents) {
     links++;
   }
 }
-const result = { date: '2026-10-09', scope: 'Current starter runtime only; HTTP and browser interactions excluded', runtimeCounts: { topics: topics.length, formats: formats.length, angles: angles.length, languages: languages.length, levels: Object.keys(cefrLevels).length, lengths: Object.keys(textLengths).length }, combinations, prompts, randomSelections: 500, invalidSamples: 15, brokenReferencesAndEmptySets: 'passed', documents: documents.length, localLinks: links };
-fs.writeFileSync(path.join(root, 'docs/validation/runtime-audit-2026-10-09.json'), JSON.stringify(result, null, 2) + '\n');
+const result = { date: '2026-10-11', scope: 'Current starter runtime with restored languages and level-dependent prose ranges; HTTP and browser interactions excluded', runtimeCounts: { topics: topics.length, formats: formats.length, angles: angles.length, languages: languages.length, levels: Object.keys(cefrLevels).length, lengths: Object.keys(textLengths).length }, combinations, prompts, randomSelections: 500, invalidSamples: 15, brokenReferencesAndEmptySets: 'passed', documents: documents.length, localLinks: links };
+fs.writeFileSync(path.join(root, 'docs/validation/runtime-audit-2026-10-11.json'), JSON.stringify(result, null, 2) + '\n');
 console.log(JSON.stringify(result, null, 2));

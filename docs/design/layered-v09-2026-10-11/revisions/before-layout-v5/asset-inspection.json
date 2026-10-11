@@ -1,0 +1,396 @@
+{
+  "method": "Read-only PNG decoding; original alpha preserved",
+  "assets": [
+    {
+      "file": "chassis-v1.png",
+      "width": 2117,
+      "height": 743,
+      "bytes": 1637857,
+      "sha256": "aee7961fcd1696a02dfdb60832963be55c2a9f75a0efd4ef0934578c6f4a4217",
+      "transparentPixels": 640673,
+      "partialAlphaPixels": 931721,
+      "opaquePixels": 537,
+      "boundsAboveAlpha8": [
+        34,
+        159,
+        2080,
+        657
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "file": "chassis-v2.png",
+      "width": 2098,
+      "height": 749,
+      "bytes": 2091873,
+      "sha256": "21a8e008e2984a1dd6df720a3225f1a78cffafaceb59b62e64292745c36e652f",
+      "transparentPixels": 403724,
+      "partialAlphaPixels": 1166061,
+      "opaquePixels": 1617,
+      "boundsAboveAlpha8": [
+        20,
+        66,
+        2078,
+        702
+      ],
+      "centerAlpha": 252,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "drum-v1.png",
+      "width": 1429,
+      "height": 1100,
+      "bytes": 1436255,
+      "sha256": "f96ec516ad56591ba7364611f1b87e3db162a38d99bf8a86f948ef565605823d",
+      "transparentPixels": 661294,
+      "partialAlphaPixels": 910072,
+      "opaquePixels": 534,
+      "boundsAboveAlpha8": [
+        97,
+        172,
+        1332,
+        925
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "key-v1.png",
+      "width": 1261,
+      "height": 1247,
+      "bytes": 1285423,
+      "sha256": "8e3db6436151849c5d9eec91125a36e11ac7d914e2af29f86654cb871c9aa27e",
+      "transparentPixels": 866520,
+      "partialAlphaPixels": 705455,
+      "opaquePixels": 492,
+      "boundsAboveAlpha8": [
+        171,
+        121,
+        1089,
+        1114
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "mechanism-v1.png",
+      "width": 2158,
+      "height": 729,
+      "bytes": 914111,
+      "sha256": "3a434fbcbfc487019c9f206ffb2b90894c6c669b91a64917600fa15839616942",
+      "transparentPixels": 1057029,
+      "partialAlphaPixels": 515985,
+      "opaquePixels": 168,
+      "boundsAboveAlpha8": [
+        28,
+        95,
+        2129,
+        621
+      ],
+      "centerAlpha": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "mechanism-v2.png",
+      "width": 2157,
+      "height": 729,
+      "bytes": 795748,
+      "sha256": "6c8d853cc6788762c9370f7bb79ebce5ad248bd7e37046f0664f3596ff5a52a6",
+      "transparentPixels": 1117046,
+      "partialAlphaPixels": 453901,
+      "opaquePixels": 1506,
+      "boundsAboveAlpha8": [
+        106,
+        90,
+        2049,
+        614
+      ],
+      "centerAlpha": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "paper-v1.png",
+      "width": 2132,
+      "height": 738,
+      "bytes": 1436754,
+      "sha256": "389e8d8b94b7e3999e09ab7812fe58684f60e8ad5fa86372591ac17f203122bd",
+      "transparentPixels": 701015,
+      "partialAlphaPixels": 872366,
+      "opaquePixels": 35,
+      "boundsAboveAlpha8": [
+        38,
+        148,
+        2090,
+        592
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "settings-v1.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1055940,
+      "sha256": "e517241748d84af62643b47a54df3a9e03b1bad1e83636fcbc7e984c46df537d",
+      "transparentPixels": 958143,
+      "partialAlphaPixels": 614224,
+      "opaquePixels": 161,
+      "boundsAboveAlpha8": [
+        34,
+        206,
+        2141,
+        520
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "settings-v2.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 960322,
+      "sha256": "be99dbbec700cc73419e26a2057854db19dc3b598527e64ba8c1145518f8e566",
+      "transparentPixels": 960643,
+      "partialAlphaPixels": 611730,
+      "opaquePixels": 155,
+      "boundsAboveAlpha8": [
+        114,
+        202,
+        2060,
+        527
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "spin-button-v3.png",
+      "width": 2140,
+      "height": 735,
+      "bytes": 1948028,
+      "sha256": "82e5691612d586ab6c0b6a36b5a3ac578e6e73cef3e3f4b4e017d087387eb39d",
+      "transparentPixels": 481921,
+      "partialAlphaPixels": 1089490,
+      "opaquePixels": 1489,
+      "boundsAboveAlpha8": [
+        88,
+        77,
+        2050,
+        654
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "file": "spin-face-v1.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1844787,
+      "sha256": "80132af53240b1732432fccf580e3deda9e45cf9f3110188f67ad58938270c4d",
+      "transparentPixels": 583668,
+      "partialAlphaPixels": 987314,
+      "opaquePixels": 1546,
+      "boundsAboveAlpha8": [
+        79,
+        107,
+        2091,
+        612
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "spin-rim-v1.png",
+      "width": 2206,
+      "height": 713,
+      "bytes": 1246937,
+      "sha256": "17d24688dc86510c75406bb00b886d614138ec659820b507b9156ead35365a7f",
+      "transparentPixels": 914027,
+      "partialAlphaPixels": 657775,
+      "opaquePixels": 1076,
+      "boundsAboveAlpha8": [
+        75,
+        103,
+        2133,
+        629
+      ],
+      "centerAlpha": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "spin-rim-v2.png",
+      "width": 2138,
+      "height": 735,
+      "bytes": 1400917,
+      "sha256": "c257019416cfa2bc81d3d451f549b32c7082e198178680af739d65ef5c4b2110",
+      "transparentPixels": 796626,
+      "partialAlphaPixels": 774402,
+      "opaquePixels": 402,
+      "boundsAboveAlpha8": [
+        57,
+        93,
+        2082,
+        654
+      ],
+      "centerAlpha": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "study-clear-v3.png",
+      "width": 1585,
+      "height": 992,
+      "bytes": 2489826,
+      "sha256": "d771a203d00b2528cf0d0cf9d88c681e17e3f43efe1fb00615a9f0d96f52c3e8",
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "opaquePixels": 1572320,
+      "boundsAboveAlpha8": [
+        0,
+        0,
+        1585,
+        992
+      ],
+      "centerAlpha": 255,
+      "cornerAlpha": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "file": "study-expanded-v2.png",
+      "width": 1586,
+      "height": 992,
+      "bytes": 2734111,
+      "sha256": "7b9086f0d80a840828f0a307384cc9db3c4a8930cdcd3cf11bfc2599d8c14dfa",
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "opaquePixels": 1573312,
+      "boundsAboveAlpha8": [
+        0,
+        0,
+        1586,
+        992
+      ],
+      "centerAlpha": 255,
+      "cornerAlpha": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "file": "study-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2261761,
+      "sha256": "f51fa9beaea98b8943d49d166de62ee077d39e53dc61ca0905deb95cfb5914c2",
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "opaquePixels": 1572864,
+      "boundsAboveAlpha8": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "centerAlpha": 255,
+      "cornerAlpha": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "file": "wheel-v1.png",
+      "width": 971,
+      "height": 1619,
+      "bytes": 1244822,
+      "sha256": "bfc76f4461a9aae3f041164435a0aa0ece380153fc9faefe51b615d4dc8c97a9",
+      "transparentPixels": 975394,
+      "partialAlphaPixels": 596096,
+      "opaquePixels": 559,
+      "boundsAboveAlpha8": [
+        125,
+        170,
+        871,
+        1459
+      ],
+      "centerAlpha": 252,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

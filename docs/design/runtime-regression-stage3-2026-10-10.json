@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-10",
+  "scope": "Current starter runtime only; HTTP and browser interactions excluded",
+  "runtimeCounts": {
+    "topics": 3,
+    "formats": 3,
+    "angles": 4,
+    "languages": 4,
+    "levels": 15,
+    "lengths": 3
+  },
+  "combinations": 27,
+  "prompts": 4860,
+  "randomSelections": 500,
+  "invalidSamples": 15,
+  "brokenReferencesAndEmptySets": "passed",
+  "documents": 22,
+  "localLinks": 230,
+  "auditorTemplateDate": "2026-10-09",
+  "executionContext": "Stage 3 regression; historical audit file left unchanged"
+}

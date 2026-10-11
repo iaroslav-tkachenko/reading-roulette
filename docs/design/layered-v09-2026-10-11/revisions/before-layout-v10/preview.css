@@ -1,0 +1,28 @@
+*{box-sizing:border-box}html{background:#172126;color:#f5e5ce;font:14px/1.5 system-ui,sans-serif}body{margin:0}.artboard{width:min(100%,1536px,calc((100svh - 42px)*1.5));margin-inline:auto}.artboard>svg{display:block;width:100%;height:auto}.review-footer{min-height:42px;padding:10px 20px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;background:#172126}a{color:#f1d4a4}main.gallery{max-width:1250px;padding:28px;margin:auto}h1{font-family:Georgia,serif}p{max-width:80ch}.parts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px}.part{margin:0;padding:16px;background:#26343a;border:1px solid #55605c;border-radius:10px}.transparency{background-color:#eee9dc;background-image:linear-gradient(45deg,#d4d0c6 25%,transparent 25%),linear-gradient(-45deg,#d4d0c6 25%,transparent 25%),linear-gradient(45deg,transparent 75%,#d4d0c6 75%),linear-gradient(-45deg,transparent 75%,#d4d0c6 75%);background-size:20px 20px;background-position:0 0,0 10px,10px -10px,-10px 0}.part img{display:block;width:100%;height:190px;object-fit:contain}.part figcaption{padding-top:12px}.part a{display:inline-block;margin-right:12px}code{overflow-wrap:anywhere}.wide{grid-column:1/-1}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:9px;border-bottom:1px solid #55605c;text-align:left}.table-wrap{overflow:auto}@media(max-width:600px){.review-footer{gap:10px;font-size:12px}main.gallery{padding:16px}}
+.part .transparency>svg{display:block;width:100%;height:190px}
+
+@font-face{font-family:"EB Garamond";src:url("assets/EBGaramond-Bold.ttf") format("truetype");font-weight:700;font-display:block}
+.review-scene{--machine-width:min(100vw,1536px);--room-width:calc(var(--machine-width)*1.05);--wall-y:calc(var(--machine-width)*.38671875);position:relative;isolation:isolate;min-height:100svh;background:#172126}
+.room-backdrop{position:absolute;inset:0;z-index:-1;overflow:hidden;pointer-events:none}
+.desk-continuation{position:absolute;inset:0;width:100%;height:100%}
+.room-wall,.room-desk{position:absolute;left:50%;transform:translateX(-50%);width:var(--room-width);display:block}
+.room-wall-base{position:absolute;top:0;left:0;width:100%;height:var(--wall-y);display:block}
+.room-wall{top:0;height:var(--wall-y)}
+.room-desk{top:var(--wall-y);height:auto}
+.room-props,.room-architecture{position:absolute;top:0;left:50%;transform:translateX(-50%);width:var(--machine-width);height:auto;overflow:visible;display:block}
+.review-scene .artboard{width:min(100%,1536px);margin:0 auto;position:relative}
+.review-scene .artboard>svg{position:relative;z-index:1}
+.prompt-sheet{position:relative;z-index:2;width:55.7291666667%;margin:-4.5572916667% auto 48px;color:#10262b;filter:drop-shadow(0 12px 15px #160b0845)}
+.paper-fill{position:absolute;inset:0;width:100%;height:calc(100% - 18px);background:#f9e7ce;clip-path:polygon(3% 0,97% 0,100% 100%,0 100%);pointer-events:none}
+.paper-tear{position:absolute;bottom:0;left:0;width:100%;height:auto;display:block;pointer-events:none}
+.paper-content{position:relative;padding:28px 5.6645% 42px}
+.paper-header{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:52px}
+.paper-header h1{display:flex;align-items:center;gap:12px;font-family:"EB Garamond",Georgia,serif;font-weight:700;font-size:clamp(25px,2.1vw,32px);line-height:1.15;color:#741d1c;margin:0}
+.prompt-scroll-cue{display:block;width:24px;height:24px;flex-shrink:0;color:#741d1c}
+.copy-appearance{display:inline-flex;align-items:center;gap:10px;flex-shrink:0;min-height:52px;padding:10px 15px;border:2px solid #7d2925;border-radius:14px;color:#741d1c;font:700 clamp(14px,1.3vw,20px)/1.2 Georgia,serif}
+.copy-appearance svg{width:24px;height:24px;flex-shrink:0}
+.real-prompt{margin:22px 0 24px;white-space:pre-wrap;overflow-wrap:anywhere;overflow:visible;max-height:none;font:clamp(14px,1.172vw,18px)/1.5 Consolas,"Courier New",monospace;color:#10262b}
+.paste-hint{margin:0;font:clamp(13px,1.04vw,16px)/1.5 Consolas,monospace;color:#9b7e69}
+.review-scene .review-footer{position:relative;background:#172126d9}
+
+@media(max-width:700px){.prompt-sheet{margin-top:-4.5572916667%;margin-bottom:28px}.paper-content{padding:24px 7% 36px}.paper-header{align-items:flex-start;flex-wrap:wrap;gap:12px}.copy-appearance{min-height:40px;padding:7px 10px;border-radius:10px}.copy-appearance svg{width:20px;height:20px}.real-prompt{margin-top:18px}}

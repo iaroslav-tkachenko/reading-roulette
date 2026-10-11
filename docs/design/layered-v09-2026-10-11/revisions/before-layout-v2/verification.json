@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-11",
+  "url": "http://127.0.0.1:5173/docs/design/layered-v09-2026-10-11/",
+  "checksPassed": 13,
+  "checks": [
+    "19 individually placed keycaps",
+    "3 individually placed drums",
+    "2 individually placed wheels",
+    "31 raster instances / 10 unique artwork files",
+    "All 31 images present in inline SVG",
+    "Every raster layer scales uniformly",
+    "Each foreground source has actual transparency",
+    "Mechanical cradle and SPIN bezel have transparent centers",
+    "No custom script, handlers, forms or motion in static artifact",
+    "Composite QA render and original screenshot are not scene layers",
+    "Gallery contains ten inline artwork previews",
+    "All supplied generation prompts are valid JSON",
+    "All runtime and gallery asset paths exist"
+  ],
+  "http": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 17448
+    },
+    {
+      "file": "layers.html",
+      "status": 200,
+      "bytes": 10441
+    },
+    {
+      "file": "scene.svg",
+      "status": 200,
+      "bytes": 16582
+    },
+    {
+      "file": "preview.css",
+      "status": 200,
+      "bytes": 2032
+    },
+    {
+      "file": "layer-manifest.json",
+      "status": 200,
+      "bytes": 8031
+    },
+    {
+      "file": "generation-prompts.json",
+      "status": 200,
+      "bytes": 17587
+    },
+    {
+      "file": "assets/EBGaramond-Bold.ttf",
+      "status": 200,
+      "bytes": 54544
+    },
+    {
+      "file": "assets/study-v1.png",
+      "status": 200,
+      "bytes": 2261761
+    },
+    {
+      "file": "assets/chassis-v1.png",
+      "status": 200,
+      "bytes": 1637857
+    },
+    {
+      "file": "assets/settings-v2.png",
+      "status": 200,
+      "bytes": 960322
+    },
+    {
+      "file": "assets/drum-v1.png",
+      "status": 200,
+      "bytes": 1436255
+    },
+    {
+      "file": "assets/wheel-v1.png",
+      "status": 200,
+      "bytes": 1244822
+    },
+    {
+      "file": "assets/mechanism-v2.png",
+      "status": 200,
+      "bytes": 795748
+    },
+    {
+      "file": "assets/key-v1.png",
+      "status": 200,
+      "bytes": 1285423
+    },
+    {
+      "file": "assets/spin-rim-v2.png",
+      "status": 200,
+      "bytes": 1400917
+    },
+    {
+      "file": "assets/spin-face-v1.png",
+      "status": 200,
+      "bytes": 1844787
+    },
+    {
+      "file": "assets/paper-v1.png",
+      "status": 200,
+      "bytes": 1436754
+    },
+    {
+      "file": "assets/study-v1.svg",
+      "status": 200,
+      "bytes": 126
+    },
+    {
+      "file": "assets/chassis-v1.svg",
+      "status": 200,
+      "bytes": 129
+    },
+    {
+      "file": "assets/settings-v2.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/drum-v1.svg",
+      "status": 200,
+      "bytes": 127
+    },
+    {
+      "file": "assets/wheel-v1.svg",
+      "status": 200,
+      "bytes": 128
+    },
+    {
+      "file": "assets/mechanism-v2.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/key-v1.svg",
+      "status": 200,
+      "bytes": 126
+    },
+    {
+      "file": "assets/spin-rim-v2.svg",
+      "status": 200,
+      "bytes": 129
+    },
+    {
+      "file": "assets/spin-face-v1.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/paper-v1.svg",
+      "status": 200,
+      "bytes": 127
+    }
+  ],
+  "visual": {
+    "method": "Offline resvg render of exactly scene.svg, manually inspected",
+    "file": "assembly-render.png",
+    "size": [
+      1536,
+      1024
+    ]
+  },
+  "browser": {
+    "status": "unverified",
+    "reason": "Browser runtime import failed: EPERM realpath browser-client.mjs. HTTP and offline SVG rendering do not establish browser screenshot, layout or font loading verification."
+  }
+}

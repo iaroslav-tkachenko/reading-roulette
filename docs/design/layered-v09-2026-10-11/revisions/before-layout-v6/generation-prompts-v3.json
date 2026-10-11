@@ -1,0 +1,14 @@
+{
+  "chassis-v2.png": {
+    "file": "chassis-v2.png",
+    "source": "chassis-v1.png",
+    "transparent": true,
+    "prompt": "Use case: precise-object-edit. Edit target: the attached transparent burgundy machine chassis. Produce ONE separate transparent PNG chassis asset, no background. Preserve the beautiful worn red enamel, warm brass edging, frontal symmetry, original slightly elevated viewing angle, wide trapezoidal keyboard deck, dark front face, paper outlet and feet. Change only the depth of the empty TOP keyboard platform: make its visible front-to-back depth about 35 percent greater, extending the front rim downward while leaving the back rim and overall width fixed. The upper empty flat platform needs generous space for two rows of keys with clear padding on both sides. Keep the front vertical face the same height and move it down with the rim. Overall silhouette becomes modestly taller (target visible width:height about 3.6:1 rather than 4.1:1). No keys, no buttons, no machine upper mechanism, no text. Fully transparent background, preserve clean alpha edges."
+  },
+  "study-clear-v3.png": {
+    "file": "study-clear-v3.png",
+    "source": "study-expanded-v2.png",
+    "transparent": false,
+    "prompt": "Use case: precise-object-edit. Edit target: attached evening study background, for an independently composited machine. Preserve the painterly realistic exquisite worn dark teal plaster, golden brass lamp, warm wooden desktop, old books, left window and right shelves, same palette and warm evening lighting. Recompose to give the central machine much more breathing room: central 65 percent of image width must be quiet uninterrupted dark teal wall above and open wooden desktop below. Remove the small pinned maps/papers from the central upper wall. Move the lamp much farther left and make it slightly smaller: its shade and stem entirely within the left 16 percent, with the arm not reaching across the center. Keep left book piles within left 12 percent, sparse rather than dense. Move right shelf's globe and pen cup to the far right 12 percent, with smaller scale, subdued contrast and fewer neighboring items; no objects protruding toward the center. Keep recognizable beautiful study details at far edges, don't invent new props. Wall-to-desktop meeting around 48 percent image height; uninterrupted tabletop continues below the bottom edge with no visible vertical front edge. NO machine, NO UI, NO text, NO typography. Wide landscape background with ample safe area around central foreground machine, not a flat generic room."
+  }
+}

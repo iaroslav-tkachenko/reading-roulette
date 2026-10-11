@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10",
+  "surface": "simulated DOM/clock, actual preview.ts and catalogs",
+  "checks": [
+    "single selection; repeated activation ignored; old prompt/copy guarded; 16/23/30 positions",
+    "intermediate Angle labels respect the prepared format compatibility",
+    "ordered stops; remaining reels still fast; atomic final prompt; all decorations stop",
+    "reduced motion commits without any animation or artificial delay",
+    "mobile amplitudes; resize interrupts cleanly",
+    "long fixtures use dense sizing and preserve the full final text",
+    "hidden document commits the already chosen result and cancels all effects",
+    "stale clipboard completion cannot replace spin status; reduce during spin cancels effects",
+    "clipboard rejection leaves manual copy and retry available",
+    "watchdog recovers from missing animation completion",
+    "pagehide cleanup and back-forward cache restoration do not leave busy controls",
+    "selection error occurs before success animation and releases controls"
+  ],
+  "count": 12,
+  "notVerified": [
+    "Browser rendering, CSS layout and mask geometry",
+    "Real animation frame scheduling/fps",
+    "Browser clipboard, focus, keyboard and screen reader"
+  ]
+}

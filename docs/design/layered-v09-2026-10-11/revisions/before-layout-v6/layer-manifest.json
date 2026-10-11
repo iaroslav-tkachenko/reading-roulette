@@ -1,0 +1,484 @@
+{
+  "revision": 5,
+  "machineArtboard": [
+    1536,
+    805
+  ],
+  "machineViewBox": [
+    0,
+    64,
+    1536,
+    805
+  ],
+  "illustrationArtboard": [
+    1920,
+    1614
+  ],
+  "viewportIllustration": [
+    1920,
+    1000
+  ],
+  "background": {
+    "asset": "study-clear-v3.png",
+    "width": 1585,
+    "height": 992,
+    "placement": "Absolute document backdrop; wall/desk boundary scales with machine; all layers scroll together",
+    "geometry": {
+      "machineWidth": 1536,
+      "referenceWidth": 1920,
+      "wallY": 594,
+      "sourceWallY": 573
+    },
+    "frontDeskEdge": false
+  },
+  "uniqueRuntimePngs": 9,
+  "machineRasterInstances": 28,
+  "paperRasterInstances": 2,
+  "backgroundRasterInstances": 4,
+  "totalArtworkInstances": 34,
+  "prompt": {
+    "source": "src/prompt/buildPrompt.ts",
+    "characters": 1088,
+    "paragraphs": 9,
+    "behavior": "Full HTML text; natural wrapping and page scrolling; no textarea or internal scroll area"
+  },
+  "changes": {
+    "compositionLift": 64,
+    "helpPopupVisible": false,
+    "sourceDeckFrontRimY": 748,
+    "keyRowsY": [
+      623,
+      663
+    ],
+    "keyLetterBaselineOffset": 25,
+    "keyLetterFontSize": 21,
+    "spinAsset": "spin-button-v3.png",
+    "settingsPanelY": 258,
+    "settingsLabelBaseline": 296,
+    "settingsFieldTop": 310,
+    "promptScrollCue": true,
+    "subtitleBaseline": 225
+  },
+  "placements": [
+    {
+      "id": "chassis",
+      "asset": "chassis-v2.png",
+      "x": 195,
+      "y": 515,
+      "width": 1145,
+      "height": 353.848,
+      "mirror": false,
+      "sourceBounds": [
+        20,
+        66,
+        2078,
+        702
+      ]
+    },
+    {
+      "id": "settings-panel",
+      "asset": "settings-v2.png",
+      "x": 313,
+      "y": 258,
+      "width": 910,
+      "height": 151.978,
+      "mirror": false,
+      "sourceBounds": [
+        114,
+        202,
+        2060,
+        527
+      ]
+    },
+    {
+      "id": "drum-1",
+      "asset": "drum-v1.png",
+      "x": 365,
+      "y": 395,
+      "width": 282,
+      "height": 171.94,
+      "mirror": false,
+      "sourceBounds": [
+        97,
+        172,
+        1332,
+        925
+      ]
+    },
+    {
+      "id": "drum-2",
+      "asset": "drum-v1.png",
+      "x": 638,
+      "y": 395,
+      "width": 282,
+      "height": 171.94,
+      "mirror": false,
+      "sourceBounds": [
+        97,
+        172,
+        1332,
+        925
+      ]
+    },
+    {
+      "id": "drum-3",
+      "asset": "drum-v1.png",
+      "x": 910,
+      "y": 395,
+      "width": 282,
+      "height": 171.94,
+      "mirror": false,
+      "sourceBounds": [
+        97,
+        172,
+        1332,
+        925
+      ]
+    },
+    {
+      "id": "left-wheel",
+      "asset": "wheel-v1.png",
+      "x": 250,
+      "y": 343,
+      "width": 62,
+      "height": 107.129,
+      "mirror": false,
+      "sourceBounds": [
+        125,
+        170,
+        871,
+        1459
+      ]
+    },
+    {
+      "id": "right-wheel",
+      "asset": "wheel-v1.png",
+      "x": 1224,
+      "y": 343,
+      "width": 62,
+      "height": 107.129,
+      "mirror": true,
+      "sourceBounds": [
+        125,
+        170,
+        871,
+        1459
+      ]
+    },
+    {
+      "id": "mechanical-cradle",
+      "asset": "mechanism-v2.png",
+      "x": 294,
+      "y": 333,
+      "width": 950,
+      "height": 256.202,
+      "mirror": false,
+      "sourceBounds": [
+        106,
+        90,
+        2049,
+        614
+      ]
+    },
+    {
+      "id": "key-art-Q",
+      "asset": "key-v1.png",
+      "x": 302,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-W",
+      "asset": "key-v1.png",
+      "x": 365,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-E",
+      "asset": "key-v1.png",
+      "x": 428,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-R",
+      "asset": "key-v1.png",
+      "x": 491,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-T",
+      "asset": "key-v1.png",
+      "x": 554,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-A",
+      "asset": "key-v1.png",
+      "x": 324,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-S",
+      "asset": "key-v1.png",
+      "x": 387,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-D",
+      "asset": "key-v1.png",
+      "x": 450,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-F",
+      "asset": "key-v1.png",
+      "x": 513,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-G",
+      "asset": "key-v1.png",
+      "x": 576,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-Y",
+      "asset": "key-v1.png",
+      "x": 951,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-U",
+      "asset": "key-v1.png",
+      "x": 1014,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-I",
+      "asset": "key-v1.png",
+      "x": 1077,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-O",
+      "asset": "key-v1.png",
+      "x": 1140,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-P",
+      "asset": "key-v1.png",
+      "x": 1203,
+      "y": 623,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-H",
+      "asset": "key-v1.png",
+      "x": 982,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-J",
+      "asset": "key-v1.png",
+      "x": 1045,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-K",
+      "asset": "key-v1.png",
+      "x": 1108,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-L",
+      "asset": "key-v1.png",
+      "x": 1171,
+      "y": 663,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "spin-button",
+      "asset": "spin-button-v3.png",
+      "x": 635,
+      "y": 625,
+      "width": 298,
+      "height": 87.638,
+      "mirror": false,
+      "sourceBounds": [
+        88,
+        77,
+        2050,
+        654
+      ]
+    }
+  ]
+}

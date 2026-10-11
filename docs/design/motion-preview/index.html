@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#26343e" />
-    <title>Reading Roulette · Motion preview</title>
+    <title>Reading Roulette · Motion v2 preview</title>
     <link rel="stylesheet" href="./preview.css" />
   </head>
   <body>
     <aside class="review-bar" aria-label="Prototype review controls">
-      <span>Motion study <span class="review-note">· simplified artwork · local prototype</span></span>
+      <span>Motion v2 <span class="review-note">· simplified artwork · starter catalogs</span></span>
       <div class="review-options">
         <label><input id="long-test" type="checkbox" /> Next spin: long labels</label>
         <label><input id="reduce-test" type="checkbox" /> Without motion</label>
@@ -22,6 +22,9 @@
         <p class="subtitle">Try your luck. Find your next great read.</p>
       </header>
       <section class="machine" aria-label="Reading roulette machine">
+        <span id="wheel-left" class="wheel wheel-left" aria-hidden="true"></span>
+        <span id="wheel-right" class="wheel wheel-right" aria-hidden="true"></span>
+        <span id="mobile-tab" class="mobile-tab" aria-hidden="true"></span>
         <div class="settings">
           <label class="language-field">Language<select id="language"></select><span class="helper" aria-hidden="true">&nbsp;</span></label>
           <label>CEFR Level<select id="level"></select><span class="helper" aria-hidden="true">&nbsp;</span></label>
@@ -30,9 +33,9 @@
         <dl id="semantic-result" class="sr-only" aria-label="Current reading combination" aria-busy="false"></dl>
         <div id="reels" class="reels" aria-hidden="true"></div>
         <div class="keyboard">
-          <div class="decor-keys" aria-hidden="true"><span>Q</span><span>W</span><span>E</span><span>A</span><span>S</span><span>D</span></div>
-          <button id="spin" type="button" aria-describedby="spin-note"><span aria-hidden="true">↻</span> <span id="spin-label">SPIN</span></button>
-          <div class="decor-keys" aria-hidden="true"><span>I</span><span>O</span><span>P</span><span>J</span><span>K</span><span>L</span></div>
+          <div class="decor-keys" aria-hidden="true"><span id="key-q">Q</span><span>W</span><span>E</span><span>A</span><span id="key-s">S</span><span>D</span></div>
+          <button id="spin" type="button" aria-describedby="spin-note"><span id="spin-face" class="spin-face"><span aria-hidden="true">↻</span><span id="spin-label">SPIN</span></span></button>
+          <div class="decor-keys" aria-hidden="true"><span>I</span><span id="key-o">O</span><span>P</span><span id="key-j">J</span><span>K</span><span>L</span></div>
         </div>
         <p id="spin-note" class="sr-only">Choose a topic, format and compatible angle — the specific idea to explore. Repeats are possible.</p>
       </section>
@@ -44,7 +47,7 @@
         <p id="visible-status" class="status"></p>
       </section>
       <p id="announce" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
-      <footer><p>Choose your settings. Spin the machine. Take the prompt to your favourite AI chat.</p><output id="review-metric" aria-live="off">Ready to try · Topic → Format → Angle · 1.48 s</output></footer>
+      <footer><p>Choose your settings. Spin the machine. Take the prompt to your favourite AI chat.</p><output id="review-metric" aria-live="off">Motion v2 · 16 / 23 / 30 positions · 2.44 s</output></footer>
     </main>
     <dialog id="help" aria-labelledby="help-title">
       <h2 id="help-title">How to use</h2>
