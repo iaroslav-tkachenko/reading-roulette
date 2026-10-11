@@ -6,6 +6,8 @@ import { formats } from '../../../src/data/formats'
 import { angles } from '../../../src/data/angles'
 import { buildPrompt } from '../../../src/prompt/buildPrompt'
 import { selectReadingCombination } from '../../../src/random/selectReadingCombination'
+import { checkCombination } from '../../../src/random/compatibility'
+import { initialCombination } from '../../../src/components/scene/initialReading'
 import type { CefrLevel, ReadingCombination, ReadingSettings, TextLength } from '../../../src/types/reading'
 
 function element<T extends HTMLElement>(id: string): T {
@@ -43,7 +45,7 @@ language.value = 'en'
 level.value = 'B1+'
 length.value = 'medium'
 
-let current: ReadingCombination = { topic: topics[1], format: formats[1], angle: angles[0] }
+let current: ReadingCombination | null = initialCombination
 let settings: ReadingSettings
 let prompt = ''
 let spinId = 0
@@ -85,14 +87,14 @@ function readSettings(): ReadingSettings {
 function renderPrompt(next: string) {
   if (prompt !== next) { preview.value = next; preview.scrollTop = 0; prompt = next }
   preview.classList.toggle('spacious', next.length > 1000 || reelGrid.classList.contains('dense'))
-  element('word-range').textContent = getTextLength(settings).description
+  element('word-range').textContent = current ? getTextLength(settings, current.format).description : 'Press SPIN to find a text'
 }
 
 function semantic() {
   semanticResult.replaceChildren(...definitions.map(({ key, title }) => {
     const row = document.createElement('div')
     const label = document.createElement('dt'); label.textContent = title
-    const value = document.createElement('dd'); value.textContent = current[key].label
+    const value = document.createElement('dd'); value.textContent = current?.[key].label ?? 'Press SPIN'
     row.append(label, value); return row
   }))
 }
@@ -116,8 +118,12 @@ function settleReel(i: number, combination: ReadingCombination) {
   node.track.hidden = true
 }
 
-function renderStill(combination: ReadingCombination) {
-  definitions.forEach((_, i) => settleReel(i, combination))
+function renderStill(combination: ReadingCombination | null) {
+  if (combination) definitions.forEach((_, i) => settleReel(i, combination))
+  else for (const node of reelNodes) {
+    node.still.textContent = 'Press SPIN'; node.before.textContent = ''; node.after.textContent = ''
+    node.root.classList.remove('moving'); node.root.dataset.state = 'settled'; node.track.hidden = true
+  }
 }
 
 function reserve(sequences: readonly (readonly string[])[]) {
@@ -135,7 +141,7 @@ function availability() {
   spin.setAttribute('aria-disabled', String(busy))
   element('spin-label').textContent = busy ? 'SPINNING…' : 'SPIN'
   semanticResult.setAttribute('aria-busy', String(busy))
-  copy.disabled = busy || copyPending
+  copy.disabled = busy || copyPending || !current || !prompt
   document.body.dataset.busy = String(busy)
 }
 
@@ -150,7 +156,7 @@ function finish(id: number, reason = 'complete') {
   semantic()
   renderPrompt(run.nextPrompt)
   availability()
-  const full = definitions.map(item => current[item.key].label).join('. ')
+  const full = definitions.map(item => run.next[item.key].label).join('. ')
   message('Prompt ready. Copy it to your AI chat.', 'normal', `New combination: ${full}. Prompt ready.`)
   metric.textContent = `Motion v2 · ${Math.round(performance.now() - run.started)} ms · stops: ${run.stops.join(' / ') || 'immediate'} ms · ${reason}`
   document.body.dataset.spinCount = String(spinCount)
@@ -161,9 +167,10 @@ function reduced() { return reduceTest.checked || motionPreference.matches }
 
 function longCombination(next: ReadingCombination): ReadingCombination {
   return {
-    topic: { ...next.topic, id: 'preview-train-journey', label: 'An unexpected discovery during a train journey', promptHint: 'An unexpected discovery on a train.' },
-    format: { ...next.format, id: 'preview-conversation', label: 'A conversation between two unlikely friends', promptHint: 'A dialogue between two unlikely friends.', angleIds: ['preview-change-of-plans'] },
-    angle: { ...next.angle, id: 'preview-change-of-plans', label: 'An unexpected change of plans', promptHint: 'Focus on an unexpected change of plans during the journey.' },
+    // Display-only stress labels; canonical IDs keep buildPrompt validation intact.
+    topic: { ...next.topic, label: 'An unexpected discovery during a train journey' },
+    format: { ...next.format, label: 'A conversation between two unlikely friends' },
+    angle: { ...next.angle, label: 'An unexpected change of plans' },
   }
 }
 
@@ -172,12 +179,12 @@ function sequencesFor(next: ReadingCombination) {
     const pool = poolFor(key, next)
     const middle: string[] = []
     for (let i = 0; i < n - 1; i++) {
-      const previous = middle.at(-1) ?? current[key].label
+      const previous = middle.at(-1) ?? current?.[key].label ?? 'Press SPIN'
       let index = (i + spinCount) % pool.length
       if (pool.length > 1 && pool[index] === previous) index = (index + 1) % pool.length
       middle.push(pool[index])
     }
-    return [pool.at(-1)!, current[key].label, ...middle, next[key].label, pool[0]]
+    return [pool.at(-1)!, current?.[key].label ?? 'Press SPIN', ...middle, next[key].label, pool[0]]
   })
 }
 
@@ -245,9 +252,9 @@ function spinOnce() {
   let draws = 0
   const started = performance.now()
   try {
-    let next = selectReadingCombination(() => { draws++; return Math.random() })
-    if (longTest.checked) next = longCombination(next)
     settings = readSettings()
+    let next = selectReadingCombination(settings, () => { draws++; return Math.random() })
+    if (longTest.checked) next = longCombination(next)
     const nextPrompt = buildPrompt(settings, next)
     copyId++
     copyPending = false
@@ -320,13 +327,14 @@ for (const select of [language, level, length]) select.addEventListener('change'
   copyPending = false
   copy.textContent = 'Copy prompt'
   settings = readSettings()
-  renderPrompt(buildPrompt(settings, current))
-  message('')
+  const checked = current ? checkCombination(settings, current) : null
+  if (checked?.valid && current) { renderPrompt(buildPrompt(settings, current)); message('') }
+  else { current = null; renderStill(null); semantic(); renderPrompt(''); message(checked?.reason || 'Press SPIN to find a text.', 'error') }
   availability()
 })
 
 copy.addEventListener('click', async () => {
-  if (active || copyPending) return
+  if (active || copyPending || !current || !prompt) return
   const id = ++copyId
   const copied = prompt
   copyPending = true
@@ -380,8 +388,8 @@ if (import.meta.hot) import.meta.hot.dispose(() => {
 })
 
 settings = readSettings()
-reserve(definitions.map(({ key }) => [current[key].label]))
+reserve(definitions.map(({ key }) => [current?.[key].label ?? 'Press SPIN']))
 renderStill(current)
 semantic()
-renderPrompt(buildPrompt(settings, current))
+renderPrompt(current ? buildPrompt(settings, current) : '')
 availability()

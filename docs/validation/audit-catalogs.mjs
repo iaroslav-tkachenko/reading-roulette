@@ -213,7 +213,7 @@ for (const file of documents) {
   }
 }
 const evidence = {
-  date: '2026-10-09', scope: 'Approved document metadata and authored review scenarios; not full runtime compatibility',
+  date: '2026-10-11', scope: 'Approved document metadata and authored review scenarios; full runtime compatibility is checked separately by the step 10 runtime audit',
   counts: { topics: topics.size, formats: formats.size, angles: angles.size, families: families.length, levels: profiles.size, lengths: lengths.length },
   familyNames: families, modelCounts,
   statusCounts: Object.fromEntries(statuses.map(status => [status, [...formats.values()].filter(item => item.status === status).length])),
@@ -222,5 +222,5 @@ const evidence = {
   documents: documents.length, localLinks,
   notVerified: ['Complete production Topic/Format/Angle allowlist and per-profile wording', 'Generated external reading texts, actual news sources, and image output', 'Browser interaction, clipboard, screen reader, and animation rendering'],
 }
-fs.writeFileSync(path.join(root, 'docs/validation/catalog-audit-2026-10-09.json'), `${JSON.stringify(evidence, null, 2)}\n`)
+fs.writeFileSync(path.join(root, 'docs/design/implementation-step10-v10/catalog-metadata-verification.json'), `${JSON.stringify(evidence, null, 2)}\n`)
 console.log(JSON.stringify({ ...evidence.counts, formatLevelLengthChecks: evidence.formatLevelLengthChecks, settingsCases: settings.length, authoredScenarios: scenarioChecks.length, boundaryCases: boundaryCases.length, documents: documents.length, localLinks, statusCounts: evidence.statusCounts, normalizedA2Long: lookup('A2', 'long').normalizedWeights, normalizedB1MinusLong: lookup('B1-', 'long').normalizedWeights }, null, 2))

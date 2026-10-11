@@ -1,0 +1,754 @@
+{
+  "counts": {
+    "topics": 26,
+    "formats": 44,
+    "angles": 30,
+    "languages": 11,
+    "levels": 15,
+    "lengths": 3
+  },
+  "exhaustive": {
+    "accepted": 134550,
+    "rejected": 1409850,
+    "prompts": 1480050,
+    "uniformBranches": 134550
+  },
+  "matrix": [
+    {
+      "level": "A1",
+      "length": "short",
+      "profile": "A1",
+      "formats": 15,
+      "combinations": 843,
+      "coldPoolMs": 6.19,
+      "probabilities": {
+        "fiction": 0.15,
+        "information": 0.1,
+        "opinion": 0,
+        "personal": 0.25,
+        "practical": 0.2,
+        "visual": 0.3
+      }
+    },
+    {
+      "level": "A1",
+      "length": "medium",
+      "profile": "A1",
+      "formats": 11,
+      "combinations": 645,
+      "coldPoolMs": 5.95,
+      "probabilities": {
+        "fiction": 0.15,
+        "information": 0.1,
+        "opinion": 0,
+        "personal": 0.25,
+        "practical": 0.2,
+        "visual": 0.3
+      }
+    },
+    {
+      "level": "A1",
+      "length": "long",
+      "profile": "A1",
+      "formats": 10,
+      "combinations": 575,
+      "coldPoolMs": 3.74,
+      "probabilities": {
+        "fiction": 0.15,
+        "information": 0.1,
+        "opinion": 0,
+        "personal": 0.25,
+        "practical": 0.2,
+        "visual": 0.3
+      }
+    },
+    {
+      "level": "A1+",
+      "length": "short",
+      "profile": "A1",
+      "formats": 15,
+      "combinations": 843,
+      "coldPoolMs": 7.78,
+      "probabilities": {
+        "fiction": 0.15,
+        "information": 0.1,
+        "opinion": 0,
+        "personal": 0.25,
+        "practical": 0.2,
+        "visual": 0.3
+      }
+    },
+    {
+      "level": "A1+",
+      "length": "medium",
+      "profile": "A1",
+      "formats": 11,
+      "combinations": 645,
+      "coldPoolMs": 4.19,
+      "probabilities": {
+        "fiction": 0.15,
+        "information": 0.1,
+        "opinion": 0,
+        "personal": 0.25,
+        "practical": 0.2,
+        "visual": 0.3
+      }
+    },
+    {
+      "level": "A1+",
+      "length": "long",
+      "profile": "A1",
+      "formats": 10,
+      "combinations": 575,
+      "coldPoolMs": 4.92,
+      "probabilities": {
+        "fiction": 0.15,
+        "information": 0.1,
+        "opinion": 0,
+        "personal": 0.25,
+        "practical": 0.2,
+        "visual": 0.3
+      }
+    },
+    {
+      "level": "A2-",
+      "length": "short",
+      "profile": "A1",
+      "formats": 15,
+      "combinations": 843,
+      "coldPoolMs": 6.1,
+      "probabilities": {
+        "fiction": 0.21052631578947367,
+        "information": 0.15789473684210525,
+        "opinion": 0,
+        "personal": 0.2631578947368421,
+        "practical": 0.15789473684210525,
+        "visual": 0.21052631578947367
+      }
+    },
+    {
+      "level": "A2-",
+      "length": "medium",
+      "profile": "A1",
+      "formats": 11,
+      "combinations": 645,
+      "coldPoolMs": 9.34,
+      "probabilities": {
+        "fiction": 0.21052631578947367,
+        "information": 0.15789473684210525,
+        "opinion": 0,
+        "personal": 0.2631578947368421,
+        "practical": 0.15789473684210525,
+        "visual": 0.21052631578947367
+      }
+    },
+    {
+      "level": "A2-",
+      "length": "long",
+      "profile": "A1",
+      "formats": 10,
+      "combinations": 575,
+      "coldPoolMs": 5.63,
+      "probabilities": {
+        "fiction": 0.21052631578947367,
+        "information": 0.15789473684210525,
+        "opinion": 0,
+        "personal": 0.2631578947368421,
+        "practical": 0.15789473684210525,
+        "visual": 0.21052631578947367
+      }
+    },
+    {
+      "level": "A2",
+      "length": "short",
+      "profile": "A2",
+      "formats": 29,
+      "combinations": 2848,
+      "coldPoolMs": 33.02,
+      "probabilities": {
+        "fiction": 0.2,
+        "information": 0.15,
+        "opinion": 0.05,
+        "personal": 0.25,
+        "practical": 0.15,
+        "visual": 0.2
+      }
+    },
+    {
+      "level": "A2",
+      "length": "medium",
+      "profile": "A2",
+      "formats": 25,
+      "combinations": 2619,
+      "coldPoolMs": 36.01,
+      "probabilities": {
+        "fiction": 0.2,
+        "information": 0.15,
+        "opinion": 0.05,
+        "personal": 0.25,
+        "practical": 0.15,
+        "visual": 0.2
+      }
+    },
+    {
+      "level": "A2",
+      "length": "long",
+      "profile": "A2",
+      "formats": 19,
+      "combinations": 2285,
+      "coldPoolMs": 22.93,
+      "probabilities": {
+        "fiction": 0.21052631578947367,
+        "information": 0.15789473684210525,
+        "opinion": 0,
+        "personal": 0.2631578947368421,
+        "practical": 0.15789473684210525,
+        "visual": 0.21052631578947367
+      }
+    },
+    {
+      "level": "A2+",
+      "length": "short",
+      "profile": "A2",
+      "formats": 29,
+      "combinations": 2848,
+      "coldPoolMs": 22.5,
+      "probabilities": {
+        "fiction": 0.2,
+        "information": 0.15,
+        "opinion": 0.05,
+        "personal": 0.25,
+        "practical": 0.15,
+        "visual": 0.2
+      }
+    },
+    {
+      "level": "A2+",
+      "length": "medium",
+      "profile": "A2",
+      "formats": 25,
+      "combinations": 2619,
+      "coldPoolMs": 16.51,
+      "probabilities": {
+        "fiction": 0.2,
+        "information": 0.15,
+        "opinion": 0.05,
+        "personal": 0.25,
+        "practical": 0.15,
+        "visual": 0.2
+      }
+    },
+    {
+      "level": "A2+",
+      "length": "long",
+      "profile": "A2",
+      "formats": 19,
+      "combinations": 2285,
+      "coldPoolMs": 12.63,
+      "probabilities": {
+        "fiction": 0.21052631578947367,
+        "information": 0.15789473684210525,
+        "opinion": 0,
+        "personal": 0.2631578947368421,
+        "practical": 0.15789473684210525,
+        "visual": 0.21052631578947367
+      }
+    },
+    {
+      "level": "B1-",
+      "length": "short",
+      "profile": "A2",
+      "formats": 29,
+      "combinations": 2848,
+      "coldPoolMs": 12.22,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1-",
+      "length": "medium",
+      "profile": "A2",
+      "formats": 25,
+      "combinations": 2619,
+      "coldPoolMs": 15.81,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1-",
+      "length": "long",
+      "profile": "A2",
+      "formats": 19,
+      "combinations": 2285,
+      "coldPoolMs": 7.12,
+      "probabilities": {
+        "fiction": 0.2777777777777778,
+        "information": 0.2222222222222222,
+        "opinion": 0,
+        "personal": 0.2222222222222222,
+        "practical": 0.16666666666666666,
+        "visual": 0.1111111111111111
+      }
+    },
+    {
+      "level": "B1",
+      "length": "short",
+      "profile": "B1",
+      "formats": 41,
+      "combinations": 4024,
+      "coldPoolMs": 42.3,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1",
+      "length": "medium",
+      "profile": "B1",
+      "formats": 37,
+      "combinations": 3808,
+      "coldPoolMs": 17.18,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1",
+      "length": "long",
+      "profile": "B1",
+      "formats": 29,
+      "combinations": 3361,
+      "coldPoolMs": 14.1,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1+",
+      "length": "short",
+      "profile": "B1",
+      "formats": 41,
+      "combinations": 4024,
+      "coldPoolMs": 20.72,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1+",
+      "length": "medium",
+      "profile": "B1",
+      "formats": 37,
+      "combinations": 3808,
+      "coldPoolMs": 18.3,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B1+",
+      "length": "long",
+      "profile": "B1",
+      "formats": 29,
+      "combinations": 3361,
+      "coldPoolMs": 14.68,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.1,
+        "personal": 0.2,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2-",
+      "length": "short",
+      "profile": "B1",
+      "formats": 41,
+      "combinations": 4024,
+      "coldPoolMs": 17.7,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2-",
+      "length": "medium",
+      "profile": "B1",
+      "formats": 37,
+      "combinations": 3808,
+      "coldPoolMs": 19.07,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2-",
+      "length": "long",
+      "profile": "B1",
+      "formats": 29,
+      "combinations": 3361,
+      "coldPoolMs": 17.11,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2",
+      "length": "short",
+      "profile": "B2",
+      "formats": 44,
+      "combinations": 4206,
+      "coldPoolMs": 19.73,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2",
+      "length": "medium",
+      "profile": "B2",
+      "formats": 40,
+      "combinations": 4081,
+      "coldPoolMs": 16.79,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2",
+      "length": "long",
+      "profile": "B2",
+      "formats": 32,
+      "combinations": 3634,
+      "coldPoolMs": 14.07,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2+",
+      "length": "short",
+      "profile": "B2",
+      "formats": 44,
+      "combinations": 4206,
+      "coldPoolMs": 25.89,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2+",
+      "length": "medium",
+      "profile": "B2",
+      "formats": 40,
+      "combinations": 4081,
+      "coldPoolMs": 26.7,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "B2+",
+      "length": "long",
+      "profile": "B2",
+      "formats": 32,
+      "combinations": 3634,
+      "coldPoolMs": 16.16,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.15,
+        "personal": 0.15,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1-",
+      "length": "short",
+      "profile": "B2",
+      "formats": 44,
+      "combinations": 4206,
+      "coldPoolMs": 18.61,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1-",
+      "length": "medium",
+      "profile": "B2",
+      "formats": 40,
+      "combinations": 4081,
+      "coldPoolMs": 20.39,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1-",
+      "length": "long",
+      "profile": "B2",
+      "formats": 32,
+      "combinations": 3634,
+      "coldPoolMs": 14.37,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1",
+      "length": "short",
+      "profile": "C1+",
+      "formats": 44,
+      "combinations": 4206,
+      "coldPoolMs": 18.76,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1",
+      "length": "medium",
+      "profile": "C1+",
+      "formats": 40,
+      "combinations": 4081,
+      "coldPoolMs": 27.6,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1",
+      "length": "long",
+      "profile": "C1+",
+      "formats": 32,
+      "combinations": 3634,
+      "coldPoolMs": 12.42,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1+",
+      "length": "short",
+      "profile": "C1+",
+      "formats": 44,
+      "combinations": 4206,
+      "coldPoolMs": 20.16,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1+",
+      "length": "medium",
+      "profile": "C1+",
+      "formats": 40,
+      "combinations": 4081,
+      "coldPoolMs": 39.91,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C1+",
+      "length": "long",
+      "profile": "C1+",
+      "formats": 32,
+      "combinations": 3634,
+      "coldPoolMs": 30.28,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C2",
+      "length": "short",
+      "profile": "C1+",
+      "formats": 44,
+      "combinations": 4206,
+      "coldPoolMs": 16.99,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C2",
+      "length": "medium",
+      "profile": "C1+",
+      "formats": 40,
+      "combinations": 4081,
+      "coldPoolMs": 38.28,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    },
+    {
+      "level": "C2",
+      "length": "long",
+      "profile": "C1+",
+      "formats": 32,
+      "combinations": 3634,
+      "coldPoolMs": 93.74,
+      "probabilities": {
+        "fiction": 0.25,
+        "information": 0.2,
+        "opinion": 0.2,
+        "personal": 0.1,
+        "practical": 0.15,
+        "visual": 0.1
+      }
+    }
+  ],
+  "boundaries": 14,
+  "randomSeed": "0x51a10",
+  "invalidRandomSamples": 20,
+  "coverage": {
+    "topics": 26,
+    "formats": 44,
+    "angles": 30
+  },
+  "durationMs": 16648,
+  "stateAndClipboard": "passed",
+  "feedback": "passed",
+  "browser": "unverified: in-app Browser EPERM; no external browser launched",
+  "date": "2026-10-11",
+  "scope": "Full approved runtime; seeded exhaustive algorithm/prompt/state checks, not browser rendering or system clipboard",
+  "documents": 48,
+  "localLinks": 314
+}

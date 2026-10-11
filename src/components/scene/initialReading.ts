@@ -3,11 +3,12 @@ import { topics } from '../../data/topics'
 import { formats } from '../../data/formats'
 import { angles } from '../../data/angles'
 import { buildPrompt } from '../../prompt/buildPrompt'
+import { legacyFormatIds } from '../../data/legacyIds'
 import type { ReadingCombination, ReadingSettings } from '../../types/reading'
 
 const language = languages.find(item => item.code === 'en')
 const topic = topics.find(item => item.id === 'travel')
-const format = formats.find(item => item.id === 'short-story')
+const format = formats.find(item => item.id === legacyFormatIds['short-story'])
 const angle = angles.find(item => item.id === 'unexpected-discovery')
 
 if (!language || !topic || !format || !angle) {

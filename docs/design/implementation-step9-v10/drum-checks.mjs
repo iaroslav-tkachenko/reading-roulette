@@ -26,8 +26,10 @@ export function fakeAnimationClock() {
 }
 
 export async function checkDrums(api) {
-  const {topics,formats,angles,initial,buildPrompt,prepareSvgDrums,svgDrumFrames,playSvgDrums,createDrumSpinController,createSpinPress,createSpinPressHandlers}=api;
-  const combinations=topics.flatMap(topic=>formats.flatMap(format=>format.angleIds.map(id=>({topic,format,angle:angles.find(angle=>angle.id===id)}))));
+  const {topics,formats,angles,initial,buildPrompt,prepareSvgDrums,svgDrumFrames,playSvgDrums,createDrumSpinController,createSpinPress,createSpinPressHandlers,enumerateCombinations}=api;
+  const allowed=enumerateCombinations({...initial.initialSettings,cefrLevel:'C2',textLength:'short'});
+  const combinations=formats.map(format=>allowed.find(c=>c.format.id===format.id));
+  assert.ok(combinations.every(Boolean));
   const initialSnapshot={settings:initial.initialSettings,combination:initial.initialCombination,prompt:initial.initialPrompt,revision:0,spinCount:0};
   let transitions=0;
   for(const from of combinations)for(const to of combinations){
@@ -53,11 +55,11 @@ export async function checkDrums(api) {
     }
     transitions++;
   }
-  const scenarios=['All 729 source/target transitions preserve real labels, compatible final neighbors, exact landing and phase offsets'];
+  const scenarios=['All 1936 transitions between representatives of all 44 formats preserve real labels, compatible final neighbors, exact landing and phase offsets'];
 
   let draws=0, builds=0;
   const changes=[];
-  const next=combinations.at(-1);
+  const next=combinations.find(c=>c.format.id==='everyday-story');
   const controller=createDrumSpinController(initialSnapshot,state=>changes.push(state),()=>{draws++;return next;},(settings,combination)=>{builds++;return buildPrompt(settings,combination);});
   controller.start();
   const run=controller.getState().run;
@@ -91,7 +93,7 @@ export async function checkDrums(api) {
 
   controller.changeSettings({...initialSnapshot.settings,cefrLevel:'A1'});
   assert.equal(controller.getState().snapshot.settings.cefrLevel,'A1');
-  assert.equal(controller.getState().snapshot.combination,next);
+  assert.deepEqual(controller.getState().snapshot.combination,next);
   assert.equal(controller.getState().snapshot.prompt,buildPrompt(controller.getState().snapshot.settings,next));
   controller.start(true);assert.equal(controller.isBusy(),false);assert.equal(controller.getState().snapshot.spinCount,3);
   scenarios.push('Settings work again after commit; reduced motion/hidden/no-WAAPI immediate mode has no busy run');

@@ -9,7 +9,7 @@ import type { DrumSpinRun } from '../../motion/drumSpinController'
 
 interface MachineSceneProps {
   settings: ReadingSettings
-  combination: ReadingCombination
+  combination: ReadingCombination | null
   onSettingsChange: (settings: ReadingSettings) => void
   onSpin: () => void
   run?: DrumSpinRun | null
@@ -21,7 +21,7 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
   return (
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 64 1536 754" width="1536" height="754" role="group" aria-labelledby="scene-title" aria-describedby="scene-desc">
 <title id="scene-title">Reading Roulette</title>
-<desc id="scene-desc">Choose a language, CEFR level and text length, then press SPIN for a random result. Current combination: {combination.topic.label}, {combination.format.label}, {combination.angle.label}.</desc>
+<desc id="scene-desc">Choose a language, CEFR level and text length, then press SPIN for a random result. {combination ? `Current combination: ${combination.topic.label}, ${combination.format.label}, ${combination.angle.label}.` : 'Press SPIN to find a text for these settings.'}</desc>
 <defs>
   <linearGradient id="field" x2="0" y2="1">
 <stop stopColor="#fff8ed" stopOpacity=".92"/>
@@ -55,7 +55,7 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 <image href={artwork['settings-v2.png']} width="2172" height="724"/>
 </svg>
 </g>
-<MachineSettings settings={settings} onChange={onSettingsChange} disabled={!!run} />
+<MachineSettings settings={settings} combination={combination} onChange={onSettingsChange} disabled={!!run} />
 <g id="drum-paper" data-layer="drum-paper">
 <title>Three independent parchment cylinders behind the metal cradle</title>
 <g clipPath="url(#drum-area)">
@@ -79,7 +79,7 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 </g>
 </g>
 </g>
-<DrumTypography combination={combination} run={run} onComplete={onSpinComplete} />
+<DrumTypography combination={combination} settings={settings} run={run} onComplete={onSpinComplete} />
 <g id="left-wheel" data-layer="left-wheel">
 <title>left-wheel</title>
 <svg x="250" y="343" width="62" height="107.129" viewBox="125 170 746 1289" overflow="hidden">

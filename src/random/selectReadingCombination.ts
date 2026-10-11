@@ -1,9 +1,8 @@
-import { formats } from '../data/formats'
-import { angles } from '../data/angles'
-import { topics } from '../data/topics'
-import type { ContentOption, ReadingCombination } from '../types/reading'
+import { getSelectionPool, readingCatalogs } from './compatibility'
+import type { ReadingCatalogs } from './compatibility'
+import type { ReadingCombination, ReadingSettings } from '../types/reading'
 
-function pickOption<T extends ContentOption>(
+function pickOption<T>(
   catalog: readonly T[],
   name: string,
   random: () => number,
@@ -25,21 +24,17 @@ function pickOption<T extends ContentOption>(
   return option
 }
 
-// Three draws: topic, format, then an angle compatible with that format.
-// Repeats are allowed; decorative animation must not affect these draws.
-export function selectReadingCombination(random: () => number = Math.random): ReadingCombination {
-  const topic = pickOption(topics, 'topic', random)
-  const format = pickOption(formats, 'format', random)
-  // Resolve every allowed ID before drawing, so broken catalog references fail explicitly.
-  const compatibleAngles = format.angleIds.map((id) => {
-    const angle = angles.find((option) => option.id === id)
-    if (!angle) throw new Error(`Unknown angle "${id}" in format "${format.id}".`)
-    return angle
-  })
-
-  return {
-    topic,
-    format,
-    angle: pickOption(compatibleAngles, 'compatible angle', random),
-  }
+// Four draws: weighted available family, then uniform format, topic and angle.
+// No topic/angle coefficients. Repeats allowed. Animation never consumes these draws.
+export function selectReadingCombination(settings: ReadingSettings, random: () => number = Math.random, catalogs: ReadingCatalogs = readingCatalogs): ReadingCombination {
+  const pools = getSelectionPool(settings, catalogs)
+  const sample = random()
+  if (!Number.isFinite(sample) || sample < 0 || sample >= 1) throw new Error('Random source must return a finite number in [0, 1).')
+  const threshold = sample * pools.reduce((sum, pool) => sum + pool.weight, 0)
+  let cumulative = 0
+  const pool = pools.find(item => { cumulative += item.weight; return threshold < cumulative })
+  if (!pool) throw new Error('Could not resolve a reading family.')
+  const { format, topics } = pickOption(pool.formats, 'compatible format', random)
+  const { topic, angles } = pickOption(topics, 'compatible topic', random)
+  return { topic, format, angle: pickOption(angles, 'compatible angle', random) }
 }

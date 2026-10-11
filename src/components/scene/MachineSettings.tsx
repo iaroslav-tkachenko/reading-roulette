@@ -1,17 +1,19 @@
 import { cefrLevels } from '../../data/cefrLevels'
 import { languages } from '../../data/languages'
 import { getTextLength, textLengths } from '../../data/textLengths'
-import type { ReadingSettings } from '../../types/reading'
+import type { ReadingCombination, ReadingSettings } from '../../types/reading'
 
 interface MachineSettingsProps {
   settings: ReadingSettings
   onChange: (settings: ReadingSettings) => void
   disabled?: boolean
+  combination?: ReadingCombination | null
 }
 
 // HTML controls share the machine's SVG coordinates and scale with its artwork.
-export function MachineSettings({ settings, onChange, disabled = false }: MachineSettingsProps) {
-  const lengthDescription = getTextLength(settings).description
+export function MachineSettings({ settings, combination, onChange, disabled = false }: MachineSettingsProps) {
+  const describe = (value = settings.textLength) => combination ? getTextLength({ ...settings, textLength: value }, combination.format).description : `${textLengths[value].label} · press SPIN to find a text`
+  const lengthDescription = describe()
 
   return (
     <g id="settings-fields" data-layer="settings-fields">
@@ -70,7 +72,7 @@ export function MachineSettings({ settings, onChange, disabled = false }: Machin
             if (textLength) onChange({ ...settings, textLength })
           }}
         >
-          {Object.entries(textLengths).map(([value, length]) => <option key={value} value={value} title={getTextLength({ ...settings, textLength: value as ReadingSettings['textLength'] }).description}>{length.label}</option>)}
+          {Object.entries(textLengths).map(([value, length]) => <option key={value} value={value} title={describe(value as ReadingSettings['textLength'])}>{length.label}</option>)}
         </select>
         <span id="reading-word-range" className="sr-only">{lengthDescription}</span>
       </foreignObject>
