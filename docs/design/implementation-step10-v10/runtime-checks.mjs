@@ -92,6 +92,16 @@ export async function auditRuntime(api) {
     assert.ok(prompt.includes(`Content status: ${format.contentStatus}.`))
     assert.ok(prompt.includes(format.registerHint))
     assert.ok(!/^Tone:|Return only the reading text/m.test(prompt))
+    const vocabulary=prompt.split('\n\n').at(-1)
+    assert.ok(vocabulary.startsWith('Vocabulary support: After the reading material and any required Sources block'))
+    assert.ok(vocabulary.includes('final section titled "Useful vocabulary"') && vocabulary.includes('actually appear in the reading material'))
+    assert.ok(vocabulary.includes(`a ${level} learner may find unfamiliar`) && vocabulary.includes(`original ${language.name} word or expression as used in the text`))
+    assert.ok(vocabulary.includes('Write these meanings in English, the language of this prompt'))
+    if(language.code==='en') assert.ok(vocabulary.includes('simple English definition') && vocabulary.includes('familiar synonym') && !vocabulary.includes('English translation'))
+    else assert.ok(vocabulary.includes('English translation of its meaning in this context') && !vocabulary.includes('simple English definition'))
+    assert.ok(vocabulary.includes('If no reading material can be produced, omit this section') && vocabulary.includes('fewer for very short or simple material'))
+    assert.ok(prompt.includes('vocabulary section is excluded from reading volume and field/item counts, including for visual formats'))
+    assert.ok(!prompt.includes('Do not add translations'))
     if (['form-fields','list-items'].includes(format.volumeModel)) {assert.equal(volume.wordRange,null);assert.ok(!/approximately \d/.test(volume.instruction))}
     else if (language.lengthUnit==='structure') {assert.equal(volume.wordRange,null);assert.ok(!/\d+[–-]\d+/.test(volume.instruction))}
     else assert.equal(volume.wordRange,format.volumeModel==='compact-message'?'20–60':ranges.get(level)[lengths.indexOf(length)])

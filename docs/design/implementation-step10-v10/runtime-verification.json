@@ -20,7 +20,7 @@
       "profile": "A1",
       "formats": 15,
       "combinations": 843,
-      "coldPoolMs": 6.19,
+      "coldPoolMs": 5.65,
       "probabilities": {
         "fiction": 0.15,
         "information": 0.1,
@@ -36,7 +36,7 @@
       "profile": "A1",
       "formats": 11,
       "combinations": 645,
-      "coldPoolMs": 5.95,
+      "coldPoolMs": 4.05,
       "probabilities": {
         "fiction": 0.15,
         "information": 0.1,
@@ -52,7 +52,7 @@
       "profile": "A1",
       "formats": 10,
       "combinations": 575,
-      "coldPoolMs": 3.74,
+      "coldPoolMs": 3.66,
       "probabilities": {
         "fiction": 0.15,
         "information": 0.1,
@@ -68,7 +68,7 @@
       "profile": "A1",
       "formats": 15,
       "combinations": 843,
-      "coldPoolMs": 7.78,
+      "coldPoolMs": 3.93,
       "probabilities": {
         "fiction": 0.15,
         "information": 0.1,
@@ -84,7 +84,7 @@
       "profile": "A1",
       "formats": 11,
       "combinations": 645,
-      "coldPoolMs": 4.19,
+      "coldPoolMs": 2.08,
       "probabilities": {
         "fiction": 0.15,
         "information": 0.1,
@@ -100,7 +100,7 @@
       "profile": "A1",
       "formats": 10,
       "combinations": 575,
-      "coldPoolMs": 4.92,
+      "coldPoolMs": 3.16,
       "probabilities": {
         "fiction": 0.15,
         "information": 0.1,
@@ -116,7 +116,7 @@
       "profile": "A1",
       "formats": 15,
       "combinations": 843,
-      "coldPoolMs": 6.1,
+      "coldPoolMs": 2.61,
       "probabilities": {
         "fiction": 0.21052631578947367,
         "information": 0.15789473684210525,
@@ -132,7 +132,7 @@
       "profile": "A1",
       "formats": 11,
       "combinations": 645,
-      "coldPoolMs": 9.34,
+      "coldPoolMs": 2.16,
       "probabilities": {
         "fiction": 0.21052631578947367,
         "information": 0.15789473684210525,
@@ -148,7 +148,7 @@
       "profile": "A1",
       "formats": 10,
       "combinations": 575,
-      "coldPoolMs": 5.63,
+      "coldPoolMs": 2.68,
       "probabilities": {
         "fiction": 0.21052631578947367,
         "information": 0.15789473684210525,
@@ -164,7 +164,7 @@
       "profile": "A2",
       "formats": 29,
       "combinations": 2848,
-      "coldPoolMs": 33.02,
+      "coldPoolMs": 13.35,
       "probabilities": {
         "fiction": 0.2,
         "information": 0.15,
@@ -180,7 +180,7 @@
       "profile": "A2",
       "formats": 25,
       "combinations": 2619,
-      "coldPoolMs": 36.01,
+      "coldPoolMs": 7.52,
       "probabilities": {
         "fiction": 0.2,
         "information": 0.15,
@@ -196,7 +196,7 @@
       "profile": "A2",
       "formats": 19,
       "combinations": 2285,
-      "coldPoolMs": 22.93,
+      "coldPoolMs": 7.19,
       "probabilities": {
         "fiction": 0.21052631578947367,
         "information": 0.15789473684210525,
@@ -212,7 +212,7 @@
       "profile": "A2",
       "formats": 29,
       "combinations": 2848,
-      "coldPoolMs": 22.5,
+      "coldPoolMs": 9.52,
       "probabilities": {
         "fiction": 0.2,
         "information": 0.15,
@@ -228,7 +228,7 @@
       "profile": "A2",
       "formats": 25,
       "combinations": 2619,
-      "coldPoolMs": 16.51,
+      "coldPoolMs": 8.24,
       "probabilities": {
         "fiction": 0.2,
         "information": 0.15,
@@ -244,7 +244,7 @@
       "profile": "A2",
       "formats": 19,
       "combinations": 2285,
-      "coldPoolMs": 12.63,
+      "coldPoolMs": 7.94,
       "probabilities": {
         "fiction": 0.21052631578947367,
         "information": 0.15789473684210525,
@@ -260,7 +260,7 @@
       "profile": "A2",
       "formats": 29,
       "combinations": 2848,
-      "coldPoolMs": 12.22,
+      "coldPoolMs": 11.25,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -276,7 +276,7 @@
       "profile": "A2",
       "formats": 25,
       "combinations": 2619,
-      "coldPoolMs": 15.81,
+      "coldPoolMs": 17.95,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -292,7 +292,7 @@
       "profile": "A2",
       "formats": 19,
       "combinations": 2285,
-      "coldPoolMs": 7.12,
+      "coldPoolMs": 7.51,
       "probabilities": {
         "fiction": 0.2777777777777778,
         "information": 0.2222222222222222,
@@ -308,7 +308,7 @@
       "profile": "B1",
       "formats": 41,
       "combinations": 4024,
-      "coldPoolMs": 42.3,
+      "coldPoolMs": 15.33,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -324,7 +324,7 @@
       "profile": "B1",
       "formats": 37,
       "combinations": 3808,
-      "coldPoolMs": 17.18,
+      "coldPoolMs": 14.93,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -340,7 +340,7 @@
       "profile": "B1",
       "formats": 29,
       "combinations": 3361,
-      "coldPoolMs": 14.1,
+      "coldPoolMs": 11.62,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -356,7 +356,7 @@
       "profile": "B1",
       "formats": 41,
       "combinations": 4024,
-      "coldPoolMs": 20.72,
+      "coldPoolMs": 17.46,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -372,7 +372,7 @@
       "profile": "B1",
       "formats": 37,
       "combinations": 3808,
-      "coldPoolMs": 18.3,
+      "coldPoolMs": 17.01,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -388,7 +388,7 @@
       "profile": "B1",
       "formats": 29,
       "combinations": 3361,
-      "coldPoolMs": 14.68,
+      "coldPoolMs": 13.53,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -404,7 +404,7 @@
       "profile": "B1",
       "formats": 41,
       "combinations": 4024,
-      "coldPoolMs": 17.7,
+      "coldPoolMs": 22.04,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -420,7 +420,7 @@
       "profile": "B1",
       "formats": 37,
       "combinations": 3808,
-      "coldPoolMs": 19.07,
+      "coldPoolMs": 22.59,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -436,7 +436,7 @@
       "profile": "B1",
       "formats": 29,
       "combinations": 3361,
-      "coldPoolMs": 17.11,
+      "coldPoolMs": 13.76,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -452,7 +452,7 @@
       "profile": "B2",
       "formats": 44,
       "combinations": 4206,
-      "coldPoolMs": 19.73,
+      "coldPoolMs": 17.03,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -468,7 +468,7 @@
       "profile": "B2",
       "formats": 40,
       "combinations": 4081,
-      "coldPoolMs": 16.79,
+      "coldPoolMs": 14.67,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -484,7 +484,7 @@
       "profile": "B2",
       "formats": 32,
       "combinations": 3634,
-      "coldPoolMs": 14.07,
+      "coldPoolMs": 14.31,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -500,7 +500,7 @@
       "profile": "B2",
       "formats": 44,
       "combinations": 4206,
-      "coldPoolMs": 25.89,
+      "coldPoolMs": 27.95,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -516,7 +516,7 @@
       "profile": "B2",
       "formats": 40,
       "combinations": 4081,
-      "coldPoolMs": 26.7,
+      "coldPoolMs": 16.81,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -532,7 +532,7 @@
       "profile": "B2",
       "formats": 32,
       "combinations": 3634,
-      "coldPoolMs": 16.16,
+      "coldPoolMs": 14.97,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -548,7 +548,7 @@
       "profile": "B2",
       "formats": 44,
       "combinations": 4206,
-      "coldPoolMs": 18.61,
+      "coldPoolMs": 46.8,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -564,7 +564,7 @@
       "profile": "B2",
       "formats": 40,
       "combinations": 4081,
-      "coldPoolMs": 20.39,
+      "coldPoolMs": 31.75,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -580,7 +580,7 @@
       "profile": "B2",
       "formats": 32,
       "combinations": 3634,
-      "coldPoolMs": 14.37,
+      "coldPoolMs": 18.98,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -596,7 +596,7 @@
       "profile": "C1+",
       "formats": 44,
       "combinations": 4206,
-      "coldPoolMs": 18.76,
+      "coldPoolMs": 18.19,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -612,7 +612,7 @@
       "profile": "C1+",
       "formats": 40,
       "combinations": 4081,
-      "coldPoolMs": 27.6,
+      "coldPoolMs": 15.35,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -628,7 +628,7 @@
       "profile": "C1+",
       "formats": 32,
       "combinations": 3634,
-      "coldPoolMs": 12.42,
+      "coldPoolMs": 15.58,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -644,7 +644,7 @@
       "profile": "C1+",
       "formats": 44,
       "combinations": 4206,
-      "coldPoolMs": 20.16,
+      "coldPoolMs": 21.49,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -660,7 +660,7 @@
       "profile": "C1+",
       "formats": 40,
       "combinations": 4081,
-      "coldPoolMs": 39.91,
+      "coldPoolMs": 29.76,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -676,7 +676,7 @@
       "profile": "C1+",
       "formats": 32,
       "combinations": 3634,
-      "coldPoolMs": 30.28,
+      "coldPoolMs": 15.54,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -692,7 +692,7 @@
       "profile": "C1+",
       "formats": 44,
       "combinations": 4206,
-      "coldPoolMs": 16.99,
+      "coldPoolMs": 25.46,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -708,7 +708,7 @@
       "profile": "C1+",
       "formats": 40,
       "combinations": 4081,
-      "coldPoolMs": 38.28,
+      "coldPoolMs": 16.52,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -724,7 +724,7 @@
       "profile": "C1+",
       "formats": 32,
       "combinations": 3634,
-      "coldPoolMs": 93.74,
+      "coldPoolMs": 14.64,
       "probabilities": {
         "fiction": 0.25,
         "information": 0.2,
@@ -743,12 +743,12 @@
     "formats": 44,
     "angles": 30
   },
-  "durationMs": 16648,
+  "durationMs": 20321,
   "stateAndClipboard": "passed",
   "feedback": "passed",
   "browser": "unverified: in-app Browser EPERM; no external browser launched",
   "date": "2026-10-11",
   "scope": "Full approved runtime; seeded exhaustive algorithm/prompt/state checks, not browser rendering or system clipboard",
   "documents": 48,
-  "localLinks": 314
+  "localLinks": 315
 }

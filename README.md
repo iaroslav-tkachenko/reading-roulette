@@ -14,6 +14,8 @@ SPIN selects a **Topic × Format × Angle** combination. Selection filters compl
 
 **Copy prompt** copies the full current preview after a click, with confirmation tied to the exact prompt copied. If clipboard access is unavailable, select and copy the preview manually. SPIN and Copy support keyboard activation and visible focus. Selection and prompt composition run locally; no backend, model API, credentials, analytics, or remote data loading is required. The external AI chat generates the reading text, whose level, length, and accuracy the app cannot guarantee.
 
+Every prompt requests a final **Useful vocabulary** section with words and short expressions from the reading material that may be unfamiliar at the selected level. Meanings follow the prompt language, currently English: other learning languages receive contextual English translations, while English receives simple English definitions and optional familiar synonyms. The list usually has 3–8 entries, with fewer for very short material and up to 12 for longer material. It follows any Sources block, is excluded from reading volume and field/item counts, and is omitted if no reading material can be produced.
+
 Register, tone, genre, and narrative perspective are supporting instructions within formats and angles, without separate controls or hidden random draws. Angle replaces the former Tone reel throughout current code and specifications. Older design PNGs retain Tone as historical visual references.
 
 ## Approved requirements and remaining implementation
