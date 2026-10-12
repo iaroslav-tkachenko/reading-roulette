@@ -25,7 +25,7 @@ function App() {
   return (
     <LocaleContext value={locale}>
     <div className="reading-scene" data-design-revision="v10" data-stage="full-catalogs" data-spinning={!!run} data-locale={locale}>
-      <RoomBackdrop />
+      <RoomBackdrop compact={compact} />
       <main className="scene-artboard">
         <h1 className="sr-only">Reading Roulette</h1>
         <div className="scene-actions">

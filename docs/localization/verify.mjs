@@ -8,7 +8,16 @@ import { renderToStaticMarkup } from 'react-dom/server'
 const root = fileURLToPath(new URL('../../', import.meta.url))
 const out = process.env.READING_TEST_OUTPUT_DIR ? path.resolve(process.env.READING_TEST_OUTPUT_DIR) : path.join(root, 'docs/localization/verification')
 fs.mkdirSync(out, { recursive: true })
-const server = await createServer({ root, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' })
+const reactSsrShim = path.join(root, 'docs/localization/react-ssr-shim.mjs')
+const server = await createServer({
+ root,
+ resolve: { alias: [
+  { find: /^react$/, replacement: reactSsrShim },
+  { find: /^react\/(?:jsx-runtime|jsx-dev-runtime)$/, replacement: reactSsrShim },
+ ] },
+ server: { middlewareMode: true, hmr: false, ws: false },
+ appType: 'custom',
+})
 const api = {}
 const names = ['i18n/locale', 'i18n/messages', 'i18n/catalogs.ru', 'i18n/catalogLabels.ru', 'i18n/textLength', 'i18n/promptResources.ru', 'random/compatibility', 'data/cefrLevels', 'data/languages', 'data/textLengths', 'data/catalogStats', 'motion/drumSpinController', 'clipboard/promptCopier', 'prompt/buildPrompt', 'components/scene/drumData']
 try {
