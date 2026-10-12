@@ -22,6 +22,12 @@ The plus/minus settings tune difficulty around the six standard CEFR bands; they
 
 The 4,310 ideas are the unique triples available across the catalog. The app filters them by level, length, and explicit compatibility rules; it does not treat every possible cross-product as valid.
 
+## See it in action
+
+![Reading Roulette demo: three spins, a switch from English to Spanish and from B1+ to A2, and a copied prompt](docs/demos/reading-roulette-demo.gif)
+
+Three spins produce different **Topic × Format × Angle** ideas. The learner can change the reading language and level between spins, then copy the finished prompt into a preferred AI chat.
+
 ## Screenshots
 
 ### Desktop
