@@ -7,11 +7,37 @@ export const copyMessages = {
 
 export type CopyStatus = keyof typeof copyMessages
 
-export function writePromptToClipboard(prompt: string): Promise<void> {
-  if (typeof navigator === 'undefined' || !navigator.clipboard?.writeText) {
-    throw new Error('Clipboard unavailable')
+function copyWithDocumentCommand(prompt: string): boolean {
+  if (typeof document === 'undefined' || !document.body) return false
+  const textarea = document.createElement('textarea')
+  textarea.value = prompt
+  textarea.setAttribute('readonly', '')
+  textarea.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;padding:0;border:0;opacity:0'
+  const previousFocus = document.activeElement instanceof HTMLElement ? document.activeElement : null
+  document.body.appendChild(textarea)
+  try {
+    textarea.focus()
+    textarea.select()
+    textarea.setSelectionRange(0, prompt.length)
+    return document.execCommand('copy')
+  } finally {
+    textarea.remove()
+    previousFocus?.focus({ preventScroll: true })
   }
-  return navigator.clipboard.writeText(prompt)
+}
+
+export async function writePromptToClipboard(prompt: string): Promise<void> {
+  if (typeof navigator !== 'undefined' && navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(prompt)
+      return
+    } catch (error) {
+      if (copyWithDocumentCommand(prompt)) return
+      throw error
+    }
+  }
+  if (copyWithDocumentCommand(prompt)) return
+  throw new Error('Clipboard unavailable')
 }
 
 // Epochs guard async replies even if the prompt changes A → B → A.

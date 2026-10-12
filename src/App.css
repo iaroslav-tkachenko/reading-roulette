@@ -43,6 +43,7 @@
 .paper-header h2{display:flex;align-items:center;gap:12px;font-family:"EB Garamond",Georgia,serif;font-weight:700;font-size:clamp(25px,2.1vw,32px);line-height:1.15;color:#741d1c;margin:0}
 .prompt-scroll-cue{display:block;width:24px;height:24px;flex-shrink:0;color:#741d1c}
 .copy-appearance{display:inline-flex;align-items:center;gap:10px;flex-shrink:0;min-height:52px;padding:10px 15px;border:2px solid #7d2925;border-radius:14px;color:#741d1c;font:700 clamp(14px,1.3vw,20px)/1.2 Georgia,serif}
+.copy-label-mobile{display:none}
 .copy-appearance svg{width:24px;height:24px;flex-shrink:0}
 .copy-appearance{appearance:none;background:transparent;text-align:left;cursor:pointer}
 .copy-appearance:focus-visible{outline:3px solid #12343a;outline-offset:4px}
@@ -129,6 +130,8 @@
   .prompt-scroll-cue{display:none}
   .copy-appearance{min-height:44px;max-width:52%;padding:6px 8px;gap:6px;border-radius:8px;font-size:14px}
   .copy-appearance svg{width:18px;height:18px}
+  .copy-label-desktop{display:none}
+  .copy-label-mobile{display:inline}
   .real-prompt{margin-top:12px;font-size:16px}
   .help-button{position:relative;display:block;top:auto;right:auto;bottom:auto;width:153px;height:44px;margin:12px 12px 0 auto}
 }

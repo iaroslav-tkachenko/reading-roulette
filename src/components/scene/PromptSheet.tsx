@@ -60,7 +60,7 @@ export function PromptSheet({prompt, disabled = false, revision = 0, updateCount
 <path d="M9 3h14q3 0 3 3v14"/>
 </g>
 )}
-</svg>{t('copy.action')}</button>
+</svg><span className="copy-label-desktop">{t('copy.action')}</span><span className="copy-label-mobile">{t('copy.mobile')}</span></button>
 </div>
 <p className="prompt-update" role="status" aria-live="polite" aria-atomic="true">
   <span className="prompt-update-reserve" aria-hidden="true">✓ {t('prompt.updated')}</span>
