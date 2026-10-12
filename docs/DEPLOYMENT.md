@@ -8,6 +8,10 @@ Website: [Reading Roulette](https://iaroslav-tkachenko.github.io/reading-roulett
 
 Workflow: [Verify and deploy GitHub Pages](../.github/workflows/pages.yml). It runs on pushes to main and on manual dispatch. Actions are pinned to verified commit SHAs. Node.js 24 and the pnpm version in package.json build the committed lockfile.
 
+## v10 application release verification
+
+The v10 application release was built from `main` commit `06e9c3a167c41260c9225a3688c081e9b02a1c6f`. Its [GitHub Actions run](https://github.com/iaroslav-tkachenko/reading-roulette/actions/runs/38276444762) completed successfully on October 12, 2026. Later documentation-only commits may run the same workflow without changing application behavior; the Actions page above shows subsequent runs.
+
 ## Release checks
 
 The build job installs locked dependencies, audits approved Markdown metadata, verifies full-catalog selection and prompts, audits EN/RU localization, checks the local motion prototype's TypeScript, and builds the main application. Deployment depends on that build job. Only the deploy job receives pages:write and id-token:write; repository contents remain read-only for the workflow.
