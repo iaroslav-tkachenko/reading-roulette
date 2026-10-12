@@ -6,6 +6,10 @@
 
 [**Open the live app**](https://iaroslav-tkachenko.github.io/reading-roulette/) · [Product and architecture notes](PROJECT.md) · [Deployment record](docs/DEPLOYMENT.md)
 
+![Reading Roulette demo: three spins, a switch from English to Spanish and from B1+ to A2, and a copied prompt](docs/demos/reading-roulette-demo.gif)
+
+Three spins produce different **Topic × Format × Angle** ideas. The learner can change the reading language and level between spins, then copy the finished prompt into a preferred AI chat.
+
 ## The product
 
 Reading practice is easy to postpone when choosing what to read takes longer than getting started. Reading Roulette makes that first choice quick and repeatable: it offers a fresh, structured reading idea without asking learners to browse a long list or invent a prompt from scratch.
@@ -21,12 +25,6 @@ It is designed for **self-directed learners** who want extra reading in a langua
 The plus/minus settings tune difficulty around the six standard CEFR bands; they are not additional official CEFR levels.
 
 The 4,310 ideas are the unique triples available across the catalog. The app filters them by level, length, and explicit compatibility rules; it does not treat every possible cross-product as valid.
-
-## See it in action
-
-![Reading Roulette demo: three spins, a switch from English to Spanish and from B1+ to A2, and a copied prompt](docs/demos/reading-roulette-demo.gif)
-
-Three spins produce different **Topic × Format × Angle** ideas. The learner can change the reading language and level between spins, then copy the finished prompt into a preferred AI chat.
 
 ## Screenshots
 
