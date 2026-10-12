@@ -9,7 +9,7 @@
     "Every original room and desk layer matches v10 beneath the added cup shadows",
     "Paper retains the original texture, edge image and slot shadow with an aligned edge crop",
     "Initial canonical migration preserves travel/discovery and builds a valid prompt",
-    "Three native selects and one SPIN overlay share SVG coordinates",
+    "Three native reading selects and the SPIN overlay share SVG coordinates",
     "Accessible SVG group does not hide its controls as a single image",
     "reading-language has an accessible visible label",
     "reading-cefr has an accessible visible label",
@@ -34,7 +34,7 @@
     "Reduced motion removes travel and transitions while retaining pressed shading",
     "Hook binds outside release/blur/visibility and removes every listener on cleanup",
     "Five pointer scenarios cover slow hinged cycles, sequential stops, interruptions, failures and repeated setup",
-    "Six pointer heads reuse the original PNG with fixed pins and the accepted frame coordinates",
+    "Six pointer heads reuse the optimized mechanism art with fixed pins and the accepted frame coordinates",
     "Every pointer region has a continuous background sampled below the heads, without triangular frame holes",
     "Six wheel scenarios cover speed, shared clock, interruption phase, failures and repeated cycles",
     "Two masked treads reuse original brass texture, remain decorative and leave fixed PNG geometry intact",
@@ -65,7 +65,7 @@
     "All available format/level/length/language representatives copy without truncation",
     "Production retains native control focus and responsive machine scaling",
     "Production uses the GitHub Pages base",
-    "Production preserves all image and font bytes"
+    "Production preserves all optimized images and the original font bytes"
   ],
   "pointerScenarios": [
     "Six hinged fingers make 3/5/6 broad cycles, drag with the paper, return smoothly and rest during final settlement",
@@ -390,47 +390,62 @@
     {
       "url": "http://127.0.0.1:5173/",
       "status": 200,
-      "bytes": 865
+      "bytes": 1108
     },
     {
       "url": "http://127.0.0.1:5173/src/components/scene/MachineSettings.tsx",
       "status": 200,
-      "bytes": 22422
+      "bytes": 22470
     },
     {
       "url": "http://127.0.0.1:5173/src/App.css?direct",
       "status": 200,
-      "bytes": 15863
+      "bytes": 17305
     },
     {
       "url": "http://127.0.0.1:5174/reading-roulette/",
       "status": 200,
-      "bytes": 749
+      "bytes": 1024
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/chassis-v3-CJwVfM2L.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/chassis-v3-D1ccBrIc.webp",
       "status": 200,
-      "bytes": 1804231
+      "bytes": 348056
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-books-v7-Y908fZTp.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-books-v7-Be_AZjUZ.webp",
       "status": 200,
-      "bytes": 2423047
+      "bytes": 435334
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-lamp-books-v7-BdAn1jIZ.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-books-v7-DQxEeHA1.webp",
       "status": 200,
-      "bytes": 1184894
+      "bytes": 166236
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-pen-cup-v7-Bw-R51Hs.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-lamp-books-v7-CHZwYbyV.webp",
       "status": 200,
-      "bytes": 2246144
+      "bytes": 146390
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/drum-v1-Bj5eGOVf.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-lamp-books-v7-CIzCKNUb.webp",
       "status": 200,
-      "bytes": 1436255
+      "bytes": 58168
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-pen-cup-v7-BakPqUwV.webp",
+      "status": 200,
+      "bytes": 78770
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/desk-pen-cup-v7-BGuLSvaE.webp",
+      "status": 200,
+      "bytes": 34278
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/drum-v1-DduoLxhU.webp",
+      "status": 200,
+      "bytes": 31596
     },
     {
       "url": "http://127.0.0.1:5174/reading-roulette/assets/EBGaramond-Bold-B-wVKl-e.ttf",
@@ -438,59 +453,79 @@
       "bytes": 54544
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-BUQGbu64.js",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
       "status": 200,
-      "bytes": 474219
+      "bytes": 14256
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-jJq5m_JK.css",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-BlyyNyq9.css",
       "status": 200,
-      "bytes": 15315
+      "bytes": 16808
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/key-v1-ccPO6OtX.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/index-BTudR182.js",
       "status": 200,
-      "bytes": 1285423
+      "bytes": 476295
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/mechanism-v2-C2B_U8bc.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/JetBrainsMono-Regular-CA-Os4ii.woff2",
       "status": 200,
-      "bytes": 795748
+      "bytes": 92380
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/paper-v1-D2Rww8ee.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/key-v1-d37be8Mf.webp",
       "status": 200,
-      "bytes": 1436754
+      "bytes": 6110
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/settings-v2-C2kOrZKD.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/mechanism-v2-9NTJmYvr.webp",
       "status": 200,
-      "bytes": 960322
+      "bytes": 178770
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/spin-button-v3-52Doy5V2.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/paper-v1-mrGLL8d4.webp",
       "status": 200,
-      "bytes": 1948028
+      "bytes": 198768
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-bookcase-wide-v8-BEteXnaz.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/settings-v2-CZuyhEzM.webp",
       "status": 200,
-      "bytes": 2637515
+      "bytes": 127236
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-shell-v7-3h6fZ6FV.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/spin-button-v3-Cn6hMcz1.webp",
       "status": 200,
-      "bytes": 2344272
+      "bytes": 48750
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-window-wide-v8-ClKT6gYU.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-bookcase-wide-v8-CVbCdPlz.webp",
       "status": 200,
-      "bytes": 2327668
+      "bytes": 158884
     },
     {
-      "url": "http://127.0.0.1:5174/reading-roulette/assets/wheel-v1-F1wW89TE.png",
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-bookcase-wide-v8-DCekB9ZQ.webp",
       "status": 200,
-      "bytes": 1244822
+      "bytes": 422208
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-shell-v7-Ctq_k3rq.webp",
+      "status": 200,
+      "bytes": 400228
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-window-wide-v8-CDpbX1-c.webp",
+      "status": 200,
+      "bytes": 131654
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/study-window-wide-v8-CmNBZVrX.webp",
+      "status": 200,
+      "bytes": 351468
+    },
+    {
+      "url": "http://127.0.0.1:5174/reading-roulette/assets/wheel-v1-C7FmbzYa.webp",
+      "status": 200,
+      "bytes": 14670
     }
   ],
   "hashes": [

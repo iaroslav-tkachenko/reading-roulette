@@ -70,7 +70,7 @@ function canonical(markup){
     const tag=token.match(/^<(\/?[\w-]+)/)[1];
     const attrs=[...token.matchAll(/([\w:-]+)="([^"]*)"/g)].map(([,k,v])=>{
       v=decode(v);
-      if(k==='href')v=path.posix.basename(v);
+      if(k==='href')v=path.posix.basename(v).replace(/\.webp$/i,'.png');
       if(k==='style')v=v.split(';').filter(Boolean).sort().join(';');
       return [k,v];
     }).filter(([key])=>key!=='aria-hidden').sort(([a],[b])=>a.localeCompare(b));
@@ -109,12 +109,14 @@ const paper=html.match(/<section class="prompt-sheet"[\s\S]*?<\/section>/)[0];
 const paperArtwork=markup=>canonical(markup.match(/<svg\b[^>]*class="paper-fill"[\s\S]*?<\/defs>[\s\S]*?<\/svg>/)[0])+canonical(markup.match(/<svg\b[^>]*class="paper-tear"[\s\S]*?<\/svg>/)[0].replace('viewBox="52 530 2028 67"','viewBox="38 525 2052 67"'));
 check('Paper retains the original texture, edge image and slot shadow with an aligned edge crop',paperArtwork(paper)===paperArtwork(reference.match(/<section class="prompt-sheet"[\s\S]*?<\/section>/)[0]));
 check('Initial canonical migration preserves travel/discovery and builds a valid prompt',initial.initialCombination.topic.id==='travel' && initial.initialCombination.format.id==='everyday-story' && initial.initialCombination.angle.id==='unexpected-discovery' && initial.initialPrompt===buildPrompt(initial.initialSettings,initial.initialCombination));
-check('Three native selects and one SPIN overlay share SVG coordinates', [...html.matchAll(/<select\b/g)].length===3 && [...html.matchAll(/<foreignObject\b/g)].length===4);
+check('Three native reading selects and the SPIN overlay share SVG coordinates',
+  ['reading-language','reading-cefr','reading-length'].every(id=>html.includes(`id="${id}"`)) &&
+  /<foreignObject\b[^>]*data-layer="spin-control"/.test(html));
 check('Accessible SVG group does not hide its controls as a single image',machine.includes('role="group"') && !machine.includes('role="img"'));
 for(const [id,label] of [['reading-language','language-label'],['reading-cefr','cefr-label'],['reading-length','length-label']]){
   check(`${id} has an accessible visible label`,html.includes(`id="${label}"`) && html.includes(`aria-labelledby="${label}"`));
 }
-check('Full catalogs preserve mechanical SPIN and Copy, with native help initially closed',html.includes('data-stage="full-catalogs"') && html.includes('data-spinning="false"') && [...html.matchAll(/<button\b/g)].length===5 && /<dialog\b[^>]*id="reading-help-dialog"/.test(html) && !/<dialog\b[^>]*\bopen="/.test(html) && html.includes('aria-haspopup="dialog"') && html.includes('aria-expanded="false"') && !/<textarea|<iframe/.test(html));
+check('Full catalogs preserve mechanical SPIN and Copy, with native help initially closed',html.includes('data-stage="full-catalogs"') && html.includes('data-spinning="false"') && html.includes('id="spin-control"') && html.includes('class="copy-appearance"') && /<dialog\b[^>]*id="reading-help-dialog"/.test(html) && !/<dialog\b[^>]*\bopen="/.test(html) && html.includes('aria-haspopup="dialog"') && html.includes('aria-expanded="false"') && !/<textarea|<iframe/.test(html));
 check('SPIN is a native labeled button associated with the prompt',html.includes('id="spin-control" type="button" aria-label="SPIN" aria-controls="reading-prompt"') && html.includes('id="reading-prompt"'));
 check('Results have an initially empty polite atomic announcement',html.includes('role="status" aria-live="polite" aria-atomic="true"></p>'));
 
@@ -226,10 +228,10 @@ const keyScenarios=await checkKeys({...drumMotion,...keyMotion},drumChecks.run.d
 const wheelScenarios=await checkWheels({...drumMotion,...wheelMotion},drumChecks.run.drums);
 const pointerScenarios=await checkPointers({...drumMotion,...pointerMotion,...pointerGeometry},drumChecks.run.drums);
 check('Five pointer scenarios cover slow hinged cycles, sequential stops, interruptions, failures and repeated setup',pointerScenarios.length===5);
-check('Six pointer heads reuse the original PNG with fixed pins and the accepted frame coordinates',
+check('Six pointer heads reuse the optimized mechanism art with fixed pins and the accepted frame coordinates',
   pointerGeometry.pointerDefinitions.every(pointer=>machine.includes(`data-drum-pointer="${pointer.id}"`) && machine.includes(`id="pointer-cut-${pointer.id}"`)) &&
   machine.includes('id="cradle-without-pointers"') && machine.includes('<svg x="294" y="333" width="950" height="256.202" viewBox="106 90 1943 524" overflow="hidden">') &&
-  [...machine.matchAll(/href="[^"]*mechanism-v2.png"/g)].length===11 &&
+  [...machine.matchAll(/href="[^"]*mechanism-v2.webp"/g)].length===11 &&
   machine.includes('data-layer="drum-pointers" pointer-events="none" aria-hidden="true"') &&
   pointerGeometry.pointerMounts.every(mount=>machine.includes(`data-pointer-pin="${mount.id}"`)));
 check('Every pointer region has a continuous background sampled below the heads, without triangular frame holes',
@@ -259,7 +261,7 @@ check('Each animated key has both artwork and its matching letter in one existin
   const start=machine.indexOf(`<g id="key-${letter}"`);
   const length=machine.length-withoutGroup(machine,`key-${letter}`).length;
   const group=machine.slice(start,start+length);
-  return group.includes(`data-layer="key-art-${letter}"`) && group.includes('key-v1.png') && new RegExp(`<text[^>]*class="key-letter"[^>]*>${letter}</text>`).test(group) && !/tabindex|<button|role="button"/.test(group);
+  return group.includes(`data-layer="key-art-${letter}"`) && group.includes('key-v1.webp') && new RegExp(`<text[^>]*class="key-letter"[^>]*>${letter}</text>`).test(group) && !/tabindex|<button|role="button"/.test(group);
 }));
 check('All 19 keys remain decorative and press in two waves before the last drum', [...machine.matchAll(/<g id="key-[A-Z]"/g)].length===19 && keyMotion.keyWaveDelay+keyMotion.keyWaveDuration<2440);
 check('Every format participates in real-label transitions with exact prepared landing',drumChecks.transitions===44*44);
@@ -325,14 +327,14 @@ check('All 44 formats pass the real button wiring, selected labels and complete 
 check('Repeated identical button activations remain accepted',spinExamples.length===44);
 check('Settings use the shared compatibility predicate rather than preserving forbidden starter combinations',scenarios===495);
 check('SPIN focus remains on a fixed native hit target',css.includes('.spin-control button:focus-visible{outline:3px solid #ffe7ba') && !/\btransform\s*:/.test(css.match(/\.spin-control button\{[^}]*\}/)[0]));
-const assets=fs.readdirSync(path.join(root,'src/assets/reading-machine'));
+const assets=fs.readdirSync(path.join(root,'src/assets/reading-machine')).filter(file=>fs.statSync(path.join(root,'src/assets/reading-machine',file)).isFile());
 const hashes=assets.map(file=>({file,sha256:hash(fs.readFileSync(path.join(root,'src/assets/reading-machine',file)))}));
 check('Every artwork and font file remains byte-identical to v10',hashes.every(item=>item.sha256===hash(fs.readFileSync(path.join(ref,'assets',item.file)))));
 const dist=path.join(root,'dist');
 const builtIndex=fs.readFileSync(path.join(dist,'index.html'),'utf8');
 const builtFiles=fs.readdirSync(path.join(dist,'assets'));
 const productionCss=builtFiles.filter(file=>file.endsWith('.css')).map(file=>fs.readFileSync(path.join(dist,'assets',file),'utf8')).join('\n');
-check('Copy is a native named button linked to readable prompt and live feedback', /<button class="copy-appearance" type="button"[^>]*aria-controls="reading-prompt"[^>]*aria-describedby="copy-status"/.test(html) && html.includes('</svg>Copy prompt</button>'));
+check('Copy is a native named button linked to readable prompt and live feedback', /<button class="copy-appearance" type="button"[^>]*aria-controls="reading-prompt"[^>]*aria-describedby="copy-status"/.test(html) && html.includes('class="copy-label-desktop">Copy prompt</span>') && html.includes('class="copy-label-mobile">Copy</span>'));
 check('Copy feedback appears between the heading and prompt, reserves space and announces politely',html.indexOf('id="prompt-heading"') < html.indexOf('id="copy-status"') && html.indexOf('id="copy-status"') < html.indexOf('id="reading-prompt"') && html.includes('id="copy-status" class="paste-hint copy-feedback" role="status" aria-live="polite" aria-atomic="true"') && html.includes('class="copy-feedback-reserve" aria-hidden="true"') && html.includes(copyMessages.error) && css.includes('.copy-feedback>span{grid-area:1/1;overflow-wrap:anywhere}') && !css.includes('user-select:none'));
 check('Copy focus and feedback styles are included in production',productionCss.includes('.copy-appearance:focus-visible') && productionCss.includes('.copy-feedback-reserve{visibility:hidden}'));
 
@@ -400,7 +402,7 @@ copyScenarios.push('Synchronous clipboard failure is caught');
 const originalNavigator=Object.getOwnPropertyDescriptor(globalThis,'navigator');
 try {
   Object.defineProperty(globalThis,'navigator',{value:{},configurable:true});
-  assert.throws(()=>writePromptToClipboard(original),/Clipboard unavailable/);
+  await assert.rejects(writePromptToClipboard(original),/Clipboard unavailable/);
   const apiCalls=[];
   const clipboard={writeText(text){assert.equal(this,clipboard);apiCalls.push(text);return Promise.resolve();}};
   Object.defineProperty(globalThis,'navigator',{value:{clipboard},configurable:true});
@@ -426,7 +428,10 @@ check('Clipboard async races, rejection, retry, duplicate activation, unmount an
 check('All available format/level/length/language representatives copy without truncation',copiedPromptCases>13365 && writeCalls.length===copiedPromptCases);
 check('Production retains native control focus and responsive machine scaling',productionCss.includes('select:focus-visible') && /\.scene-artboard>svg\{[^}]*width:100%[^}]*height:auto/.test(productionCss));
 check('Production uses the GitHub Pages base',builtIndex.includes('/reading-roulette/assets/') && !builtIndex.includes('/src/'));
-check('Production preserves all image and font bytes',hashes.filter(item=>!item.file.endsWith('.txt')).every(item=>builtFiles.some(file=>hash(fs.readFileSync(path.join(dist,'assets',file)))===item.sha256)));
+const optimizedDir=path.join(root,'src/assets/reading-machine/optimized');
+const optimizedHashes=fs.readdirSync(optimizedDir,{recursive:true}).filter(file=>file.endsWith('.webp')).map(file=>hash(fs.readFileSync(path.join(optimizedDir,file))));
+const shippedHashes=new Set(builtFiles.map(file=>hash(fs.readFileSync(path.join(dist,'assets',file)))));
+check('Production preserves all optimized images and the original font bytes',optimizedHashes.length===19 && optimizedHashes.every(sha=>shippedHashes.has(sha)) && hashes.filter(item=>item.file.endsWith('.ttf')).every(item=>shippedHashes.has(item.sha256)));
 const urls=['http://127.0.0.1:5173/','http://127.0.0.1:5173/src/components/scene/MachineSettings.tsx','http://127.0.0.1:5173/src/App.css?direct','http://127.0.0.1:5174/reading-roulette/',...builtFiles.map(file=>'http://127.0.0.1:5174/reading-roulette/assets/'+file)];
 const http=await Promise.all(urls.map(async url=>{const response=await fetch(url);assert.equal(response.status,200,url);return {url,status:response.status,bytes:(await response.arrayBuffer()).byteLength};}));
 fs.writeFileSync(path.join(dir,'react-markup.html'),html+'\n');

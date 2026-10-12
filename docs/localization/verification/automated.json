@@ -3,6 +3,7 @@
   "checks": [
     "All UI keys and interpolation slots match EN/RU",
     "All 419 catalog text fields, 100 labels and 119 disclosure profiles have Russian text",
+    "Reading-idea count equals the union of eligible topic/format/angle triples without multiplying settings or languages",
     "RU covers every eligible tuple across 45 level/length settings, all languages and every conditional model/status",
     "Locale switches preserve settings/IDs without selection; same-locale and active-run events are ignored",
     "Empty result remains empty with the same typed cause after switching locale",
@@ -12,6 +13,7 @@
     "Both scene layouts, help, prompt and selector render Russian semantic markup"
   ],
   "catalogFields": 419,
+  "readingIdeas": 4310,
   "russianPrompts": 149334,
   "readingSettings": 495,
   "coverage": {

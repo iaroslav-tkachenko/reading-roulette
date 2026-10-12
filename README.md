@@ -6,7 +6,7 @@ A static prompt builder for language-learning reading practice, built with React
 
 ## Current application
 
-Local v10 implementation, October 12, 2026: the accepted layered scene has live settings, EN/RU How to use, Copy prompt, a mechanical SPIN press, three animated drum strips, key waves, moving side-wheel treads and hinged drum pointers with slow, broad lift-and-return cycles during SPIN. All 19 keys move with their letters twice in shuffled orders, with stronger 4.5-unit travel, and return before the final drum stop. Wheel silhouettes and axles stay fixed while masked brass treads accelerate and brake on the common clock, stopping with the last drum at 2440 ms. Interrupted tread positions persist into the next spin. The prepared result and full prompt commit together after the final stop; settings/Copy are temporarily disabled and repeated SPIN is ignored. Reduced motion safely produces the prepared result without secondary motion. See the [step 11 implementation and browser verification report](docs/design/implementation-step11-v10/README.md) and [localization report](docs/localization/IMPLEMENTATION.md). The previously published starter interactions described below are historical behavior; the local v10 change has not been published.
+The v10 implementation, released October 12, 2026, has live settings, EN/RU How to use, Copy prompt, a mechanical SPIN press, three animated drum strips, key waves, moving side-wheel treads and hinged drum pointers with slow, broad lift-and-return cycles during SPIN. All 19 keys move with their letters twice in shuffled orders, with stronger 4.5-unit travel, and return before the final drum stop. Wheel silhouettes and axles stay fixed while masked brass treads accelerate and brake on the common clock, stopping with the last drum at 2440 ms. Interrupted tread positions persist into the next spin. The prepared result and full prompt commit together after the final stop; settings/Copy are temporarily disabled and repeated SPIN is ignored. Reduced motion safely produces the prepared result without secondary motion. See the [step 11 implementation and browser verification report](docs/design/implementation-step11-v10/README.md) and [localization report](docs/localization/IMPLEMENTATION.md).
 
 The source catalogs contain 26 topics, 44 formats, 30 angles, and [11 languages](docs/LANGUAGES.md): English, Spanish, French, Japanese, German, Korean, Italian, Chinese (Mandarin), Russian, Portuguese, Serbian. All 15 requested CEFR choices and Short / Medium / Long are available. Plus/minus choices tune around standard CEFR levels; they are internal difficulty labels. Prose volume follows the approved level profiles; Japanese and Mandarin use relative length and structural instructions without numeric word or character targets.
 
@@ -18,9 +18,9 @@ Every prompt requests a final **Useful vocabulary** section with words and short
 
 Register, tone, genre, and narrative perspective are supporting instructions within formats and angles, without separate controls or hidden random draws. Angle replaces the former Tone reel throughout current code and specifications. Older design PNGs retain Tone as historical visual references.
 
-## Approved requirements and remaining implementation
+## Implemented requirements and verification limits
 
-The full approved catalogs and rules are implemented in the local v10 application. The public Pages site remains the previously published starter; this stage has not been pushed or published.
+The full approved catalogs and rules are implemented in the v10 application published through GitHub Pages. The build and deployment process is documented in [DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 | Area | Approved specification | Current implementation |
 | --- | --- | --- |
@@ -39,7 +39,7 @@ See [PROJECT.md](PROJECT.md) for architecture, the [system audit](docs/CATALOG_V
 
 ## English / Russian localization
 
-EN/RU is implemented locally as of October 12, 2026. A flag and language dropdown beside How to use translates the full active interface, help, 100 catalog labels and prompt instructions. English is the first-visit default; the explicit choice persists locally. Switching immediately rebuilds the same idea while preserving the separate reading language, CEFR and length. The selector locks during SPIN, and clipboard feedback rejects stale replies. See the [implementation and validation report](docs/localization/IMPLEMENTATION.md) and [specification package](docs/localization/README.md). Publication has not been performed.
+EN/RU is available in the published application as of October 12, 2026. A flag and language dropdown beside How to use translates the full active interface, help, 100 catalog labels and prompt instructions. English is the first-visit default; the explicit choice persists locally. Switching immediately rebuilds the same idea while preserving the separate reading language, CEFR and length. The selector locks during SPIN, and clipboard feedback rejects stale replies. See the [implementation and validation report](docs/localization/IMPLEMENTATION.md) and [specification package](docs/localization/README.md).
 
 ## Local development
 
@@ -69,6 +69,6 @@ pnpm preview
 
 The metadata audit covers the approved documents. The full runtime audit retains its legacy filename and checks all 1,544,400 level/length/tuple cases, 134,550 available selection branches, 1,480,050 prompts, exact catalog metadata, normalized probabilities, state transitions and stale clipboard replies. The adapted step 9 regression covers 61 scene/mechanics checks, 1,936 transitions, 495 settings and 14,784 copied prompt representatives. See the [step 10 report](docs/design/implementation-step10-v10/README.md) for commands, artifacts and limits.
 
-The current local v10 production preview passed 151 DOM and behavior checks in isolated headless Chromium. A separate visible Chromium run passed 46 native checks, including real browser zoom, tab visibility changes and Windows system clipboard; screenshots were also reviewed. The in-app Browser still fails to load with EPERM, so these results came from the independent Chromium setup documented in the [step 11 report](docs/design/implementation-step11-v10/README.md). Historical checks remain in the [motion verification record](docs/design/motion-preview/VERIFICATION.md).
+The v10 production preview passed 151 DOM and behavior checks in isolated headless Chromium. A separate visible Chromium run passed 46 native checks, including real browser zoom, tab visibility changes and Windows system clipboard; screenshots were also reviewed. The in-app Browser failed to load with EPERM, so these results came from the independent Chromium setup documented in the [step 11 report](docs/design/implementation-step11-v10/README.md). Historical checks remain in the [motion verification record](docs/design/motion-preview/VERIFICATION.md).
 
-The step 11 report records the current browser scenarios and evidence. Physical phones, Safari/Firefox, screen reader, public HTTPS clipboard and user visual acceptance of the compact layout remain outstanding; step 12 repeats final checks against the final build before release.
+The step 11 report records the browser scenarios and evidence. Physical phones, Safari/Firefox, screen reader and user visual acceptance of the compact layout remain outside those checks. The release process verifies the final build and public HTTPS assets; see [DEPLOYMENT.md](docs/DEPLOYMENT.md).

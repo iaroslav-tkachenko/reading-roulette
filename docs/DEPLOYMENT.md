@@ -1,6 +1,6 @@
 # Reading Roulette — publication and deployment
 
-The user authorized GitHub push and publication on October 9, 2026, after approving the catalog decisions. Earlier instructions to keep planning changes local applied before this authorization. Publication ships the current starter application and the approved documentation; it does not implement the full catalogs or final design.
+The initial starter was published on October 9, 2026. The October 12 v10 release includes the full catalogs, approved scene, EN/RU interface and prompt localization, optimized artwork, and current documentation. The application remains entirely static.
 
 Repository: [iaroslav-tkachenko/reading-roulette](https://github.com/iaroslav-tkachenko/reading-roulette).
 
@@ -10,7 +10,7 @@ Workflow: [Verify and deploy GitHub Pages](../.github/workflows/pages.yml). It r
 
 ## Release checks
 
-The build job installs locked dependencies, audits approved Markdown metadata, verifies starter selection/prompt behavior, checks the local motion prototype's TypeScript, and builds the main application. Deployment depends on that build job. Only the deploy job receives pages:write and id-token:write; repository contents remain read-only for the workflow.
+The build job installs locked dependencies, audits approved Markdown metadata, verifies full-catalog selection and prompts, audits EN/RU localization, checks the local motion prototype's TypeScript, and builds the main application. Deployment depends on that build job. Only the deploy job receives pages:write and id-token:write; repository contents remain read-only for the workflow.
 
 Pages uses the GitHub Actions publishing source. This project site is served under `/reading-roulette/`, so CI builds with:
 
@@ -27,17 +27,19 @@ The deployed `release.json` contains the public Git commit SHA. After a deployme
 ```powershell
 node docs/validation/audit-catalogs.mjs
 node docs/validation/audit-starter-runtime.mjs
+node docs/localization/verify.mjs
 pnpm typecheck
 pnpm exec tsc --ignoreConfig --noEmit --strict --noUnusedLocals --noUnusedParameters --target es2023 --lib es2023,dom --module esnext --moduleResolution bundler --types vite/client --skipLibCheck docs/design/motion-preview/preview.ts
 pnpm build --base=/reading-roulette/
+node docs/design/implementation-step9-v10/verify.mjs
 git diff --check
 ```
 
-The two audit scripts update local JSON evidence. Their scopes are documented: metadata and authored examples for the full approved catalogs; selection and prompts for the small implemented starter catalogs. Neither validates the complete future semantic allowlist or external model output.
+The metadata audit checks the approved documents and catalog constraints. The runtime audit retains its historical filename but checks all 1,544,400 level/length/tuple cases, 134,550 available selection branches and 1,480,050 prompts, including state and clipboard transitions. The localization audit checks all UI keys, 419 translated catalog fields, 149,334 Russian prompts and 495 reading settings. The step 9 regression checks scene/mechanics behavior. These checks do not validate output produced by an external AI chat or replace browser verification.
 
 ## Documentation and publication state
 
-Current behavior and pending requirements are distinguished in [README.md](../README.md), [PROJECT.md](../PROJECT.md), and [CATALOG_VALIDATION.md](CATALOG_VALIDATION.md). The catalog audit is a historical pre-publication review; later deployment does not retroactively expand its test coverage. Images in docs/design/final are historical visual references, including the superseded Tone label, rather than screenshots of the deployed Angle UI.
+Current behavior and verification limits are distinguished in [README.md](../README.md), [PROJECT.md](../PROJECT.md), and [CATALOG_VALIDATION.md](CATALOG_VALIDATION.md). The October 9 catalog audit is historical; later deployment does not retroactively expand its test coverage. Images in docs/design/final are historical visual references, including the superseded Tone label, rather than screenshots of the deployed Angle UI.
 
 Publishing should use a normal commit/push, preserve existing history, and wait for successful deployment. A failed build must not be bypassed by deploying an unverified artifact. Fixes use new commits; no force push or history rewrite is needed.
 
