@@ -1,0 +1,12 @@
+:root {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #1d252c; background: #26343e; font-synthesis: none;
+  text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;
+  --paper: #f4e6cf; --field: #faf0e0; --ink: #1d252c; --ivory: #f8ebd6;
+  --primary: #245b60; --bronze: #756354;
+}
+* { box-sizing: border-box; }
+body { margin: 0; min-width: 320px; position: relative; background: #26343e; }
+h1, h2, p, dl, dd { margin: 0; }
+button, select, textarea { font: inherit; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }

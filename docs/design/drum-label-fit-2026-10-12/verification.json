@@ -1,0 +1,8024 @@
+{
+  "cases": 600,
+  "failures": [],
+  "spinAndPrompt": "passed",
+  "movingRows": 66,
+  "layouts": [
+    {
+      "locale": "en",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 900,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 901,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 1536,
+      "overflow": false
+    },
+    {
+      "locale": "en",
+      "width": 1920,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 900,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 901,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 1366,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 1536,
+      "overflow": false
+    },
+    {
+      "locale": "ru",
+      "width": 1920,
+      "overflow": false
+    }
+  ],
+  "errors": [],
+  "results": [
+    {
+      "label": "Home & household",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Home & household"
+      ],
+      "width": 181.90615844726562,
+      "height": 21,
+      "fontSize": 18.4
+    },
+    {
+      "label": "Home & household",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Home & household"
+      ],
+      "width": 136.8828125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Home & household",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Home & household"
+      ],
+      "width": 197.59375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Food & cooking",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Food & cooking"
+      ],
+      "width": 159.822265625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Food & cooking",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Food & cooking"
+      ],
+      "width": 111.3359375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Food & cooking",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Food & cooking"
+      ],
+      "width": 159.822265625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Shopping & services",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Shopping &",
+        "services"
+      ],
+      "width": 143.69140625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Shopping & services",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Shopping & services"
+      ],
+      "width": 142.40625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Shopping & services",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Shopping & services"
+      ],
+      "width": 206.953125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Money & personal finance",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Money & personal",
+        "finance"
+      ],
+      "width": 181.98583984375,
+      "height": 47,
+      "fontSize": 19.5
+    },
+    {
+      "label": "Money & personal finance",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Money & personal",
+        "finance"
+      ],
+      "width": 129.09375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Money & personal finance",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Money & personal",
+        "finance"
+      ],
+      "width": 186.47265625,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "City life",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "City life"
+      ],
+      "width": 94.953125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "City life",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "City life"
+      ],
+      "width": 54.6875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "City life",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "City life"
+      ],
+      "width": 79.4609375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Transport",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Transport"
+      ],
+      "width": 126.58203125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Transport",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Transport"
+      ],
+      "width": 72.203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Transport",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Transport"
+      ],
+      "width": 106.318359375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Travel",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Travel"
+      ],
+      "width": 80.5234375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Travel",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Travel"
+      ],
+      "width": 46.1953125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Travel",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Travel"
+      ],
+      "width": 66.76953125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Family & relationships",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Family &",
+        "relationships"
+      ],
+      "width": 136.5,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Family & relationships",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Family & relationships"
+      ],
+      "width": 160.2421875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Family & relationships",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Family &",
+        "relationships"
+      ],
+      "width": 136.5,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Work & careers",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Work & careers"
+      ],
+      "width": 161.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Work & careers",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Work & careers"
+      ],
+      "width": 110.3515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Work & careers",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Work & careers"
+      ],
+      "width": 161.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Learning & education",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Learning &",
+        "education"
+      ],
+      "width": 138.48828125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Learning & education",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Learning & education"
+      ],
+      "width": 153.125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Learning & education",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Learning & education"
+      ],
+      "width": 222.310546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Health & wellbeing",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Health &",
+        "wellbeing"
+      ],
+      "width": 121.22265625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Health & wellbeing",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Health & wellbeing"
+      ],
+      "width": 135.859375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Health & wellbeing",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Health & wellbeing"
+      ],
+      "width": 195.8671875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Sports",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Sports"
+      ],
+      "width": 80.953125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Sports",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Sports"
+      ],
+      "width": 45.8203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Sports",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Sports"
+      ],
+      "width": 67.453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Hobbies & leisure",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Hobbies &",
+        "leisure"
+      ],
+      "width": 128.76171875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Hobbies & leisure",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Hobbies & leisure"
+      ],
+      "width": 125.6796875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Hobbies & leisure",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Hobbies & leisure"
+      ],
+      "width": 183.279296875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Arts & entertainment",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Arts &",
+        "entertainment"
+      ],
+      "width": 150.298828125,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Arts & entertainment",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Arts & entertainment"
+      ],
+      "width": 151.8203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Arts & entertainment",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Arts & entertainment"
+      ],
+      "width": 221.2109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Languages & communication",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Languages &",
+        "communication"
+      ],
+      "width": 162.642578125,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Languages & communication",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Languages &",
+        "communication"
+      ],
+      "width": 111.5859375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Languages & communication",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Languages &",
+        "communication"
+      ],
+      "width": 162.642578125,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Culture & traditions",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Culture &",
+        "traditions"
+      ],
+      "width": 123.859375,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Culture & traditions",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Culture & traditions"
+      ],
+      "width": 141.4609375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Culture & traditions",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Culture & traditions"
+      ],
+      "width": 206.578125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "History",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "History"
+      ],
+      "width": 94.98046875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "History",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "History"
+      ],
+      "width": 54.34375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "History",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "History"
+      ],
+      "width": 78.650390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Nature & wildlife",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Nature &",
+        "wildlife"
+      ],
+      "width": 112.51953125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Nature & wildlife",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Nature & wildlife"
+      ],
+      "width": 122.15625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Nature & wildlife",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Nature & wildlife"
+      ],
+      "width": 176.462890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Environment",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Environment"
+      ],
+      "width": 164.91015625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Environment",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Environment"
+      ],
+      "width": 94.453125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Environment",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Environment"
+      ],
+      "width": 138.091796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Science & discoveries",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Science &",
+        "discoveries"
+      ],
+      "width": 139.03125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Science & discoveries",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Science & discoveries"
+      ],
+      "width": 150.5390625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Science & discoveries",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Science & discoveries"
+      ],
+      "width": 219.984375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Technology & digital life",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Technology &",
+        "digital life"
+      ],
+      "width": 168.9609375,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Technology & digital life",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Technology & digital",
+        "life"
+      ],
+      "width": 146.8984375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Technology & digital life",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Technology & digital",
+        "life"
+      ],
+      "width": 211.1640625,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Society & public life",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Society & public",
+        "life"
+      ],
+      "width": 164.7109375,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Society & public life",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Society & public life"
+      ],
+      "width": 139.9375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Society & public life",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Society & public life"
+      ],
+      "width": 203.23046875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Space & astronomy",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Space &",
+        "astronomy"
+      ],
+      "width": 135.0703125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Space & astronomy",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Space & astronomy"
+      ],
+      "width": 137.1171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Space & astronomy",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Space & astronomy"
+      ],
+      "width": 198.30859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Business & entrepreneurship",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Business &",
+        "entrepreneurship"
+      ],
+      "width": 183.265625,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Business & entrepreneurship",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Business &",
+        "entrepreneurship"
+      ],
+      "width": 123.4375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Business & entrepreneurship",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Business &",
+        "entrepreneurship"
+      ],
+      "width": 183.265625,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Design & architecture",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Design &",
+        "architecture"
+      ],
+      "width": 152.59765625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Design & architecture",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Design & architecture"
+      ],
+      "width": 153.6953125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Design & architecture",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Design & architecture"
+      ],
+      "width": 224.412109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Philosophy & ethics",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Philosophy &",
+        "ethics"
+      ],
+      "width": 164.38671875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Philosophy & ethics",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Philosophy & ethics"
+      ],
+      "width": 139.4375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Philosophy & ethics",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Philosophy & ethics"
+      ],
+      "width": 202.328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Everyday story",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Everyday story"
+      ],
+      "width": 153.650390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Everyday story",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Everyday story"
+      ],
+      "width": 106.1640625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Everyday story",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Everyday story"
+      ],
+      "width": 153.650390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Adventure story",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Adventure story"
+      ],
+      "width": 167.716796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Adventure story",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Adventure story"
+      ],
+      "width": 115.546875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Adventure story",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Adventure story"
+      ],
+      "width": 167.716796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Detective story",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Detective story"
+      ],
+      "width": 154.314453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Detective story",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Detective story"
+      ],
+      "width": 106.609375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Detective story",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Detective story"
+      ],
+      "width": 154.314453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Science fiction story",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Science fiction",
+        "story"
+      ],
+      "width": 150.337890625,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Science fiction story",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Science fiction story"
+      ],
+      "width": 142.8984375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Science fiction story",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Science fiction story"
+      ],
+      "width": 208.533203125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Fantasy story",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Fantasy story"
+      ],
+      "width": 138.89453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Fantasy story",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Fantasy story"
+      ],
+      "width": 95.953125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Fantasy story",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Fantasy story"
+      ],
+      "width": 138.89453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Fable",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Fable"
+      ],
+      "width": 68.1640625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Fable",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Fable"
+      ],
+      "width": 39.1875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Fable",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Fable"
+      ],
+      "width": 57.13671875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Description",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Description"
+      ],
+      "width": 145.82421875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Description",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Description"
+      ],
+      "width": 83.1171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Description",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Description"
+      ],
+      "width": 121.353515625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Explainer",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Explainer"
+      ],
+      "width": 121.52734375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Explainer",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Explainer"
+      ],
+      "width": 69.1875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Explainer",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Explainer"
+      ],
+      "width": 101.439453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Fact file",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Fact file"
+      ],
+      "width": 98.97265625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Fact file",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Fact file"
+      ],
+      "width": 56.765625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Fact file",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Fact file"
+      ],
+      "width": 82.810546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "FAQ",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "FAQ"
+      ],
+      "width": 54.3125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "FAQ",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "FAQ"
+      ],
+      "width": 32.3203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "FAQ",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "FAQ"
+      ],
+      "width": 45,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Interview",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Interview"
+      ],
+      "width": 120.8125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Interview",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Interview"
+      ],
+      "width": 68.8671875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Interview",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Interview"
+      ],
+      "width": 100.34375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Informational report",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Informational",
+        "report"
+      ],
+      "width": 146.365234375,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Informational report",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Informational report"
+      ],
+      "width": 147.625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Informational report",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Informational report"
+      ],
+      "width": 218.43359375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "News brief",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "News brief"
+      ],
+      "width": 136.1640625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "News brief",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "News brief"
+      ],
+      "width": 78.515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "News brief",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "News brief"
+      ],
+      "width": 113.63671875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Reportage",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Reportage"
+      ],
+      "width": 128.05859375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Reportage",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Reportage"
+      ],
+      "width": 73.015625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Reportage",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Reportage"
+      ],
+      "width": 107.048828125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Short review",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Short review"
+      ],
+      "width": 159.2734375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Short review",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Short review"
+      ],
+      "width": 90.5078125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Short review",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Short review"
+      ],
+      "width": 132.39453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Comparative review",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Comparative",
+        "review"
+      ],
+      "width": 159.2890625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Comparative review",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Comparative review"
+      ],
+      "width": 142.21875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Comparative review",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Comparative review"
+      ],
+      "width": 207.267578125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Opinion column",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Opinion column"
+      ],
+      "width": 167.154296875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Opinion column",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Opinion column"
+      ],
+      "width": 115.578125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Opinion column",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Opinion column"
+      ],
+      "width": 167.154296875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Argumentative essay",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Argumentative",
+        "essay"
+      ],
+      "width": 155.40234375,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Argumentative essay",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Argumentative essay"
+      ],
+      "width": 148.8828125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Argumentative essay",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Argumentative essay"
+      ],
+      "width": 215.7734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Written debate",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Written debate"
+      ],
+      "width": 156.681640625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Written debate",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Written debate"
+      ],
+      "width": 107.4140625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Written debate",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Written debate"
+      ],
+      "width": 156.681640625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Speech",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Speech"
+      ],
+      "width": 88.5546875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Speech",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Speech"
+      ],
+      "width": 50.8515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Speech",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Speech"
+      ],
+      "width": 73.62890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Personal note",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Personal note"
+      ],
+      "width": 142.966796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Personal note",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Personal note"
+      ],
+      "width": 97.140625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Personal note",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Personal note"
+      ],
+      "width": 142.966796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Message exchange",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Message exchange"
+      ],
+      "width": 180.94993591308594,
+      "height": 22,
+      "fontSize": 19.2
+    },
+    {
+      "label": "Message exchange",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Message exchange"
+      ],
+      "width": 130.2578125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Message exchange",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Message exchange"
+      ],
+      "width": 189.03125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Personal letter",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Personal letter"
+      ],
+      "width": 153.158203125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Personal letter",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Personal letter"
+      ],
+      "width": 103.6328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Personal letter",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Personal letter"
+      ],
+      "width": 153.158203125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Diary entry",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Diary entry"
+      ],
+      "width": 142.16015625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Diary entry",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Diary entry"
+      ],
+      "width": 81.2890625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Diary entry",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Diary entry"
+      ],
+      "width": 117.966796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Everyday conversation",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Everyday",
+        "conversation"
+      ],
+      "width": 161.2578125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Everyday conversation",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Everyday conversation"
+      ],
+      "width": 160.9375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Everyday conversation",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Everyday conversation"
+      ],
+      "width": 234.546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Personal blog post",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Personal blog",
+        "post"
+      ],
+      "width": 141.013671875,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Personal blog post",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Personal blog post"
+      ],
+      "width": 130.390625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Personal blog post",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Personal blog post"
+      ],
+      "width": 190.748046875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Notice",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Notice"
+      ],
+      "width": 80.17578125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Notice",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Notice"
+      ],
+      "width": 47.375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Notice",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Notice"
+      ],
+      "width": 67.146484375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Listing",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Listing"
+      ],
+      "width": 86.82421875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Listing",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Listing"
+      ],
+      "width": 49.921875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Listing",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Listing"
+      ],
+      "width": 71.853515625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Menu",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Menu"
+      ],
+      "width": 71.84375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Menu",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Menu"
+      ],
+      "width": 42.0234375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Menu",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Menu"
+      ],
+      "width": 59.703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Schedule",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Schedule"
+      ],
+      "width": 112.77734375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Schedule",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Schedule"
+      ],
+      "width": 64.2578125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Schedule",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Schedule"
+      ],
+      "width": 94.314453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Sample form",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Sample form"
+      ],
+      "width": 160.28125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Sample form",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Sample form"
+      ],
+      "width": 91.828125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Sample form",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Sample form"
+      ],
+      "width": 133.734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Instructions",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Instructions"
+      ],
+      "width": 152.71875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Instructions",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Instructions"
+      ],
+      "width": 86.4375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Instructions",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Instructions"
+      ],
+      "width": 127.265625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Practical guide",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Practical guide"
+      ],
+      "width": 153.884765625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Practical guide",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Practical guide"
+      ],
+      "width": 104.84375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Practical guide",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Practical guide"
+      ],
+      "width": 153.884765625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Business email",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Business email"
+      ],
+      "width": 154.55859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Business email",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Business email"
+      ],
+      "width": 105.71875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Business email",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Business email"
+      ],
+      "width": 154.55859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Formal notice",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Formal notice"
+      ],
+      "width": 144.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Formal notice",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Formal notice"
+      ],
+      "width": 98.9140625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Formal notice",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Formal notice"
+      ],
+      "width": 144.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Progress report",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Progress report"
+      ],
+      "width": 163.19921875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Progress report",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Progress report"
+      ],
+      "width": 109.671875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Progress report",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Progress report"
+      ],
+      "width": 163.19921875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "IT meeting follow-up",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "IT meeting",
+        "follow-up"
+      ],
+      "width": 134.61328125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "IT meeting follow-up",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "IT meeting follow-up"
+      ],
+      "width": 148.96875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "IT meeting follow-up",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "IT meeting follow-up"
+      ],
+      "width": 214.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Picture & description",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Picture &",
+        "description"
+      ],
+      "width": 141.72265625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Picture & description",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Picture & description"
+      ],
+      "width": 150.1328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Picture & description",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Picture & description"
+      ],
+      "width": 219.1171875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Picture story",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Picture story"
+      ],
+      "width": 133.435546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Picture story",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Picture story"
+      ],
+      "width": 91.203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Picture story",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Picture story"
+      ],
+      "width": 133.435546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Illustrated instructions",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Illustrated",
+        "instructions"
+      ],
+      "width": 150.515625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Illustrated instructions",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Illustrated",
+        "instructions"
+      ],
+      "width": 84.890625,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Illustrated instructions",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Illustrated",
+        "instructions"
+      ],
+      "width": 125.421875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Map & guide",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Map & guide"
+      ],
+      "width": 154.49609375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Map & guide",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Map & guide"
+      ],
+      "width": 90.3515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Map & guide",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Map & guide"
+      ],
+      "width": 129.080078125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Infographic & explanation",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Infographic &",
+        "explanation"
+      ],
+      "width": 143.66015625,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Infographic & explanation",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Infographic &",
+        "explanation"
+      ],
+      "width": 98.546875,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Infographic & explanation",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Infographic &",
+        "explanation"
+      ],
+      "width": 143.66015625,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Chart & description",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Chart &",
+        "description"
+      ],
+      "width": 141.72265625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Chart & description",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Chart & description"
+      ],
+      "width": 139.1328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Chart & description",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Chart & description"
+      ],
+      "width": 202.2421875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Visual report",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Visual report"
+      ],
+      "width": 138.0859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Visual report",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Visual report"
+      ],
+      "width": 93.578125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Visual report",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Visual report"
+      ],
+      "width": 138.0859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "First introduction",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "First",
+        "introduction"
+      ],
+      "width": 144.798828125,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "First introduction",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "First introduction"
+      ],
+      "width": 126.4609375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "First introduction",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "First introduction"
+      ],
+      "width": 185.26953125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "An ordinary day",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An ordinary day"
+      ],
+      "width": 161.89370727539062,
+      "height": 22,
+      "fontSize": 19.2
+    },
+    {
+      "label": "An ordinary day",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An ordinary day"
+      ],
+      "width": 116.15625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "An ordinary day",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "An ordinary day"
+      ],
+      "width": 168.09765625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Upcoming plans",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Upcoming plans"
+      ],
+      "width": 162.0076446533203,
+      "height": 22,
+      "fontSize": 19.4
+    },
+    {
+      "label": "Upcoming plans",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Upcoming plans"
+      ],
+      "width": 115.609375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Upcoming plans",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Upcoming plans"
+      ],
+      "width": 166.96875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "What is where",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "What is where"
+      ],
+      "width": 149.162109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "What is where",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "What is where"
+      ],
+      "width": 102.2265625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "What is where",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "What is where"
+      ],
+      "width": 149.162109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "An important detail",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An important",
+        "detail"
+      ],
+      "width": 154.4931640625,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "An important detail",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An important detail"
+      ],
+      "width": 140.765625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "An important detail",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "An important detail"
+      ],
+      "width": 204.015625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A special occasion",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A special",
+        "occasion"
+      ],
+      "width": 102.1669921875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "A special occasion",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A special occasion"
+      ],
+      "width": 129.28125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A special occasion",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A special occasion"
+      ],
+      "width": 187.578125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A request for help",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A request for",
+        "help"
+      ],
+      "width": 135.876953125,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "A request for help",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A request for help"
+      ],
+      "width": 127.078125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A request for help",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A request for help"
+      ],
+      "width": 185.4375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "An invitation",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An invitation"
+      ],
+      "width": 135.91796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "An invitation",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An invitation"
+      ],
+      "width": 94.2421875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "An invitation",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "An invitation"
+      ],
+      "width": 135.91796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Clarifying details",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Clarifying",
+        "details"
+      ],
+      "width": 112.6015625,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Clarifying details",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Clarifying details"
+      ],
+      "width": 120.15625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Clarifying details",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Clarifying details"
+      ],
+      "width": 175.9375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A shared choice",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A shared choice"
+      ],
+      "width": 163.810546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A shared choice",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A shared choice"
+      ],
+      "width": 112.375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A shared choice",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A shared choice"
+      ],
+      "width": 163.810546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A misunderstanding",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A",
+        "misunderstanding"
+      ],
+      "width": 162.39794921875,
+      "height": 45,
+      "fontSize": 17
+    },
+    {
+      "label": "A misunderstanding",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A misunderstanding"
+      ],
+      "width": 145.703125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A misunderstanding",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A misunderstanding"
+      ],
+      "width": 211.359375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Feedback",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Feedback"
+      ],
+      "width": 108.5107421875,
+      "height": 25,
+      "fontSize": 22
+    },
+    {
+      "label": "Feedback",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Feedback"
+      ],
+      "width": 68.53125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Feedback",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Feedback"
+      ],
+      "width": 99.009765625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Unexpected discovery",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Unexpected",
+        "discovery"
+      ],
+      "width": 134.087890625,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Unexpected discovery",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Unexpected discovery"
+      ],
+      "width": 155.7265625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Unexpected discovery",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Unexpected discovery"
+      ],
+      "width": 225.701171875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A change of plans",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A change of",
+        "plans"
+      ],
+      "width": 135.03125,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "A change of plans",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A change of plans"
+      ],
+      "width": 125.3515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A change of plans",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A change of plans"
+      ],
+      "width": 180.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Problem and solution",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Problem and",
+        "solution"
+      ],
+      "width": 146.419921875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Problem and solution",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Problem and solution"
+      ],
+      "width": 152.8828125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Problem and solution",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Problem and solution"
+      ],
+      "width": 222.935546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "An unsuccessful attempt",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An unsuccessful",
+        "attempt"
+      ],
+      "width": 162.08444213867188,
+      "height": 47,
+      "fontSize": 19.3
+    },
+    {
+      "label": "An unsuccessful attempt",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An unsuccessful",
+        "attempt"
+      ],
+      "width": 115.3203125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "An unsuccessful attempt",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "An unsuccessful",
+        "attempt"
+      ],
+      "width": 167.755859375,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "An unexpected outcome",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An unexpected",
+        "outcome"
+      ],
+      "width": 154.169921875,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "An unexpected outcome",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "An unexpected outcome"
+      ],
+      "width": 171.296875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "An unexpected outcome",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "An unexpected outcome"
+      ],
+      "width": 248.361328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Consequences of a decision",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Consequences of",
+        "a decision"
+      ],
+      "width": 161.20693969726562,
+      "height": 46,
+      "fontSize": 18.4
+    },
+    {
+      "label": "Consequences of a decision",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Consequences of a",
+        "decision"
+      ],
+      "width": 129.875,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Consequences of a decision",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Consequences of a",
+        "decision"
+      ],
+      "width": 189.294921875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "How it works",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "How it works"
+      ],
+      "width": 150.359375,
+      "height": 25,
+      "fontSize": 22
+    },
+    {
+      "label": "How it works",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "How it works"
+      ],
+      "width": 93.9375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "How it works",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "How it works"
+      ],
+      "width": 136.703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Why it happens",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Why it happens"
+      ],
+      "width": 160.84375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Why it happens",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Why it happens"
+      ],
+      "width": 111.5703125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Why it happens",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Why it happens"
+      ],
+      "width": 160.84375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Comparing two options",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Comparing two",
+        "options"
+      ],
+      "width": 158.498046875,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Comparing two options",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Comparing two options"
+      ],
+      "width": 165.7578125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Comparing two options",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Comparing two options"
+      ],
+      "width": 240.953125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Then and now",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Then and now"
+      ],
+      "width": 161.9697265625,
+      "height": 25,
+      "fontSize": 22
+    },
+    {
+      "label": "Then and now",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Then and now"
+      ],
+      "width": 102.8984375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Then and now",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Then and now"
+      ],
+      "width": 147.154296875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Expectations and reality",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Expectations and",
+        "reality"
+      ],
+      "width": 162.09239196777344,
+      "height": 46,
+      "fontSize": 18.2
+    },
+    {
+      "label": "Expectations and reality",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Expectations and",
+        "reality"
+      ],
+      "width": 122.8359375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Expectations and reality",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Expectations and",
+        "reality"
+      ],
+      "width": 177.837890625,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "A common misconception",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A common",
+        "misconception"
+      ],
+      "width": 151.724609375,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "A common misconception",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A common misconception"
+      ],
+      "width": 185.625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A common misconception",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A common",
+        "misconception"
+      ],
+      "width": 151.724609375,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "What changed",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "What changed"
+      ],
+      "width": 163.361328125,
+      "height": 25,
+      "fontSize": 22
+    },
+    {
+      "label": "What changed",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "What changed"
+      ],
+      "width": 103.34375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "What changed",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "What changed"
+      ],
+      "width": 148.96484375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Decisions and next steps",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Decisions and",
+        "next steps"
+      ],
+      "width": 144.693359375,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Decisions and next steps",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Decisions and next",
+        "steps"
+      ],
+      "width": 133.953125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Decisions and next steps",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Decisions and next",
+        "steps"
+      ],
+      "width": 195.025390625,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "A noticeable pattern",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A noticeable",
+        "pattern"
+      ],
+      "width": 141.1015625,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "A noticeable pattern",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A noticeable pattern"
+      ],
+      "width": 144.6171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A noticeable pattern",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A noticeable pattern"
+      ],
+      "width": 209.86328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Different viewpoints",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Different",
+        "viewpoints"
+      ],
+      "width": 124.265625,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Different viewpoints",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Different viewpoints"
+      ],
+      "width": 144.53125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Different viewpoints",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Different viewpoints"
+      ],
+      "width": 211.625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "A difficult choice",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A difficult",
+        "choice"
+      ],
+      "width": 113.85546875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "A difficult choice",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "A difficult choice"
+      ],
+      "width": 120.1484375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "A difficult choice",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "A difficult choice"
+      ],
+      "width": 175.0703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Strengths and limitations",
+      "locale": "en",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Strengths and",
+        "limitations"
+      ],
+      "width": 144.68359375,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Strengths and limitations",
+      "locale": "en",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Strengths and",
+        "limitations"
+      ],
+      "width": 99.515625,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Strengths and limitations",
+      "locale": "en",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Strengths and",
+        "limitations"
+      ],
+      "width": 144.68359375,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Дом и быт",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Дом и быт"
+      ],
+      "width": 135.10546875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Дом и быт",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Дом и быт"
+      ],
+      "width": 78.9140625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Дом и быт",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Дом и быт"
+      ],
+      "width": 113.087890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Еда и готовка",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Еда и готовка"
+      ],
+      "width": 146.62890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Еда и готовка",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Еда и готовка"
+      ],
+      "width": 101.984375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Еда и готовка",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Еда и готовка"
+      ],
+      "width": 146.62890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Покупки и услуги",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Покупки и услуги"
+      ],
+      "width": 181.76220703125,
+      "height": 21,
+      "fontSize": 19
+    },
+    {
+      "label": "Покупки и услуги",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Покупки и услуги"
+      ],
+      "width": 133.359375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Покупки и услуги",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Покупки и услуги"
+      ],
+      "width": 190.9375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Деньги и финансы",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Деньги и финансы"
+      ],
+      "width": 182.6355743408203,
+      "height": 20,
+      "fontSize": 17.8
+    },
+    {
+      "label": "Деньги и финансы",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Деньги и финансы"
+      ],
+      "width": 141.125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Деньги и финансы",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Деньги и финансы"
+      ],
+      "width": 204.390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Жизнь в городе",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Жизнь в городе"
+      ],
+      "width": 170.158203125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Жизнь в городе",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Жизнь в городе"
+      ],
+      "width": 118.2109375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Жизнь в городе",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Жизнь в городе"
+      ],
+      "width": 170.158203125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Транспорт",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Транспорт"
+      ],
+      "width": 139.11328125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Транспорт",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Транспорт"
+      ],
+      "width": 80.5,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Транспорт",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Транспорт"
+      ],
+      "width": 116.427734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Путешествия",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Путешествия"
+      ],
+      "width": 172.65625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Путешествия",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Путешествия"
+      ],
+      "width": 99.5,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Путешествия",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Путешествия"
+      ],
+      "width": 144.09375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Семья и отношения",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Семья и",
+        "отношения"
+      ],
+      "width": 147.71875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Семья и отношения",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Семья и отношения"
+      ],
+      "width": 148.296875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Семья и отношения",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Семья и отношения"
+      ],
+      "width": 214.25,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Работа и карьера",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Работа и карьера"
+      ],
+      "width": 181.34661865234375,
+      "height": 22,
+      "fontSize": 19.6
+    },
+    {
+      "label": "Работа и карьера",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Работа и карьера"
+      ],
+      "width": 127.125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Работа и карьера",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Работа и карьера"
+      ],
+      "width": 184.802734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Учёба и образование",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Учёба и",
+        "образование"
+      ],
+      "width": 165.95703125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Учёба и образование",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Учёба и образование"
+      ],
+      "width": 157.1953125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Учёба и образование",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Учёба и образование"
+      ],
+      "width": 227.86328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Здоровье и самочувствие",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Здоровье и",
+        "самочувствие"
+      ],
+      "width": 177.83984375,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Здоровье и самочувствие",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Здоровье и",
+        "самочувствие"
+      ],
+      "width": 101.6015625,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Здоровье и самочувствие",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Здоровье и",
+        "самочувствие"
+      ],
+      "width": 148.533203125,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Спорт",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Спорт"
+      ],
+      "width": 78.9921875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Спорт",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Спорт"
+      ],
+      "width": 45.6640625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Спорт",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Спорт"
+      ],
+      "width": 66.16015625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Увлечения и досуг",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Увлечения и",
+        "досуг"
+      ],
+      "width": 165.4375,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Увлечения и досуг",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Увлечения и досуг"
+      ],
+      "width": 140.2578125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Увлечения и досуг",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Увлечения и досуг"
+      ],
+      "width": 200.984375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Искусство и развлечения",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Искусство и",
+        "развлечения"
+      ],
+      "width": 167.6875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Искусство и развлечения",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Искусство и",
+        "развлечения"
+      ],
+      "width": 96.53125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Искусство и развлечения",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Искусство и",
+        "развлечения"
+      ],
+      "width": 140.123046875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Языки и общение",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Языки и общение"
+      ],
+      "width": 181.82476806640625,
+      "height": 21,
+      "fontSize": 18.7
+    },
+    {
+      "label": "Языки и общение",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Языки и общение"
+      ],
+      "width": 134.359375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Языки и общение",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Языки и общение"
+      ],
+      "width": 194.630859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Культура и традиции",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Культура и",
+        "традиции"
+      ],
+      "width": 142.640625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Культура и традиции",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Культура и традиции"
+      ],
+      "width": 159.2890625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Культура и традиции",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Культура и традиции"
+      ],
+      "width": 229.328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "История",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "История"
+      ],
+      "width": 111.5625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "История",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "История"
+      ],
+      "width": 64.453125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "История",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "История"
+      ],
+      "width": 93.185546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Природа и животные",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Природа и",
+        "животные"
+      ],
+      "width": 138.03125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Природа и животные",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Природа и животные"
+      ],
+      "width": 160.8671875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Природа и животные",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Природа и животные"
+      ],
+      "width": 232.78125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Окружающая среда",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Окружающая среда"
+      ],
+      "width": 182.31964111328125,
+      "height": 20,
+      "fontSize": 17.2
+    },
+    {
+      "label": "Окружающая среда",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Окружающая среда"
+      ],
+      "width": 146.703125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Окружающая среда",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Окружающая среда"
+      ],
+      "width": 211.208984375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Наука и открытия",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Наука и открытия"
+      ],
+      "width": 181.0858612060547,
+      "height": 21,
+      "fontSize": 18.4
+    },
+    {
+      "label": "Наука и открытия",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Наука и открытия"
+      ],
+      "width": 135.9453125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Наука и открытия",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Наука и открытия"
+      ],
+      "width": 196.7890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Технологии и цифровой мир",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Технологии и",
+        "цифровой мир"
+      ],
+      "width": 181.48135375976562,
+      "height": 51,
+      "fontSize": 22.7
+    },
+    {
+      "label": "Технологии и цифровой мир",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Технологии и цифровой",
+        "мир"
+      ],
+      "width": 183.3125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Технологии и цифровой мир",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Технологии и цифровой",
+        "мир"
+      ],
+      "width": 264.984375,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Общество",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Общество"
+      ],
+      "width": 128.1875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Общество",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Общество"
+      ],
+      "width": 74.203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Общество",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Общество"
+      ],
+      "width": 107.1015625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Космос и астрономия",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Космос и",
+        "астрономия"
+      ],
+      "width": 155.3125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Космос и астрономия",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Космос и астрономия"
+      ],
+      "width": 161.09375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Космос и астрономия",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Космос и астрономия"
+      ],
+      "width": 232.86328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Бизнес",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Бизнес"
+      ],
+      "width": 91.8671875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Бизнес",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Бизнес"
+      ],
+      "width": 53.2734375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Бизнес",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Бизнес"
+      ],
+      "width": 76.72265625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Дизайн и архитектура",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Дизайн и",
+        "архитектура"
+      ],
+      "width": 160.96875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Дизайн и архитектура",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Дизайн и архитектура"
+      ],
+      "width": 166.828125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Дизайн и архитектура",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Дизайн и архитектура"
+      ],
+      "width": 240.75390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Философия и этика",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Философия и",
+        "этика"
+      ],
+      "width": 174.984375,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Философия и этика",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Философия и этика"
+      ],
+      "width": 146,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Философия и этика",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Философия и этика"
+      ],
+      "width": 211.892578125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Рассказ из жизни",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Рассказ из жизни"
+      ],
+      "width": 182.1405792236328,
+      "height": 22,
+      "fontSize": 19.2
+    },
+    {
+      "label": "Рассказ из жизни",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Рассказ из жизни"
+      ],
+      "width": 131.6171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Рассказ из жизни",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Рассказ из жизни"
+      ],
+      "width": 189.5,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Приключенческий рассказ",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Приключенческий",
+        "рассказ"
+      ],
+      "width": 181.68663024902344,
+      "height": 45,
+      "fontSize": 17.6
+    },
+    {
+      "label": "Приключенческий рассказ",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Приключенческий",
+        "рассказ"
+      ],
+      "width": 142.0234375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Приключенческий рассказ",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Приключенческий",
+        "рассказ"
+      ],
+      "width": 206.046875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Детективный рассказ",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Детективный",
+        "рассказ"
+      ],
+      "width": 177.53125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Детективный рассказ",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Детективный рассказ"
+      ],
+      "width": 162.1328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Детективный рассказ",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Детективный рассказ"
+      ],
+      "width": 235.212890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Научная фантастика",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Научная",
+        "фантастика"
+      ],
+      "width": 153.1640625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Научная фантастика",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Научная фантастика"
+      ],
+      "width": 155.484375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Научная фантастика",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Научная фантастика"
+      ],
+      "width": 225.857421875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Фэнтези",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Фэнтези"
+      ],
+      "width": 109.03125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Фэнтези",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Фэнтези"
+      ],
+      "width": 62.6328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Фэнтези",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Фэнтези"
+      ],
+      "width": 90.859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Басня",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Басня"
+      ],
+      "width": 77.375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Басня",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Басня"
+      ],
+      "width": 44.4921875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Басня",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Басня"
+      ],
+      "width": 64.689453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Описание",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Описание"
+      ],
+      "width": 128.97265625,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Описание",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Описание"
+      ],
+      "width": 74.1953125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Описание",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Описание"
+      ],
+      "width": 107.810546875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Подробное объяснение",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Подробное",
+        "объяснение"
+      ],
+      "width": 153.69921875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Подробное объяснение",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Подробное объяснение"
+      ],
+      "width": 174.4453125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Подробное объяснение",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Подробное объяснение"
+      ],
+      "width": 253.240234375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Справка о предмете",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Справка о",
+        "предмете"
+      ],
+      "width": 129.90625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Справка о предмете",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Справка о предмете"
+      ],
+      "width": 148.78125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Справка о предмете",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Справка о предмете"
+      ],
+      "width": 214.6171875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Вопросы и ответы",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Вопросы и ответы"
+      ],
+      "width": 182.1506805419922,
+      "height": 21,
+      "fontSize": 18.4
+    },
+    {
+      "label": "Вопросы и ответы",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Вопросы и ответы"
+      ],
+      "width": 135.21875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Вопросы и ответы",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Вопросы и ответы"
+      ],
+      "width": 197.8125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Интервью",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Интервью"
+      ],
+      "width": 133.34375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Интервью",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Интервью"
+      ],
+      "width": 76.484375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Интервью",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Интервью"
+      ],
+      "width": 111.373046875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Информационный отчёт",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Информационный",
+        "отчёт"
+      ],
+      "width": 181.75535583496094,
+      "height": 45,
+      "fontSize": 17.6
+    },
+    {
+      "label": "Информационный отчёт",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Информационный отчёт"
+      ],
+      "width": 186.53125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Информационный отчёт",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Информационный отчёт"
+      ],
+      "width": 271.58984375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Короткая новость",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Короткая новость"
+      ],
+      "width": 181.81561279296875,
+      "height": 21,
+      "fontSize": 18.7
+    },
+    {
+      "label": "Короткая новость",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Короткая новость"
+      ],
+      "width": 132.625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Короткая новость",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Короткая новость"
+      ],
+      "width": 193.62109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Репортаж",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Репортаж"
+      ],
+      "width": 127.7734375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Репортаж",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Репортаж"
+      ],
+      "width": 73.4765625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Репортаж",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Репортаж"
+      ],
+      "width": 107.14453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Короткий отзыв",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Короткий отзыв"
+      ],
+      "width": 177.171875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Короткий отзыв",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Короткий отзыв"
+      ],
+      "width": 122.171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Короткий отзыв",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Короткий отзыв"
+      ],
+      "width": 177.171875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Сравнительный обзор",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Сравнительный",
+        "обзор"
+      ],
+      "width": 174.5,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Сравнительный обзор",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Сравнительный обзор"
+      ],
+      "width": 165.96875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Сравнительный обзор",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Сравнительный обзор"
+      ],
+      "width": 241.453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Авторская колонка",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Авторская",
+        "колонка"
+      ],
+      "width": 135.953125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Авторская колонка",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Авторская колонка"
+      ],
+      "width": 144.09375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Авторская колонка",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Авторская колонка"
+      ],
+      "width": 208.908203125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Эссе с аргументами",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Эссе с",
+        "аргументами"
+      ],
+      "width": 169.421875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Эссе с аргументами",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Эссе с аргументами"
+      ],
+      "width": 145.8515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Эссе с аргументами",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Эссе с аргументами"
+      ],
+      "width": 209.25,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Письменная дискуссия",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Письменная",
+        "дискуссия"
+      ],
+      "width": 162.515625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Письменная дискуссия",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Письменная дискуссия"
+      ],
+      "width": 173.3359375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Письменная дискуссия",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Письменная дискуссия"
+      ],
+      "width": 250.412109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Выступление",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Выступление"
+      ],
+      "width": 173.99609375,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Выступление",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Выступление"
+      ],
+      "width": 99.453125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Выступление",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Выступление"
+      ],
+      "width": 145.330078125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Личная записка",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Личная записка"
+      ],
+      "width": 175.8125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Личная записка",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Личная записка"
+      ],
+      "width": 121.703125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Личная записка",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Личная записка"
+      ],
+      "width": 175.8125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Переписка",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Переписка"
+      ],
+      "width": 141.94921875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Переписка",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Переписка"
+      ],
+      "width": 81.109375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Переписка",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Переписка"
+      ],
+      "width": 117.791015625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Личное письмо",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Личное письмо"
+      ],
+      "width": 168.66796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Личное письмо",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Личное письмо"
+      ],
+      "width": 117.1015625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Личное письмо",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Личное письмо"
+      ],
+      "width": 168.66796875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Запись в дневнике",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Запись в",
+        "дневнике"
+      ],
+      "width": 125.00390625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Запись в дневнике",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Запись в дневнике"
+      ],
+      "width": 139.5390625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Запись в дневнике",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Запись в дневнике"
+      ],
+      "width": 202.46875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Повседневный диалог",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Повседневный",
+        "диалог"
+      ],
+      "width": 181.828125,
+      "height": 51,
+      "fontSize": 22.4
+    },
+    {
+      "label": "Повседневный диалог",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Повседневный диалог"
+      ],
+      "width": 167.8203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Повседневный диалог",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Повседневный диалог"
+      ],
+      "width": 242.826171875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Запись в личном блоге",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Запись в личном",
+        "блоге"
+      ],
+      "width": 182.578125,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Запись в личном блоге",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Запись в личном блоге"
+      ],
+      "width": 171.9921875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Запись в личном блоге",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Запись в личном блоге"
+      ],
+      "width": 247.95703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Уведомление",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Уведомление"
+      ],
+      "width": 174.0703125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Уведомление",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Уведомление"
+      ],
+      "width": 101.125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Уведомление",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Уведомление"
+      ],
+      "width": 145.55859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Объявление",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Объявление"
+      ],
+      "width": 158.94921875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Объявление",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Объявление"
+      ],
+      "width": 91.421875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Объявление",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Объявление"
+      ],
+      "width": 132.791015625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Меню",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Меню"
+      ],
+      "width": 77.8125,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Меню",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Меню"
+      ],
+      "width": 45.3125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Меню",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Меню"
+      ],
+      "width": 65.103515625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Расписание",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Расписание"
+      ],
+      "width": 153.171875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Расписание",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Расписание"
+      ],
+      "width": 87.375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Расписание",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Расписание"
+      ],
+      "width": 127.9765625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Образец анкеты",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Образец анкеты"
+      ],
+      "width": 174.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Образец анкеты",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Образец анкеты"
+      ],
+      "width": 120.59375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Образец анкеты",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Образец анкеты"
+      ],
+      "width": 174.890625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Инструкция",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Инструкция"
+      ],
+      "width": 159.046875,
+      "height": 27,
+      "fontSize": 24
+    },
+    {
+      "label": "Инструкция",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Инструкция"
+      ],
+      "width": 91.90625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Инструкция",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Инструкция"
+      ],
+      "width": 132.755859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Практическое руководство",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Практическое",
+        "руководство"
+      ],
+      "width": 181.61985778808594,
+      "height": 52,
+      "fontSize": 23.6
+    },
+    {
+      "label": "Практическое руководство",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Практическое",
+        "руководство"
+      ],
+      "width": 105.8828125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Практическое руководство",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Практическое",
+        "руководство"
+      ],
+      "width": 154.05078125,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Деловое письмо",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Деловое письмо"
+      ],
+      "width": 175.77734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Деловое письмо",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Деловое письмо"
+      ],
+      "width": 121.8046875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Деловое письмо",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Деловое письмо"
+      ],
+      "width": 175.77734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Официальное уведомление",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Официальное",
+        "уведомление"
+      ],
+      "width": 182.5390625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Официальное уведомление",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Официальное",
+        "уведомление"
+      ],
+      "width": 104.8671875,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Официальное уведомление",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Официальное",
+        "уведомление"
+      ],
+      "width": 152.44921875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Отчёт о ходе работы",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Отчёт о ходе",
+        "работы"
+      ],
+      "width": 161.17578125,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Отчёт о ходе работы",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Отчёт о ходе работы"
+      ],
+      "width": 151.59375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Отчёт о ходе работы",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Отчёт о ходе работы"
+      ],
+      "width": 218.671875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Итоги IT-встречи",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Итоги IT-встречи"
+      ],
+      "width": 181.29922485351562,
+      "height": 22,
+      "fontSize": 19.3
+    },
+    {
+      "label": "Итоги IT-встречи",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Итоги IT-встречи"
+      ],
+      "width": 131.1796875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Итоги IT-встречи",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Итоги IT-встречи"
+      ],
+      "width": 187.8125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Изображение и описание",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Изображение и",
+        "описание"
+      ],
+      "width": 168.171875,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Изображение и описание",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Изображение и описание"
+      ],
+      "width": 191.1796875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Изображение и описание",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Изображение и",
+        "описание"
+      ],
+      "width": 168.171875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "История в картинках",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "История в",
+        "картинках"
+      ],
+      "width": 137.4609375,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "История в картинках",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "История в картинках"
+      ],
+      "width": 159.203125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "История в картинках",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "История в картинках"
+      ],
+      "width": 229.55859375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Инструкция с картинками",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Инструкция с",
+        "картинками"
+      ],
+      "width": 178.140625,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "Инструкция с картинками",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Инструкция с",
+        "картинками"
+      ],
+      "width": 103.53125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Инструкция с картинками",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Инструкция с",
+        "картинками"
+      ],
+      "width": 148.6171875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Карта и маршрут",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Карта и маршрут"
+      ],
+      "width": 182.21751403808594,
+      "height": 22,
+      "fontSize": 19.6
+    },
+    {
+      "label": "Карта и маршрут",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Карта и маршрут"
+      ],
+      "width": 128.90625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Карта и маршрут",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Карта и маршрут"
+      ],
+      "width": 185.69140625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Инфографика с пояснением",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Инфографика с",
+        "пояснением"
+      ],
+      "width": 170.501953125,
+      "height": 47,
+      "fontSize": 20
+    },
+    {
+      "label": "Инфографика с пояснением",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Инфографика с",
+        "пояснением"
+      ],
+      "width": 118.3359375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Инфографика с пояснением",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Инфографика с",
+        "пояснением"
+      ],
+      "width": 170.501953125,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "График и описание",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "График и",
+        "описание"
+      ],
+      "width": 124.5546875,
+      "height": 52,
+      "fontSize": 24
+    },
+    {
+      "label": "График и описание",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "График и описание"
+      ],
+      "width": 145.6328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "График и описание",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "График и описание"
+      ],
+      "width": 211.501953125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Визуальный отчёт",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Визуальный отчёт"
+      ],
+      "width": 181.81866455078125,
+      "height": 21,
+      "fontSize": 18.1
+    },
+    {
+      "label": "Визуальный отчёт",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": false,
+      "lines": [
+        "Визуальный отчёт"
+      ],
+      "width": 137.59375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Визуальный отчёт",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": false,
+      "lines": [
+        "Визуальный отчёт"
+      ],
+      "width": 200.75,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Первое знакомство",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Первое",
+        "знакомство"
+      ],
+      "width": 137.642578125,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Первое знакомство",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Первое знакомство"
+      ],
+      "width": 144.671875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Первое знакомство",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Первое знакомство"
+      ],
+      "width": 209.611328125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Обычный день",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Обычный день"
+      ],
+      "width": 161.63864135742188,
+      "height": 22,
+      "fontSize": 19.9
+    },
+    {
+      "label": "Обычный день",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Обычный день"
+      ],
+      "width": 111.7890625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Обычный день",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Обычный день"
+      ],
+      "width": 162.390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Ближайшие планы",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Ближайшие планы"
+      ],
+      "width": 162.552734375,
+      "height": 17,
+      "fontSize": 15.5
+    },
+    {
+      "label": "Ближайшие планы",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Ближайшие планы"
+      ],
+      "width": 144.03125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Ближайшие планы",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Ближайшие планы"
+      ],
+      "width": 208.703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Что где находится",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Что где",
+        "находится"
+      ],
+      "width": 122.71875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Что где находится",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Что где находится"
+      ],
+      "width": 137.6328125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Что где находится",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Что где находится"
+      ],
+      "width": 196.900390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Важная деталь",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Важная деталь"
+      ],
+      "width": 160.564453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Важная деталь",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Важная деталь"
+      ],
+      "width": 111.125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Важная деталь",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Важная деталь"
+      ],
+      "width": 160.564453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Особый случай",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Особый случай"
+      ],
+      "width": 161.265625,
+      "height": 22,
+      "fontSize": 19.6
+    },
+    {
+      "label": "Особый случай",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Особый случай"
+      ],
+      "width": 113.8828125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Особый случай",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Особый случай"
+      ],
+      "width": 164.5625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Просьба о помощи",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Просьба о помощи"
+      ],
+      "width": 162.21920776367188,
+      "height": 18,
+      "fontSize": 15.9
+    },
+    {
+      "label": "Просьба о помощи",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Просьба о помощи"
+      ],
+      "width": 141.1171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Просьба о помощи",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Просьба о помощи"
+      ],
+      "width": 203.3125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Приглашение",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Приглашение"
+      ],
+      "width": 161.578125,
+      "height": 25,
+      "fontSize": 21.3
+    },
+    {
+      "label": "Приглашение",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Приглашение"
+      ],
+      "width": 105.3515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Приглашение",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Приглашение"
+      ],
+      "width": 152.2734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Уточнение деталей",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Уточнение",
+        "деталей"
+      ],
+      "width": 130.2626953125,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Уточнение деталей",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Уточнение деталей"
+      ],
+      "width": 144.7421875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Уточнение деталей",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Уточнение деталей"
+      ],
+      "width": 208.703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Совместный выбор",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Совместный выбор"
+      ],
+      "width": 161.25,
+      "height": 17,
+      "fontSize": 15.4
+    },
+    {
+      "label": "Совместный выбор",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Совместный выбор"
+      ],
+      "width": 143.515625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Совместный выбор",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Совместный выбор"
+      ],
+      "width": 209.421875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Недопонимание",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Недопонимание"
+      ],
+      "width": 161.65943908691406,
+      "height": 21,
+      "fontSize": 18.1
+    },
+    {
+      "label": "Недопонимание",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Недопонимание"
+      ],
+      "width": 123.1875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Недопонимание",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Недопонимание"
+      ],
+      "width": 178.474609375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Обратная связь",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Обратная связь"
+      ],
+      "width": 161.92127990722656,
+      "height": 22,
+      "fontSize": 19.3
+    },
+    {
+      "label": "Обратная связь",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Обратная связь"
+      ],
+      "width": 115.6171875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Обратная связь",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Обратная связь"
+      ],
+      "width": 167.439453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Неожиданное открытие",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Неожиданное",
+        "открытие"
+      ],
+      "width": 161.1875,
+      "height": 50,
+      "fontSize": 21.3
+    },
+    {
+      "label": "Неожиданное открытие",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Неожиданное открытие"
+      ],
+      "width": 180.078125,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Неожиданное открытие",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Неожиданное открытие"
+      ],
+      "width": 261.580078125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Перемена планов",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Перемена планов"
+      ],
+      "width": 161.9694061279297,
+      "height": 19,
+      "fontSize": 16.9
+    },
+    {
+      "label": "Перемена планов",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Перемена планов"
+      ],
+      "width": 132.734375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Перемена планов",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Перемена планов"
+      ],
+      "width": 191.046875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Проблема и решение",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Проблема и",
+        "решение"
+      ],
+      "width": 141.3935546875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Проблема и решение",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Проблема и решение"
+      ],
+      "width": 159.359375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Проблема и решение",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Проблема и решение"
+      ],
+      "width": 229.7734375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Неудачная попытка",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Неудачная",
+        "попытка"
+      ],
+      "width": 129.125,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Неудачная попытка",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Неудачная попытка"
+      ],
+      "width": 149.671875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Неудачная попытка",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Неудачная попытка"
+      ],
+      "width": 217.166015625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Неожиданный результат",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Неожиданный",
+        "результат"
+      ],
+      "width": 161.453125,
+      "height": 48,
+      "fontSize": 20.2
+    },
+    {
+      "label": "Неожиданный результат",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Неожиданный результат"
+      ],
+      "width": 187.2421875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Неожиданный результат",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Неожиданный результат"
+      ],
+      "width": 271.365234375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Последствия решения",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Последствия",
+        "решения"
+      ],
+      "width": 153.21875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Последствия решения",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Последствия решения"
+      ],
+      "width": 167.2734375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Последствия решения",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Последствия решения"
+      ],
+      "width": 241.7109375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Как это работает",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Как это работает"
+      ],
+      "width": 162.1888427734375,
+      "height": 20,
+      "fontSize": 17.8
+    },
+    {
+      "label": "Как это работает",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Как это работает"
+      ],
+      "width": 125.4609375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Как это работает",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Как это работает"
+      ],
+      "width": 181.970703125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Почему так происходит",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Почему так",
+        "происходит"
+      ],
+      "width": 140.5419921875,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Почему так происходит",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Почему так происходит"
+      ],
+      "width": 177.8046875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Почему так происходит",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Почему так происходит"
+      ],
+      "width": 256.521484375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Сравнение вариантов",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Сравнение",
+        "вариантов"
+      ],
+      "width": 129.53125,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Сравнение вариантов",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Сравнение вариантов"
+      ],
+      "width": 162.625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Сравнение вариантов",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Сравнение вариантов"
+      ],
+      "width": 236.390625,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Раньше и сейчас",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Раньше и сейчас"
+      ],
+      "width": 161.58181762695312,
+      "height": 20,
+      "fontSize": 17.9
+    },
+    {
+      "label": "Раньше и сейчас",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Раньше и сейчас"
+      ],
+      "width": 124.59375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Раньше и сейчас",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Раньше и сейчас"
+      ],
+      "width": 180.365234375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Ожидания и реальность",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Ожидания и",
+        "реальность"
+      ],
+      "width": 147.1083984375,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Ожидания и реальность",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Ожидания и реальность"
+      ],
+      "width": 180.484375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Ожидания и реальность",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Ожидания и реальность"
+      ],
+      "width": 260.564453125,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Частое заблуждение",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Частое",
+        "заблуждение"
+      ],
+      "width": 155.65625,
+      "height": 50,
+      "fontSize": 22
+    },
+    {
+      "label": "Частое заблуждение",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Частое заблуждение"
+      ],
+      "width": 154.3359375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Частое заблуждение",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Частое заблуждение"
+      ],
+      "width": 222.013671875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Что изменилось",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Что изменилось"
+      ],
+      "width": 161.95814514160156,
+      "height": 21,
+      "fontSize": 18.4
+    },
+    {
+      "label": "Что изменилось",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Что изменилось"
+      ],
+      "width": 122.2734375,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Что изменилось",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Что изменилось"
+      ],
+      "width": 175.998046875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Решения и следующие шаги",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Решения и",
+        "следующие шаги"
+      ],
+      "width": 161.604736328125,
+      "height": 45,
+      "fontSize": 17.5
+    },
+    {
+      "label": "Решения и следующие шаги",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Решения и следующие",
+        "шаги"
+      ],
+      "width": 170.2421875,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Решения и следующие шаги",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Решения и следующие",
+        "шаги"
+      ],
+      "width": 246.1796875,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Заметная закономерность",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Заметная",
+        "закономерность"
+      ],
+      "width": 161.19583129882812,
+      "height": 46,
+      "fontSize": 18.3
+    },
+    {
+      "label": "Заметная закономерность",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Заметная",
+        "закономерность"
+      ],
+      "width": 120.9375,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Заметная закономерность",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Заметная",
+        "закономерность"
+      ],
+      "width": 176.23828125,
+      "height": 43,
+      "fontSize": 20
+    },
+    {
+      "label": "Разные точки зрения",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Разные точки",
+        "зрения"
+      ],
+      "width": 161.6708984375,
+      "height": 50,
+      "fontSize": 21.5
+    },
+    {
+      "label": "Разные точки зрения",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Разные точки зрения"
+      ],
+      "width": 159.640625,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Разные точки зрения",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Разные точки зрения"
+      ],
+      "width": 231.857421875,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Трудный выбор",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Трудный выбор"
+      ],
+      "width": 161.9198455810547,
+      "height": 21,
+      "fontSize": 18.7
+    },
+    {
+      "label": "Трудный выбор",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Трудный выбор"
+      ],
+      "width": 119.21875,
+      "height": 19,
+      "fontSize": 16
+    },
+    {
+      "label": "Трудный выбор",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Трудный выбор"
+      ],
+      "width": 172.359375,
+      "height": 22,
+      "fontSize": 20
+    },
+    {
+      "label": "Сильные стороны и ограничения",
+      "locale": "ru",
+      "selected": true,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Сильные стороны",
+        "и ограничения"
+      ],
+      "width": 162.010498046875,
+      "height": 44,
+      "fontSize": 16.5
+    },
+    {
+      "label": "Сильные стороны и ограничения",
+      "locale": "ru",
+      "selected": false,
+      "compact": false,
+      "angle": true,
+      "lines": [
+        "Сильные стороны и",
+        "ограничения"
+      ],
+      "width": 147.6953125,
+      "height": 37,
+      "fontSize": 16
+    },
+    {
+      "label": "Сильные стороны и ограничения",
+      "locale": "ru",
+      "selected": true,
+      "compact": true,
+      "angle": true,
+      "lines": [
+        "Сильные стороны и",
+        "ограничения"
+      ],
+      "width": 214.71875,
+      "height": 43,
+      "fontSize": 20
+    }
+  ]
+}

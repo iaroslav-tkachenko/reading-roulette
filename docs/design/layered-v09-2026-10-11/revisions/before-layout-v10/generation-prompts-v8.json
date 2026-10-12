@@ -1,0 +1,14 @@
+{
+  "study-window-wide-v8.png": {
+    "source": "study-shell-v7.png",
+    "prompt": "Use attached study as reference for style, materials and position. Create a separate COMPLETE tall old wooden WINDOW with dark blue evening glass panes and lush ivy leaves climbing the RIGHT inner jamb. Extend the original left-edge window OUTWARD TO THE LEFT by about 170 image units, so the window is about twice as wide as the original narrow strip. Preserve the original right-hand jamb and hanging ivy feel: this RIGHT EDGE is the fixed edge near the central machine. Show the additional blue evening panes, vertical and horizontal timber mullions to the left, with soft distant warm lights through glass. Overall visible width:height about 0.60:1, frontal same perspective, deep worn wood, exquisite painterly realistic antique study illustration, warm golden light from lower right. Fully draw both outer frame sides, entire silhouette and ivy leaves, no edge cropping, generous transparent margin. Entire object on actual transparent background. NO desk, NO lamp, NO books, NO machine, NO text, NO room wall surrounding it. Only complete window frame, glass and right-jamb ivy. Do not enlarge leaf mass toward the machine on the right; added content is on the LEFT.",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  },
+  "study-bookcase-wide-v8.png": {
+    "source": "study-shell-v7.png",
+    "prompt": "Use attached study as reference. Create a separate COMPLETE tall antique dark wooden BOOKCASE section with leather-bound old books and a warm brass vintage globe on its LOWER LEFT shelf, in same frontal perspective, worn dark brown timber, warm golden edge lighting, exquisite painterly realistic illustration. Extend the original right-edge narrow cabinet OUTWARD TO THE RIGHT by about 170 image units: preserve its LEFT upright edge as the fixed edge near the central machine, preserve globe at lower LEFT portion, and add coherent continuation of shelves and more books to its RIGHT. Overall visible width:height about 0.62:1, two shelf bays or a wider shelf span. Draw all shelf edges, complete globe sphere, meridian ring and stand, whole cabinet outer right upright; no objects cropped at image edges. Ivy may drape lightly at upper right, matching the reference. Fully complete self-contained silhouette with generous transparent margin and actual transparent background. NO tabletop, NO pen cup, NO machine, NO text, NO surrounding plaster wall. Additional width is to the RIGHT; do not push the left border toward the center.",
+    "transparent_background": true,
+    "tool": "image_gen.imagegen"
+  }
+}

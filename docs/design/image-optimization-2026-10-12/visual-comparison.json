@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "desktop": {
+      "width": 1536,
+      "height": 900,
+      "screenshotDiff": {
+        "meanAbsoluteChannelDelta": 1.49,
+        "maximumChannelDelta": 125,
+        "pixelsWithChannelDeltaOver8Percent": 6.03
+      }
+    },
+    "mobile": {
+      "width": 780,
+      "height": 1688,
+      "screenshotDiff": {
+        "meanAbsoluteChannelDelta": 0.497,
+        "maximumChannelDelta": 18,
+        "pixelsWithChannelDeltaOver8Percent": 0.04
+      }
+    }
+  }
+}

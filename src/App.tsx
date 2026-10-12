@@ -1,92 +1,46 @@
-import { useEffect, useState } from 'react'
-import { ReadingSettingsForm } from './components/ReadingSettingsForm'
-import { formats } from './data/formats'
-import { languages } from './data/languages'
-import { angles } from './data/angles'
-import { topics } from './data/topics'
-import { buildPrompt } from './prompt/buildPrompt'
-import { selectReadingCombination } from './random/selectReadingCombination'
-import type { ReadingCombination, ReadingSettings } from './types/reading'
+import { LocaleContext } from './i18n/LocaleContext'
+import { translate } from './i18n/locale'
+import { catalogLabel } from './i18n/catalogs.ru'
+import { failureMessage } from './types/readingFailure'
+import { InterfaceLanguageSelect } from './components/InterfaceLanguageSelect'
+import { useRef, useState } from 'react'
+import { HelpButton } from './components/HelpButton'
+import { HowToUse } from './components/HowToUse'
+import { MachineScene } from './components/scene/MachineScene'
+import { RoomBackdrop } from './components/scene/RoomBackdrop'
+import { PromptSheet } from './components/scene/PromptSheet'
+import { useDrumSpin } from './motion/useDrumSpin'
+import { useCompactScene } from './components/scene/useCompactScene'
 import './App.css'
 
-const starterCombination: ReadingCombination = {
-  topic: topics[0],
-  format: formats[0],
-  angle: angles[0],
-}
-
 function App() {
-  const [combination, setCombination] = useState<ReadingCombination>(starterCombination)
-  const [settings, setSettings] = useState<ReadingSettings>({
-    language: languages[0],
-    cefrLevel: 'A2',
-    textLength: 'short',
-  })
-  const [copyStatus, setCopyStatus] = useState<{ prompt: string; kind: 'success' | 'error' } | null>(null)
-  const prompt = buildPrompt(settings, combination)
+  const [helpOpen, setHelpOpen] = useState(false)
+  const helpButtonRef = useRef<HTMLButtonElement>(null)
+  const compact = useCompactScene()
+  const { snapshot, run, error, failure, spin, changeSettings, changeInterfaceLocale, finish } = useDrumSpin()
+  const { settings, combination, prompt, revision, spinCount, updateCount } = snapshot
 
-  useEffect(() => {
-    setCopyStatus(null)
-  }, [prompt])
-
-  async function copyPrompt() {
-    try {
-      if (!navigator.clipboard?.writeText) throw new Error('Clipboard API unavailable')
-      await navigator.clipboard.writeText(prompt)
-      setCopyStatus({ prompt, kind: 'success' })
-    } catch {
-      setCopyStatus({ prompt, kind: 'error' })
-    }
-  }
-
+  const locale = snapshot.interfaceLocale ?? 'en'
+  const t = (key: Parameters<typeof translate>[1], params = {}) => translate(locale, key, params)
   return (
-    <main className="app-shell">
-      <header className="app-header">
-        <p className="eyebrow">A little reading. A new possibility.</p>
-        <h1>Reading Roulette</h1>
-        <p className="intro">Choose your language, set your pace, and find something new to read.</p>
-      </header>
-
-      <section className="panel" aria-labelledby="settings-heading">
-        <h2 id="settings-heading">Your reading preferences</h2>
-        <ReadingSettingsForm settings={settings} onChange={setSettings} />
-      </section>
-
-      <section className="panel" aria-labelledby="combination-heading">
-        <h2 id="combination-heading">Your reading combination</h2>
-        <p className="section-note" id="spin-description">Start with this combination or press SPIN to choose a topic, format, and compatible angle — the specific idea to explore. Repeats are possible.</p>
-        <dl className="combination-grid" aria-live="polite" aria-atomic="true">
-          <div><dt>Topic</dt><dd>{combination.topic.label}</dd></div>
-          <div><dt>Format</dt><dd>{combination.format.label}</dd></div>
-          <div><dt>Angle</dt><dd>{combination.angle.label}</dd></div>
-        </dl>
-        <button
-          className="spin-button"
-          type="button"
-          aria-describedby="spin-description"
-          onClick={() => setCombination(selectReadingCombination())}
-        >
-          SPIN
-        </button>
-      </section>
-
-      <section className="panel" aria-labelledby="prompt-heading">
-        <h2 id="prompt-heading">Prompt preview</h2>
-        <p className="section-note">Use this prompt in your preferred AI chat to create the reading text.</p>
-        <div className="prompt-actions">
-          <button className="copy-button" type="button" onClick={copyPrompt}>Copy prompt</button>
-          <p className="copy-status" aria-live="polite" aria-atomic="true">
-            {copyStatus?.prompt === prompt
-              ? copyStatus.kind === 'success'
-                ? 'Prompt copied. Paste it into your AI chat.'
-                : 'Could not copy automatically. Select the prompt below and copy it manually.'
-              : ''}
-          </p>
+    <LocaleContext value={locale}>
+    <div className="reading-scene" data-design-revision="v10" data-stage="full-catalogs" data-spinning={!!run} data-locale={locale}>
+      <RoomBackdrop compact={compact} />
+      <main className="scene-artboard">
+        <h1 className="sr-only">Reading Roulette</h1>
+        <div className="scene-actions">
+          <HelpButton buttonRef={helpButtonRef} expanded={helpOpen} onClick={() => setHelpOpen(true)} />
+          <InterfaceLanguageSelect busy={!!run} closeSignal={String(helpOpen) + ':' + String(compact)} onChange={changeInterfaceLocale} />
         </div>
-        <label className="sr-only" htmlFor="prompt-preview">Generated reading prompt</label>
-        <textarea id="prompt-preview" readOnly value={prompt} />
-      </section>
-    </main>
+        <MachineScene compact={compact} settings={settings} combination={combination} onSettingsChange={changeSettings} onSpin={spin} run={run} onSpinComplete={finish} />
+        <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">
+          {run ? t('spin.wait') : combination && spinCount > 0 ? t('spin.result', { count: spinCount, topic: catalogLabel(combination.topic, locale), format: catalogLabel(combination.format, locale), angle: catalogLabel(combination.angle, locale) }) : ''}
+        </p>
+        <PromptSheet prompt={prompt} disabled={!!run || !combination} revision={revision} updateCount={updateCount ?? 0} spinning={!!run} error={failure ? failureMessage(failure, locale) : error} />
+      </main>
+      <HowToUse open={helpOpen} onClose={() => setHelpOpen(false)} returnFocusRef={helpButtonRef} />
+    </div>
+    </LocaleContext>
   )
 }
 

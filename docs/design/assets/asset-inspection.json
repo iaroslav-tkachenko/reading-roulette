@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-10",
+  "method": "Read-only PNG decoding, pixel alpha/bounds and SHA-256; not browser QA",
+  "assets": [
+    {
+      "file": "chassis-frame-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 1452691,
+      "sha256": "7ec84e11520c1c7b35593a14b18f9c70f4bcdcf54ba379d88705e6d6ed5c60a4",
+      "transparentPixels": 1123656,
+      "partialAlphaPixels": 449208,
+      "opaquePixels": 0,
+      "boundsAboveAlpha8": [
+        17,
+        159,
+        1519,
+        869
+      ],
+      "centerAlpha": 0,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "keyboard-deck-v1.png",
+      "width": 2172,
+      "height": 724,
+      "bytes": 1402497,
+      "sha256": "7a5a05f7e8e67d36083f1e32feecfe24ad5a4b83ac40c4ce8736a4003f9759e0",
+      "transparentPixels": 689753,
+      "partialAlphaPixels": 882381,
+      "opaquePixels": 394,
+      "boundsAboveAlpha8": [
+        33,
+        147,
+        2138,
+        571
+      ],
+      "centerAlpha": 252,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "keycap-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 1482328,
+      "sha256": "ea31534c7c1fa7632d80d2e61a91c8ebf4a79f45b6a809f13803cedb55b10bad",
+      "transparentPixels": 729779,
+      "partialAlphaPixels": 842093,
+      "opaquePixels": 644,
+      "boundsAboveAlpha8": [
+        132,
+        100,
+        1121,
+        1159
+      ],
+      "centerAlpha": 253,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "spin-face-v1.png",
+      "width": 2021,
+      "height": 778,
+      "bytes": 1245236,
+      "sha256": "2507151ff2cafee5735462ca8627f3ab724a9e88def4ba1448b38a0652d97007",
+      "transparentPixels": 735975,
+      "partialAlphaPixels": 835986,
+      "opaquePixels": 377,
+      "boundsAboveAlpha8": [
+        52,
+        171,
+        1970,
+        596
+      ],
+      "centerAlpha": 252,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "file": "study-background-v1.png",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2354569,
+      "sha256": "458f661c51f98058c316cd952790f18544fc184daab4a964db7a0274201eb912",
+      "transparentPixels": 0,
+      "partialAlphaPixels": 0,
+      "opaquePixels": 1572864,
+      "boundsAboveAlpha8": [
+        0,
+        0,
+        1536,
+        1024
+      ],
+      "centerAlpha": 255,
+      "cornerAlpha": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    {
+      "file": "wheel-v1.png",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2317419,
+      "sha256": "a96f8931f67483efe824bcd5fe01ccecc324cebb56712a89da26ad633df4d351",
+      "transparentPixels": 520910,
+      "partialAlphaPixels": 1051241,
+      "opaquePixels": 365,
+      "boundsAboveAlpha8": [
+        46,
+        47,
+        1208,
+        1196
+      ],
+      "centerAlpha": 252,
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ]
+}

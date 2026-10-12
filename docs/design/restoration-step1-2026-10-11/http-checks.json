@@ -1,0 +1,34 @@
+[
+  {
+    "url": "http://127.0.0.1:5173/",
+    "status": 200,
+    "bytes": 745,
+    "paperHeader": null,
+    "newCradle": null,
+    "compressedWheel": null
+  },
+  {
+    "url": "http://127.0.0.1:5173/src/App.tsx",
+    "status": 200,
+    "bytes": 58798,
+    "paperHeader": true,
+    "newCradle": null,
+    "compressedWheel": null
+  },
+  {
+    "url": "http://127.0.0.1:5173/src/App.css",
+    "status": 200,
+    "bytes": 21675,
+    "paperHeader": null,
+    "newCradle": true,
+    "compressedWheel": false
+  },
+  {
+    "url": "http://127.0.0.1:5173/docs/design/assets/reel-cradle-display.svg",
+    "status": 200,
+    "bytes": 1476661,
+    "paperHeader": null,
+    "newCradle": null,
+    "compressedWheel": null
+  }
+]

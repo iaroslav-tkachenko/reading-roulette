@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "checks": [
+    "All UI keys and interpolation slots match EN/RU",
+    "All 419 catalog text fields, 100 labels and 119 disclosure profiles have Russian text",
+    "Reading-idea count equals the union of eligible topic/format/angle triples without multiplying settings or languages",
+    "RU covers every eligible tuple across 45 level/length settings, all languages and every conditional model/status",
+    "Locale switches preserve settings/IDs without selection; same-locale and active-run events are ignored",
+    "Empty result remains empty with the same typed cause after switching locale",
+    "Failed rebuild preserves the last consistent locale/prompt snapshot",
+    "EN/RU/EN invalidates stale clipboard replies; a new copy uses the exact Russian preview",
+    "Storage defaults, recovery, validation and denied access are safe",
+    "Both scene layouts, help, prompt and selector render Russian semantic markup"
+  ],
+  "catalogFields": 419,
+  "readingIdeas": 4310,
+  "russianPrompts": 149334,
+  "readingSettings": 495,
+  "coverage": {
+    "topics": 26,
+    "formats": 44,
+    "angles": 30,
+    "models": 8,
+    "statuses": 4
+  },
+  "browser": "SSR only; real browser is checked separately"
+}

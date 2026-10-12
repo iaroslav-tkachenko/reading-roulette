@@ -1,0 +1,456 @@
+{
+  "date": "2026-10-12",
+  "url": "http://127.0.0.1:5173/",
+  "browser": "Isolated headed Chromium",
+  "version": "153.0.8010.12",
+  "checksPassed": 46,
+  "checks": [
+    "80%: native browser zoom is applied",
+    "80%: page and prompt reflow without horizontal overflow",
+    "80%: the responsive scene follows the real viewport",
+    "80%: controls stay inside the viewport",
+    "80% SPIN: coherent result and prompt",
+    "80% SPIN: all controls recover",
+    "100%: native browser zoom is applied",
+    "100%: page and prompt reflow without horizontal overflow",
+    "100%: the responsive scene follows the real viewport",
+    "100%: controls stay inside the viewport",
+    "100% SPIN: coherent result and prompt",
+    "100% SPIN: all controls recover",
+    "125%: native browser zoom is applied",
+    "125%: page and prompt reflow without horizontal overflow",
+    "125%: the responsive scene follows the real viewport",
+    "125%: controls stay inside the viewport",
+    "125% SPIN: coherent result and prompt",
+    "125% SPIN: all controls recover",
+    "150%: native browser zoom is applied",
+    "150%: page and prompt reflow without horizontal overflow",
+    "150%: the responsive scene follows the real viewport",
+    "150%: controls stay inside the viewport",
+    "150% SPIN: coherent result and prompt",
+    "150% SPIN: all controls recover",
+    "200%: native browser zoom is applied",
+    "200%: page and prompt reflow without horizontal overflow",
+    "200%: the responsive scene follows the real viewport",
+    "200%: controls stay inside the viewport",
+    "200% SPIN: coherent result and prompt",
+    "200% SPIN: all controls recover",
+    "Native tab switch starts during real SPIN",
+    "A real inactive tab produces document.hidden",
+    "Return from hidden tab: coherent result and prompt",
+    "Return from hidden tab: all controls recover",
+    "Hidden-tab finish preserves all prepared targets",
+    "Spin after returning to the tab: coherent result and prompt",
+    "Spin after returning to the tab: all controls recover",
+    "Current English prompt: real Windows clipboard contains the full prompt",
+    "Changing settings clears the previous Copy-success",
+    "Updated Russian prompt: real Windows clipboard contains the full prompt",
+    "Actual Ctrl+V pastes the complete copied prompt",
+    "Long C2 prompt after SPIN: real Windows clipboard contains the full prompt",
+    "Denied Clipboard API reports a manual-copy fallback",
+    "Keyboard fallback copies exactly the prompt to Windows",
+    "Retry after clipboard permission recovery: real Windows clipboard contains the full prompt",
+    "No native browser console or page errors"
+  ],
+  "zoom": [
+    {
+      "factor": 0.8,
+      "actual": 0.8,
+      "width": 1604,
+      "height": 834,
+      "dpr": 1.2000000476837158,
+      "documentWidth": 1585,
+      "compact": false,
+      "promptWidth": 759,
+      "promptScrollWidth": 759,
+      "controls": [
+        {
+          "x": 1385.5078125,
+          "y": 15.989583015441895,
+          "width": 152.99478149414062,
+          "height": 40.98958206176758,
+          "top": 15.989583015441895,
+          "right": 1538.5025939941406,
+          "bottom": 56.97916507720947,
+          "left": 1385.5078125
+        },
+        {
+          "x": 414.5077819824219,
+          "y": 245.9949188232422,
+          "width": 227.99005126953125,
+          "height": 39.99916076660156,
+          "top": 245.9949188232422,
+          "right": 642.4978332519531,
+          "bottom": 285.99407958984375,
+          "left": 414.5077819824219
+        },
+        {
+          "x": 704.5017700195312,
+          "y": 245.9949188232422,
+          "width": 210.9851531982422,
+          "height": 39.99916076660156,
+          "top": 245.9949188232422,
+          "right": 915.4869232177734,
+          "bottom": 285.99407958984375,
+          "left": 704.5017700195312
+        },
+        {
+          "x": 981.4882202148438,
+          "y": 245.9949188232422,
+          "width": 201.98800659179688,
+          "height": 39.99916076660156,
+          "top": 245.9949188232422,
+          "right": 1183.4762268066406,
+          "bottom": 285.99407958984375,
+          "left": 981.4882202148438
+        },
+        {
+          "x": 659.502685546875,
+          "y": 540.9888305664062,
+          "width": 297.9886169433594,
+          "height": 87.62837219238281,
+          "top": 540.9888305664062,
+          "right": 957.4913024902344,
+          "bottom": 628.6172027587891,
+          "left": 659.502685546875
+        },
+        {
+          "x": 970.5078125,
+          "y": 711.9921875,
+          "width": 201.51040649414062,
+          "height": 51.9921875,
+          "top": 711.9921875,
+          "right": 1172.0182189941406,
+          "bottom": 763.984375,
+          "left": 970.5078125
+        }
+      ]
+    },
+    {
+      "factor": 1,
+      "actual": 1,
+      "width": 1283,
+      "height": 667,
+      "dpr": 1.5,
+      "documentWidth": 1268,
+      "compact": false,
+      "promptWidth": 627,
+      "promptScrollWidth": 627,
+      "controls": [
+        {
+          "x": 1123.541748046875,
+          "y": 13.208333969116211,
+          "width": 126.30208587646484,
+          "height": 33.84375,
+          "top": 13.208333969116211,
+          "right": 1249.8438339233398,
+          "bottom": 47.05208396911621,
+          "left": 1123.541748046875
+        },
+        {
+          "x": 321.95574951171875,
+          "y": 203.076416015625,
+          "width": 188.2171630859375,
+          "height": 33.02056884765625,
+          "top": 203.076416015625,
+          "right": 510.17291259765625,
+          "bottom": 236.09698486328125,
+          "left": 321.95574951171875
+        },
+        {
+          "x": 561.3547973632812,
+          "y": 203.076416015625,
+          "width": 174.1834716796875,
+          "height": 33.02056884765625,
+          "top": 203.076416015625,
+          "right": 735.5382690429688,
+          "bottom": 236.09698486328125,
+          "left": 561.3547973632812
+        },
+        {
+          "x": 790.0221557617188,
+          "y": 203.076416015625,
+          "width": 166.7538299560547,
+          "height": 33.02056884765625,
+          "top": 203.076416015625,
+          "right": 956.7759857177734,
+          "bottom": 236.09698486328125,
+          "left": 790.0221557617188
+        },
+        {
+          "x": 524.2066650390625,
+          "y": 446.60302734375,
+          "width": 246.00314331054688,
+          "height": 72.34428405761719,
+          "top": 446.60302734375,
+          "right": 770.2098083496094,
+          "bottom": 518.9473114013672,
+          "left": 524.2066650390625
+        },
+        {
+          "x": 767.3958740234375,
+          "y": 592.65625,
+          "width": 179.90625,
+          "height": 52,
+          "top": 592.65625,
+          "right": 947.3021240234375,
+          "bottom": 644.65625,
+          "left": 767.3958740234375
+        }
+      ]
+    },
+    {
+      "factor": 1.25,
+      "actual": 1.25,
+      "width": 1026,
+      "height": 534,
+      "dpr": 1.875,
+      "documentWidth": 1014,
+      "compact": false,
+      "promptWidth": 501,
+      "promptScrollWidth": 501,
+      "controls": [
+        {
+          "x": 898.8250732421875,
+          "y": 10.558334350585938,
+          "width": 101.04167175292969,
+          "height": 27.075000762939453,
+          "top": 10.558334350585938,
+          "right": 999.8667449951172,
+          "bottom": 37.63333511352539,
+          "left": 898.8250732421875
+        },
+        {
+          "x": 257.5688171386719,
+          "y": 162.4584503173828,
+          "width": 150.5712432861328,
+          "height": 26.416000366210938,
+          "top": 162.4584503173828,
+          "right": 408.1400604248047,
+          "bottom": 188.87445068359375,
+          "left": 257.5688171386719
+        },
+        {
+          "x": 449.0848693847656,
+          "y": 162.4584503173828,
+          "width": 139.34446716308594,
+          "height": 26.416000366210938,
+          "top": 162.4584503173828,
+          "right": 588.4293365478516,
+          "bottom": 188.87445068359375,
+          "left": 449.0848693847656
+        },
+        {
+          "x": 632.0157470703125,
+          "y": 162.4584503173828,
+          "width": 133.40078735351562,
+          "height": 26.416000366210938,
+          "top": 162.4584503173828,
+          "right": 765.4165344238281,
+          "bottom": 188.87445068359375,
+          "left": 632.0157470703125
+        },
+        {
+          "x": 419.3668518066406,
+          "y": 357.2765197753906,
+          "width": 196.79925537109375,
+          "height": 57.873050689697266,
+          "top": 357.2765197753906,
+          "right": 616.1661071777344,
+          "bottom": 415.1495704650879,
+          "left": 419.3668518066406
+        },
+        {
+          "x": 596.7000122070312,
+          "y": 479.7167053222656,
+          "width": 161.1333465576172,
+          "height": 52.000003814697266,
+          "top": 479.7167053222656,
+          "right": 757.8333587646484,
+          "bottom": 531.7167091369629,
+          "left": 596.7000122070312
+        }
+      ]
+    },
+    {
+      "factor": 1.5,
+      "actual": 1.5,
+      "width": 855,
+      "height": 445,
+      "dpr": 2.25,
+      "documentWidth": 845,
+      "compact": true,
+      "promptWidth": 495,
+      "promptScrollWidth": 495,
+      "controls": [
+        {
+          "x": 680.326416015625,
+          "y": 12,
+          "width": 153,
+          "height": 44,
+          "top": 12,
+          "right": 833.326416015625,
+          "bottom": 56,
+          "left": 680.326416015625
+        },
+        {
+          "x": 150.4375,
+          "y": 236.61111450195312,
+          "width": 544.4444580078125,
+          "height": 48,
+          "top": 236.61111450195312,
+          "right": 694.8819580078125,
+          "bottom": 284.6111145019531,
+          "left": 150.4375
+        },
+        {
+          "x": 150.4375,
+          "y": 321.2083435058594,
+          "width": 266.22222900390625,
+          "height": 48,
+          "top": 321.2083435058594,
+          "right": 416.65972900390625,
+          "bottom": 369.2083435058594,
+          "left": 150.4375
+        },
+        {
+          "x": 428.65972900390625,
+          "y": 321.2083435058594,
+          "width": 266.22222900390625,
+          "height": 48,
+          "top": 321.2083435058594,
+          "right": 694.8819580078125,
+          "bottom": 369.2083435058594,
+          "left": 428.65972900390625
+        },
+        {
+          "x": 150.4375,
+          "y": 941.6527709960938,
+          "width": 544.4444580078125,
+          "height": 56,
+          "top": 941.6527709960938,
+          "right": 694.8819580078125,
+          "bottom": 997.6527709960938,
+          "left": 150.4375
+        },
+        {
+          "x": 503.4375,
+          "y": 1059.4305419921875,
+          "width": 166.9027862548828,
+          "height": 48,
+          "top": 1059.4305419921875,
+          "right": 670.3402862548828,
+          "bottom": 1107.4305419921875,
+          "left": 503.4375
+        }
+      ]
+    },
+    {
+      "factor": 2,
+      "actual": 2,
+      "width": 641,
+      "height": 333,
+      "dpr": 3,
+      "documentWidth": 634,
+      "compact": true,
+      "promptWidth": 495,
+      "promptScrollWidth": 495,
+      "controls": [
+        {
+          "x": 469,
+          "y": -738,
+          "width": 153,
+          "height": 44,
+          "top": -738,
+          "right": 622,
+          "bottom": -694,
+          "left": 469
+        },
+        {
+          "x": 45,
+          "y": -516.7864990234375,
+          "width": 544,
+          "height": 48,
+          "top": -516.7864990234375,
+          "right": 589,
+          "bottom": -468.7864990234375,
+          "left": 45
+        },
+        {
+          "x": 45,
+          "y": -432.1875,
+          "width": 266,
+          "height": 48,
+          "top": -432.1875,
+          "right": 311,
+          "bottom": -384.1875,
+          "left": 45
+        },
+        {
+          "x": 323,
+          "y": -432.1875,
+          "width": 266,
+          "height": 48,
+          "top": -432.1875,
+          "right": 589,
+          "bottom": -384.1875,
+          "left": 323
+        },
+        {
+          "x": 45,
+          "y": 187.8125,
+          "width": 544,
+          "height": 56,
+          "top": 187.8125,
+          "right": 589,
+          "bottom": 243.8125,
+          "left": 45
+        },
+        {
+          "x": 397.33856201171875,
+          "y": 305.8125,
+          "width": 167.34375,
+          "height": 48,
+          "top": 305.8125,
+          "right": 564.6823120117188,
+          "bottom": 353.8125,
+          "left": 397.33856201171875
+        }
+      ]
+    }
+  ],
+  "clipboard": [
+    {
+      "name": "Current English prompt",
+      "characters": 4038,
+      "sha256": "1c8f02001cd9365ba763a71354d1930aa24e3798e7d33b099fe2ca8a86eb30da",
+      "windowsClipboardMatched": true
+    },
+    {
+      "name": "Updated Russian prompt",
+      "characters": 3931,
+      "sha256": "b47f30fafb1a57088dc7389d2172c83e2dab17fc6eb86028ba970513c5d0ee81",
+      "windowsClipboardMatched": true
+    },
+    {
+      "name": "Long C2 prompt after SPIN",
+      "characters": 3710,
+      "sha256": "afb636090e9b63fcd4a9eed3c4fefcb1ba4e2be91b152e4a3c558a36fe094948",
+      "windowsClipboardMatched": true
+    },
+    {
+      "name": "Retry after clipboard permission recovery",
+      "characters": 3710,
+      "sha256": "afb636090e9b63fcd4a9eed3c4fefcb1ba4e2be91b152e4a3c558a36fe094948",
+      "windowsClipboardMatched": true
+    }
+  ],
+  "errors": [],
+  "visibility": "Actual native tab switch, no document.hidden override or synthetic visibility event",
+  "zoomMethod": "chrome.tabs.setZoom; confirmed with getZoom and actual viewport/DPR",
+  "clipboardMethod": "Native button click -> navigator.clipboard.writeText -> Windows Get-Clipboard; real Ctrl+V into another tab; only CRLF normalized",
+  "limits": [
+    "Windows Chromium only",
+    "Physical mobile devices, Safari and screen-reader reading are not covered"
+  ]
+}

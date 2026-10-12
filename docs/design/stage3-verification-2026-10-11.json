@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-11",
+  "scope": "Stage 3 local source/build verification; no deployment or browser-rendering claim",
+  "http": {
+    "origin": "http://127.0.0.1:5173",
+    "root": 200,
+    "appModule": 200,
+    "stylesheet": 200,
+    "stylesheetContentType": "text/css",
+    "motionModuleServed": true
+  },
+  "build": {
+    "command": "pnpm build --base=/reading-roulette/",
+    "result": "passed 2026-10-10",
+    "indexReferences": [
+      "/reading-roulette/favicon.svg",
+      "/reading-roulette/assets/index-CcI1Yea_.js",
+      "/reading-roulette/assets/index-Bclo7QK7.css"
+    ],
+    "artwork": [
+      "study-background-v1-CCZLv10n.png",
+      "chassis-display-DAcio0WY.svg",
+      "deck-display-DZkv6HMW.svg",
+      "wheel-display-B5qiauss.svg",
+      "keycap-display-8cCT3O9f.svg",
+      "spin-face-display-Ct8Rj9Mg.svg"
+    ],
+    "artworkBytes": 12889017,
+    "basePathsVerified": true,
+    "reviewGalleryExcluded": true
+  },
+  "prototypeTypecheck": "passed 2026-10-11",
+  "motionSimulation": {
+    "report": "react-motion-checks-2026-10-10.json",
+    "groups": 12,
+    "result": "passed; simulated hooks/DOM/WAAPI/clock, not browser"
+  },
+  "regressionReports": [
+    "catalog-regression-stage3-2026-10-10.json",
+    "runtime-regression-stage3-2026-10-10.json"
+  ],
+  "notVerified": [
+    "Actual browser rendering, responsive geometry and visual fidelity",
+    "Native keyboard/focus/Clipboard permissions and assistive technology",
+    "Frame scheduling/fps and cold-load performance"
+  ],
+  "browserBlocker": "In-app Browser bootstrap failed EPERM at browser-client.mjs realpath; external browser not launched",
+  "remainingBeforeMvp": [
+    "Stage 4 catalog/rules integration",
+    "Browser QA and user visual acceptance",
+    "Optimize runtime artwork while preserving PNG masters",
+    "Separate authorized publication"
+  ]
+}

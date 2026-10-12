@@ -1,0 +1,843 @@
+{
+  "label": "optimized",
+  "url": "http://127.0.0.1:58937/reading-roulette/",
+  "cache": "new Chromium context per run, Network.setCacheDisabled=true",
+  "chromium": "153.0.8010.12",
+  "profiles": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1536,
+        "height": 900
+      },
+      "deviceScaleFactor": 1,
+      "runs": [
+        {
+          "run": 1,
+          "responseStartMs": 36.3,
+          "domContentLoadedMs": 223.9,
+          "loadEventMs": 223.9,
+          "firstPaintMs": 124,
+          "firstContentfulPaintMs": 664,
+          "documentTransferBytes": 761,
+          "resourceCount": 19,
+          "transferBytes": 3085876,
+          "firstLoadTransferBytes": 3086637,
+          "decodedBodyBytes": 3442637,
+          "imageRequestCount": 14,
+          "imageTransferBytes": 2792554,
+          "imageDecodedBodyBytes": 2788354,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 38.6
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 43.7
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 46.9
+            },
+            {
+              "name": "index-BTudR182.js",
+              "transferBytes": 126496,
+              "encodedBodyBytes": 126196,
+              "decodedBodyBytes": 476295,
+              "durationMs": 99.3
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 48.9
+            },
+            {
+              "name": "study-shell-v7-Ctq_k3rq.webp",
+              "transferBytes": 400528,
+              "encodedBodyBytes": 400228,
+              "decodedBodyBytes": 400228,
+              "durationMs": 49.6
+            },
+            {
+              "name": "study-window-wide-v8-CmNBZVrX.webp",
+              "transferBytes": 351768,
+              "encodedBodyBytes": 351468,
+              "decodedBodyBytes": 351468,
+              "durationMs": 46.4
+            },
+            {
+              "name": "study-bookcase-wide-v8-DCekB9ZQ.webp",
+              "transferBytes": 422508,
+              "encodedBodyBytes": 422208,
+              "decodedBodyBytes": 422208,
+              "durationMs": 57
+            },
+            {
+              "name": "desk-lamp-books-v7-CHZwYbyV.webp",
+              "transferBytes": 146690,
+              "encodedBodyBytes": 146390,
+              "decodedBodyBytes": 146390,
+              "durationMs": 38.3
+            },
+            {
+              "name": "desk-books-v7-Be_AZjUZ.webp",
+              "transferBytes": 435634,
+              "encodedBodyBytes": 435334,
+              "decodedBodyBytes": 435334,
+              "durationMs": 66.5
+            },
+            {
+              "name": "desk-pen-cup-v7-BakPqUwV.webp",
+              "transferBytes": 79070,
+              "encodedBodyBytes": 78770,
+              "decodedBodyBytes": 78770,
+              "durationMs": 30.4
+            },
+            {
+              "name": "chassis-v3-D1ccBrIc.webp",
+              "transferBytes": 348356,
+              "encodedBodyBytes": 348056,
+              "decodedBodyBytes": 348056,
+              "durationMs": 121.8
+            },
+            {
+              "name": "settings-v2-CZuyhEzM.webp",
+              "transferBytes": 127536,
+              "encodedBodyBytes": 127236,
+              "decodedBodyBytes": 127236,
+              "durationMs": 85
+            },
+            {
+              "name": "drum-v1-DduoLxhU.webp",
+              "transferBytes": 31896,
+              "encodedBodyBytes": 31596,
+              "decodedBodyBytes": 31596,
+              "durationMs": 77.8
+            },
+            {
+              "name": "wheel-v1-C7FmbzYa.webp",
+              "transferBytes": 14970,
+              "encodedBodyBytes": 14670,
+              "decodedBodyBytes": 14670,
+              "durationMs": 84.7
+            },
+            {
+              "name": "mechanism-v2-9NTJmYvr.webp",
+              "transferBytes": 179070,
+              "encodedBodyBytes": 178770,
+              "decodedBodyBytes": 178770,
+              "durationMs": 120.1
+            },
+            {
+              "name": "key-v1-d37be8Mf.webp",
+              "transferBytes": 6410,
+              "encodedBodyBytes": 6110,
+              "decodedBodyBytes": 6110,
+              "durationMs": 98
+            },
+            {
+              "name": "spin-button-v3-Cn6hMcz1.webp",
+              "transferBytes": 49050,
+              "encodedBodyBytes": 48750,
+              "decodedBodyBytes": 48750,
+              "durationMs": 113.8
+            },
+            {
+              "name": "paper-v1-mrGLL8d4.webp",
+              "transferBytes": 199068,
+              "encodedBodyBytes": 198768,
+              "decodedBodyBytes": 198768,
+              "durationMs": 124.2
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 14,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 2,
+          "responseStartMs": 13.3,
+          "domContentLoadedMs": 183.6,
+          "loadEventMs": 183.6,
+          "firstPaintMs": 100,
+          "firstContentfulPaintMs": 508,
+          "documentTransferBytes": 761,
+          "resourceCount": 19,
+          "transferBytes": 3085876,
+          "firstLoadTransferBytes": 3086637,
+          "decodedBodyBytes": 3442637,
+          "imageRequestCount": 14,
+          "imageTransferBytes": 2792554,
+          "imageDecodedBodyBytes": 2788354,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 34.6
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 36.9
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 35.4
+            },
+            {
+              "name": "index-BTudR182.js",
+              "transferBytes": 126496,
+              "encodedBodyBytes": 126196,
+              "decodedBodyBytes": 476295,
+              "durationMs": 80.7
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 38.3
+            },
+            {
+              "name": "study-shell-v7-Ctq_k3rq.webp",
+              "transferBytes": 400528,
+              "encodedBodyBytes": 400228,
+              "decodedBodyBytes": 400228,
+              "durationMs": 114.6
+            },
+            {
+              "name": "study-window-wide-v8-CmNBZVrX.webp",
+              "transferBytes": 351768,
+              "encodedBodyBytes": 351468,
+              "decodedBodyBytes": 351468,
+              "durationMs": 110.1
+            },
+            {
+              "name": "study-bookcase-wide-v8-DCekB9ZQ.webp",
+              "transferBytes": 422508,
+              "encodedBodyBytes": 422208,
+              "decodedBodyBytes": 422208,
+              "durationMs": 114.8
+            },
+            {
+              "name": "desk-lamp-books-v7-CHZwYbyV.webp",
+              "transferBytes": 146690,
+              "encodedBodyBytes": 146390,
+              "decodedBodyBytes": 146390,
+              "durationMs": 85.5
+            },
+            {
+              "name": "desk-books-v7-Be_AZjUZ.webp",
+              "transferBytes": 435634,
+              "encodedBodyBytes": 435334,
+              "decodedBodyBytes": 435334,
+              "durationMs": 117.2
+            },
+            {
+              "name": "desk-pen-cup-v7-BakPqUwV.webp",
+              "transferBytes": 79070,
+              "encodedBodyBytes": 78770,
+              "decodedBodyBytes": 78770,
+              "durationMs": 81.2
+            },
+            {
+              "name": "chassis-v3-D1ccBrIc.webp",
+              "transferBytes": 348356,
+              "encodedBodyBytes": 348056,
+              "decodedBodyBytes": 348056,
+              "durationMs": 124.3
+            },
+            {
+              "name": "settings-v2-CZuyhEzM.webp",
+              "transferBytes": 127536,
+              "encodedBodyBytes": 127236,
+              "decodedBodyBytes": 127236,
+              "durationMs": 121.3
+            },
+            {
+              "name": "drum-v1-DduoLxhU.webp",
+              "transferBytes": 31896,
+              "encodedBodyBytes": 31596,
+              "decodedBodyBytes": 31596,
+              "durationMs": 131.3
+            },
+            {
+              "name": "wheel-v1-C7FmbzYa.webp",
+              "transferBytes": 14970,
+              "encodedBodyBytes": 14670,
+              "decodedBodyBytes": 14670,
+              "durationMs": 143.8
+            },
+            {
+              "name": "mechanism-v2-9NTJmYvr.webp",
+              "transferBytes": 179070,
+              "encodedBodyBytes": 178770,
+              "decodedBodyBytes": 178770,
+              "durationMs": 151.7
+            },
+            {
+              "name": "key-v1-d37be8Mf.webp",
+              "transferBytes": 6410,
+              "encodedBodyBytes": 6110,
+              "decodedBodyBytes": 6110,
+              "durationMs": 146.4
+            },
+            {
+              "name": "spin-button-v3-Cn6hMcz1.webp",
+              "transferBytes": 49050,
+              "encodedBodyBytes": 48750,
+              "decodedBodyBytes": 48750,
+              "durationMs": 147.8
+            },
+            {
+              "name": "paper-v1-mrGLL8d4.webp",
+              "transferBytes": 199068,
+              "encodedBodyBytes": 198768,
+              "decodedBodyBytes": 198768,
+              "durationMs": 155.6
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 14,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 3,
+          "responseStartMs": 13,
+          "domContentLoadedMs": 208.6,
+          "loadEventMs": 208.7,
+          "firstPaintMs": 96,
+          "firstContentfulPaintMs": 608,
+          "documentTransferBytes": 761,
+          "resourceCount": 19,
+          "transferBytes": 3085876,
+          "firstLoadTransferBytes": 3086637,
+          "decodedBodyBytes": 3442637,
+          "imageRequestCount": 14,
+          "imageTransferBytes": 2792554,
+          "imageDecodedBodyBytes": 2788354,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 19.7
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 38.6
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 42.5
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 43.3
+            },
+            {
+              "name": "index-BTudR182.js",
+              "transferBytes": 126496,
+              "encodedBodyBytes": 126196,
+              "decodedBodyBytes": 476295,
+              "durationMs": 112.8
+            },
+            {
+              "name": "study-shell-v7-Ctq_k3rq.webp",
+              "transferBytes": 400528,
+              "encodedBodyBytes": 400228,
+              "decodedBodyBytes": 400228,
+              "durationMs": 61.5
+            },
+            {
+              "name": "study-window-wide-v8-CmNBZVrX.webp",
+              "transferBytes": 351768,
+              "encodedBodyBytes": 351468,
+              "decodedBodyBytes": 351468,
+              "durationMs": 55.7
+            },
+            {
+              "name": "study-bookcase-wide-v8-DCekB9ZQ.webp",
+              "transferBytes": 422508,
+              "encodedBodyBytes": 422208,
+              "decodedBodyBytes": 422208,
+              "durationMs": 63.1
+            },
+            {
+              "name": "desk-lamp-books-v7-CHZwYbyV.webp",
+              "transferBytes": 146690,
+              "encodedBodyBytes": 146390,
+              "decodedBodyBytes": 146390,
+              "durationMs": 45.8
+            },
+            {
+              "name": "desk-books-v7-Be_AZjUZ.webp",
+              "transferBytes": 435634,
+              "encodedBodyBytes": 435334,
+              "decodedBodyBytes": 435334,
+              "durationMs": 68.4
+            },
+            {
+              "name": "desk-pen-cup-v7-BakPqUwV.webp",
+              "transferBytes": 79070,
+              "encodedBodyBytes": 78770,
+              "decodedBodyBytes": 78770,
+              "durationMs": 43.8
+            },
+            {
+              "name": "settings-v2-CZuyhEzM.webp",
+              "transferBytes": 127536,
+              "encodedBodyBytes": 127236,
+              "decodedBodyBytes": 127236,
+              "durationMs": 91.6
+            },
+            {
+              "name": "chassis-v3-D1ccBrIc.webp",
+              "transferBytes": 348356,
+              "encodedBodyBytes": 348056,
+              "decodedBodyBytes": 348056,
+              "durationMs": 120.6
+            },
+            {
+              "name": "drum-v1-DduoLxhU.webp",
+              "transferBytes": 31896,
+              "encodedBodyBytes": 31596,
+              "decodedBodyBytes": 31596,
+              "durationMs": 87.4
+            },
+            {
+              "name": "wheel-v1-C7FmbzYa.webp",
+              "transferBytes": 14970,
+              "encodedBodyBytes": 14670,
+              "decodedBodyBytes": 14670,
+              "durationMs": 94.6
+            },
+            {
+              "name": "mechanism-v2-9NTJmYvr.webp",
+              "transferBytes": 179070,
+              "encodedBodyBytes": 178770,
+              "decodedBodyBytes": 178770,
+              "durationMs": 118.7
+            },
+            {
+              "name": "key-v1-d37be8Mf.webp",
+              "transferBytes": 6410,
+              "encodedBodyBytes": 6110,
+              "decodedBodyBytes": 6110,
+              "durationMs": 104.2
+            },
+            {
+              "name": "spin-button-v3-Cn6hMcz1.webp",
+              "transferBytes": 49050,
+              "encodedBodyBytes": 48750,
+              "decodedBodyBytes": 48750,
+              "durationMs": 123.4
+            },
+            {
+              "name": "paper-v1-mrGLL8d4.webp",
+              "transferBytes": 199068,
+              "encodedBodyBytes": 198768,
+              "decodedBodyBytes": 198768,
+              "durationMs": 124.4
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 14,
+          "webpMimeErrors": []
+        }
+      ],
+      "median": {
+        "responseStartMs": 13.3,
+        "domContentLoadedMs": 208.6,
+        "loadEventMs": 208.7,
+        "firstPaintMs": 100,
+        "firstContentfulPaintMs": 608,
+        "documentTransferBytes": 761,
+        "transferBytes": 3085876,
+        "firstLoadTransferBytes": 3086637,
+        "decodedBodyBytes": 3442637,
+        "imageTransferBytes": 2792554,
+        "imageDecodedBodyBytes": 2788354
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 2,
+      "runs": [
+        {
+          "run": 1,
+          "responseStartMs": 12.9,
+          "domContentLoadedMs": 183.5,
+          "loadEventMs": 183.6,
+          "firstPaintMs": 100,
+          "firstContentfulPaintMs": 496,
+          "documentTransferBytes": 761,
+          "resourceCount": 12,
+          "transferBytes": 1443638,
+          "firstLoadTransferBytes": 1444399,
+          "decodedBodyBytes": 1802499,
+          "imageRequestCount": 7,
+          "imageTransferBytes": 1150316,
+          "imageDecodedBodyBytes": 1148216,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 31.9
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 33
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 32.2
+            },
+            {
+              "name": "index-BTudR182.js",
+              "transferBytes": 126496,
+              "encodedBodyBytes": 126196,
+              "decodedBodyBytes": 476295,
+              "durationMs": 83.3
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 33.2
+            },
+            {
+              "name": "study-shell-v7-Ctq_k3rq.webp",
+              "transferBytes": 400528,
+              "encodedBodyBytes": 400228,
+              "decodedBodyBytes": 400228,
+              "durationMs": 56.7
+            },
+            {
+              "name": "study-window-wide-v8-CDpbX1-c.webp",
+              "transferBytes": 131954,
+              "encodedBodyBytes": 131654,
+              "decodedBodyBytes": 131654,
+              "durationMs": 37.8
+            },
+            {
+              "name": "study-bookcase-wide-v8-CVbCdPlz.webp",
+              "transferBytes": 159184,
+              "encodedBodyBytes": 158884,
+              "decodedBodyBytes": 158884,
+              "durationMs": 40.7
+            },
+            {
+              "name": "desk-lamp-books-v7-CIzCKNUb.webp",
+              "transferBytes": 58468,
+              "encodedBodyBytes": 58168,
+              "decodedBodyBytes": 58168,
+              "durationMs": 38.6
+            },
+            {
+              "name": "desk-books-v7-DQxEeHA1.webp",
+              "transferBytes": 166536,
+              "encodedBodyBytes": 166236,
+              "decodedBodyBytes": 166236,
+              "durationMs": 44.1
+            },
+            {
+              "name": "desk-pen-cup-v7-BGuLSvaE.webp",
+              "transferBytes": 34578,
+              "encodedBodyBytes": 34278,
+              "decodedBodyBytes": 34278,
+              "durationMs": 41.3
+            },
+            {
+              "name": "paper-v1-mrGLL8d4.webp",
+              "transferBytes": 199068,
+              "encodedBodyBytes": 198768,
+              "decodedBodyBytes": 198768,
+              "durationMs": 62.4
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 7,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 2,
+          "responseStartMs": 11.8,
+          "domContentLoadedMs": 178.8,
+          "loadEventMs": 178.9,
+          "firstPaintMs": 88,
+          "firstContentfulPaintMs": 452,
+          "documentTransferBytes": 761,
+          "resourceCount": 12,
+          "transferBytes": 1443638,
+          "firstLoadTransferBytes": 1444399,
+          "decodedBodyBytes": 1802499,
+          "imageRequestCount": 7,
+          "imageTransferBytes": 1150316,
+          "imageDecodedBodyBytes": 1148216,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 26.1
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 42.8
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 50.2
+            },
+            {
+              "name": "index-BTudR182.js",
+              "transferBytes": 126496,
+              "encodedBodyBytes": 126196,
+              "decodedBodyBytes": 476295,
+              "durationMs": 92.8
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 47.4
+            },
+            {
+              "name": "study-shell-v7-Ctq_k3rq.webp",
+              "transferBytes": 400528,
+              "encodedBodyBytes": 400228,
+              "decodedBodyBytes": 400228,
+              "durationMs": 62.4
+            },
+            {
+              "name": "study-window-wide-v8-CDpbX1-c.webp",
+              "transferBytes": 131954,
+              "encodedBodyBytes": 131654,
+              "decodedBodyBytes": 131654,
+              "durationMs": 37.5
+            },
+            {
+              "name": "study-bookcase-wide-v8-CVbCdPlz.webp",
+              "transferBytes": 159184,
+              "encodedBodyBytes": 158884,
+              "decodedBodyBytes": 158884,
+              "durationMs": 46
+            },
+            {
+              "name": "desk-lamp-books-v7-CIzCKNUb.webp",
+              "transferBytes": 58468,
+              "encodedBodyBytes": 58168,
+              "decodedBodyBytes": 58168,
+              "durationMs": 46.8
+            },
+            {
+              "name": "desk-books-v7-DQxEeHA1.webp",
+              "transferBytes": 166536,
+              "encodedBodyBytes": 166236,
+              "decodedBodyBytes": 166236,
+              "durationMs": 54.5
+            },
+            {
+              "name": "desk-pen-cup-v7-BGuLSvaE.webp",
+              "transferBytes": 34578,
+              "encodedBodyBytes": 34278,
+              "decodedBodyBytes": 34278,
+              "durationMs": 26.7
+            },
+            {
+              "name": "paper-v1-mrGLL8d4.webp",
+              "transferBytes": 199068,
+              "encodedBodyBytes": 198768,
+              "decodedBodyBytes": 198768,
+              "durationMs": 64.3
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 7,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 3,
+          "responseStartMs": 11.6,
+          "domContentLoadedMs": 158.2,
+          "loadEventMs": 158.3,
+          "firstPaintMs": 72,
+          "firstContentfulPaintMs": 400,
+          "documentTransferBytes": 761,
+          "resourceCount": 12,
+          "transferBytes": 1443638,
+          "firstLoadTransferBytes": 1444399,
+          "decodedBodyBytes": 1802499,
+          "imageRequestCount": 7,
+          "imageTransferBytes": 1150316,
+          "imageDecodedBodyBytes": 1148216,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 11.8
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 27.4
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 28.6
+            },
+            {
+              "name": "index-BTudR182.js",
+              "transferBytes": 126496,
+              "encodedBodyBytes": 126196,
+              "decodedBodyBytes": 476295,
+              "durationMs": 69
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 27.6
+            },
+            {
+              "name": "study-shell-v7-Ctq_k3rq.webp",
+              "transferBytes": 400528,
+              "encodedBodyBytes": 400228,
+              "decodedBodyBytes": 400228,
+              "durationMs": 72.3
+            },
+            {
+              "name": "study-window-wide-v8-CDpbX1-c.webp",
+              "transferBytes": 131954,
+              "encodedBodyBytes": 131654,
+              "decodedBodyBytes": 131654,
+              "durationMs": 54
+            },
+            {
+              "name": "study-bookcase-wide-v8-CVbCdPlz.webp",
+              "transferBytes": 159184,
+              "encodedBodyBytes": 158884,
+              "decodedBodyBytes": 158884,
+              "durationMs": 53.3
+            },
+            {
+              "name": "desk-lamp-books-v7-CIzCKNUb.webp",
+              "transferBytes": 58468,
+              "encodedBodyBytes": 58168,
+              "decodedBodyBytes": 58168,
+              "durationMs": 50.7
+            },
+            {
+              "name": "desk-books-v7-DQxEeHA1.webp",
+              "transferBytes": 166536,
+              "encodedBodyBytes": 166236,
+              "decodedBodyBytes": 166236,
+              "durationMs": 57.9
+            },
+            {
+              "name": "desk-pen-cup-v7-BGuLSvaE.webp",
+              "transferBytes": 34578,
+              "encodedBodyBytes": 34278,
+              "decodedBodyBytes": 34278,
+              "durationMs": 51.8
+            },
+            {
+              "name": "paper-v1-mrGLL8d4.webp",
+              "transferBytes": 199068,
+              "encodedBodyBytes": 198768,
+              "decodedBodyBytes": 198768,
+              "durationMs": 74.9
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 7,
+          "webpMimeErrors": []
+        }
+      ],
+      "median": {
+        "responseStartMs": 11.8,
+        "domContentLoadedMs": 178.8,
+        "loadEventMs": 178.9,
+        "firstPaintMs": 88,
+        "firstContentfulPaintMs": 452,
+        "documentTransferBytes": 761,
+        "transferBytes": 1443638,
+        "firstLoadTransferBytes": 1444399,
+        "decodedBodyBytes": 1802499,
+        "imageTransferBytes": 1150316,
+        "imageDecodedBodyBytes": 1148216
+      }
+    }
+  ]
+}

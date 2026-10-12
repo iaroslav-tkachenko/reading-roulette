@@ -1,0 +1,1602 @@
+[
+  {
+    "label": "Home & household",
+    "lines": 1,
+    "x": 81.5703125,
+    "y": 37,
+    "width": 197.59375,
+    "height": 22
+  },
+  {
+    "label": "Food & cooking",
+    "lines": 1,
+    "x": 100.3203125,
+    "y": 37,
+    "width": 159.822265625,
+    "height": 22
+  },
+  {
+    "label": "Shopping & services",
+    "lines": 1,
+    "x": 76.5234375,
+    "y": 37,
+    "width": 206.953125,
+    "height": 22
+  },
+  {
+    "label": "Money & personal finance",
+    "lines": 2,
+    "x": 86.8203125,
+    "y": 26.5,
+    "width": 186.47265625,
+    "height": 43
+  },
+  {
+    "label": "City life",
+    "lines": 1,
+    "x": 140.546875,
+    "y": 37,
+    "width": 79.4609375,
+    "height": 22
+  },
+  {
+    "label": "Transport",
+    "lines": 1,
+    "x": 126.859375,
+    "y": 37,
+    "width": 106.318359375,
+    "height": 22
+  },
+  {
+    "label": "Travel",
+    "lines": 1,
+    "x": 146.171875,
+    "y": 37,
+    "width": 66.76953125,
+    "height": 22
+  },
+  {
+    "label": "Family & relationships",
+    "lines": 2,
+    "x": 111.75,
+    "y": 26.5,
+    "width": 136.5,
+    "height": 43
+  },
+  {
+    "label": "Work & careers",
+    "lines": 1,
+    "x": 98.5546875,
+    "y": 37,
+    "width": 161.890625,
+    "height": 22
+  },
+  {
+    "label": "Learning & education",
+    "lines": 1,
+    "x": 68.9453125,
+    "y": 37,
+    "width": 222.310546875,
+    "height": 22
+  },
+  {
+    "label": "Health & wellbeing",
+    "lines": 1,
+    "x": 82.296875,
+    "y": 37,
+    "width": 195.8671875,
+    "height": 22
+  },
+  {
+    "label": "Sports",
+    "lines": 1,
+    "x": 146.2734375,
+    "y": 37,
+    "width": 67.453125,
+    "height": 22
+  },
+  {
+    "label": "Hobbies & leisure",
+    "lines": 1,
+    "x": 88.640625,
+    "y": 37,
+    "width": 183.279296875,
+    "height": 22
+  },
+  {
+    "label": "Arts & entertainment",
+    "lines": 1,
+    "x": 69.4140625,
+    "y": 37,
+    "width": 221.2109375,
+    "height": 22
+  },
+  {
+    "label": "Languages & communication",
+    "lines": 2,
+    "x": 98.7734375,
+    "y": 26.5,
+    "width": 162.642578125,
+    "height": 43
+  },
+  {
+    "label": "Culture & traditions",
+    "lines": 1,
+    "x": 76.7109375,
+    "y": 37,
+    "width": 206.578125,
+    "height": 22
+  },
+  {
+    "label": "History",
+    "lines": 1,
+    "x": 141.0546875,
+    "y": 37,
+    "width": 78.650390625,
+    "height": 22
+  },
+  {
+    "label": "Nature & wildlife",
+    "lines": 1,
+    "x": 92.046875,
+    "y": 37,
+    "width": 176.462890625,
+    "height": 22
+  },
+  {
+    "label": "Environment",
+    "lines": 1,
+    "x": 111.4765625,
+    "y": 37,
+    "width": 138.091796875,
+    "height": 22
+  },
+  {
+    "label": "Science & discoveries",
+    "lines": 1,
+    "x": 70.0078125,
+    "y": 37,
+    "width": 219.984375,
+    "height": 22
+  },
+  {
+    "label": "Technology & digital life",
+    "lines": 2,
+    "x": 73.96875,
+    "y": 26.5,
+    "width": 211.1640625,
+    "height": 43
+  },
+  {
+    "label": "Society & public life",
+    "lines": 1,
+    "x": 78.6640625,
+    "y": 37,
+    "width": 203.23046875,
+    "height": 22
+  },
+  {
+    "label": "Space & astronomy",
+    "lines": 1,
+    "x": 81.21875,
+    "y": 37,
+    "width": 198.30859375,
+    "height": 22
+  },
+  {
+    "label": "Business & entrepreneurship",
+    "lines": 2,
+    "x": 88.3671875,
+    "y": 26.5,
+    "width": 183.265625,
+    "height": 43
+  },
+  {
+    "label": "Design & architecture",
+    "lines": 1,
+    "x": 68.0703125,
+    "y": 37,
+    "width": 224.412109375,
+    "height": 22
+  },
+  {
+    "label": "Philosophy & ethics",
+    "lines": 1,
+    "x": 78.8359375,
+    "y": 37,
+    "width": 202.328125,
+    "height": 22
+  },
+  {
+    "label": "Everyday story",
+    "lines": 1,
+    "x": 103.5546875,
+    "y": 37,
+    "width": 153.650390625,
+    "height": 22
+  },
+  {
+    "label": "Adventure story",
+    "lines": 1,
+    "x": 96.015625,
+    "y": 37,
+    "width": 167.716796875,
+    "height": 22
+  },
+  {
+    "label": "Detective story",
+    "lines": 1,
+    "x": 103.21875,
+    "y": 37,
+    "width": 154.314453125,
+    "height": 22
+  },
+  {
+    "label": "Science fiction story",
+    "lines": 1,
+    "x": 76.109375,
+    "y": 37,
+    "width": 208.533203125,
+    "height": 22
+  },
+  {
+    "label": "Fantasy story",
+    "lines": 1,
+    "x": 110.9296875,
+    "y": 37,
+    "width": 138.89453125,
+    "height": 22
+  },
+  {
+    "label": "Fable",
+    "lines": 1,
+    "x": 151.7109375,
+    "y": 37,
+    "width": 57.13671875,
+    "height": 22
+  },
+  {
+    "label": "Description",
+    "lines": 1,
+    "x": 119.421875,
+    "y": 37,
+    "width": 121.353515625,
+    "height": 22
+  },
+  {
+    "label": "Explainer",
+    "lines": 1,
+    "x": 129.578125,
+    "y": 37,
+    "width": 101.439453125,
+    "height": 22
+  },
+  {
+    "label": "Fact file",
+    "lines": 1,
+    "x": 138.875,
+    "y": 37,
+    "width": 82.810546875,
+    "height": 22
+  },
+  {
+    "label": "FAQ",
+    "lines": 1,
+    "x": 157.5,
+    "y": 37,
+    "width": 45,
+    "height": 22
+  },
+  {
+    "label": "Interview",
+    "lines": 1,
+    "x": 130.1953125,
+    "y": 37,
+    "width": 100.34375,
+    "height": 22
+  },
+  {
+    "label": "Informational report",
+    "lines": 1,
+    "x": 71.3046875,
+    "y": 37,
+    "width": 218.43359375,
+    "height": 22
+  },
+  {
+    "label": "News brief",
+    "lines": 1,
+    "x": 124.75,
+    "y": 37,
+    "width": 113.63671875,
+    "height": 22
+  },
+  {
+    "label": "Reportage",
+    "lines": 1,
+    "x": 126.7578125,
+    "y": 37,
+    "width": 107.048828125,
+    "height": 22
+  },
+  {
+    "label": "Short review",
+    "lines": 1,
+    "x": 114.1640625,
+    "y": 37,
+    "width": 132.39453125,
+    "height": 22
+  },
+  {
+    "label": "Comparative review",
+    "lines": 1,
+    "x": 76.7265625,
+    "y": 37,
+    "width": 207.267578125,
+    "height": 22
+  },
+  {
+    "label": "Opinion column",
+    "lines": 1,
+    "x": 96.5234375,
+    "y": 37,
+    "width": 167.154296875,
+    "height": 22
+  },
+  {
+    "label": "Argumentative essay",
+    "lines": 1,
+    "x": 71.9921875,
+    "y": 37,
+    "width": 215.7734375,
+    "height": 22
+  },
+  {
+    "label": "Written debate",
+    "lines": 1,
+    "x": 101.4375,
+    "y": 37,
+    "width": 156.681640625,
+    "height": 22
+  },
+  {
+    "label": "Speech",
+    "lines": 1,
+    "x": 143.3828125,
+    "y": 37,
+    "width": 73.62890625,
+    "height": 22
+  },
+  {
+    "label": "Personal note",
+    "lines": 1,
+    "x": 108.796875,
+    "y": 37,
+    "width": 142.966796875,
+    "height": 22
+  },
+  {
+    "label": "Message exchange",
+    "lines": 1,
+    "x": 85.765625,
+    "y": 37,
+    "width": 189.03125,
+    "height": 22
+  },
+  {
+    "label": "Personal letter",
+    "lines": 1,
+    "x": 103.71875,
+    "y": 37,
+    "width": 153.158203125,
+    "height": 22
+  },
+  {
+    "label": "Diary entry",
+    "lines": 1,
+    "x": 121.390625,
+    "y": 37,
+    "width": 117.966796875,
+    "height": 22
+  },
+  {
+    "label": "Everyday conversation",
+    "lines": 1,
+    "x": 62.8203125,
+    "y": 37,
+    "width": 234.546875,
+    "height": 22
+  },
+  {
+    "label": "Personal blog post",
+    "lines": 1,
+    "x": 85.1484375,
+    "y": 37,
+    "width": 190.748046875,
+    "height": 22
+  },
+  {
+    "label": "Notice",
+    "lines": 1,
+    "x": 146.703125,
+    "y": 37,
+    "width": 67.146484375,
+    "height": 22
+  },
+  {
+    "label": "Listing",
+    "lines": 1,
+    "x": 144.3046875,
+    "y": 37,
+    "width": 71.853515625,
+    "height": 22
+  },
+  {
+    "label": "Menu",
+    "lines": 1,
+    "x": 150.375,
+    "y": 37,
+    "width": 59.703125,
+    "height": 22
+  },
+  {
+    "label": "Schedule",
+    "lines": 1,
+    "x": 133.125,
+    "y": 37,
+    "width": 94.314453125,
+    "height": 22
+  },
+  {
+    "label": "Sample form",
+    "lines": 1,
+    "x": 113.4765625,
+    "y": 37,
+    "width": 133.734375,
+    "height": 22
+  },
+  {
+    "label": "Instructions",
+    "lines": 1,
+    "x": 116.3671875,
+    "y": 37,
+    "width": 127.265625,
+    "height": 22
+  },
+  {
+    "label": "Practical guide",
+    "lines": 1,
+    "x": 103.3359375,
+    "y": 37,
+    "width": 153.884765625,
+    "height": 22
+  },
+  {
+    "label": "Business email",
+    "lines": 1,
+    "x": 102.7734375,
+    "y": 37,
+    "width": 154.55859375,
+    "height": 22
+  },
+  {
+    "label": "Formal notice",
+    "lines": 1,
+    "x": 107.8359375,
+    "y": 37,
+    "width": 144.890625,
+    "height": 22
+  },
+  {
+    "label": "Progress report",
+    "lines": 1,
+    "x": 98.921875,
+    "y": 37,
+    "width": 163.19921875,
+    "height": 22
+  },
+  {
+    "label": "IT meeting follow-up",
+    "lines": 1,
+    "x": 72.5546875,
+    "y": 37,
+    "width": 214.890625,
+    "height": 22
+  },
+  {
+    "label": "Picture & description",
+    "lines": 1,
+    "x": 70.5390625,
+    "y": 37,
+    "width": 219.1171875,
+    "height": 22
+  },
+  {
+    "label": "Picture story",
+    "lines": 1,
+    "x": 113.65625,
+    "y": 37,
+    "width": 133.435546875,
+    "height": 22
+  },
+  {
+    "label": "Illustrated instructions",
+    "lines": 2,
+    "x": 117.2890625,
+    "y": 26.5,
+    "width": 125.421875,
+    "height": 43
+  },
+  {
+    "label": "Map & guide",
+    "lines": 1,
+    "x": 115.7421875,
+    "y": 37,
+    "width": 129.080078125,
+    "height": 22
+  },
+  {
+    "label": "Infographic & explanation",
+    "lines": 2,
+    "x": 108.671875,
+    "y": 26.5,
+    "width": 143.66015625,
+    "height": 43
+  },
+  {
+    "label": "Chart & description",
+    "lines": 1,
+    "x": 78.9765625,
+    "y": 37,
+    "width": 202.2421875,
+    "height": 22
+  },
+  {
+    "label": "Visual report",
+    "lines": 1,
+    "x": 110.9765625,
+    "y": 37,
+    "width": 138.0859375,
+    "height": 22
+  },
+  {
+    "label": "First introduction",
+    "lines": 1,
+    "x": 87.4609375,
+    "y": 37,
+    "width": 185.26953125,
+    "height": 22
+  },
+  {
+    "label": "An ordinary day",
+    "lines": 1,
+    "x": 95.828125,
+    "y": 37,
+    "width": 168.09765625,
+    "height": 22
+  },
+  {
+    "label": "Upcoming plans",
+    "lines": 1,
+    "x": 96.515625,
+    "y": 37,
+    "width": 166.96875,
+    "height": 22
+  },
+  {
+    "label": "What is where",
+    "lines": 1,
+    "x": 105.1953125,
+    "y": 37,
+    "width": 149.162109375,
+    "height": 22
+  },
+  {
+    "label": "An important detail",
+    "lines": 1,
+    "x": 77.546875,
+    "y": 37,
+    "width": 204.015625,
+    "height": 22
+  },
+  {
+    "label": "A special occasion",
+    "lines": 1,
+    "x": 85.8046875,
+    "y": 37,
+    "width": 187.578125,
+    "height": 22
+  },
+  {
+    "label": "A request for help",
+    "lines": 1,
+    "x": 86.78125,
+    "y": 37,
+    "width": 185.4375,
+    "height": 22
+  },
+  {
+    "label": "An invitation",
+    "lines": 1,
+    "x": 111.640625,
+    "y": 37,
+    "width": 135.91796875,
+    "height": 22
+  },
+  {
+    "label": "Clarifying details",
+    "lines": 1,
+    "x": 92.03125,
+    "y": 37,
+    "width": 175.9375,
+    "height": 22
+  },
+  {
+    "label": "A shared choice",
+    "lines": 1,
+    "x": 97.875,
+    "y": 37,
+    "width": 163.810546875,
+    "height": 22
+  },
+  {
+    "label": "A misunderstanding",
+    "lines": 1,
+    "x": 74.046875,
+    "y": 37,
+    "width": 211.359375,
+    "height": 22
+  },
+  {
+    "label": "Feedback",
+    "lines": 1,
+    "x": 131.171875,
+    "y": 37,
+    "width": 99.009765625,
+    "height": 22
+  },
+  {
+    "label": "Unexpected discovery",
+    "lines": 1,
+    "x": 67.5234375,
+    "y": 37,
+    "width": 225.701171875,
+    "height": 22
+  },
+  {
+    "label": "A change of plans",
+    "lines": 1,
+    "x": 89.0546875,
+    "y": 37,
+    "width": 180.890625,
+    "height": 22
+  },
+  {
+    "label": "Problem and solution",
+    "lines": 1,
+    "x": 68.6328125,
+    "y": 37,
+    "width": 222.935546875,
+    "height": 22
+  },
+  {
+    "label": "An unsuccessful attempt",
+    "lines": 2,
+    "x": 95.6796875,
+    "y": 26.5,
+    "width": 167.755859375,
+    "height": 43
+  },
+  {
+    "label": "An unexpected outcome",
+    "lines": 1,
+    "x": 55.6015625,
+    "y": 37,
+    "width": 248.361328125,
+    "height": 22
+  },
+  {
+    "label": "Consequences of a decision",
+    "lines": 2,
+    "x": 85.390625,
+    "y": 26.5,
+    "width": 189.294921875,
+    "height": 43
+  },
+  {
+    "label": "How it works",
+    "lines": 1,
+    "x": 111.6484375,
+    "y": 37,
+    "width": 136.703125,
+    "height": 22
+  },
+  {
+    "label": "Why it happens",
+    "lines": 1,
+    "x": 99.078125,
+    "y": 37,
+    "width": 160.84375,
+    "height": 22
+  },
+  {
+    "label": "Comparing two options",
+    "lines": 1,
+    "x": 59.5234375,
+    "y": 37,
+    "width": 240.953125,
+    "height": 22
+  },
+  {
+    "label": "Then and now",
+    "lines": 1,
+    "x": 106.2890625,
+    "y": 37,
+    "width": 147.154296875,
+    "height": 22
+  },
+  {
+    "label": "Expectations and reality",
+    "lines": 2,
+    "x": 91.4453125,
+    "y": 26.5,
+    "width": 177.837890625,
+    "height": 43
+  },
+  {
+    "label": "A common misconception",
+    "lines": 2,
+    "x": 104.234375,
+    "y": 26.5,
+    "width": 151.724609375,
+    "height": 43
+  },
+  {
+    "label": "What changed",
+    "lines": 1,
+    "x": 105.3828125,
+    "y": 37,
+    "width": 148.96484375,
+    "height": 22
+  },
+  {
+    "label": "Decisions and next steps",
+    "lines": 2,
+    "x": 83.0078125,
+    "y": 26.5,
+    "width": 195.025390625,
+    "height": 43
+  },
+  {
+    "label": "A noticeable pattern",
+    "lines": 1,
+    "x": 74.6640625,
+    "y": 37,
+    "width": 209.86328125,
+    "height": 22
+  },
+  {
+    "label": "Different viewpoints",
+    "lines": 1,
+    "x": 74.1875,
+    "y": 37,
+    "width": 211.625,
+    "height": 22
+  },
+  {
+    "label": "A difficult choice",
+    "lines": 1,
+    "x": 92.2421875,
+    "y": 37,
+    "width": 175.0703125,
+    "height": 22
+  },
+  {
+    "label": "Strengths and limitations",
+    "lines": 2,
+    "x": 108.0234375,
+    "y": 26.5,
+    "width": 144.68359375,
+    "height": 43
+  },
+  {
+    "label": "Дом и быт",
+    "lines": 1,
+    "x": 123.4921875,
+    "y": 37,
+    "width": 113.087890625,
+    "height": 22
+  },
+  {
+    "label": "Еда и готовка",
+    "lines": 1,
+    "x": 106.7265625,
+    "y": 37,
+    "width": 146.62890625,
+    "height": 22
+  },
+  {
+    "label": "Покупки и услуги",
+    "lines": 1,
+    "x": 84.53125,
+    "y": 37,
+    "width": 190.9375,
+    "height": 22
+  },
+  {
+    "label": "Деньги и финансы",
+    "lines": 1,
+    "x": 77.3046875,
+    "y": 37,
+    "width": 204.390625,
+    "height": 22
+  },
+  {
+    "label": "Жизнь в городе",
+    "lines": 1,
+    "x": 94.703125,
+    "y": 37,
+    "width": 170.158203125,
+    "height": 22
+  },
+  {
+    "label": "Транспорт",
+    "lines": 1,
+    "x": 121.8203125,
+    "y": 37,
+    "width": 116.427734375,
+    "height": 22
+  },
+  {
+    "label": "Путешествия",
+    "lines": 1,
+    "x": 108.0546875,
+    "y": 37,
+    "width": 144.09375,
+    "height": 22
+  },
+  {
+    "label": "Семья и отношения",
+    "lines": 1,
+    "x": 72.9765625,
+    "y": 37,
+    "width": 214.25,
+    "height": 22
+  },
+  {
+    "label": "Работа и карьера",
+    "lines": 1,
+    "x": 87.640625,
+    "y": 37,
+    "width": 184.802734375,
+    "height": 22
+  },
+  {
+    "label": "Учёба и образование",
+    "lines": 1,
+    "x": 65.84375,
+    "y": 37,
+    "width": 227.86328125,
+    "height": 22
+  },
+  {
+    "label": "Здоровье и самочувствие",
+    "lines": 2,
+    "x": 106.015625,
+    "y": 26.5,
+    "width": 148.533203125,
+    "height": 43
+  },
+  {
+    "label": "Спорт",
+    "lines": 1,
+    "x": 147.4609375,
+    "y": 37,
+    "width": 66.16015625,
+    "height": 22
+  },
+  {
+    "label": "Увлечения и досуг",
+    "lines": 1,
+    "x": 79.53125,
+    "y": 37,
+    "width": 200.984375,
+    "height": 22
+  },
+  {
+    "label": "Искусство и развлечения",
+    "lines": 2,
+    "x": 109.546875,
+    "y": 26.5,
+    "width": 140.123046875,
+    "height": 43
+  },
+  {
+    "label": "Языки и общение",
+    "lines": 1,
+    "x": 82.4609375,
+    "y": 37,
+    "width": 194.630859375,
+    "height": 22
+  },
+  {
+    "label": "Культура и традиции",
+    "lines": 1,
+    "x": 65.3359375,
+    "y": 37,
+    "width": 229.328125,
+    "height": 22
+  },
+  {
+    "label": "История",
+    "lines": 1,
+    "x": 133.515625,
+    "y": 37,
+    "width": 93.185546875,
+    "height": 22
+  },
+  {
+    "label": "Природа и животные",
+    "lines": 1,
+    "x": 63.890625,
+    "y": 37,
+    "width": 232.78125,
+    "height": 22
+  },
+  {
+    "label": "Окружающая среда",
+    "lines": 1,
+    "x": 74.4375,
+    "y": 37,
+    "width": 211.208984375,
+    "height": 22
+  },
+  {
+    "label": "Наука и открытия",
+    "lines": 1,
+    "x": 81.7109375,
+    "y": 37,
+    "width": 196.7890625,
+    "height": 22
+  },
+  {
+    "label": "Технологии и цифровой мир",
+    "lines": 2,
+    "x": 47.0078125,
+    "y": 26.5,
+    "width": 264.984375,
+    "height": 43
+  },
+  {
+    "label": "Общество",
+    "lines": 1,
+    "x": 126.5859375,
+    "y": 37,
+    "width": 107.1015625,
+    "height": 22
+  },
+  {
+    "label": "Космос и астрономия",
+    "lines": 1,
+    "x": 63.671875,
+    "y": 37,
+    "width": 232.86328125,
+    "height": 22
+  },
+  {
+    "label": "Бизнес",
+    "lines": 1,
+    "x": 141.8203125,
+    "y": 37,
+    "width": 76.72265625,
+    "height": 22
+  },
+  {
+    "label": "Дизайн и архитектура",
+    "lines": 1,
+    "x": 59.1640625,
+    "y": 37,
+    "width": 240.75390625,
+    "height": 22
+  },
+  {
+    "label": "Философия и этика",
+    "lines": 1,
+    "x": 74.09375,
+    "y": 37,
+    "width": 211.892578125,
+    "height": 22
+  },
+  {
+    "label": "Рассказ из жизни",
+    "lines": 1,
+    "x": 85.25,
+    "y": 37,
+    "width": 189.5,
+    "height": 22
+  },
+  {
+    "label": "Приключенческий рассказ",
+    "lines": 2,
+    "x": 76.9765625,
+    "y": 26.5,
+    "width": 206.046875,
+    "height": 43
+  },
+  {
+    "label": "Детективный рассказ",
+    "lines": 1,
+    "x": 61.9921875,
+    "y": 37,
+    "width": 235.212890625,
+    "height": 22
+  },
+  {
+    "label": "Научная фантастика",
+    "lines": 1,
+    "x": 67.109375,
+    "y": 37,
+    "width": 225.857421875,
+    "height": 22
+  },
+  {
+    "label": "Фэнтези",
+    "lines": 1,
+    "x": 134.5703125,
+    "y": 37,
+    "width": 90.859375,
+    "height": 22
+  },
+  {
+    "label": "Басня",
+    "lines": 1,
+    "x": 147.7578125,
+    "y": 37,
+    "width": 64.689453125,
+    "height": 22
+  },
+  {
+    "label": "Описание",
+    "lines": 1,
+    "x": 126.375,
+    "y": 37,
+    "width": 107.810546875,
+    "height": 22
+  },
+  {
+    "label": "Подробное объяснение",
+    "lines": 1,
+    "x": 53.65625,
+    "y": 37,
+    "width": 253.240234375,
+    "height": 22
+  },
+  {
+    "label": "Справка о предмете",
+    "lines": 1,
+    "x": 72.96875,
+    "y": 37,
+    "width": 214.6171875,
+    "height": 22
+  },
+  {
+    "label": "Вопросы и ответы",
+    "lines": 1,
+    "x": 81.09375,
+    "y": 37,
+    "width": 197.8125,
+    "height": 22
+  },
+  {
+    "label": "Интервью",
+    "lines": 1,
+    "x": 124.4375,
+    "y": 37,
+    "width": 111.373046875,
+    "height": 22
+  },
+  {
+    "label": "Информационный отчёт",
+    "lines": 1,
+    "x": 44.7421875,
+    "y": 37,
+    "width": 271.58984375,
+    "height": 22
+  },
+  {
+    "label": "Короткая новость",
+    "lines": 1,
+    "x": 83.2578125,
+    "y": 37,
+    "width": 193.62109375,
+    "height": 22
+  },
+  {
+    "label": "Репортаж",
+    "lines": 1,
+    "x": 127.015625,
+    "y": 37,
+    "width": 107.14453125,
+    "height": 22
+  },
+  {
+    "label": "Короткий отзыв",
+    "lines": 1,
+    "x": 91.4140625,
+    "y": 37,
+    "width": 177.171875,
+    "height": 22
+  },
+  {
+    "label": "Сравнительный обзор",
+    "lines": 1,
+    "x": 59.2734375,
+    "y": 37,
+    "width": 241.453125,
+    "height": 22
+  },
+  {
+    "label": "Авторская колонка",
+    "lines": 1,
+    "x": 75.0859375,
+    "y": 37,
+    "width": 208.908203125,
+    "height": 22
+  },
+  {
+    "label": "Эссе с аргументами",
+    "lines": 1,
+    "x": 75.375,
+    "y": 37,
+    "width": 209.25,
+    "height": 22
+  },
+  {
+    "label": "Письменная дискуссия",
+    "lines": 1,
+    "x": 54.8984375,
+    "y": 37,
+    "width": 250.412109375,
+    "height": 22
+  },
+  {
+    "label": "Выступление",
+    "lines": 1,
+    "x": 107.6171875,
+    "y": 37,
+    "width": 145.330078125,
+    "height": 22
+  },
+  {
+    "label": "Личная записка",
+    "lines": 1,
+    "x": 91.6328125,
+    "y": 37,
+    "width": 175.8125,
+    "height": 22
+  },
+  {
+    "label": "Переписка",
+    "lines": 1,
+    "x": 121.140625,
+    "y": 37,
+    "width": 117.791015625,
+    "height": 22
+  },
+  {
+    "label": "Личное письмо",
+    "lines": 1,
+    "x": 95.3046875,
+    "y": 37,
+    "width": 168.66796875,
+    "height": 22
+  },
+  {
+    "label": "Запись в дневнике",
+    "lines": 1,
+    "x": 79.046875,
+    "y": 37,
+    "width": 202.46875,
+    "height": 22
+  },
+  {
+    "label": "Повседневный диалог",
+    "lines": 1,
+    "x": 59.109375,
+    "y": 37,
+    "width": 242.826171875,
+    "height": 22
+  },
+  {
+    "label": "Запись в личном блоге",
+    "lines": 1,
+    "x": 56.296875,
+    "y": 37,
+    "width": 247.95703125,
+    "height": 22
+  },
+  {
+    "label": "Уведомление",
+    "lines": 1,
+    "x": 107,
+    "y": 37,
+    "width": 145.55859375,
+    "height": 22
+  },
+  {
+    "label": "Объявление",
+    "lines": 1,
+    "x": 113.8828125,
+    "y": 37,
+    "width": 132.791015625,
+    "height": 22
+  },
+  {
+    "label": "Меню",
+    "lines": 1,
+    "x": 147.578125,
+    "y": 37,
+    "width": 65.103515625,
+    "height": 22
+  },
+  {
+    "label": "Расписание",
+    "lines": 1,
+    "x": 116.2890625,
+    "y": 37,
+    "width": 127.9765625,
+    "height": 22
+  },
+  {
+    "label": "Образец анкеты",
+    "lines": 1,
+    "x": 92.5546875,
+    "y": 37,
+    "width": 174.890625,
+    "height": 22
+  },
+  {
+    "label": "Инструкция",
+    "lines": 1,
+    "x": 113.7265625,
+    "y": 37,
+    "width": 132.755859375,
+    "height": 22
+  },
+  {
+    "label": "Практическое руководство",
+    "lines": 2,
+    "x": 103.25,
+    "y": 26.5,
+    "width": 154.05078125,
+    "height": 43
+  },
+  {
+    "label": "Деловое письмо",
+    "lines": 1,
+    "x": 91.75,
+    "y": 37,
+    "width": 175.77734375,
+    "height": 22
+  },
+  {
+    "label": "Официальное уведомление",
+    "lines": 2,
+    "x": 104.0546875,
+    "y": 26.5,
+    "width": 152.44921875,
+    "height": 43
+  },
+  {
+    "label": "Отчёт о ходе работы",
+    "lines": 1,
+    "x": 70.6640625,
+    "y": 37,
+    "width": 218.671875,
+    "height": 22
+  },
+  {
+    "label": "Итоги IT-встречи",
+    "lines": 1,
+    "x": 86.09375,
+    "y": 37,
+    "width": 187.8125,
+    "height": 22
+  },
+  {
+    "label": "Изображение и описание",
+    "lines": 2,
+    "x": 95.9140625,
+    "y": 26.5,
+    "width": 168.171875,
+    "height": 43
+  },
+  {
+    "label": "История в картинках",
+    "lines": 1,
+    "x": 65.3359375,
+    "y": 37,
+    "width": 229.55859375,
+    "height": 22
+  },
+  {
+    "label": "Инструкция с картинками",
+    "lines": 2,
+    "x": 105.875,
+    "y": 26.5,
+    "width": 148.6171875,
+    "height": 43
+  },
+  {
+    "label": "Карта и маршрут",
+    "lines": 1,
+    "x": 87.6953125,
+    "y": 37,
+    "width": 185.69140625,
+    "height": 22
+  },
+  {
+    "label": "Инфографика с пояснением",
+    "lines": 2,
+    "x": 94.9296875,
+    "y": 26.5,
+    "width": 170.501953125,
+    "height": 43
+  },
+  {
+    "label": "График и описание",
+    "lines": 1,
+    "x": 74.53125,
+    "y": 37,
+    "width": 211.501953125,
+    "height": 22
+  },
+  {
+    "label": "Визуальный отчёт",
+    "lines": 1,
+    "x": 80.1640625,
+    "y": 37,
+    "width": 200.75,
+    "height": 22
+  },
+  {
+    "label": "Первое знакомство",
+    "lines": 1,
+    "x": 75.3359375,
+    "y": 37,
+    "width": 209.611328125,
+    "height": 22
+  },
+  {
+    "label": "Обычный день",
+    "lines": 1,
+    "x": 98.875,
+    "y": 37,
+    "width": 162.390625,
+    "height": 22
+  },
+  {
+    "label": "Ближайшие планы",
+    "lines": 1,
+    "x": 75.6484375,
+    "y": 37,
+    "width": 208.703125,
+    "height": 22
+  },
+  {
+    "label": "Что где находится",
+    "lines": 1,
+    "x": 81.15625,
+    "y": 37,
+    "width": 196.900390625,
+    "height": 22
+  },
+  {
+    "label": "Важная деталь",
+    "lines": 1,
+    "x": 99.7890625,
+    "y": 37,
+    "width": 160.564453125,
+    "height": 22
+  },
+  {
+    "label": "Особый случай",
+    "lines": 1,
+    "x": 97.71875,
+    "y": 37,
+    "width": 164.5625,
+    "height": 22
+  },
+  {
+    "label": "Просьба о помощи",
+    "lines": 1,
+    "x": 78.34375,
+    "y": 37,
+    "width": 203.3125,
+    "height": 22
+  },
+  {
+    "label": "Приглашение",
+    "lines": 1,
+    "x": 104.140625,
+    "y": 37,
+    "width": 152.2734375,
+    "height": 22
+  },
+  {
+    "label": "Уточнение деталей",
+    "lines": 1,
+    "x": 75.1484375,
+    "y": 37,
+    "width": 208.703125,
+    "height": 22
+  },
+  {
+    "label": "Совместный выбор",
+    "lines": 1,
+    "x": 75.2890625,
+    "y": 37,
+    "width": 209.421875,
+    "height": 22
+  },
+  {
+    "label": "Недопонимание",
+    "lines": 1,
+    "x": 91.0390625,
+    "y": 37,
+    "width": 178.474609375,
+    "height": 22
+  },
+  {
+    "label": "Обратная связь",
+    "lines": 1,
+    "x": 96.3515625,
+    "y": 37,
+    "width": 167.439453125,
+    "height": 22
+  },
+  {
+    "label": "Неожиданное открытие",
+    "lines": 1,
+    "x": 49.4921875,
+    "y": 37,
+    "width": 261.580078125,
+    "height": 22
+  },
+  {
+    "label": "Перемена планов",
+    "lines": 1,
+    "x": 84.4765625,
+    "y": 37,
+    "width": 191.046875,
+    "height": 22
+  },
+  {
+    "label": "Проблема и решение",
+    "lines": 1,
+    "x": 65.390625,
+    "y": 37,
+    "width": 229.7734375,
+    "height": 22
+  },
+  {
+    "label": "Неудачная попытка",
+    "lines": 1,
+    "x": 71.453125,
+    "y": 37,
+    "width": 217.166015625,
+    "height": 22
+  },
+  {
+    "label": "Неожиданный результат",
+    "lines": 1,
+    "x": 44.8515625,
+    "y": 37,
+    "width": 271.365234375,
+    "height": 22
+  },
+  {
+    "label": "Последствия решения",
+    "lines": 1,
+    "x": 59.25,
+    "y": 37,
+    "width": 241.7109375,
+    "height": 22
+  },
+  {
+    "label": "Как это работает",
+    "lines": 1,
+    "x": 89.5546875,
+    "y": 37,
+    "width": 181.970703125,
+    "height": 22
+  },
+  {
+    "label": "Почему так происходит",
+    "lines": 1,
+    "x": 52.2734375,
+    "y": 37,
+    "width": 256.521484375,
+    "height": 22
+  },
+  {
+    "label": "Сравнение вариантов",
+    "lines": 1,
+    "x": 61.8046875,
+    "y": 37,
+    "width": 236.390625,
+    "height": 22
+  },
+  {
+    "label": "Раньше и сейчас",
+    "lines": 1,
+    "x": 90,
+    "y": 37,
+    "width": 180.365234375,
+    "height": 22
+  },
+  {
+    "label": "Ожидания и реальность",
+    "lines": 1,
+    "x": 49.7890625,
+    "y": 37,
+    "width": 260.564453125,
+    "height": 22
+  },
+  {
+    "label": "Частое заблуждение",
+    "lines": 1,
+    "x": 68.7734375,
+    "y": 37,
+    "width": 222.013671875,
+    "height": 22
+  },
+  {
+    "label": "Что изменилось",
+    "lines": 1,
+    "x": 91.5703125,
+    "y": 37,
+    "width": 175.998046875,
+    "height": 22
+  },
+  {
+    "label": "Решения и следующие шаги",
+    "lines": 2,
+    "x": 57.1875,
+    "y": 26.5,
+    "width": 246.1796875,
+    "height": 43
+  },
+  {
+    "label": "Заметная закономерность",
+    "lines": 2,
+    "x": 91.953125,
+    "y": 26.5,
+    "width": 176.23828125,
+    "height": 43
+  },
+  {
+    "label": "Разные точки зрения",
+    "lines": 1,
+    "x": 64.1796875,
+    "y": 37,
+    "width": 231.857421875,
+    "height": 22
+  },
+  {
+    "label": "Трудный выбор",
+    "lines": 1,
+    "x": 93.3203125,
+    "y": 37,
+    "width": 172.359375,
+    "height": 22
+  },
+  {
+    "label": "Сильные стороны и ограничения",
+    "lines": 2,
+    "x": 72.640625,
+    "y": 26.5,
+    "width": 214.71875,
+    "height": 43
+  }
+]

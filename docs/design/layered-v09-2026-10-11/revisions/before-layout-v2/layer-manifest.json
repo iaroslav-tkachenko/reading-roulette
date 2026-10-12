@@ -1,0 +1,476 @@
+{
+  "artboard": [
+    1536,
+    1024
+  ],
+  "method": "Individual PNG layers in inline SVG; uniform scale, source alpha, separate SVG text. No browser JavaScript, events or animation.",
+  "uniqueRuntimePngs": 10,
+  "rasterInstances": 31,
+  "placements": [
+    {
+      "id": "study",
+      "asset": "study-v1.png",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1024,
+      "mirror": false,
+      "sourceBounds": [
+        0,
+        0,
+        1536,
+        1024
+      ]
+    },
+    {
+      "id": "chassis",
+      "asset": "chassis-v1.png",
+      "x": 195,
+      "y": 515,
+      "width": 1145,
+      "height": 278.695,
+      "mirror": false,
+      "sourceBounds": [
+        34,
+        159,
+        2080,
+        657
+      ]
+    },
+    {
+      "id": "settings-panel",
+      "asset": "settings-v2.png",
+      "x": 313,
+      "y": 272,
+      "width": 910,
+      "height": 151.978,
+      "mirror": false,
+      "sourceBounds": [
+        114,
+        202,
+        2060,
+        527
+      ]
+    },
+    {
+      "id": "drum-1",
+      "asset": "drum-v1.png",
+      "x": 365,
+      "y": 395,
+      "width": 282,
+      "height": 171.94,
+      "mirror": false,
+      "sourceBounds": [
+        97,
+        172,
+        1332,
+        925
+      ]
+    },
+    {
+      "id": "drum-2",
+      "asset": "drum-v1.png",
+      "x": 638,
+      "y": 395,
+      "width": 282,
+      "height": 171.94,
+      "mirror": false,
+      "sourceBounds": [
+        97,
+        172,
+        1332,
+        925
+      ]
+    },
+    {
+      "id": "drum-3",
+      "asset": "drum-v1.png",
+      "x": 910,
+      "y": 395,
+      "width": 282,
+      "height": 171.94,
+      "mirror": false,
+      "sourceBounds": [
+        97,
+        172,
+        1332,
+        925
+      ]
+    },
+    {
+      "id": "left-wheel",
+      "asset": "wheel-v1.png",
+      "x": 250,
+      "y": 343,
+      "width": 62,
+      "height": 107.129,
+      "mirror": false,
+      "sourceBounds": [
+        125,
+        170,
+        871,
+        1459
+      ]
+    },
+    {
+      "id": "right-wheel",
+      "asset": "wheel-v1.png",
+      "x": 1224,
+      "y": 343,
+      "width": 62,
+      "height": 107.129,
+      "mirror": true,
+      "sourceBounds": [
+        125,
+        170,
+        871,
+        1459
+      ]
+    },
+    {
+      "id": "mechanical-cradle",
+      "asset": "mechanism-v2.png",
+      "x": 294,
+      "y": 333,
+      "width": 950,
+      "height": 256.202,
+      "mirror": false,
+      "sourceBounds": [
+        106,
+        90,
+        2049,
+        614
+      ]
+    },
+    {
+      "id": "key-art-Q",
+      "asset": "key-v1.png",
+      "x": 302,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-W",
+      "asset": "key-v1.png",
+      "x": 365,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-E",
+      "asset": "key-v1.png",
+      "x": 428,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-R",
+      "asset": "key-v1.png",
+      "x": 491,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-T",
+      "asset": "key-v1.png",
+      "x": 554,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-A",
+      "asset": "key-v1.png",
+      "x": 324,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-S",
+      "asset": "key-v1.png",
+      "x": 387,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-D",
+      "asset": "key-v1.png",
+      "x": 450,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-F",
+      "asset": "key-v1.png",
+      "x": 513,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-G",
+      "asset": "key-v1.png",
+      "x": 576,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-Y",
+      "asset": "key-v1.png",
+      "x": 951,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-U",
+      "asset": "key-v1.png",
+      "x": 1014,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-I",
+      "asset": "key-v1.png",
+      "x": 1077,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-O",
+      "asset": "key-v1.png",
+      "x": 1140,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-P",
+      "asset": "key-v1.png",
+      "x": 1203,
+      "y": 601,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-H",
+      "asset": "key-v1.png",
+      "x": 982,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-J",
+      "asset": "key-v1.png",
+      "x": 1045,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-K",
+      "asset": "key-v1.png",
+      "x": 1108,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "key-art-L",
+      "asset": "key-v1.png",
+      "x": 1171,
+      "y": 643,
+      "width": 47,
+      "height": 50.84,
+      "mirror": false,
+      "sourceBounds": [
+        171,
+        121,
+        1089,
+        1114
+      ]
+    },
+    {
+      "id": "spin-bezel",
+      "asset": "spin-rim-v2.png",
+      "x": 624,
+      "y": 600,
+      "width": 320,
+      "height": 88.652,
+      "mirror": false,
+      "sourceBounds": [
+        57,
+        93,
+        2082,
+        654
+      ]
+    },
+    {
+      "id": "spin-insert",
+      "asset": "spin-face-v1.png",
+      "x": 650,
+      "y": 607,
+      "width": 268,
+      "height": 67.266,
+      "mirror": false,
+      "sourceBounds": [
+        79,
+        107,
+        2091,
+        612
+      ]
+    },
+    {
+      "id": "output-paper",
+      "asset": "paper-v1.png",
+      "x": 312,
+      "y": 723,
+      "width": 918,
+      "height": 198.632,
+      "mirror": false,
+      "sourceBounds": [
+        38,
+        148,
+        2090,
+        592
+      ]
+    }
+  ]
+}

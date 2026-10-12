@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-10",
+  "sourceMasters": 6,
+  "sourceBytes": 10254740,
+  "losslessWrappers": 5,
+  "localResources": 18,
+  "markdownLinks": 16,
+  "http": [
+    {
+      "url": "http://127.0.0.1:5173/docs/design/artwork-review/",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/artwork-review/long-labels.html",
+      "status": 200,
+      "type": "text/html"
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/artwork-review/assembly-illustration-v2.png",
+      "status": 200,
+      "type": "image/png"
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/assets/chassis-display.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "url": "http://127.0.0.1:5173/docs/design/assets/study-background-v1.png",
+      "status": 200,
+      "type": "image/png"
+    }
+  ],
+  "illustrationSha256": "1a83ac2b443f593b5e5cb17a84045524b8ee8fae65e98ff69aaa8c42b67518fc",
+  "motionV2CoordinationChecks": 12,
+  "browser": {
+    "verified": false,
+    "error": "EPERM loading browser-client.mjs",
+    "notVerified": [
+      "Real CSS assembly layout/rendering at viewport sizes",
+      "Zoom/font fallback/focus and accessibility",
+      "Actual animation/clipboard integration (stage 3)"
+    ]
+  },
+  "productionSourcesAndHistoricalArt": "git diff --exit-code checks passed; not modified in stage 2",
+  "staticSourceNoProductScripts": true,
+  "devServerNote": "Vite injects its standard development/HMR scripts when serving HTML; the review sources contain no product scripts.",
+  "stylesheetResource": {
+    "status": 200,
+    "type": "text/css",
+    "request": "GET with stylesheet Accept and Sec-Fetch-Dest headers",
+    "sourceCSS": true
+  },
+  "followup": {
+    "change": "Full keyboard restored",
+    "report": "keyboard-restore-verification.json",
+    "currentIllustration": "assembly-illustration-v3.png",
+    "priorIllustration": "assembly-illustration-v2.png (rejected sparse-keyboard variant)"
+  }
+}

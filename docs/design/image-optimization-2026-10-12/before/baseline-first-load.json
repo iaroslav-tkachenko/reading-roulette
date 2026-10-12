@@ -1,0 +1,843 @@
+{
+  "label": "baseline",
+  "url": "http://127.0.0.1:58938/reading-roulette/",
+  "cache": "new Chromium context per run, Network.setCacheDisabled=true",
+  "chromium": "153.0.8010.12",
+  "profiles": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1536,
+        "height": 900
+      },
+      "deviceScaleFactor": 1,
+      "runs": [
+        {
+          "run": 1,
+          "responseStartMs": 38.4,
+          "domContentLoadedMs": 245.6,
+          "loadEventMs": 245.7,
+          "firstPaintMs": 132,
+          "firstContentfulPaintMs": 684,
+          "documentTransferBytes": 763,
+          "resourceCount": 19,
+          "transferBytes": 24372409,
+          "firstLoadTransferBytes": 24373172,
+          "decodedBodyBytes": 24728811,
+          "imageRequestCount": 14,
+          "imageTransferBytes": 24079323,
+          "imageDecodedBodyBytes": 24075123,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 41.1
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 48.8
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 46.9
+            },
+            {
+              "name": "index-C_p7y2mM.js",
+              "transferBytes": 126260,
+              "encodedBodyBytes": 125960,
+              "decodedBodyBytes": 475700,
+              "durationMs": 102.8
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 50.1
+            },
+            {
+              "name": "study-shell-v7-3h6fZ6FV.png",
+              "transferBytes": 2344572,
+              "encodedBodyBytes": 2344272,
+              "decodedBodyBytes": 2344272,
+              "durationMs": 166.4
+            },
+            {
+              "name": "study-window-wide-v8-ClKT6gYU.png",
+              "transferBytes": 2327968,
+              "encodedBodyBytes": 2327668,
+              "decodedBodyBytes": 2327668,
+              "durationMs": 167.5
+            },
+            {
+              "name": "study-bookcase-wide-v8-BEteXnaz.png",
+              "transferBytes": 2637815,
+              "encodedBodyBytes": 2637515,
+              "decodedBodyBytes": 2637515,
+              "durationMs": 182.7
+            },
+            {
+              "name": "desk-lamp-books-v7-BdAn1jIZ.png",
+              "transferBytes": 1185194,
+              "encodedBodyBytes": 1184894,
+              "decodedBodyBytes": 1184894,
+              "durationMs": 113.5
+            },
+            {
+              "name": "desk-books-v7-Y908fZTp.png",
+              "transferBytes": 2423347,
+              "encodedBodyBytes": 2423047,
+              "decodedBodyBytes": 2423047,
+              "durationMs": 170.5
+            },
+            {
+              "name": "desk-pen-cup-v7-Bw-R51Hs.png",
+              "transferBytes": 2246444,
+              "encodedBodyBytes": 2246144,
+              "decodedBodyBytes": 2246144,
+              "durationMs": 160.6
+            },
+            {
+              "name": "chassis-v3-CJwVfM2L.png",
+              "transferBytes": 1804531,
+              "encodedBodyBytes": 1804231,
+              "decodedBodyBytes": 1804231,
+              "durationMs": 271.5
+            },
+            {
+              "name": "settings-v2-C2kOrZKD.png",
+              "transferBytes": 960622,
+              "encodedBodyBytes": 960322,
+              "decodedBodyBytes": 960322,
+              "durationMs": 244.9
+            },
+            {
+              "name": "drum-v1-Bj5eGOVf.png",
+              "transferBytes": 1436555,
+              "encodedBodyBytes": 1436255,
+              "decodedBodyBytes": 1436255,
+              "durationMs": 281.2
+            },
+            {
+              "name": "wheel-v1-F1wW89TE.png",
+              "transferBytes": 1245122,
+              "encodedBodyBytes": 1244822,
+              "decodedBodyBytes": 1244822,
+              "durationMs": 274.1
+            },
+            {
+              "name": "mechanism-v2-C2B_U8bc.png",
+              "transferBytes": 796048,
+              "encodedBodyBytes": 795748,
+              "decodedBodyBytes": 795748,
+              "durationMs": 250.5
+            },
+            {
+              "name": "key-v1-ccPO6OtX.png",
+              "transferBytes": 1285723,
+              "encodedBodyBytes": 1285423,
+              "decodedBodyBytes": 1285423,
+              "durationMs": 284.9
+            },
+            {
+              "name": "spin-button-v3-52Doy5V2.png",
+              "transferBytes": 1948328,
+              "encodedBodyBytes": 1948028,
+              "decodedBodyBytes": 1948028,
+              "durationMs": 305.1
+            },
+            {
+              "name": "paper-v1-D2Rww8ee.png",
+              "transferBytes": 1437054,
+              "encodedBodyBytes": 1436754,
+              "decodedBodyBytes": 1436754,
+              "durationMs": 301.2
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 0,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 2,
+          "responseStartMs": 10.7,
+          "domContentLoadedMs": 172.3,
+          "loadEventMs": 172.3,
+          "firstPaintMs": 72,
+          "firstContentfulPaintMs": 608,
+          "documentTransferBytes": 763,
+          "resourceCount": 19,
+          "transferBytes": 24372409,
+          "firstLoadTransferBytes": 24373172,
+          "decodedBodyBytes": 24728811,
+          "imageRequestCount": 14,
+          "imageTransferBytes": 24079323,
+          "imageDecodedBodyBytes": 24075123,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 12.2
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 25.9
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 27.3
+            },
+            {
+              "name": "index-C_p7y2mM.js",
+              "transferBytes": 126260,
+              "encodedBodyBytes": 125960,
+              "decodedBodyBytes": 475700,
+              "durationMs": 72.6
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 27.8
+            },
+            {
+              "name": "study-shell-v7-3h6fZ6FV.png",
+              "transferBytes": 2344572,
+              "encodedBodyBytes": 2344272,
+              "decodedBodyBytes": 2344272,
+              "durationMs": 175.8
+            },
+            {
+              "name": "study-window-wide-v8-ClKT6gYU.png",
+              "transferBytes": 2327968,
+              "encodedBodyBytes": 2327668,
+              "decodedBodyBytes": 2327668,
+              "durationMs": 176.6
+            },
+            {
+              "name": "study-bookcase-wide-v8-BEteXnaz.png",
+              "transferBytes": 2637815,
+              "encodedBodyBytes": 2637515,
+              "decodedBodyBytes": 2637515,
+              "durationMs": 195.7
+            },
+            {
+              "name": "desk-lamp-books-v7-BdAn1jIZ.png",
+              "transferBytes": 1185194,
+              "encodedBodyBytes": 1184894,
+              "decodedBodyBytes": 1184894,
+              "durationMs": 110.3
+            },
+            {
+              "name": "desk-pen-cup-v7-Bw-R51Hs.png",
+              "transferBytes": 2246444,
+              "encodedBodyBytes": 2246144,
+              "decodedBodyBytes": 2246144,
+              "durationMs": 173.6
+            },
+            {
+              "name": "desk-books-v7-Y908fZTp.png",
+              "transferBytes": 2423347,
+              "encodedBodyBytes": 2423047,
+              "decodedBodyBytes": 2423047,
+              "durationMs": 187.6
+            },
+            {
+              "name": "chassis-v3-CJwVfM2L.png",
+              "transferBytes": 1804531,
+              "encodedBodyBytes": 1804231,
+              "decodedBodyBytes": 1804231,
+              "durationMs": 256.3
+            },
+            {
+              "name": "settings-v2-C2kOrZKD.png",
+              "transferBytes": 960622,
+              "encodedBodyBytes": 960322,
+              "decodedBodyBytes": 960322,
+              "durationMs": 270.4
+            },
+            {
+              "name": "drum-v1-Bj5eGOVf.png",
+              "transferBytes": 1436555,
+              "encodedBodyBytes": 1436255,
+              "decodedBodyBytes": 1436255,
+              "durationMs": 289.6
+            },
+            {
+              "name": "wheel-v1-F1wW89TE.png",
+              "transferBytes": 1245122,
+              "encodedBodyBytes": 1244822,
+              "decodedBodyBytes": 1244822,
+              "durationMs": 282.1
+            },
+            {
+              "name": "mechanism-v2-C2B_U8bc.png",
+              "transferBytes": 796048,
+              "encodedBodyBytes": 795748,
+              "decodedBodyBytes": 795748,
+              "durationMs": 269.1
+            },
+            {
+              "name": "key-v1-ccPO6OtX.png",
+              "transferBytes": 1285723,
+              "encodedBodyBytes": 1285423,
+              "decodedBodyBytes": 1285423,
+              "durationMs": 289.8
+            },
+            {
+              "name": "spin-button-v3-52Doy5V2.png",
+              "transferBytes": 1948328,
+              "encodedBodyBytes": 1948028,
+              "decodedBodyBytes": 1948028,
+              "durationMs": 314.6
+            },
+            {
+              "name": "paper-v1-D2Rww8ee.png",
+              "transferBytes": 1437054,
+              "encodedBodyBytes": 1436754,
+              "decodedBodyBytes": 1436754,
+              "durationMs": 309.4
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 0,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 3,
+          "responseStartMs": 11.6,
+          "domContentLoadedMs": 158.4,
+          "loadEventMs": 158.4,
+          "firstPaintMs": 64,
+          "firstContentfulPaintMs": 556,
+          "documentTransferBytes": 763,
+          "resourceCount": 19,
+          "transferBytes": 24372409,
+          "firstLoadTransferBytes": 24373172,
+          "decodedBodyBytes": 24728811,
+          "imageRequestCount": 14,
+          "imageTransferBytes": 24079323,
+          "imageDecodedBodyBytes": 24075123,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 11.7
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 22.1
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 23.9
+            },
+            {
+              "name": "index-C_p7y2mM.js",
+              "transferBytes": 126260,
+              "encodedBodyBytes": 125960,
+              "decodedBodyBytes": 475700,
+              "durationMs": 67.5
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 25
+            },
+            {
+              "name": "study-shell-v7-3h6fZ6FV.png",
+              "transferBytes": 2344572,
+              "encodedBodyBytes": 2344272,
+              "decodedBodyBytes": 2344272,
+              "durationMs": 178.9
+            },
+            {
+              "name": "study-window-wide-v8-ClKT6gYU.png",
+              "transferBytes": 2327968,
+              "encodedBodyBytes": 2327668,
+              "decodedBodyBytes": 2327668,
+              "durationMs": 187
+            },
+            {
+              "name": "study-bookcase-wide-v8-BEteXnaz.png",
+              "transferBytes": 2637815,
+              "encodedBodyBytes": 2637515,
+              "decodedBodyBytes": 2637515,
+              "durationMs": 203.5
+            },
+            {
+              "name": "desk-lamp-books-v7-BdAn1jIZ.png",
+              "transferBytes": 1185194,
+              "encodedBodyBytes": 1184894,
+              "decodedBodyBytes": 1184894,
+              "durationMs": 115.1
+            },
+            {
+              "name": "desk-books-v7-Y908fZTp.png",
+              "transferBytes": 2423347,
+              "encodedBodyBytes": 2423047,
+              "decodedBodyBytes": 2423047,
+              "durationMs": 187.8
+            },
+            {
+              "name": "desk-pen-cup-v7-Bw-R51Hs.png",
+              "transferBytes": 2246444,
+              "encodedBodyBytes": 2246144,
+              "decodedBodyBytes": 2246144,
+              "durationMs": 145.5
+            },
+            {
+              "name": "chassis-v3-CJwVfM2L.png",
+              "transferBytes": 1804531,
+              "encodedBodyBytes": 1804231,
+              "decodedBodyBytes": 1804231,
+              "durationMs": 240.7
+            },
+            {
+              "name": "settings-v2-C2kOrZKD.png",
+              "transferBytes": 960622,
+              "encodedBodyBytes": 960322,
+              "decodedBodyBytes": 960322,
+              "durationMs": 218
+            },
+            {
+              "name": "drum-v1-Bj5eGOVf.png",
+              "transferBytes": 1436555,
+              "encodedBodyBytes": 1436255,
+              "decodedBodyBytes": 1436255,
+              "durationMs": 251.1
+            },
+            {
+              "name": "wheel-v1-F1wW89TE.png",
+              "transferBytes": 1245122,
+              "encodedBodyBytes": 1244822,
+              "decodedBodyBytes": 1244822,
+              "durationMs": 262.5
+            },
+            {
+              "name": "mechanism-v2-C2B_U8bc.png",
+              "transferBytes": 796048,
+              "encodedBodyBytes": 795748,
+              "decodedBodyBytes": 795748,
+              "durationMs": 249.3
+            },
+            {
+              "name": "key-v1-ccPO6OtX.png",
+              "transferBytes": 1285723,
+              "encodedBodyBytes": 1285423,
+              "decodedBodyBytes": 1285423,
+              "durationMs": 269.2
+            },
+            {
+              "name": "spin-button-v3-52Doy5V2.png",
+              "transferBytes": 1948328,
+              "encodedBodyBytes": 1948028,
+              "decodedBodyBytes": 1948028,
+              "durationMs": 280.1
+            },
+            {
+              "name": "paper-v1-D2Rww8ee.png",
+              "transferBytes": 1437054,
+              "encodedBodyBytes": 1436754,
+              "decodedBodyBytes": 1436754,
+              "durationMs": 283.1
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 0,
+          "webpMimeErrors": []
+        }
+      ],
+      "median": {
+        "responseStartMs": 11.6,
+        "domContentLoadedMs": 172.3,
+        "loadEventMs": 172.3,
+        "firstPaintMs": 72,
+        "firstContentfulPaintMs": 608,
+        "documentTransferBytes": 763,
+        "transferBytes": 24372409,
+        "firstLoadTransferBytes": 24373172,
+        "decodedBodyBytes": 24728811,
+        "imageTransferBytes": 24079323,
+        "imageDecodedBodyBytes": 24075123
+      }
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "deviceScaleFactor": 2,
+      "runs": [
+        {
+          "run": 1,
+          "responseStartMs": 9.8,
+          "domContentLoadedMs": 167.5,
+          "loadEventMs": 167.6,
+          "firstPaintMs": 80,
+          "firstContentfulPaintMs": 444,
+          "documentTransferBytes": 763,
+          "resourceCount": 12,
+          "transferBytes": 14895480,
+          "firstLoadTransferBytes": 14896243,
+          "decodedBodyBytes": 15253982,
+          "imageRequestCount": 7,
+          "imageTransferBytes": 14602394,
+          "imageDecodedBodyBytes": 14600294,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 14.2
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 31.6
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 31.7
+            },
+            {
+              "name": "index-C_p7y2mM.js",
+              "transferBytes": 126260,
+              "encodedBodyBytes": 125960,
+              "decodedBodyBytes": 475700,
+              "durationMs": 76.7
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 30.4
+            },
+            {
+              "name": "study-shell-v7-3h6fZ6FV.png",
+              "transferBytes": 2344572,
+              "encodedBodyBytes": 2344272,
+              "decodedBodyBytes": 2344272,
+              "durationMs": 170
+            },
+            {
+              "name": "study-window-wide-v8-ClKT6gYU.png",
+              "transferBytes": 2327968,
+              "encodedBodyBytes": 2327668,
+              "decodedBodyBytes": 2327668,
+              "durationMs": 170
+            },
+            {
+              "name": "study-bookcase-wide-v8-BEteXnaz.png",
+              "transferBytes": 2637815,
+              "encodedBodyBytes": 2637515,
+              "decodedBodyBytes": 2637515,
+              "durationMs": 182.7
+            },
+            {
+              "name": "desk-lamp-books-v7-BdAn1jIZ.png",
+              "transferBytes": 1185194,
+              "encodedBodyBytes": 1184894,
+              "decodedBodyBytes": 1184894,
+              "durationMs": 114.1
+            },
+            {
+              "name": "desk-books-v7-Y908fZTp.png",
+              "transferBytes": 2423347,
+              "encodedBodyBytes": 2423047,
+              "decodedBodyBytes": 2423047,
+              "durationMs": 178.1
+            },
+            {
+              "name": "desk-pen-cup-v7-Bw-R51Hs.png",
+              "transferBytes": 2246444,
+              "encodedBodyBytes": 2246144,
+              "decodedBodyBytes": 2246144,
+              "durationMs": 168.1
+            },
+            {
+              "name": "paper-v1-D2Rww8ee.png",
+              "transferBytes": 1437054,
+              "encodedBodyBytes": 1436754,
+              "decodedBodyBytes": 1436754,
+              "durationMs": 187.9
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 0,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 2,
+          "responseStartMs": 12.2,
+          "domContentLoadedMs": 158,
+          "loadEventMs": 158,
+          "firstPaintMs": 112,
+          "firstContentfulPaintMs": 472,
+          "documentTransferBytes": 763,
+          "resourceCount": 12,
+          "transferBytes": 14895480,
+          "firstLoadTransferBytes": 14896243,
+          "decodedBodyBytes": 15253982,
+          "imageRequestCount": 7,
+          "imageTransferBytes": 14602394,
+          "imageDecodedBodyBytes": 14600294,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 31.2
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 31
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 33.4
+            },
+            {
+              "name": "index-C_p7y2mM.js",
+              "transferBytes": 126260,
+              "encodedBodyBytes": 125960,
+              "decodedBodyBytes": 475700,
+              "durationMs": 71.2
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 33.8
+            },
+            {
+              "name": "study-shell-v7-3h6fZ6FV.png",
+              "transferBytes": 2344572,
+              "encodedBodyBytes": 2344272,
+              "decodedBodyBytes": 2344272,
+              "durationMs": 147.4
+            },
+            {
+              "name": "study-window-wide-v8-ClKT6gYU.png",
+              "transferBytes": 2327968,
+              "encodedBodyBytes": 2327668,
+              "decodedBodyBytes": 2327668,
+              "durationMs": 146.2
+            },
+            {
+              "name": "study-bookcase-wide-v8-BEteXnaz.png",
+              "transferBytes": 2637815,
+              "encodedBodyBytes": 2637515,
+              "decodedBodyBytes": 2637515,
+              "durationMs": 162.8
+            },
+            {
+              "name": "desk-lamp-books-v7-BdAn1jIZ.png",
+              "transferBytes": 1185194,
+              "encodedBodyBytes": 1184894,
+              "decodedBodyBytes": 1184894,
+              "durationMs": 96.4
+            },
+            {
+              "name": "desk-pen-cup-v7-Bw-R51Hs.png",
+              "transferBytes": 2246444,
+              "encodedBodyBytes": 2246144,
+              "decodedBodyBytes": 2246144,
+              "durationMs": 154.4
+            },
+            {
+              "name": "desk-books-v7-Y908fZTp.png",
+              "transferBytes": 2423347,
+              "encodedBodyBytes": 2423047,
+              "decodedBodyBytes": 2423047,
+              "durationMs": 158.1
+            },
+            {
+              "name": "paper-v1-D2Rww8ee.png",
+              "transferBytes": 1437054,
+              "encodedBodyBytes": 1436754,
+              "decodedBodyBytes": 1436754,
+              "durationMs": 175.5
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 0,
+          "webpMimeErrors": []
+        },
+        {
+          "run": 3,
+          "responseStartMs": 11.1,
+          "domContentLoadedMs": 184.8,
+          "loadEventMs": 184.9,
+          "firstPaintMs": 76,
+          "firstContentfulPaintMs": 472,
+          "documentTransferBytes": 763,
+          "resourceCount": 12,
+          "transferBytes": 14895480,
+          "firstLoadTransferBytes": 14896243,
+          "decodedBodyBytes": 15253982,
+          "imageRequestCount": 7,
+          "imageTransferBytes": 14602394,
+          "imageDecodedBodyBytes": 14600294,
+          "resources": [
+            {
+              "name": "EBGaramond-Bold-B-wVKl-e.ttf",
+              "transferBytes": 54844,
+              "encodedBodyBytes": 54544,
+              "decodedBodyBytes": 54544,
+              "durationMs": 13.2
+            },
+            {
+              "name": "EBGaramond-Cyrillic-Bold-DEvK75yC.woff2",
+              "transferBytes": 14556,
+              "encodedBodyBytes": 14256,
+              "decodedBodyBytes": 14256,
+              "durationMs": 32.5
+            },
+            {
+              "name": "JetBrainsMono-Regular-CA-Os4ii.woff2",
+              "transferBytes": 92680,
+              "encodedBodyBytes": 92380,
+              "decodedBodyBytes": 92380,
+              "durationMs": 34.8
+            },
+            {
+              "name": "index-C_p7y2mM.js",
+              "transferBytes": 126260,
+              "encodedBodyBytes": 125960,
+              "decodedBodyBytes": 475700,
+              "durationMs": 89.3
+            },
+            {
+              "name": "index-BlyyNyq9.css",
+              "transferBytes": 4746,
+              "encodedBodyBytes": 4446,
+              "decodedBodyBytes": 16808,
+              "durationMs": 37.6
+            },
+            {
+              "name": "study-shell-v7-3h6fZ6FV.png",
+              "transferBytes": 2344572,
+              "encodedBodyBytes": 2344272,
+              "decodedBodyBytes": 2344272,
+              "durationMs": 178.9
+            },
+            {
+              "name": "study-bookcase-wide-v8-BEteXnaz.png",
+              "transferBytes": 2637815,
+              "encodedBodyBytes": 2637515,
+              "decodedBodyBytes": 2637515,
+              "durationMs": 182.5
+            },
+            {
+              "name": "study-window-wide-v8-ClKT6gYU.png",
+              "transferBytes": 2327968,
+              "encodedBodyBytes": 2327668,
+              "decodedBodyBytes": 2327668,
+              "durationMs": 169.1
+            },
+            {
+              "name": "desk-lamp-books-v7-BdAn1jIZ.png",
+              "transferBytes": 1185194,
+              "encodedBodyBytes": 1184894,
+              "decodedBodyBytes": 1184894,
+              "durationMs": 107.2
+            },
+            {
+              "name": "desk-books-v7-Y908fZTp.png",
+              "transferBytes": 2423347,
+              "encodedBodyBytes": 2423047,
+              "decodedBodyBytes": 2423047,
+              "durationMs": 184.2
+            },
+            {
+              "name": "desk-pen-cup-v7-Bw-R51Hs.png",
+              "transferBytes": 2246444,
+              "encodedBodyBytes": 2246144,
+              "decodedBodyBytes": 2246144,
+              "durationMs": 169.3
+            },
+            {
+              "name": "paper-v1-D2Rww8ee.png",
+              "transferBytes": 1437054,
+              "encodedBodyBytes": 1436754,
+              "decodedBodyBytes": 1436754,
+              "durationMs": 190.8
+            }
+          ],
+          "pageErrors": [],
+          "requestFailures": [],
+          "httpErrors": [],
+          "webpResponseCount": 0,
+          "webpMimeErrors": []
+        }
+      ],
+      "median": {
+        "responseStartMs": 11.1,
+        "domContentLoadedMs": 167.5,
+        "loadEventMs": 167.6,
+        "firstPaintMs": 80,
+        "firstContentfulPaintMs": 472,
+        "documentTransferBytes": 763,
+        "transferBytes": 14895480,
+        "firstLoadTransferBytes": 14896243,
+        "decodedBodyBytes": 15253982,
+        "imageTransferBytes": 14602394,
+        "imageDecodedBodyBytes": 14600294
+      }
+    }
+  ]
+}

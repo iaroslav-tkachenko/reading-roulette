@@ -1,0 +1,677 @@
+{
+  "date": "2026-10-11",
+  "revision": 9,
+  "url": "http://127.0.0.1:5173/docs/design/layered-v09-2026-10-11/",
+  "checksPassed": 27,
+  "checks": [
+    "19 individually placed keycaps",
+    "3 individually placed drums",
+    "2 individually placed wheels",
+    "28 machine raster instances / 14 unique runtime artwork files",
+    "All machine, paper and scrollable room layers present in HTML",
+    "Every raster layer scales uniformly",
+    "Each foreground source has actual transparency",
+    "Mechanical cradle has transparent center; SPIN face is painted",
+    "No custom script, handlers, forms or motion in static artifact",
+    "Composite QA render and original screenshot are not scene layers",
+    "Gallery contains fourteen inline artwork previews",
+    "Original prompts and both sets of correction prompts are preserved",
+    "Open help popup removed; small static help button retained",
+    "Both keyboard rows fit with at least 12 units above and below",
+    "Heading, subtitle and upper machine lifted together by 64 units",
+    "Fixture matches the current actual product generator",
+    "Full prompt appears verbatim in the page, with 9 paragraphs",
+    "Long prompt reflows in HTML with page scrolling",
+    "Room and machine share document scrolling",
+    "Calculated machine feet stay below the desk boundary at all sizes and scroll offsets",
+    "Decor stays beside the machine on standard and zoomed-out widths",
+    "Three whole transparent tabletop objects have margins in their source PNGs",
+    "Cup base rests below the wall/desk boundary",
+    "Machine and output paper are more compact; SPIN arrow reduced",
+    "Full window and bookcase extend outward with fixed inner edges",
+    "Architecture has complete transparent source margins and no painted backdrop duplicate",
+    "All runtime and gallery asset paths exist"
+  ],
+  "http": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 22271
+    },
+    {
+      "file": "layers.html",
+      "status": 200,
+      "bytes": 13456
+    },
+    {
+      "file": "scene.svg",
+      "status": 200,
+      "bytes": 22371
+    },
+    {
+      "file": "machine.svg",
+      "status": 200,
+      "bytes": 14711
+    },
+    {
+      "file": "viewport.svg",
+      "status": 200,
+      "bytes": 22371
+    },
+    {
+      "file": "preview.css",
+      "status": 200,
+      "bytes": 5001
+    },
+    {
+      "file": "layer-manifest.json",
+      "status": 200,
+      "bytes": 10640
+    },
+    {
+      "file": "generation-prompts.json",
+      "status": 200,
+      "bytes": 17587
+    },
+    {
+      "file": "generation-prompts-v2.json",
+      "status": 200,
+      "bytes": 3392
+    },
+    {
+      "file": "generation-prompts-v3.json",
+      "status": 200,
+      "bytes": 2577
+    },
+    {
+      "file": "generation-prompts-v7.json",
+      "status": 200,
+      "bytes": 4839
+    },
+    {
+      "file": "generation-prompts-v8.json",
+      "status": 200,
+      "bytes": 2632
+    },
+    {
+      "file": "prompt-fixture.json",
+      "status": 200,
+      "bytes": 2058
+    },
+    {
+      "file": "real-prompt.txt",
+      "status": 200,
+      "bytes": 1091
+    },
+    {
+      "file": "assets/EBGaramond-Bold.ttf",
+      "status": 200,
+      "bytes": 54544
+    },
+    {
+      "file": "assets/study-shell-v7.png",
+      "status": 200,
+      "bytes": 2344272
+    },
+    {
+      "file": "assets/paper-v1.png",
+      "status": 200,
+      "bytes": 1436754
+    },
+    {
+      "file": "assets/study-shell-v7.svg",
+      "status": 200,
+      "bytes": 130
+    },
+    {
+      "file": "assets/paper-v1.svg",
+      "status": 200,
+      "bytes": 127
+    },
+    {
+      "file": "assets/chassis-v3.png",
+      "status": 200,
+      "bytes": 1804231
+    },
+    {
+      "file": "assets/settings-v2.png",
+      "status": 200,
+      "bytes": 960322
+    },
+    {
+      "file": "assets/drum-v1.png",
+      "status": 200,
+      "bytes": 1436255
+    },
+    {
+      "file": "assets/wheel-v1.png",
+      "status": 200,
+      "bytes": 1244822
+    },
+    {
+      "file": "assets/mechanism-v2.png",
+      "status": 200,
+      "bytes": 795748
+    },
+    {
+      "file": "assets/key-v1.png",
+      "status": 200,
+      "bytes": 1285423
+    },
+    {
+      "file": "assets/spin-button-v3.png",
+      "status": 200,
+      "bytes": 1948028
+    },
+    {
+      "file": "assets/desk-lamp-books-v7.png",
+      "status": 200,
+      "bytes": 1184894
+    },
+    {
+      "file": "assets/desk-books-v7.png",
+      "status": 200,
+      "bytes": 2423047
+    },
+    {
+      "file": "assets/desk-pen-cup-v7.png",
+      "status": 200,
+      "bytes": 2246144
+    },
+    {
+      "file": "assets/study-window-wide-v8.png",
+      "status": 200,
+      "bytes": 2327668
+    },
+    {
+      "file": "assets/study-bookcase-wide-v8.png",
+      "status": 200,
+      "bytes": 2637515
+    },
+    {
+      "file": "assets/chassis-v3.svg",
+      "status": 200,
+      "bytes": 129
+    },
+    {
+      "file": "assets/settings-v2.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/drum-v1.svg",
+      "status": 200,
+      "bytes": 127
+    },
+    {
+      "file": "assets/wheel-v1.svg",
+      "status": 200,
+      "bytes": 128
+    },
+    {
+      "file": "assets/mechanism-v2.svg",
+      "status": 200,
+      "bytes": 131
+    },
+    {
+      "file": "assets/key-v1.svg",
+      "status": 200,
+      "bytes": 126
+    },
+    {
+      "file": "assets/spin-button-v3.svg",
+      "status": 200,
+      "bytes": 132
+    },
+    {
+      "file": "assets/desk-lamp-books-v7.svg",
+      "status": 200,
+      "bytes": 136
+    },
+    {
+      "file": "assets/desk-books-v7.svg",
+      "status": 200,
+      "bytes": 134
+    },
+    {
+      "file": "assets/desk-pen-cup-v7.svg",
+      "status": 200,
+      "bytes": 136
+    },
+    {
+      "file": "assets/study-window-wide-v8.svg",
+      "status": 200,
+      "bytes": 138
+    },
+    {
+      "file": "assets/study-bookcase-wide-v8.svg",
+      "status": 200,
+      "bytes": 140
+    }
+  ],
+  "keyboardClearance": {
+    "above": 13.798000000000002,
+    "below": 16.159999999999968,
+    "units": "SVG source units; front rim landmark visually identified in the new chassis artwork"
+  },
+  "viewportCalculations": [
+    {
+      "width": 320,
+      "height": 700,
+      "machineWidth": 320,
+      "roomWidth": 336,
+      "wallBaseWidth": 320,
+      "wallY": 123.75,
+      "feetY": 157.08333333333334,
+      "paperWidth": 178.33333333333334,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 157.08333333333334,
+          "wallY": 123.75,
+          "contactDepth": 33.33333333333334
+        },
+        {
+          "scrollY": 200,
+          "feetY": -42.91666666666666,
+          "wallY": -76.25,
+          "contactDepth": 33.33333333333334
+        },
+        {
+          "scrollY": 600,
+          "feetY": -442.91666666666663,
+          "wallY": -476.25,
+          "contactDepth": 33.33333333333337
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -842.9166666666666,
+          "wallY": -876.25,
+          "contactDepth": 33.33333333333337
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "machineWidth": 390,
+      "roomWidth": 409.5,
+      "wallBaseWidth": 390,
+      "wallY": 150.8203125,
+      "feetY": 191.4453125,
+      "paperWidth": 217.34375,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 191.4453125,
+          "wallY": 150.8203125,
+          "contactDepth": 40.625
+        },
+        {
+          "scrollY": 200,
+          "feetY": -8.5546875,
+          "wallY": -49.1796875,
+          "contactDepth": 40.625
+        },
+        {
+          "scrollY": 600,
+          "feetY": -408.5546875,
+          "wallY": -449.1796875,
+          "contactDepth": 40.625
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -808.5546875,
+          "wallY": -849.1796875,
+          "contactDepth": 40.625
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "machineWidth": 768,
+      "roomWidth": 806.4,
+      "wallBaseWidth": 768,
+      "wallY": 297,
+      "feetY": 377,
+      "paperWidth": 428,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 377,
+          "wallY": 297,
+          "contactDepth": 80
+        },
+        {
+          "scrollY": 200,
+          "feetY": 177,
+          "wallY": 97,
+          "contactDepth": 80
+        },
+        {
+          "scrollY": 600,
+          "feetY": -223,
+          "wallY": -303,
+          "contactDepth": 80
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -623,
+          "wallY": -703,
+          "contactDepth": 80
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "machineWidth": 1280,
+      "roomWidth": 1344,
+      "wallBaseWidth": 1280,
+      "wallY": 495,
+      "feetY": 628.3333333333334,
+      "paperWidth": 713.3333333333334,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 628.3333333333334,
+          "wallY": 495,
+          "contactDepth": 133.33333333333337
+        },
+        {
+          "scrollY": 200,
+          "feetY": 428.33333333333337,
+          "wallY": 295,
+          "contactDepth": 133.33333333333337
+        },
+        {
+          "scrollY": 600,
+          "feetY": 28.33333333333337,
+          "wallY": -105,
+          "contactDepth": 133.33333333333337
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -371.66666666666663,
+          "wallY": -505,
+          "contactDepth": 133.33333333333337
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "machineWidth": 1366,
+      "roomWidth": 1434.3,
+      "wallBaseWidth": 1366,
+      "wallY": 528.2578125,
+      "feetY": 670.5494791666666,
+      "paperWidth": 761.2604166666666,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 670.5494791666666,
+          "wallY": 528.2578125,
+          "contactDepth": 142.29166666666663
+        },
+        {
+          "scrollY": 200,
+          "feetY": 470.54947916666663,
+          "wallY": 328.2578125,
+          "contactDepth": 142.29166666666663
+        },
+        {
+          "scrollY": 600,
+          "feetY": 70.54947916666663,
+          "wallY": -71.7421875,
+          "contactDepth": 142.29166666666663
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -329.45052083333337,
+          "wallY": -471.7421875,
+          "contactDepth": 142.29166666666663
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "machineWidth": 1440,
+      "roomWidth": 1512,
+      "wallBaseWidth": 1440,
+      "wallY": 556.875,
+      "feetY": 706.875,
+      "paperWidth": 802.5,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 706.875,
+          "wallY": 556.875,
+          "contactDepth": 150
+        },
+        {
+          "scrollY": 200,
+          "feetY": 506.875,
+          "wallY": 356.875,
+          "contactDepth": 150
+        },
+        {
+          "scrollY": 600,
+          "feetY": 106.875,
+          "wallY": -43.125,
+          "contactDepth": 150
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -293.125,
+          "wallY": -443.125,
+          "contactDepth": 150
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 1920,
+      "height": 1000,
+      "machineWidth": 1536,
+      "roomWidth": 1612.8,
+      "wallBaseWidth": 1920,
+      "wallY": 594,
+      "feetY": 754,
+      "paperWidth": 856,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 754,
+          "wallY": 594,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 200,
+          "feetY": 554,
+          "wallY": 394,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 600,
+          "feetY": 154,
+          "wallY": -6,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -246,
+          "wallY": -406,
+          "contactDepth": 160
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 2560,
+      "height": 1440,
+      "machineWidth": 1536,
+      "roomWidth": 1612.8,
+      "wallBaseWidth": 2560,
+      "wallY": 594,
+      "feetY": 754,
+      "paperWidth": 856,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 754,
+          "wallY": 594,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 200,
+          "feetY": 554,
+          "wallY": 394,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 600,
+          "feetY": 154,
+          "wallY": -6,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -246,
+          "wallY": -406,
+          "contactDepth": 160
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 3440,
+      "height": 1440,
+      "machineWidth": 1536,
+      "roomWidth": 1612.8,
+      "wallBaseWidth": 3440,
+      "wallY": 594,
+      "feetY": 754,
+      "paperWidth": 856,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 754,
+          "wallY": 594,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 200,
+          "feetY": 554,
+          "wallY": 394,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 600,
+          "feetY": 154,
+          "wallY": -6,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -246,
+          "wallY": -406,
+          "contactDepth": 160
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    },
+    {
+      "width": 4608,
+      "height": 2400,
+      "machineWidth": 1536,
+      "roomWidth": 1612.8,
+      "wallBaseWidth": 4608,
+      "wallY": 594,
+      "feetY": 754,
+      "paperWidth": 856,
+      "scrollPositions": [
+        {
+          "scrollY": 0,
+          "feetY": 754,
+          "wallY": 594,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 200,
+          "feetY": 554,
+          "wallY": 394,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 600,
+          "feetY": 154,
+          "wallY": -6,
+          "contactDepth": 160
+        },
+        {
+          "scrollY": 1000,
+          "feetY": -246,
+          "wallY": -406,
+          "contactDepth": 160
+        }
+      ],
+      "method": "CSS document geometry calculation; not browser measurement"
+    }
+  ],
+  "visual": {
+    "method": "Offline resvg illustrations of the same machine, paper layers and full real prompt; nominal desktop text wrapping. HTML layout and wrapping are not browser-verified.",
+    "fullFile": "assembly-render-v9.png",
+    "size": [
+      1920,
+      1626
+    ],
+    "viewportFile": "viewport-render-v9.png",
+    "viewportSize": [
+      1920,
+      1000
+    ]
+  },
+  "browser": {
+    "status": "unverified",
+    "reason": "Browser runtime import failed on the preceding step: EPERM realpath browser-client.mjs. HTTP and offline SVG rendering do not establish browser screenshot, layout or font loading verification."
+  },
+  "revisionComparison": {
+    "machineArtworkUnchanged": true,
+    "windowAndBookcaseUnchanged": true,
+    "props": [
+      {
+        "id": "desk-lamp-books",
+        "widthBefore": 205,
+        "widthAfter": 258,
+        "scale": 1.2585365853658537
+      },
+      {
+        "id": "desk-books",
+        "widthBefore": 225,
+        "widthAfter": 310,
+        "scale": 1.3777777777777778
+      },
+      {
+        "id": "desk-pen-cup",
+        "widthBefore": 114,
+        "widthAfter": 164,
+        "scale": 1.4385964912280702
+      }
+    ],
+    "paper": {
+      "widthBefore": 918,
+      "widthAfter": 856,
+      "topBefore": 675,
+      "topAfter": 684,
+      "entryShadow": true
+    }
+  }
+}

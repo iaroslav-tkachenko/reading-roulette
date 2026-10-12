@@ -1,6 +1,6 @@
 import { cefrLevels } from '../data/cefrLevels'
 import { languages } from '../data/languages'
-import { textLengths } from '../data/textLengths'
+import { getTextLength, textLengths } from '../data/textLengths'
 import type { CefrLevel, ReadingSettings, TextLength } from '../types/reading'
 
 interface ReadingSettingsFormProps {
@@ -11,7 +11,7 @@ interface ReadingSettingsFormProps {
 export function ReadingSettingsForm({ settings, onChange }: ReadingSettingsFormProps) {
   return (
     <div className="settings-grid">
-      <label>
+      <label className="language-field">
         Language
         <select
           value={settings.language.code}
@@ -24,6 +24,7 @@ export function ReadingSettingsForm({ settings, onChange }: ReadingSettingsFormP
             <option key={language.code} value={language.code}>{language.name}</option>
           ))}
         </select>
+        <span className="helper" aria-hidden="true">&nbsp;</span>
       </label>
       <label>
         CEFR Level
@@ -35,17 +36,20 @@ export function ReadingSettingsForm({ settings, onChange }: ReadingSettingsFormP
             <option key={level} value={level}>{level}</option>
           ))}
         </select>
+        <span className="helper" aria-hidden="true">&nbsp;</span>
       </label>
       <label>
         Text Length
         <select
+          aria-describedby="word-range"
           value={settings.textLength}
           onChange={(event) => onChange({ ...settings, textLength: event.target.value as TextLength })}
         >
           {Object.entries(textLengths).map(([value, length]) => (
-            <option key={value} value={value}>{length.label} ({length.wordRange} words)</option>
+            <option key={value} value={value}>{length.label}</option>
           ))}
         </select>
+        <span className="helper" id="word-range">{getTextLength(settings).description}</span>
       </label>
     </div>
   )

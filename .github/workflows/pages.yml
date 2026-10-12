@@ -29,8 +29,10 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Audit approved catalog metadata
         run: node docs/validation/audit-catalogs.mjs
-      - name: Verify starter selection and prompts
+      - name: Verify full catalog selection and prompts
         run: node docs/validation/audit-starter-runtime.mjs
+      - name: Audit EN/RU localization
+        run: node docs/localization/verify.mjs
       - name: Typecheck local motion prototype
         run: pnpm exec tsc --ignoreConfig --noEmit --strict --noUnusedLocals --noUnusedParameters --target es2023 --lib es2023,dom --module esnext --moduleResolution bundler --types vite/client --skipLibCheck docs/design/motion-preview/preview.ts
       - name: Typecheck and build for project Pages URL

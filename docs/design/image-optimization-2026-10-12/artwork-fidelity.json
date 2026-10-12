@@ -1,0 +1,388 @@
+{
+  "encoder": "libwebp 1.6.0",
+  "quality": 92,
+  "alphaQuality": 100,
+  "effort": 4,
+  "results": [
+    {
+      "file": "chassis-v3.webp",
+      "source": "2100x749",
+      "output": "2100x749",
+      "alphaMismatches": 0,
+      "originalBytes": 1804231,
+      "optimizedBytes": 348056,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.56,
+          "maxChannelDelta": 74,
+          "pixelsOverEightPercent": 5.82
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.562,
+          "maxChannelDelta": 75,
+          "pixelsOverEightPercent": 5.86
+        }
+      }
+    },
+    {
+      "file": "desk-books-v7.webp",
+      "source": "1536x1024",
+      "output": "1490x993",
+      "alphaMismatches": 0,
+      "originalBytes": 2423047,
+      "optimizedBytes": 435334,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.464,
+          "maxChannelDelta": 65,
+          "pixelsOverEightPercent": 7.29
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.466,
+          "maxChannelDelta": 65,
+          "pixelsOverEightPercent": 7.34
+        }
+      }
+    },
+    {
+      "file": "desk-lamp-books-v7.webp",
+      "source": "930x1692",
+      "output": "568x1033",
+      "alphaMismatches": 0,
+      "originalBytes": 1184894,
+      "optimizedBytes": 146390,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.308,
+          "maxChannelDelta": 102,
+          "pixelsOverEightPercent": 8.31
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.329,
+          "maxChannelDelta": 101,
+          "pixelsOverEightPercent": 8.42
+        }
+      }
+    },
+    {
+      "file": "desk-pen-cup-v7.webp",
+      "source": "1024x1536",
+      "output": "392x588",
+      "alphaMismatches": 0,
+      "originalBytes": 2246144,
+      "optimizedBytes": 78770,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.678,
+          "maxChannelDelta": 94,
+          "pixelsOverEightPercent": 10.31
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.704,
+          "maxChannelDelta": 93,
+          "pixelsOverEightPercent": 10.66
+        }
+      }
+    },
+    {
+      "file": "drum-v1.webp",
+      "source": "1429x1100",
+      "output": "652x502",
+      "alphaMismatches": 0,
+      "originalBytes": 1436255,
+      "optimizedBytes": 31596,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 0.862,
+          "maxChannelDelta": 64,
+          "pixelsOverEightPercent": 0.26
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 0.884,
+          "maxChannelDelta": 64,
+          "pixelsOverEightPercent": 0.46
+        }
+      }
+    },
+    {
+      "file": "key-v1.webp",
+      "source": "1261x1247",
+      "output": "129x128",
+      "alphaMismatches": 0,
+      "originalBytes": 1285423,
+      "optimizedBytes": 6110,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.281,
+          "maxChannelDelta": 46,
+          "pixelsOverEightPercent": 6.44
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.436,
+          "maxChannelDelta": 45,
+          "pixelsOverEightPercent": 8.04
+        }
+      }
+    },
+    {
+      "file": "mechanism-v2.webp",
+      "source": "2157x729",
+      "output": "2157x729",
+      "alphaMismatches": 0,
+      "originalBytes": 795748,
+      "optimizedBytes": 178770,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 0.523,
+          "maxChannelDelta": 63,
+          "pixelsOverEightPercent": 1.38
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 0.523,
+          "maxChannelDelta": 62,
+          "pixelsOverEightPercent": 1.39
+        }
+      }
+    },
+    {
+      "file": "paper-v1.webp",
+      "source": "2132x738",
+      "output": "2132x738",
+      "alphaMismatches": 0,
+      "originalBytes": 1436754,
+      "optimizedBytes": 198768,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 0.769,
+          "maxChannelDelta": 25,
+          "pixelsOverEightPercent": 0.15
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 0.772,
+          "maxChannelDelta": 24,
+          "pixelsOverEightPercent": 0.16
+        }
+      }
+    },
+    {
+      "file": "settings-v2.webp",
+      "source": "2172x724",
+      "output": "2172x724",
+      "alphaMismatches": 0,
+      "originalBytes": 960322,
+      "optimizedBytes": 127236,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 0.573,
+          "maxChannelDelta": 65,
+          "pixelsOverEightPercent": 0.86
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 0.575,
+          "maxChannelDelta": 65,
+          "pixelsOverEightPercent": 0.86
+        }
+      }
+    },
+    {
+      "file": "spin-button-v3.webp",
+      "source": "2140x735",
+      "output": "651x224",
+      "alphaMismatches": 0,
+      "originalBytes": 1948028,
+      "optimizedBytes": 48750,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 2.065,
+          "maxChannelDelta": 104,
+          "pixelsOverEightPercent": 9.97
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 2.091,
+          "maxChannelDelta": 103,
+          "pixelsOverEightPercent": 10.81
+        }
+      }
+    },
+    {
+      "file": "study-bookcase-wide-v8.webp",
+      "source": "988x1592",
+      "output": "796x1282",
+      "alphaMismatches": 0,
+      "originalBytes": 2637515,
+      "optimizedBytes": 422208,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 2.543,
+          "maxChannelDelta": 56,
+          "pixelsOverEightPercent": 14.34
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 2.561,
+          "maxChannelDelta": 55,
+          "pixelsOverEightPercent": 14.47
+        }
+      }
+    },
+    {
+      "file": "study-shell-v7.webp",
+      "source": "1584x993",
+      "output": "1584x993",
+      "alphaMismatches": 0,
+      "originalBytes": 2344272,
+      "optimizedBytes": 400228,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.958,
+          "maxChannelDelta": 35,
+          "pixelsOverEightPercent": 2.69
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.958,
+          "maxChannelDelta": 35,
+          "pixelsOverEightPercent": 2.69
+        }
+      }
+    },
+    {
+      "file": "study-window-wide-v8.webp",
+      "source": "972x1619",
+      "output": "740x1232",
+      "alphaMismatches": 0,
+      "originalBytes": 2327668,
+      "optimizedBytes": 351468,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 2.359,
+          "maxChannelDelta": 80,
+          "pixelsOverEightPercent": 11.87
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 2.377,
+          "maxChannelDelta": 79,
+          "pixelsOverEightPercent": 11.94
+        }
+      }
+    },
+    {
+      "file": "wheel-v1.webp",
+      "source": "971x1619",
+      "output": "161x269",
+      "alphaMismatches": 0,
+      "originalBytes": 1244822,
+      "optimizedBytes": 14670,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.506,
+          "maxChannelDelta": 66,
+          "pixelsOverEightPercent": 10.69
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.601,
+          "maxChannelDelta": 65,
+          "pixelsOverEightPercent": 11.89
+        }
+      }
+    },
+    {
+      "file": "compact/desk-books-v7.webp",
+      "source": "1536x1024",
+      "output": "873x582",
+      "alphaMismatches": 0,
+      "originalBytes": 2423047,
+      "optimizedBytes": 166236,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.914,
+          "maxChannelDelta": 89,
+          "pixelsOverEightPercent": 12.28
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.919,
+          "maxChannelDelta": 89,
+          "pixelsOverEightPercent": 12.31
+        }
+      }
+    },
+    {
+      "file": "compact/desk-lamp-books-v7.webp",
+      "source": "930x1692",
+      "output": "333x605",
+      "alphaMismatches": 0,
+      "originalBytes": 1184894,
+      "optimizedBytes": 58168,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.504,
+          "maxChannelDelta": 105,
+          "pixelsOverEightPercent": 10.65
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.564,
+          "maxChannelDelta": 106,
+          "pixelsOverEightPercent": 11.32
+        }
+      }
+    },
+    {
+      "file": "compact/desk-pen-cup-v7.webp",
+      "source": "1024x1536",
+      "output": "230x345",
+      "alphaMismatches": 0,
+      "originalBytes": 2246144,
+      "optimizedBytes": 34278,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 1.897,
+          "maxChannelDelta": 77,
+          "pixelsOverEightPercent": 13.07
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 1.969,
+          "maxChannelDelta": 78,
+          "pixelsOverEightPercent": 13.87
+        }
+      }
+    },
+    {
+      "file": "compact/study-bookcase-wide-v8.webp",
+      "source": "988x1592",
+      "output": "466x751",
+      "alphaMismatches": 0,
+      "originalBytes": 2637515,
+      "optimizedBytes": 158884,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 3.122,
+          "maxChannelDelta": 55,
+          "pixelsOverEightPercent": 21.2
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 3.146,
+          "maxChannelDelta": 55,
+          "pixelsOverEightPercent": 21.4
+        }
+      }
+    },
+    {
+      "file": "compact/study-window-wide-v8.webp",
+      "source": "972x1619",
+      "output": "433x722",
+      "alphaMismatches": 0,
+      "originalBytes": 2327668,
+      "optimizedBytes": 131654,
+      "composites": {
+        "#172126": {
+          "meanAbsoluteChannelDelta": 2.891,
+          "maxChannelDelta": 84,
+          "pixelsOverEightPercent": 18.16
+        },
+        "#fff1da": {
+          "meanAbsoluteChannelDelta": 2.931,
+          "maxChannelDelta": 84,
+          "pixelsOverEightPercent": 18.38
+        }
+      }
+    }
+  ]
+}

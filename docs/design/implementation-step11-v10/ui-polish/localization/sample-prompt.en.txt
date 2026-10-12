@@ -1,0 +1,25 @@
+Write an original reading text entirely in English for a language learner.
+
+Difficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.
+
+Length: approximately 250–350 words.
+
+Topic: Travel. Destinations, lodging, sights and traveler experiences.
+
+Format: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.
+
+Angle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.
+
+Approved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize "Unexpected discovery". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.
+
+Neutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.
+
+Content status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.
+
+Educational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.
+
+The selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.
+
+Return the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.
+
+Vocabulary support: After the reading material and any required Sources block, add a final section titled "Useful vocabulary". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format "original — meaning". If no reading material can be produced, omit this section; never invent vocabulary entries.

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-11",
+  "scope": "Assembly polish step 1; source/build/HTTP verification only",
+  "changes": [
+    "Unified chassis and inset settings",
+    "Wider overlapping 19-key deck",
+    "Stationary wheel shafts and collars with a separate rotating child",
+    "Stationary SPIN bezel",
+    "Paper outlet, narrower sheet and feet"
+  ],
+  "verification": {
+    "build": "pnpm build --base=/reading-roulette/ passed",
+    "motionRegression": {
+      "groups": 12,
+      "report": "assembly-motion-regression-2026-10-11.json",
+      "surface": "simulated hooks/DOM/WAAPI; not a browser"
+    },
+    "http": {
+      "origin": "http://127.0.0.1:5173",
+      "root": 200,
+      "css": 200,
+      "machineComponent": 200,
+      "newStylesServed": true,
+      "newWheelMountServed": true
+    },
+    "pagesStylesheet": "/reading-roulette/assets/index-BMMj7HjX.css"
+  },
+  "notVerified": [
+    "Real CSS geometry and visual fidelity",
+    "Viewport/zoom/keyboard/focus checks",
+    "Native browser animation playback and fps"
+  ],
+  "browserBlocker": "In-app Browser module import failed EPERM at browser-client.mjs realpath",
+  "motionTimingChanged": false,
+  "assetsModified": false,
+  "dependenciesChanged": false,
+  "published": false
+}

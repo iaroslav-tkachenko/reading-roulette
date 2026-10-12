@@ -1,0 +1,1620 @@
+{
+  "date": "2026-10-12",
+  "url": "http://10.23.109.207:5175/reading-roulette/",
+  "checks": [
+    "First visit defaults EN; selecting RU translates the existing prompt immediately",
+    "Reading language, CEFR and length survive a locale switch",
+    "Arrow navigation does not select; Escape closes and restores trigger focus",
+    "Tab exits the dropdown and closes it",
+    "Copy click passes the exact RU preview to the injected clipboard writer",
+    "EN → RU → EN preserves the exact original idea and English prompt",
+    "Russian modal help opens, closes with Escape and restores focus",
+    "RU reading language requests Russian definitions instead of self-translation",
+    "A cleared incompatible result stays empty and translates its SPIN request",
+    "SPIN locks locale and commits Russian labels/prompt together",
+    "Reload restores RU while preserving the independent initial reading language",
+    "Russian SPIN lettering fits inside the fixed button face",
+    "All 100 Russian catalog labels fit desktop and compact selected-label renderers without clipping",
+    "RU controls and dropdown fit eight widths from 320 to 1920 without horizontal overflow",
+    "Reduced motion completes a spin and leaves locale available",
+    "Denied localStorage still permits EN/RU in the current tab",
+    "No browser page/console errors"
+  ],
+  "layouts": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 184,
+          "right": 228,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 234,
+          "right": 308,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 24,
+          "right": 296,
+          "width": 272,
+          "height": 44
+        },
+        {
+          "name": "reading-cefr",
+          "x": 24,
+          "right": 156,
+          "width": 132,
+          "height": 44
+        },
+        {
+          "name": "reading-length",
+          "x": 164,
+          "right": 296,
+          "width": 132,
+          "height": 44
+        },
+        {
+          "name": "copy-appearance",
+          "x": 154.734375,
+          "right": 292,
+          "width": 137.265625,
+          "height": 49.59375
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 254,
+          "right": 298,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 304,
+          "right": 378,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 24,
+          "right": 150.1875,
+          "width": 126.1875,
+          "height": 44
+        },
+        {
+          "name": "reading-cefr",
+          "x": 158.1875,
+          "right": 252.828125,
+          "width": 94.640625,
+          "height": 44
+        },
+        {
+          "name": "reading-length",
+          "x": 260.828125,
+          "right": 366,
+          "width": 105.171875,
+          "height": 44
+        },
+        {
+          "name": "copy-appearance",
+          "x": 188.328125,
+          "right": 362,
+          "width": 173.671875,
+          "height": 49.59375
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 478,
+          "right": 522,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 528,
+          "right": 602,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 178,
+          "right": 331.28125,
+          "width": 153.28125,
+          "height": 44
+        },
+        {
+          "name": "reading-cefr",
+          "x": 339.28125,
+          "right": 454.25,
+          "width": 114.96875,
+          "height": 44
+        },
+        {
+          "name": "reading-length",
+          "x": 462.25,
+          "right": 590,
+          "width": 127.75,
+          "height": 44
+        },
+        {
+          "name": "copy-appearance",
+          "x": 390.890625,
+          "right": 586,
+          "width": 195.109375,
+          "height": 44
+        }
+      ]
+    },
+    {
+      "width": 901,
+      "scrollWidth": 901,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 685,
+          "right": 809,
+          "width": 124,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 815,
+          "right": 889,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 228.77279663085938,
+          "right": 362.51300048828125,
+          "width": 133.74020385742188,
+          "height": 23.46319580078125
+        },
+        {
+          "name": "reading-cefr",
+          "x": 398.8809814453125,
+          "right": 522.6493530273438,
+          "width": 123.76837158203125,
+          "height": 23.46319580078125
+        },
+        {
+          "name": "reading-length",
+          "x": 561.3635864257812,
+          "right": 679.8527221679688,
+          "width": 118.4891357421875,
+          "height": 23.46319580078125
+        },
+        {
+          "name": "copy-appearance",
+          "x": 454,
+          "right": 673.109375,
+          "width": 219.109375,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 808,
+          "right": 932,
+          "width": 124,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 938,
+          "right": 1012,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 260.0052185058594,
+          "right": 412.0020751953125,
+          "width": 151.99685668945312,
+          "height": 26.666122436523438
+        },
+        {
+          "name": "reading-cefr",
+          "x": 453.3345642089844,
+          "right": 593.998291015625,
+          "width": 140.66372680664062,
+          "height": 26.666122436523438
+        },
+        {
+          "name": "reading-length",
+          "x": 637.9973754882812,
+          "right": 772.6612548828125,
+          "width": 134.66387939453125,
+          "height": 26.666122436523438
+        },
+        {
+          "name": "copy-appearance",
+          "x": 545.90625,
+          "right": 765.015625,
+          "width": 219.109375,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 1064,
+          "right": 1188,
+          "width": 124,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 1194,
+          "right": 1268,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 325.00262451171875,
+          "right": 515.0010375976562,
+          "width": 189.9984130859375,
+          "height": 33.33305358886719
+        },
+        {
+          "name": "reading-cefr",
+          "x": 566.6672973632812,
+          "right": 742.4991455078125,
+          "width": 175.83184814453125,
+          "height": 33.33305358886719
+        },
+        {
+          "name": "reading-length",
+          "x": 797.4987182617188,
+          "right": 965.8306274414062,
+          "width": 168.3319091796875,
+          "height": 33.33305358886719
+        },
+        {
+          "name": "copy-appearance",
+          "x": 708.640625,
+          "right": 956.25,
+          "width": 247.609375,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 1366,
+      "scrollWidth": 1366,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 1150,
+          "right": 1274,
+          "width": 124,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 1280,
+          "right": 1354,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 346.8372497558594,
+          "right": 549.60205078125,
+          "width": 202.76480102539062,
+          "height": 35.572784423828125
+        },
+        {
+          "name": "reading-cefr",
+          "x": 604.7398681640625,
+          "right": 792.3862915039062,
+          "width": 187.64642333984375,
+          "height": 35.572784423828125
+        },
+        {
+          "name": "reading-length",
+          "x": 851.0813598632812,
+          "right": 1030.723876953125,
+          "width": 179.64251708984375,
+          "height": 35.572784423828125
+        },
+        {
+          "name": "copy-appearance",
+          "x": 760.9375,
+          "right": 1020.515625,
+          "width": 259.578125,
+          "height": 52
+        }
+      ]
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920,
+      "boxes": [
+        {
+          "name": "help-button",
+          "x": 1512,
+          "right": 1636,
+          "width": 124,
+          "height": 44
+        },
+        {
+          "name": "locale-trigger",
+          "x": 1642,
+          "right": 1716,
+          "width": 74,
+          "height": 44
+        },
+        {
+          "name": "reading-language",
+          "x": 582,
+          "right": 810,
+          "width": 228,
+          "height": 40
+        },
+        {
+          "name": "reading-cefr",
+          "x": 872,
+          "right": 1083,
+          "width": 211,
+          "height": 40
+        },
+        {
+          "name": "reading-length",
+          "x": 1149,
+          "right": 1351,
+          "width": 202,
+          "height": 40
+        },
+        {
+          "name": "copy-appearance",
+          "x": 1055.65625,
+          "right": 1339.515625,
+          "width": 283.859375,
+          "height": 52
+        }
+      ]
+    }
+  ],
+  "labelBoxes": [
+    {
+      "id": "short-review",
+      "compact": false,
+      "width": 177.171875,
+      "height": 22
+    },
+    {
+      "id": "comparative-review",
+      "compact": false,
+      "width": 174.5,
+      "height": 47
+    },
+    {
+      "id": "unsuccessful-attempt",
+      "compact": false,
+      "width": 217.166015625,
+      "height": 22
+    },
+    {
+      "id": "problem-and-solution",
+      "compact": false,
+      "width": 229.7734375,
+      "height": 22
+    },
+    {
+      "id": "common-misconception",
+      "compact": false,
+      "width": 222.013671875,
+      "height": 22
+    },
+    {
+      "id": "listing",
+      "compact": false,
+      "width": 158.94921875,
+      "height": 27
+    },
+    {
+      "id": "description",
+      "compact": false,
+      "width": 128.97265625,
+      "height": 27
+    },
+    {
+      "id": "map-guide",
+      "compact": false,
+      "width": 185.69140625,
+      "height": 22
+    },
+    {
+      "id": "nature-wildlife",
+      "compact": false,
+      "width": 232.78125,
+      "height": 22
+    },
+    {
+      "id": "message-exchange",
+      "compact": false,
+      "width": 141.94921875,
+      "height": 27
+    },
+    {
+      "id": "argumentative-essay",
+      "compact": false,
+      "width": 209.25,
+      "height": 22
+    },
+    {
+      "id": "food-cooking",
+      "compact": false,
+      "width": 146.62890625,
+      "height": 22
+    },
+    {
+      "id": "practical-guide",
+      "compact": false,
+      "width": 184.4609375,
+      "height": 52
+    },
+    {
+      "id": "picture-story",
+      "compact": false,
+      "width": 137.4609375,
+      "height": 52
+    },
+    {
+      "id": "how-it-works",
+      "compact": false,
+      "width": 181.970703125,
+      "height": 22
+    },
+    {
+      "id": "transport",
+      "compact": false,
+      "width": 139.11328125,
+      "height": 27
+    },
+    {
+      "id": "misunderstanding",
+      "compact": false,
+      "width": 178.474609375,
+      "height": 22
+    },
+    {
+      "id": "science-fiction-story",
+      "compact": false,
+      "width": 225.857421875,
+      "height": 22
+    },
+    {
+      "id": "unexpected-outcome",
+      "compact": false,
+      "width": 191.8125,
+      "height": 52
+    },
+    {
+      "id": "informational-report",
+      "compact": false,
+      "width": 206.125,
+      "height": 47
+    },
+    {
+      "id": "technology-digital-life",
+      "compact": false,
+      "width": 192.015625,
+      "height": 52
+    },
+    {
+      "id": "feedback",
+      "compact": false,
+      "width": 167.439453125,
+      "height": 22
+    },
+    {
+      "id": "fantasy-story",
+      "compact": false,
+      "width": 109.03125,
+      "height": 27
+    },
+    {
+      "id": "design-architecture",
+      "compact": false,
+      "width": 160.96875,
+      "height": 52
+    },
+    {
+      "id": "spatial-orientation",
+      "compact": false,
+      "width": 196.900390625,
+      "height": 22
+    },
+    {
+      "id": "unexpected-discovery",
+      "compact": false,
+      "width": 181.89453125,
+      "height": 52
+    },
+    {
+      "id": "explainer",
+      "compact": false,
+      "width": 153.69921875,
+      "height": 52
+    },
+    {
+      "id": "society-public-life",
+      "compact": false,
+      "width": 128.1875,
+      "height": 27
+    },
+    {
+      "id": "consequences-of-a-decision",
+      "compact": false,
+      "width": 167.140625,
+      "height": 52
+    },
+    {
+      "id": "sports",
+      "compact": false,
+      "width": 78.9921875,
+      "height": 27
+    },
+    {
+      "id": "schedule",
+      "compact": false,
+      "width": 153.171875,
+      "height": 27
+    },
+    {
+      "id": "everyday-routine",
+      "compact": false,
+      "width": 195.46875,
+      "height": 27
+    },
+    {
+      "id": "work-careers",
+      "compact": false,
+      "width": 184.802734375,
+      "height": 22
+    },
+    {
+      "id": "money-personal-finance",
+      "compact": false,
+      "width": 204.390625,
+      "height": 22
+    },
+    {
+      "id": "what-changed",
+      "compact": false,
+      "width": 175.998046875,
+      "height": 22
+    },
+    {
+      "id": "progress-report",
+      "compact": false,
+      "width": 161.17578125,
+      "height": 52
+    },
+    {
+      "id": "fable",
+      "compact": false,
+      "width": 77.375,
+      "height": 27
+    },
+    {
+      "id": "health-wellbeing",
+      "compact": false,
+      "width": 177.83984375,
+      "height": 52
+    },
+    {
+      "id": "invitation",
+      "compact": false,
+      "width": 182.328125,
+      "height": 27
+    },
+    {
+      "id": "comparing-two-options",
+      "compact": false,
+      "width": 141.125,
+      "height": 52
+    },
+    {
+      "id": "overlooked-detail",
+      "compact": false,
+      "width": 160.564453125,
+      "height": 22
+    },
+    {
+      "id": "everyday-conversation",
+      "compact": false,
+      "width": 194.8125,
+      "height": 52
+    },
+    {
+      "id": "shopping-services",
+      "compact": false,
+      "width": 190.9375,
+      "height": 22
+    },
+    {
+      "id": "history",
+      "compact": false,
+      "width": 111.5625,
+      "height": 27
+    },
+    {
+      "id": "why-it-happens",
+      "compact": false,
+      "width": 153.13671875,
+      "height": 52
+    },
+    {
+      "id": "decisions-and-next-steps",
+      "compact": false,
+      "width": 184.1875,
+      "height": 47
+    },
+    {
+      "id": "informational-interview",
+      "compact": false,
+      "width": 133.34375,
+      "height": 27
+    },
+    {
+      "id": "infographic-explanation",
+      "compact": false,
+      "width": 170.501953125,
+      "height": 47
+    },
+    {
+      "id": "request-for-help",
+      "compact": false,
+      "width": 203.3125,
+      "height": 22
+    },
+    {
+      "id": "visual-report",
+      "compact": false,
+      "width": 200.75,
+      "height": 22
+    },
+    {
+      "id": "languages-communication",
+      "compact": false,
+      "width": 194.630859375,
+      "height": 22
+    },
+    {
+      "id": "adventure-story",
+      "compact": false,
+      "width": 206.046875,
+      "height": 47
+    },
+    {
+      "id": "then-and-now",
+      "compact": false,
+      "width": 180.365234375,
+      "height": 22
+    },
+    {
+      "id": "first-introduction",
+      "compact": false,
+      "width": 209.611328125,
+      "height": 22
+    },
+    {
+      "id": "illustrated-instructions",
+      "compact": false,
+      "width": 178.140625,
+      "height": 52
+    },
+    {
+      "id": "everyday-story",
+      "compact": false,
+      "width": 189.5,
+      "height": 22
+    },
+    {
+      "id": "menu",
+      "compact": false,
+      "width": 77.8125,
+      "height": 27
+    },
+    {
+      "id": "strengths-and-limitations",
+      "compact": false,
+      "width": 214.71875,
+      "height": 47
+    },
+    {
+      "id": "personal-note",
+      "compact": false,
+      "width": 175.8125,
+      "height": 22
+    },
+    {
+      "id": "expectations-and-reality",
+      "compact": false,
+      "width": 160.25,
+      "height": 52
+    },
+    {
+      "id": "picture-description",
+      "compact": false,
+      "width": 168.171875,
+      "height": 47
+    },
+    {
+      "id": "business-entrepreneurship",
+      "compact": false,
+      "width": 91.8671875,
+      "height": 27
+    },
+    {
+      "id": "written-debate",
+      "compact": false,
+      "width": 162.515625,
+      "height": 52
+    },
+    {
+      "id": "special-occasion",
+      "compact": false,
+      "width": 164.5625,
+      "height": 22
+    },
+    {
+      "id": "culture-traditions",
+      "compact": false,
+      "width": 142.640625,
+      "height": 52
+    },
+    {
+      "id": "personal-letter",
+      "compact": false,
+      "width": 168.66796875,
+      "height": 22
+    },
+    {
+      "id": "noticeable-pattern",
+      "compact": false,
+      "width": 176.23828125,
+      "height": 47
+    },
+    {
+      "id": "family-relationships",
+      "compact": false,
+      "width": 214.25,
+      "height": 22
+    },
+    {
+      "id": "arts-entertainment",
+      "compact": false,
+      "width": 167.6875,
+      "height": 52
+    },
+    {
+      "id": "diary-entry",
+      "compact": false,
+      "width": 202.46875,
+      "height": 22
+    },
+    {
+      "id": "instructions",
+      "compact": false,
+      "width": 159.046875,
+      "height": 27
+    },
+    {
+      "id": "philosophy-ethics",
+      "compact": false,
+      "width": 211.892578125,
+      "height": 22
+    },
+    {
+      "id": "shared-choice",
+      "compact": false,
+      "width": 209.421875,
+      "height": 22
+    },
+    {
+      "id": "change-of-plans",
+      "compact": false,
+      "width": 191.046875,
+      "height": 22
+    },
+    {
+      "id": "hobbies-leisure",
+      "compact": false,
+      "width": 200.984375,
+      "height": 22
+    },
+    {
+      "id": "fact-file",
+      "compact": false,
+      "width": 214.6171875,
+      "height": 22
+    },
+    {
+      "id": "space-astronomy",
+      "compact": false,
+      "width": 155.3125,
+      "height": 52
+    },
+    {
+      "id": "city-life",
+      "compact": false,
+      "width": 170.158203125,
+      "height": 22
+    },
+    {
+      "id": "sample-form",
+      "compact": false,
+      "width": 174.890625,
+      "height": 22
+    },
+    {
+      "id": "clarifying-details",
+      "compact": false,
+      "width": 208.703125,
+      "height": 22
+    },
+    {
+      "id": "environment",
+      "compact": false,
+      "width": 211.208984375,
+      "height": 22
+    },
+    {
+      "id": "speech",
+      "compact": false,
+      "width": 173.99609375,
+      "height": 27
+    },
+    {
+      "id": "science-discoveries",
+      "compact": false,
+      "width": 196.7890625,
+      "height": 22
+    },
+    {
+      "id": "opinion-column",
+      "compact": false,
+      "width": 208.908203125,
+      "height": 22
+    },
+    {
+      "id": "upcoming-plans",
+      "compact": false,
+      "width": 208.703125,
+      "height": 22
+    },
+    {
+      "id": "formal-notice",
+      "compact": false,
+      "width": 182.5390625,
+      "height": 52
+    },
+    {
+      "id": "business-email",
+      "compact": false,
+      "width": 175.77734375,
+      "height": 22
+    },
+    {
+      "id": "difficult-choice",
+      "compact": false,
+      "width": 172.359375,
+      "height": 22
+    },
+    {
+      "id": "detective-story",
+      "compact": false,
+      "width": 177.53125,
+      "height": 52
+    },
+    {
+      "id": "news-brief",
+      "compact": false,
+      "width": 193.62109375,
+      "height": 22
+    },
+    {
+      "id": "chart-description",
+      "compact": false,
+      "width": 211.501953125,
+      "height": 22
+    },
+    {
+      "id": "personal-blog-post",
+      "compact": false,
+      "width": 182.578125,
+      "height": 47
+    },
+    {
+      "id": "home-household",
+      "compact": false,
+      "width": 135.10546875,
+      "height": 27
+    },
+    {
+      "id": "travel",
+      "compact": false,
+      "width": 172.65625,
+      "height": 27
+    },
+    {
+      "id": "notice",
+      "compact": false,
+      "width": 174.0703125,
+      "height": 27
+    },
+    {
+      "id": "it-meeting-follow-up",
+      "compact": false,
+      "width": 187.8125,
+      "height": 22
+    },
+    {
+      "id": "different-viewpoints",
+      "compact": false,
+      "width": 179.828125,
+      "height": 52
+    },
+    {
+      "id": "reportage",
+      "compact": false,
+      "width": 127.7734375,
+      "height": 27
+    },
+    {
+      "id": "faq",
+      "compact": false,
+      "width": 197.8125,
+      "height": 22
+    },
+    {
+      "id": "learning-education",
+      "compact": false,
+      "width": 165.95703125,
+      "height": 52
+    },
+    {
+      "id": "short-review",
+      "compact": true,
+      "width": 177.171875,
+      "height": 22
+    },
+    {
+      "id": "comparative-review",
+      "compact": true,
+      "width": 241.453125,
+      "height": 22
+    },
+    {
+      "id": "unsuccessful-attempt",
+      "compact": true,
+      "width": 217.166015625,
+      "height": 22
+    },
+    {
+      "id": "problem-and-solution",
+      "compact": true,
+      "width": 229.7734375,
+      "height": 22
+    },
+    {
+      "id": "common-misconception",
+      "compact": true,
+      "width": 222.013671875,
+      "height": 22
+    },
+    {
+      "id": "listing",
+      "compact": true,
+      "width": 132.791015625,
+      "height": 22
+    },
+    {
+      "id": "description",
+      "compact": true,
+      "width": 107.810546875,
+      "height": 22
+    },
+    {
+      "id": "map-guide",
+      "compact": true,
+      "width": 185.69140625,
+      "height": 22
+    },
+    {
+      "id": "nature-wildlife",
+      "compact": true,
+      "width": 232.78125,
+      "height": 22
+    },
+    {
+      "id": "message-exchange",
+      "compact": true,
+      "width": 117.791015625,
+      "height": 22
+    },
+    {
+      "id": "argumentative-essay",
+      "compact": true,
+      "width": 209.25,
+      "height": 22
+    },
+    {
+      "id": "food-cooking",
+      "compact": true,
+      "width": 146.62890625,
+      "height": 22
+    },
+    {
+      "id": "practical-guide",
+      "compact": true,
+      "width": 154.05078125,
+      "height": 43
+    },
+    {
+      "id": "picture-story",
+      "compact": true,
+      "width": 229.55859375,
+      "height": 22
+    },
+    {
+      "id": "how-it-works",
+      "compact": true,
+      "width": 181.970703125,
+      "height": 22
+    },
+    {
+      "id": "transport",
+      "compact": true,
+      "width": 116.427734375,
+      "height": 22
+    },
+    {
+      "id": "misunderstanding",
+      "compact": true,
+      "width": 178.474609375,
+      "height": 22
+    },
+    {
+      "id": "science-fiction-story",
+      "compact": true,
+      "width": 225.857421875,
+      "height": 22
+    },
+    {
+      "id": "unexpected-outcome",
+      "compact": true,
+      "width": 271.365234375,
+      "height": 22
+    },
+    {
+      "id": "informational-report",
+      "compact": true,
+      "width": 271.58984375,
+      "height": 22
+    },
+    {
+      "id": "technology-digital-life",
+      "compact": true,
+      "width": 264.984375,
+      "height": 43
+    },
+    {
+      "id": "feedback",
+      "compact": true,
+      "width": 167.439453125,
+      "height": 22
+    },
+    {
+      "id": "fantasy-story",
+      "compact": true,
+      "width": 90.859375,
+      "height": 22
+    },
+    {
+      "id": "design-architecture",
+      "compact": true,
+      "width": 240.75390625,
+      "height": 22
+    },
+    {
+      "id": "spatial-orientation",
+      "compact": true,
+      "width": 196.900390625,
+      "height": 22
+    },
+    {
+      "id": "unexpected-discovery",
+      "compact": true,
+      "width": 261.580078125,
+      "height": 22
+    },
+    {
+      "id": "explainer",
+      "compact": true,
+      "width": 253.240234375,
+      "height": 22
+    },
+    {
+      "id": "society-public-life",
+      "compact": true,
+      "width": 107.1015625,
+      "height": 22
+    },
+    {
+      "id": "consequences-of-a-decision",
+      "compact": true,
+      "width": 241.7109375,
+      "height": 22
+    },
+    {
+      "id": "sports",
+      "compact": true,
+      "width": 66.16015625,
+      "height": 22
+    },
+    {
+      "id": "schedule",
+      "compact": true,
+      "width": 127.9765625,
+      "height": 22
+    },
+    {
+      "id": "everyday-routine",
+      "compact": true,
+      "width": 162.390625,
+      "height": 22
+    },
+    {
+      "id": "work-careers",
+      "compact": true,
+      "width": 184.802734375,
+      "height": 22
+    },
+    {
+      "id": "money-personal-finance",
+      "compact": true,
+      "width": 204.390625,
+      "height": 22
+    },
+    {
+      "id": "what-changed",
+      "compact": true,
+      "width": 175.998046875,
+      "height": 22
+    },
+    {
+      "id": "progress-report",
+      "compact": true,
+      "width": 218.671875,
+      "height": 22
+    },
+    {
+      "id": "fable",
+      "compact": true,
+      "width": 64.689453125,
+      "height": 22
+    },
+    {
+      "id": "health-wellbeing",
+      "compact": true,
+      "width": 148.533203125,
+      "height": 43
+    },
+    {
+      "id": "invitation",
+      "compact": true,
+      "width": 152.2734375,
+      "height": 22
+    },
+    {
+      "id": "comparing-two-options",
+      "compact": true,
+      "width": 236.390625,
+      "height": 22
+    },
+    {
+      "id": "overlooked-detail",
+      "compact": true,
+      "width": 160.564453125,
+      "height": 22
+    },
+    {
+      "id": "everyday-conversation",
+      "compact": true,
+      "width": 242.826171875,
+      "height": 22
+    },
+    {
+      "id": "shopping-services",
+      "compact": true,
+      "width": 190.9375,
+      "height": 22
+    },
+    {
+      "id": "history",
+      "compact": true,
+      "width": 93.185546875,
+      "height": 22
+    },
+    {
+      "id": "why-it-happens",
+      "compact": true,
+      "width": 256.521484375,
+      "height": 22
+    },
+    {
+      "id": "decisions-and-next-steps",
+      "compact": true,
+      "width": 246.1796875,
+      "height": 43
+    },
+    {
+      "id": "informational-interview",
+      "compact": true,
+      "width": 111.373046875,
+      "height": 22
+    },
+    {
+      "id": "infographic-explanation",
+      "compact": true,
+      "width": 170.501953125,
+      "height": 43
+    },
+    {
+      "id": "request-for-help",
+      "compact": true,
+      "width": 203.3125,
+      "height": 22
+    },
+    {
+      "id": "visual-report",
+      "compact": true,
+      "width": 200.75,
+      "height": 22
+    },
+    {
+      "id": "languages-communication",
+      "compact": true,
+      "width": 194.630859375,
+      "height": 22
+    },
+    {
+      "id": "adventure-story",
+      "compact": true,
+      "width": 206.046875,
+      "height": 43
+    },
+    {
+      "id": "then-and-now",
+      "compact": true,
+      "width": 180.365234375,
+      "height": 22
+    },
+    {
+      "id": "first-introduction",
+      "compact": true,
+      "width": 209.611328125,
+      "height": 22
+    },
+    {
+      "id": "illustrated-instructions",
+      "compact": true,
+      "width": 148.6171875,
+      "height": 43
+    },
+    {
+      "id": "everyday-story",
+      "compact": true,
+      "width": 189.5,
+      "height": 22
+    },
+    {
+      "id": "menu",
+      "compact": true,
+      "width": 65.103515625,
+      "height": 22
+    },
+    {
+      "id": "strengths-and-limitations",
+      "compact": true,
+      "width": 214.71875,
+      "height": 43
+    },
+    {
+      "id": "personal-note",
+      "compact": true,
+      "width": 175.8125,
+      "height": 22
+    },
+    {
+      "id": "expectations-and-reality",
+      "compact": true,
+      "width": 260.564453125,
+      "height": 22
+    },
+    {
+      "id": "picture-description",
+      "compact": true,
+      "width": 168.171875,
+      "height": 43
+    },
+    {
+      "id": "business-entrepreneurship",
+      "compact": true,
+      "width": 76.72265625,
+      "height": 22
+    },
+    {
+      "id": "written-debate",
+      "compact": true,
+      "width": 250.412109375,
+      "height": 22
+    },
+    {
+      "id": "special-occasion",
+      "compact": true,
+      "width": 164.5625,
+      "height": 22
+    },
+    {
+      "id": "culture-traditions",
+      "compact": true,
+      "width": 229.328125,
+      "height": 22
+    },
+    {
+      "id": "personal-letter",
+      "compact": true,
+      "width": 168.66796875,
+      "height": 22
+    },
+    {
+      "id": "noticeable-pattern",
+      "compact": true,
+      "width": 176.23828125,
+      "height": 43
+    },
+    {
+      "id": "family-relationships",
+      "compact": true,
+      "width": 214.25,
+      "height": 22
+    },
+    {
+      "id": "arts-entertainment",
+      "compact": true,
+      "width": 140.123046875,
+      "height": 43
+    },
+    {
+      "id": "diary-entry",
+      "compact": true,
+      "width": 202.46875,
+      "height": 22
+    },
+    {
+      "id": "instructions",
+      "compact": true,
+      "width": 132.755859375,
+      "height": 22
+    },
+    {
+      "id": "philosophy-ethics",
+      "compact": true,
+      "width": 211.892578125,
+      "height": 22
+    },
+    {
+      "id": "shared-choice",
+      "compact": true,
+      "width": 209.421875,
+      "height": 22
+    },
+    {
+      "id": "change-of-plans",
+      "compact": true,
+      "width": 191.046875,
+      "height": 22
+    },
+    {
+      "id": "hobbies-leisure",
+      "compact": true,
+      "width": 200.984375,
+      "height": 22
+    },
+    {
+      "id": "fact-file",
+      "compact": true,
+      "width": 214.6171875,
+      "height": 22
+    },
+    {
+      "id": "space-astronomy",
+      "compact": true,
+      "width": 232.86328125,
+      "height": 22
+    },
+    {
+      "id": "city-life",
+      "compact": true,
+      "width": 170.158203125,
+      "height": 22
+    },
+    {
+      "id": "sample-form",
+      "compact": true,
+      "width": 174.890625,
+      "height": 22
+    },
+    {
+      "id": "clarifying-details",
+      "compact": true,
+      "width": 208.703125,
+      "height": 22
+    },
+    {
+      "id": "environment",
+      "compact": true,
+      "width": 211.208984375,
+      "height": 22
+    },
+    {
+      "id": "speech",
+      "compact": true,
+      "width": 145.330078125,
+      "height": 22
+    },
+    {
+      "id": "science-discoveries",
+      "compact": true,
+      "width": 196.7890625,
+      "height": 22
+    },
+    {
+      "id": "opinion-column",
+      "compact": true,
+      "width": 208.908203125,
+      "height": 22
+    },
+    {
+      "id": "upcoming-plans",
+      "compact": true,
+      "width": 208.703125,
+      "height": 22
+    },
+    {
+      "id": "formal-notice",
+      "compact": true,
+      "width": 152.44921875,
+      "height": 43
+    },
+    {
+      "id": "business-email",
+      "compact": true,
+      "width": 175.77734375,
+      "height": 22
+    },
+    {
+      "id": "difficult-choice",
+      "compact": true,
+      "width": 172.359375,
+      "height": 22
+    },
+    {
+      "id": "detective-story",
+      "compact": true,
+      "width": 235.212890625,
+      "height": 22
+    },
+    {
+      "id": "news-brief",
+      "compact": true,
+      "width": 193.62109375,
+      "height": 22
+    },
+    {
+      "id": "chart-description",
+      "compact": true,
+      "width": 211.501953125,
+      "height": 22
+    },
+    {
+      "id": "personal-blog-post",
+      "compact": true,
+      "width": 247.95703125,
+      "height": 22
+    },
+    {
+      "id": "home-household",
+      "compact": true,
+      "width": 113.087890625,
+      "height": 22
+    },
+    {
+      "id": "travel",
+      "compact": true,
+      "width": 144.09375,
+      "height": 22
+    },
+    {
+      "id": "notice",
+      "compact": true,
+      "width": 145.55859375,
+      "height": 22
+    },
+    {
+      "id": "it-meeting-follow-up",
+      "compact": true,
+      "width": 187.8125,
+      "height": 22
+    },
+    {
+      "id": "different-viewpoints",
+      "compact": true,
+      "width": 231.857421875,
+      "height": 22
+    },
+    {
+      "id": "reportage",
+      "compact": true,
+      "width": 107.14453125,
+      "height": 22
+    },
+    {
+      "id": "faq",
+      "compact": true,
+      "width": 197.8125,
+      "height": 22
+    },
+    {
+      "id": "learning-education",
+      "compact": true,
+      "width": 227.86328125,
+      "height": 22
+    }
+  ],
+  "clipboard": "Injected writer; system clipboard untouched",
+  "browser": "Isolated headless Chromium; in-app Browser unavailable with EPERM",
+  "notVerified": [
+    "Physical mobile devices",
+    "Screen reader",
+    "System clipboard",
+    "Native browser zoom",
+    "Public deployment"
+  ]
+}
