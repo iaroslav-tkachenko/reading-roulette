@@ -80,13 +80,20 @@ export function RoomBackdrop() {
 </svg>
 </svg>
 <svg xmlns="http://www.w3.org/2000/svg" className="room-props" viewBox="0 0 1536 1000" overflow="visible" data-layer="complete-tabletop-props">
+<defs>
+<filter id="cup-contact-blur" x="-50%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="5" /></filter>
+</defs>
 <svg x="-30" y="189.4011834319527" width="258" height="458.5988165680473" viewBox="45 67 845 1502" data-layer="desk-lamp-books">
 <image href={artwork['desk-lamp-books-v7.png']} width="930" height="1692"/>
 </svg>
 <svg x="-360" y="900.339593114241" width="620" height="402.660406885759" viewBox="135 112 1278 830" data-layer="desk-books">
 <image href={artwork['desk-books-v7.png']} width="1536" height="1024"/>
 </svg>
-<svg x="1370" y="531.0338389731622" width="164" height="248.9661610268378" viewBox="101 139 857 1301" data-layer="desk-pen-cup">
+<g data-layer="cup-contact-shadow" fill="#1a0c05" pointerEvents="none">
+<ellipse cx="1459" cy="778" rx="65" ry="11" opacity=".38" filter="url(#cup-contact-blur)" />
+<ellipse cx="1455" cy="777" rx="44" ry="4" opacity=".35" filter="url(#cup-contact-blur)" />
+</g>
+<svg className="pen-cup" x="1370" y="531.0338389731622" width="164" height="248.9661610268378" viewBox="101 139 857 1301" data-layer="desk-pen-cup">
 <image href={artwork['desk-pen-cup-v7.png']} width="1024" height="1536"/>
 </svg>
 </svg>

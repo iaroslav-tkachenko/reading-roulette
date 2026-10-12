@@ -1,13 +1,17 @@
+import { useLocale } from '../../i18n/LocaleContext'
+import { catalogLabel } from '../../i18n/catalogs.ru'
 import { artwork } from './artwork'
 import { MachineSettings } from './MachineSettings'
 import { DrumTypography } from './DrumTypography'
 import { SpinControl } from './SpinControl'
 import { WheelRim } from './WheelRim'
 import { MechanicalCradle } from './MechanicalCradle'
+import { CompactMachine } from './CompactMachine'
 import type { ReadingCombination, ReadingSettings } from '../../types/reading'
 import type { DrumSpinRun } from '../../motion/drumSpinController'
 
 interface MachineSceneProps {
+  compact?: boolean
   settings: ReadingSettings
   combination: ReadingCombination | null
   onSettingsChange: (settings: ReadingSettings) => void
@@ -17,11 +21,13 @@ interface MachineSceneProps {
 }
 
 // Geometry and layer order preserved from the accepted v10 reference.
-export function MachineScene({ settings, combination, onSettingsChange, onSpin, run, onSpinComplete }: MachineSceneProps) {
+export function MachineScene({ compact = false, settings, combination, onSettingsChange, onSpin, run, onSpinComplete }: MachineSceneProps) {
+  const { locale, t } = useLocale()
+  if (compact) return <CompactMachine settings={settings} combination={combination} onSettingsChange={onSettingsChange} onSpin={onSpin} run={run} onSpinComplete={onSpinComplete} />
   return (
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 64 1536 754" width="1536" height="754" role="group" aria-labelledby="scene-title" aria-describedby="scene-desc">
 <title id="scene-title">Reading Roulette</title>
-<desc id="scene-desc">Choose a language, CEFR level and text length, then press SPIN for a random result. {combination ? `Current combination: ${combination.topic.label}, ${combination.format.label}, ${combination.angle.label}.` : 'Press SPIN to find a text for these settings.'}</desc>
+<desc id="scene-desc">{t('scene.instructions')} {combination ? t('scene.result', { topic: catalogLabel(combination.topic, locale), format: catalogLabel(combination.format, locale), angle: catalogLabel(combination.angle, locale) }) : t('prompt.empty')}</desc>
 <defs>
   <linearGradient id="field" x2="0" y2="1">
 <stop stopColor="#fff8ed" stopOpacity=".92"/>
@@ -39,24 +45,24 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 </clipPath>
   <style>{"text{font-family:Georgia,'Times New Roman',serif;fill:#10262b}.label{font-size:15px;font-weight:700;letter-spacing:.6px}.value{font-size:24px}.neighbor{font-size:22px;fill:#987a65}.selected{font-size:29px;font-weight:700}.column-title{font-size:19px;font-weight:700;fill:#ffe29a;letter-spacing:3px}.key-letter{font-size:23px;font-weight:700;fill:#302015;text-anchor:middle}.paper-copy{font-family:Consolas,'Courier New',monospace;font-size:18px}"}</style>
 </defs>
-<g id="contact-shadow" data-layer="contact-shadow">
+<g id="contact-shadow" data-layer="contact-shadow" aria-hidden="true">
 <title>Contact shadow beneath the assembled machine</title>
 <ellipse cx="770" cy="812" rx="572" ry="38" fill="#160b08" opacity=".68" filter="url(#shadow)"/>
 </g>
-<g id="chassis" data-layer="chassis">
+<g id="chassis" data-layer="chassis" aria-hidden="true">
 <title>chassis</title>
 <svg x="195" y="523" width="1145" height="294.444" viewBox="18 117 2061 530" overflow="hidden">
 <image href={artwork['chassis-v3.png']} width="2100" height="749"/>
 </svg>
 </g>
-<g id="settings-panel" data-layer="settings-panel">
+<g id="settings-panel" data-layer="settings-panel" aria-hidden="true">
 <title>settings-panel</title>
 <svg x="313" y="258" width="910" height="151.978" viewBox="114 202 1946 325" overflow="hidden">
 <image href={artwork['settings-v2.png']} width="2172" height="724"/>
 </svg>
 </g>
 <MachineSettings settings={settings} combination={combination} onChange={onSettingsChange} disabled={!!run} />
-<g id="drum-paper" data-layer="drum-paper">
+<g id="drum-paper" data-layer="drum-paper" aria-hidden="true">
 <title>Three independent parchment cylinders behind the metal cradle</title>
 <g clipPath="url(#drum-area)">
 <g id="drum-1" data-layer="drum-1">
@@ -80,14 +86,14 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 </g>
 </g>
 <DrumTypography combination={combination} settings={settings} run={run} onComplete={onSpinComplete} />
-<g id="left-wheel" data-layer="left-wheel">
+<g id="left-wheel" data-layer="left-wheel" aria-hidden="true">
 <title>left-wheel</title>
 <svg x="250" y="343" width="62" height="107.129" viewBox="125 170 746 1289" overflow="hidden">
 <image href={artwork['wheel-v1.png']} width="971" height="1619"/>
 <WheelRim side="left" />
 </svg>
 </g>
-<g id="right-wheel" data-layer="right-wheel">
+<g id="right-wheel" data-layer="right-wheel" aria-hidden="true">
 <title>right-wheel</title>
 <g transform="translate(2510 0) scale(-1 1)">
 <svg x="1224" y="343" width="62" height="107.129" viewBox="125 170 746 1289" overflow="hidden">
@@ -96,17 +102,17 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 </svg>
 </g>
 </g>
-<g id="mechanical-cradle" data-layer="mechanical-cradle">
+<g id="mechanical-cradle" data-layer="mechanical-cradle" aria-hidden="true">
 <title>mechanical-cradle</title>
 <MechanicalCradle />
 </g>
 <g id="column-titles" data-layer="column-titles">
-<title>Live text on the burgundy label strip</title>
-<text x="505" y="390" className="column-title" textAnchor="middle">TOPIC</text>
-<text x="777" y="390" className="column-title" textAnchor="middle">FORMAT</text>
-<text x="1048" y="390" className="column-title" textAnchor="middle">ANGLE</text>
+
+<text x="505" y="390" className="column-title" textAnchor="middle">{t('reel.topic').toUpperCase()}</text>
+<text x="777" y="390" className="column-title" textAnchor="middle">{t('reel.format').toUpperCase()}</text>
+<text x="1048" y="390" className="column-title" textAnchor="middle">{t('reel.angle').toUpperCase()}</text>
 </g>
-<g id="keyboard" data-layer="keyboard">
+<g id="keyboard" data-layer="keyboard" aria-hidden="true">
 <title>Nineteen separate keycap instances, each with its own text</title>
 <g id="key-Q" data-layer="key-Q">
 <title>Key Q</title>
@@ -301,13 +307,13 @@ export function MachineScene({ settings, combination, onSettingsChange, onSpin, 
 </g>
 <SpinControl onSpin={onSpin} busy={!!run} />
 <g id="page-heading" data-layer="page-heading">
-<title>Independent heading, ornament and subtitle</title>
+
 <text x="784" y="162" textAnchor="middle" style={{"fontFamily":"'EB Garamond',Georgia,serif","fontSize":"90px","fontWeight":"700","fill":"#fff0d9"}}>Reading Roulette</text>
 <g stroke="#e4c492" fill="none">
 <path d="M647 185h128 M815 185h127"/>
 <path d="m782 184 9-5 9 5-9 5z M777 178l-4-3 M777 190l-4 3 M805 178l4-3 M805 190l4 3"/>
 </g>
-<text x="784" y="225" textAnchor="middle" style={{"fontSize":"26px","fontStyle":"italic","fill":"#ffebca"}}>Try your luck. Find your next great read.</text>
+<text x="784" y="225" textAnchor="middle" style={{"fontSize":"26px","fontStyle":"italic","fill":"#ffebca"}}>{t('brand.tagline')}</text>
 </g>
 </svg>
   )

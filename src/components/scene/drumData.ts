@@ -1,3 +1,5 @@
+import { catalogLabel } from '../../i18n/catalogs.ru'
+import type { InterfaceLocale } from '../../i18n/locale'
 import { topics } from '../../data/topics'
 import { formats } from '../../data/formats'
 import { angles } from '../../data/angles'
@@ -24,7 +26,7 @@ export function neighborLabels(options: readonly ContentOption[], selected: Cont
   }
 }
 
-export function drumDefinitions(combination: ReadingCombination | null, settings?: ReadingSettings) {
+export function drumDefinitions(combination: ReadingCombination | null, settings?: ReadingSettings, locale: InterfaceLocale = 'en') {
   const pool = settings ? getSelectionPool(settings).flatMap(family => family.formats) : null
   const topicPool = pool ? topics.filter(topic => pool.some(format => format.topics.some(item => item.topic.id === topic.id))) : topics
   const formatPool = pool ? formats.filter(format => pool.some(item => item.format.id === format.id)) : formats
@@ -34,9 +36,10 @@ export function drumDefinitions(combination: ReadingCombination | null, settings
     return angle
   })) : pool ? angles.filter(angle => pool.some(format => format.topics.some(topic => topic.angles.some(item => item.id === angle.id)))) : angles
   const blank: ContentOption = { id: '--', label: 'Press SPIN', promptHint: '' }
+  const localized = <T extends ContentOption>(option: T): T => ({ ...option, label: catalogLabel(option, locale) })
   return [
-    { field: 'topic', x: 505, selected: combination?.topic ?? blank, options: topicPool.toReversed() },
-    { field: 'format', x: 777, selected: combination?.format ?? blank, options: formatPool.toReversed() },
-    { field: 'angle', x: 1048, selected: combination?.angle ?? blank, options: compatibleAngles },
+    { field: 'topic', x: 505, selected: localized(combination?.topic ?? blank), options: topicPool.toReversed().map(localized) },
+    { field: 'format', x: 777, selected: localized(combination?.format ?? blank), options: formatPool.toReversed().map(localized) },
+    { field: 'angle', x: 1048, selected: localized(combination?.angle ?? blank), options: compatibleAngles.map(localized) },
   ] as const
 }

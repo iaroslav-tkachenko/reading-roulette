@@ -14,7 +14,7 @@ import { checkWheels } from './wheel-checks.mjs';
 import { checkPointers } from './pointer-checks.mjs';
 
 const sourceDir=path.dirname(fileURLToPath(import.meta.url));
-const dir=path.resolve(sourceDir,'../implementation-step3-v10');
+const dir=path.resolve(sourceDir,'../implementation-step11-v10');
 fs.mkdirSync(dir,{recursive:true});
 const root=path.resolve(sourceDir,'../../..');
 const ref=path.join(root,'docs/design/layered-v09-2026-10-11');
@@ -73,7 +73,7 @@ function canonical(markup){
       if(k==='href')v=path.posix.basename(v);
       if(k==='style')v=v.split(';').filter(Boolean).sort().join(';');
       return [k,v];
-    }).sort(([a],[b])=>a.localeCompare(b));
+    }).filter(([key])=>key!=='aria-hidden').sort(([a],[b])=>a.localeCompare(b));
     result.push([tag,attrs]);
     if(token.endsWith('/>'))result.push(['/'+tag,[]]);
   }
@@ -89,8 +89,12 @@ function withoutGroup(markup,id){
   }
   throw new Error('Unclosed group '+id);
 }
+// Accessible metadata may change with localization; artwork geometry remains exact.
+const componentTree=(Component,props)=>{let tree;function Probe(){tree=Component(props);return null;}renderToStaticMarkup(createElement(Probe));return tree;};
 const removeControlsAndRootDescription=markup=>withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(withoutGroup(markup,'help-button'),'mechanical-cradle'),'wheel-rim-left'),'wheel-rim-right'),'spin-mechanism'),'spin-button'),'spin-caption'),'drum-typography'),'settings-fields')
   .replace(/^<svg\b[^>]*>/,'<svg>')
+  .replace(/<title>[\s\S]*?<\/title>/g,'')
+  .replace(/\saria-hidden="true"/g,'')
   .replace(/<title id="scene-title">[\s\S]*?<\/desc>/,'')
   .replace(/<foreignObject\b[^>]*data-layer="spin-control"[\s\S]*?<\/foreignObject>/,'');
 const initialMachineProps={settings:initial.initialSettings,combination:initial.initialCombination,onSettingsChange:()=>{},onSpin:()=>{}};
@@ -99,17 +103,18 @@ check('All artwork, coordinates and typography outside live settings/results mat
   canonical(removeControlsAndRootDescription(machine))===canonical(removeControlsAndRootDescription(fs.readFileSync(path.join(ref,'machine.svg'),'utf8'))));
 const reference=fs.readFileSync(path.join(ref,'index.html'),'utf8');
 const room=markup=>markup.match(/<div class="room-backdrop"[\s\S]*?<\/div>/)[0];
-check('Every room and desk layer matches the accepted v10 reference',canonical(room(html))===canonical(room(reference)));
+const withoutCupShadows=markup=>markup.replace(/<defs><filter id="cup-contact-blur"[\s\S]*?<\/defs>/,'').replace(/<g data-layer="cup-contact-shadow"[\s\S]*?<\/g>/,'').replace(' class="pen-cup"','');
+check('Every original room and desk layer matches v10 beneath the added cup shadows',canonical(withoutCupShadows(room(html)))===canonical(room(reference)));
 const paper=html.match(/<section class="prompt-sheet"[\s\S]*?<\/section>/)[0];
-const paperArtwork=markup=>canonical(markup.split('<div class="paper-content">')[0].replace(/^<section[^>]*>/,''));
-check('Paper texture, torn edge and slot shadow match v10',paperArtwork(paper)===paperArtwork(reference.match(/<section class="prompt-sheet"[\s\S]*?<\/section>/)[0]));
+const paperArtwork=markup=>canonical(markup.match(/<svg\b[^>]*class="paper-fill"[\s\S]*?<\/defs>[\s\S]*?<\/svg>/)[0])+canonical(markup.match(/<svg\b[^>]*class="paper-tear"[\s\S]*?<\/svg>/)[0].replace('viewBox="52 530 2028 67"','viewBox="38 525 2052 67"'));
+check('Paper retains the original texture, edge image and slot shadow with an aligned edge crop',paperArtwork(paper)===paperArtwork(reference.match(/<section class="prompt-sheet"[\s\S]*?<\/section>/)[0]));
 check('Initial canonical migration preserves travel/discovery and builds a valid prompt',initial.initialCombination.topic.id==='travel' && initial.initialCombination.format.id==='everyday-story' && initial.initialCombination.angle.id==='unexpected-discovery' && initial.initialPrompt===buildPrompt(initial.initialSettings,initial.initialCombination));
 check('Three native selects and one SPIN overlay share SVG coordinates', [...html.matchAll(/<select\b/g)].length===3 && [...html.matchAll(/<foreignObject\b/g)].length===4);
 check('Accessible SVG group does not hide its controls as a single image',machine.includes('role="group"') && !machine.includes('role="img"'));
 for(const [id,label] of [['reading-language','language-label'],['reading-cefr','cefr-label'],['reading-length','length-label']]){
   check(`${id} has an accessible visible label`,html.includes(`id="${label}"`) && html.includes(`aria-labelledby="${label}"`));
 }
-check('Full catalogs preserve mechanical SPIN and Copy, with native help initially closed',html.includes('data-stage="full-catalogs"') && html.includes('data-spinning="false"') && [...html.matchAll(/<button\b/g)].length===4 && /<dialog\b[^>]*id="reading-help-dialog"/.test(html) && !/<dialog\b[^>]*\bopen="/.test(html) && html.includes('aria-haspopup="dialog"') && html.includes('aria-expanded="false"') && !/<textarea|<iframe/.test(html));
+check('Full catalogs preserve mechanical SPIN and Copy, with native help initially closed',html.includes('data-stage="full-catalogs"') && html.includes('data-spinning="false"') && [...html.matchAll(/<button\b/g)].length===5 && /<dialog\b[^>]*id="reading-help-dialog"/.test(html) && !/<dialog\b[^>]*\bopen="/.test(html) && html.includes('aria-haspopup="dialog"') && html.includes('aria-expanded="false"') && !/<textarea|<iframe/.test(html));
 check('SPIN is a native labeled button associated with the prompt',html.includes('id="spin-control" type="button" aria-label="SPIN" aria-controls="reading-prompt"') && html.includes('id="reading-prompt"'));
 check('Results have an initially empty polite atomic announcement',html.includes('role="status" aria-live="polite" aria-atomic="true"></p>'));
 
@@ -147,7 +152,7 @@ for(const language of languages)for(const cefrLevel of Object.keys(cefrLevels))f
     ['reading-cefr',cefrLevel,{...settings,language,cefrLevel}],
     ['reading-length',textLength,{language,cefrLevel,textLength}],
   ]){
-    const select=findSelect(MachineSettings({settings,onChange:change}),id);
+    const select=findSelect(componentTree(MachineSettings,{settings,onChange:change}),id);
     select.props.onChange({target:{value}});
     assert.deepEqual(settings,expected,'Changing one control must preserve the other settings');
   }
@@ -196,15 +201,16 @@ check('405 word-based cases match every approved profile/length range',proseCase
 check('90 Japanese and Mandarin cases use structure without invented numeric targets',structuralCases===90);
 for(const id of ['reading-language','reading-cefr','reading-length']){
   let calls=0;
-  findSelect(MachineSettings({settings:initial.initialSettings,onChange:()=>{calls++;}}),id).props.onChange({target:{value:'invalid'}});
+  findSelect(componentTree(MachineSettings,{settings:initial.initialSettings,onChange:()=>{calls++;}}),id).props.onChange({target:{value:'invalid'}});
   assert.equal(calls,0,'Unknown setting must not replace a valid value');
 }
 check('All three controls reject unknown values',true);
 
 const css=fs.readFileSync(path.join(root,'src/App.css'),'utf8');
 const beforeCss=fs.readFileSync(path.join(sourceDir,'before/App.css'),'utf8');
-check('Accepted scene CSS, keyboard spacing, controls and responsive scaling are preserved',beforeCss.split(/\r?\n/).filter(line=>line.trim()).every(line=>css.includes(line)));
-check('Native controls retain visible keyboard focus and only drum tracks receive new transforms',css.includes('.machine-setting select:focus-visible{outline:2px solid #12343a') && css.includes('.drum-track{transform:translateY(0px)}'));
+const adaptedSelectors=['.machine-setting select:focus-visible{','.paper-fill{','.paper-tear{','.paper-content{','.real-prompt{','.paste-hint{'];
+check('Desktop scene geometry, keyboard spacing and mechanical CSS are preserved outside explicit step 11 adaptations',beforeCss.split(/\r?\n/).filter(line=>line.trim() && !adaptedSelectors.some(selector=>line.startsWith(selector))).every(line=>css.includes(line)));
+check('Native controls retain stronger visible keyboard focus and independent drum tracks',css.includes('.machine-setting select:focus-visible{outline:3px solid #12343a') && css.includes('.drum-track{transform:translateY(0px)}'));
 const pressScenarios=checkPress(createSpinPress,createSpinPressHandlers);
 check('Press timing, hold, cancellation, keyboard, click, repeat, races and cleanup pass',pressScenarios.length===11);
 const spinMarkup=renderToStaticMarkup(createElement('svg',null,createElement(SpinControl,{onSpin:()=>{}})));
@@ -265,7 +271,7 @@ check('Busy selects and Copy are natively disabled while SPIN retains focus with
 check('Old full prompt remains readable and copy status explains the busy state',decode(busySheet.match(/<pre\b[^>]*>([\s\S]*?)<\/pre>/)[1])===initial.initialPrompt && busySheet.includes('Roulette is spinning… Copy will be available when it stops.'));
 for(const id of ['reading-language','reading-cefr','reading-length']){
   let calls=0;
-  findSelect(MachineSettings({settings:initial.initialSettings,disabled:true,onChange:()=>calls++}),id).props.onChange({target:{value:id==='reading-language'?'ru':id==='reading-cefr'?'A1':'long'}});
+  findSelect(componentTree(MachineSettings,{settings:initial.initialSettings,disabled:true,onChange:()=>calls++}),id).props.onChange({target:{value:id==='reading-language'?'ru':id==='reading-cefr'?'A1':'long'}});
   assert.equal(calls,0);
 }
 check('Disabled control handlers reject settings changes independently of native disabled',true);
@@ -296,7 +302,7 @@ for(const format of formats){
   const settings={...fullSettings,textLength:format.lengths.includes('medium')?'medium':'short'};
   let activations=0;
   const onSpin=()=>activations++;
-  const control=findComponent(MachineScene({...initialMachineProps,settings,combination,onSpin}),SpinControl);
+  const control=findComponent(componentTree(MachineScene,{...initialMachineProps,settings,combination,onSpin}),SpinControl);
   const handlers=createSpinPressHandlers(createSpinPress(()=>{}),control.props.onSpin);
   handlers.onClick();handlers.onClick();assert.equal(activations,2);
   const rendered=renderToStaticMarkup(createElement(MachineScene,{...initialMachineProps,settings,combination,onSpin}));
@@ -424,6 +430,6 @@ check('Production preserves all image and font bytes',hashes.filter(item=>!item.
 const urls=['http://127.0.0.1:5173/','http://127.0.0.1:5173/src/components/scene/MachineSettings.tsx','http://127.0.0.1:5173/src/App.css?direct','http://127.0.0.1:5174/reading-roulette/',...builtFiles.map(file=>'http://127.0.0.1:5174/reading-roulette/assets/'+file)];
 const http=await Promise.all(urls.map(async url=>{const response=await fetch(url);assert.equal(response.status,200,url);return {url,status:response.status,bytes:(await response.arrayBuffer()).byteLength};}));
 fs.writeFileSync(path.join(dir,'react-markup.html'),html+'\n');
-const report={date:'2026-10-11',stage:3,fullCatalogStage:10,mechanicalRegressionFromStage:9,checksPassed:checks.length,checks,pointerScenarios,wheelScenarios,keyScenarios,keyWave:{keys:keyMotion.decorativeKeyOrder,travel:keyMotion.keyTravel,firstDelay:keyMotion.keyWaveDelay,stagger:keyMotion.keyWaveStagger,lastEnd:keyMotion.keyWaveDelay+keyMotion.keyWaveDuration},drumScenarios:drumChecks.scenarios,drumTransitions:drumChecks.transitions,pressScenarios,copyScenarios,copiedPromptCases,spinCases,spinPromptCases,spinExamples,settingScenarios:scenarios,proseCases,structuralCases,languages:languages.length,cefrLevels:Object.keys(cefrLevels).length,lengths:Object.keys(textLengths).length,http,hashes,browser:{status:'not-tested-by-this-script',reason:'These regression checks use SSR, fake animation clocks and clipboard writers. Native dialog interaction and layout are checked separately in browser-verification.json; system clipboard and physical phones are not tested here.'}};
+const report={date:'2026-10-12',stage:11,fullCatalogStage:10,mechanicalRegressionFromStage:9,checksPassed:checks.length,checks,pointerScenarios,wheelScenarios,keyScenarios,keyWave:{keys:keyMotion.decorativeKeyOrder,travel:keyMotion.keyTravel,firstDelay:keyMotion.keyWaveDelay,stagger:keyMotion.keyWaveStagger,lastEnd:keyMotion.keyWaveDelay+keyMotion.keyWaveDuration},drumScenarios:drumChecks.scenarios,drumTransitions:drumChecks.transitions,pressScenarios,copyScenarios,copiedPromptCases,spinCases,spinPromptCases,spinExamples,settingScenarios:scenarios,proseCases,structuralCases,languages:languages.length,cefrLevels:Object.keys(cefrLevels).length,lengths:Object.keys(textLengths).length,http,hashes,browser:{status:'not-tested-by-this-script',reason:'These regression checks use SSR, fake animation clocks and clipboard writers. Real DOM, animations and layout are checked in browser-verification.json; native tab visibility, native zoom and Windows clipboard are checked in native-verification.json.'}};
 fs.writeFileSync(path.join(dir,'mechanical-verification.json'),JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({checksPassed:checks.length,pointerScenarios:pointerScenarios.length,wheelScenarios:wheelScenarios.length,keyScenarios:keyScenarios.length,drumScenarios:drumChecks.scenarios.length,drumTransitions:drumChecks.transitions,pressScenarios:pressScenarios.length,copyScenarios:copyScenarios.length,copiedPromptCases,spinCases,settingScenarios:scenarios,httpResources:http.length,browser:report.browser.status},null,2));

@@ -1,8 +1,10 @@
+import { useLocale } from '../../i18n/LocaleContext'
 import { artwork } from './artwork'
 import { useSpinPress } from '../../motion/useSpinPress'
 
 // The brass housing and native hit target stay fixed. Only the turquoise face moves.
 export function SpinControl({ onSpin, busy = false }: { onSpin: () => void; busy?: boolean }) {
+  const { locale, t } = useLocale()
   const { pressed, handlers } = useSpinPress(onSpin, busy)
   return (
     <g id="spin-mechanism" className="spin-mechanism" data-layer="spin-mechanism" data-pressed={pressed}>
@@ -12,7 +14,6 @@ export function SpinControl({ onSpin, busy = false }: { onSpin: () => void; busy
         </clipPath>
       </defs>
       <g id="spin-button" data-layer="spin-button">
-        <title>Fixed brass SPIN housing</title>
         <svg x="635" y="605" width="298" height="87.638" viewBox="88 77 1962 577" overflow="hidden">
           <image href={artwork['spin-button-v3.png']} width="2140" height="735" />
         </svg>
@@ -25,16 +26,15 @@ export function SpinControl({ onSpin, busy = false }: { onSpin: () => void; busy
           </svg>
           <path className="spin-face-shade" d="M640 605H930V675H640Z" fill="#041c20" />
           <g id="spin-caption" data-layer="spin-caption">
-            <title>Separate SPIN lettering and refresh arrow</title>
             <g transform="translate(710 644) scale(.8) translate(-710 -664)">
               <path d="M725 652a17 17 0 1 0 2 17 M725 644v10h-11" fill="none" stroke="#ffe7ba" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
             </g>
-            <text x={busy ? 748 : 756} y={busy ? 651 : 655} style={{ fontSize: busy ? '23px' : '40px', fontWeight: '700', fill: '#ffe7ba', letterSpacing: busy ? '1px' : '3px' }}>{busy ? 'SPINNING…' : 'SPIN'}</text>
+            <text x={busy ? 748 : 756} y={busy ? 651 : 655} style={{ fontSize: busy ? '23px' : locale === 'ru' ? '28px' : '40px', fontWeight: '700', fill: '#ffe7ba', letterSpacing: busy || locale === 'ru' ? '1px' : '3px' }}>{t(busy ? 'spin.busy' : 'spin.action')}</text>
           </g>
         </g>
       </g>
       <foreignObject x="635" y="605" width="298" height="87.638" className="spin-control" data-layer="spin-control">
-        <button id="spin-control" type="button" aria-label={busy ? 'SPINNING…' : 'SPIN'} aria-controls="reading-prompt" aria-disabled={busy} aria-busy={busy} {...handlers} />
+        <button id="spin-control" type="button" aria-label={t(busy ? 'spin.busy' : 'spin.action')} aria-controls="reading-prompt" aria-disabled={busy} aria-busy={busy} {...handlers} />
       </foreignObject>
     </g>
   )

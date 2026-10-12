@@ -1,3 +1,4 @@
+import type { InterfaceLocale } from '../i18n/locale'
 import { drumDefinitions, neighborLabels } from '../components/scene/drumData'
 import { reelDefinitions } from './rouletteMotion'
 import { playKeyWaves } from './keyWaves'
@@ -19,9 +20,9 @@ export interface PreparedDrum {
   rows: DrumRow[]
 }
 
-export function prepareSvgDrums(from: ReadingCombination | null, to: ReadingCombination, spin: number, settings?: ReadingSettings): PreparedDrum[] {
-  const before = drumDefinitions(from, settings)
-  return drumDefinitions(to, settings).map((drum, index) => {
+export function prepareSvgDrums(from: ReadingCombination | null, to: ReadingCombination, spin: number, settings?: ReadingSettings, locale: InterfaceLocale = 'en'): PreparedDrum[] {
+  const before = drumDefinitions(from, settings, locale)
+  return drumDefinitions(to, settings, locale).map((drum, index) => {
     const definition = reelDefinitions[index]
     const start = neighborLabels(before[index].options, before[index].selected)
     const end = neighborLabels(drum.options, drum.selected)

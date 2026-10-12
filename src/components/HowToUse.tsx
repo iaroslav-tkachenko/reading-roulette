@@ -1,3 +1,6 @@
+import { useLocale } from '../i18n/LocaleContext'
+import { topics } from '../data/topics'
+import { languages } from '../data/languages'
 import { useLayoutEffect, useRef } from 'react'
 import type { KeyboardEvent, RefObject } from 'react'
 
@@ -8,6 +11,7 @@ interface HowToUseProps {
 }
 
 export function HowToUse({ open, onClose, returnFocusRef }: HowToUseProps) {
+  const { t } = useLocale()
   const dialogRef = useRef<HTMLDialogElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
   const backdropPressed = useRef(false)
@@ -76,27 +80,28 @@ export function HowToUse({ open, onClose, returnFocusRef }: HowToUseProps) {
     >
       <section className="how-to-card">
         <header className="how-to-header">
-          <h2 id="how-to-title">Read with confidence</h2>
-          <button ref={closeRef} className="how-to-close" type="button" aria-label="Close instructions" onClick={onClose}>
+          <h2 id="how-to-title">{t('help.title')}</h2>
+          <button ref={closeRef} className="how-to-close" type="button" aria-label={t('help.close')} onClick={onClose}>
             <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
               <path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
             </svg>
           </button>
         </header>
-        <div className="how-to-content" tabIndex={0} role="region" aria-label="Reading guide">
-          <p className="how-to-lead">Preparing for a language exam like IELTS, Goethe-Zertifikat, DELE or DELF? Or just working on your reading skills?</p>
-          <p>Find fresh ideas for stories, articles, letters and dialogues at your level. Practise understanding the main idea, noticing details and learning words in context.</p>
+        <div className="how-to-content" tabIndex={0} role="region" aria-label={t('help.region')}>
+          <p className="how-to-lead">{t('help.lead')}</p>
+          <p>{t('help.body')}</p>
           <dl className="how-to-facts">
-            <div><dt>Languages</dt><dd>11</dd></div>
-            <div><dt>Levels</dt><dd>A1 to C2</dd></div>
-            <div><dt>Reading ideas</dt><dd>4,300+</dd></div>
+            <div><dt>{t('help.factLanguages')}</dt><dd>{languages.length}</dd></div>
+            <div><dt>{t('help.factLevels')}</dt><dd>{t('help.factLevelsValue')}</dd></div>
+            <div><dt>{t('help.factTopics')}</dt><dd>{topics.length}</dd></div>
           </dl>
-          <h3 className="how-to-steps-title">How to use</h3>
+          <h3 className="how-to-steps-title">{t('help.stepsTitle')}</h3>
           <ol className="how-to-steps">
-            <li>Choose your language, level and text length.</li>
-            <li>Press <strong>SPIN</strong> for a reading idea.</li>
-            <li>Press <strong>Copy prompt</strong> and paste it into an AI chat to create your practice text.</li>
+            <li>{t('help.step1')}</li>
+            <li>{t('help.step2')}</li>
+            <li>{t('help.step3')}</li>
           </ol>
+          <p className="help-locale-note">{t('help.localeNote')}</p>
         </div>
       </section>
     </dialog>

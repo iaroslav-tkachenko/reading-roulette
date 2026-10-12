@@ -1,3 +1,5 @@
+import { ReadingError } from '../types/readingFailure'
+import type { ReadingFailure } from '../types/readingFailure'
 import { topics } from '../data/topics'
 import { formats } from '../data/formats'
 import { angles } from '../data/angles'
@@ -16,10 +18,10 @@ export interface ReadingCatalogs {
 export const readingCatalogs: ReadingCatalogs = { topics, formats, angles }
 
 export function validateSettings(settings: ReadingSettings) {
-  if (!Object.hasOwn(cefrLevels, settings.cefrLevel)) throw new Error(`Unknown difficulty "${settings.cefrLevel}".`)
-  if (!Object.hasOwn(textLengths, settings.textLength)) throw new Error(`Unknown text length "${settings.textLength}".`)
+  if (!Object.hasOwn(cefrLevels, settings.cefrLevel)) throw new ReadingError({ key: 'error.unknown-level' }, `Unknown difficulty "${settings.cefrLevel}".`)
+  if (!Object.hasOwn(textLengths, settings.textLength)) throw new ReadingError({ key: 'error.unknown-length' }, `Unknown text length "${settings.textLength}".`)
   const language = languages.find(item => item.code === settings.language?.code)
-  if (!language) throw new Error('Unknown reading language.')
+  if (!language) throw new ReadingError({ key: 'error.unknown-reading-language' }, 'Unknown reading language.')
   return { ...settings, language }
 }
 
@@ -51,16 +53,17 @@ export function validateCatalogs(catalogs: ReadingCatalogs = readingCatalogs) {
 }
 
 // Single semantic predicate shared by selection, settings changes and buildPrompt.
-function incompatibility(settings: ReadingSettings, combination: ReadingCombination): string {
+function incompatibility(settings: ReadingSettings, combination: ReadingCombination): { reason: string; failure: ReadingFailure } | null {
+  const invalid = (failure: ReadingFailure, reason: string) => ({ failure, reason })
   const { topic, format, angle } = combination
   const profile = contentProfiles[settings.cefrLevel]
-  if ([topic, format, angle].some(item => profileRank[item.minProfile] > profileRank[profile])) return `This combination needs a higher content profile than ${profile}. Press SPIN to find another text.`
-  if (!topic.disclosures[profile]) return `This topic has no approved disclosure for ${profile}. Press SPIN to find another text.`
-  if (!format.lengths.includes(settings.textLength)) return `This format is unavailable for ${textLengths[settings.textLength].label}. Press SPIN to find another text.`
-  if (familyWeights(settings.cefrLevel)[format.family] <= 0) return 'This reading family is unavailable at this level. Press SPIN to find another text.'
-  if (!format.topicIds.includes(topic.id) || !format.angleIds.includes(angle.id) || !angle.topicIds.includes(topic.id)) return 'This topic, format and angle do not have an approved shared scenario. Press SPIN to find another text.'
-  if (settings.textLength === 'short' && !format.shortAngleIds.includes(angle.id)) return 'The required structure does not fit Short for this angle. Press SPIN to find another text.'
-  return ''
+  if ([topic, format, angle].some(item => profileRank[item.minProfile] > profileRank[profile])) return invalid({ key: 'error.needs-higher-profile', params: { profile } }, `This combination needs a higher content profile than ${profile}. Press SPIN to find another text.`)
+  if (!topic.disclosures[profile]) return invalid({ key: 'error.missing-disclosure', params: { profile } }, `This topic has no approved disclosure for ${profile}. Press SPIN to find another text.`)
+  if (!format.lengths.includes(settings.textLength)) return invalid({ key: 'error.unsupported-length', params: { length: settings.textLength } }, `This format is unavailable for ${textLengths[settings.textLength].label}. Press SPIN to find another text.`)
+  if (familyWeights(settings.cefrLevel)[format.family] <= 0) return invalid({ key: 'error.unavailable-family' }, 'This reading family is unavailable at this level. Press SPIN to find another text.')
+  if (!format.topicIds.includes(topic.id) || !format.angleIds.includes(angle.id) || !angle.topicIds.includes(topic.id)) return invalid({ key: 'error.incompatible-scenario' }, 'This topic, format and angle do not have an approved shared scenario. Press SPIN to find another text.')
+  if (settings.textLength === 'short' && !format.shortAngleIds.includes(angle.id)) return invalid({ key: 'error.short-structure' }, 'The required structure does not fit Short for this angle. Press SPIN to find another text.')
+  return null
 }
 
 let validated = false
@@ -78,10 +81,10 @@ export function checkCombination(settings: ReadingSettings, combination: Reading
   const topic = catalogs.topics.find(item => item.id === combination.topic?.id)
   const format = catalogs.formats.find(item => item.id === combination.format?.id)
   const angle = catalogs.angles.find(item => item.id === combination.angle?.id)
-  if (!topic || !format || !angle) return { valid: false as const, reason: 'Unknown catalog ID. Press SPIN to find another text.' }
+  if (!topic || !format || !angle) return { valid: false as const, reason: 'Unknown catalog ID. Press SPIN to find another text.', failure: { key: 'error.unknown-catalog-id' } satisfies ReadingFailure }
   const canonical = { topic, format, angle }
-  const reason = incompatibility(normalized, canonical)
-  return reason ? { valid: false as const, reason } : { valid: true as const, reason: '', combination: canonical, settings: normalized, profile: contentProfiles[normalized.cefrLevel] }
+  const problem = incompatibility(normalized, canonical)
+  return problem ? { valid: false as const, ...problem } : { valid: true as const, reason: '', combination: canonical, settings: normalized, profile: contentProfiles[normalized.cefrLevel] }
 }
 
 export interface FamilyPool {
@@ -113,7 +116,7 @@ export function getSelectionPool(settings: ReadingSettings, catalogs = readingCa
     if (candidates.length) pools.push({ family, formats: candidates, weight: weights[family], probability: 0 })
   }
   const total = pools.reduce((sum, pool) => sum + pool.weight, 0)
-  if (!total) throw new Error('No compatible reading combinations for these settings. Please change the settings and press SPIN.')
+  if (!total) throw new ReadingError({ key: 'error.no-combinations' }, 'No compatible reading combinations for these settings. Please change the settings and press SPIN.')
   for (const pool of pools) pool.probability = pool.weight / total
   if (catalogs === readingCatalogs) poolCache.set(key, pools)
   return pools

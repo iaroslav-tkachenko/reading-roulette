@@ -1,17 +1,22 @@
 import { cefrLevels } from '../data/cefrLevels'
 import { getTextLength } from '../data/textLengths'
 import { checkCombination } from '../random/compatibility'
+import { buildRussianPrompt } from './buildRussianPrompt'
+import { isLocale } from '../i18n/locale'
+import type { InterfaceLocale } from '../i18n/locale'
 import type { ReadingCombination, ReadingSettings } from '../types/reading'
 
-// The prompt is currently authored in English; this is separate from the learning language.
+// English-branch vocabulary language; the Russian branch is assembled separately.
 const promptLanguage = { code: 'en', name: 'English' } as const
 
 // Pure string composition: no network, model, storage, or browser API required.
-export function buildPrompt(settings: ReadingSettings, combination: ReadingCombination): string {
+export function buildPrompt(settings: ReadingSettings, combination: ReadingCombination, locale: InterfaceLocale = 'en'): string {
+  if (!isLocale(locale)) throw new Error('Unknown interface language.')
   const checked = checkCombination(settings, combination)
   if (!checked.valid) throw new Error(checked.reason)
   settings = checked.settings
   combination = checked.combination
+  if (locale === 'ru') return buildRussianPrompt(settings, combination, checked.profile)
   const { topic, format, angle } = combination
   const visual = format.family === 'visual'
   const sourced = format.contentStatus === 'sourced'
