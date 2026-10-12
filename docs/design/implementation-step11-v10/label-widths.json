@@ -1,0 +1,1002 @@
+[
+  {
+    "label": "Home & household",
+    "selected": true,
+    "width": 197.59375
+  },
+  {
+    "label": "Home & household",
+    "selected": false,
+    "width": 136.8828125
+  },
+  {
+    "label": "Food & cooking",
+    "selected": true,
+    "width": 192.38671875
+  },
+  {
+    "label": "Food & cooking",
+    "selected": false,
+    "width": 111.3359375
+  },
+  {
+    "label": "Shopping & services",
+    "selected": true,
+    "width": 143.69140625
+  },
+  {
+    "label": "Shopping & services",
+    "selected": false,
+    "width": 142.40625
+  },
+  {
+    "label": "Money & personal finance",
+    "selected": true,
+    "width": 186.47265625
+  },
+  {
+    "label": "Money & personal finance",
+    "selected": false,
+    "width": 129.09375
+  },
+  {
+    "label": "City life",
+    "selected": true,
+    "width": 94.953125
+  },
+  {
+    "label": "City life",
+    "selected": false,
+    "width": 54.6875
+  },
+  {
+    "label": "Transport",
+    "selected": true,
+    "width": 126.58203125
+  },
+  {
+    "label": "Transport",
+    "selected": false,
+    "width": 72.203125
+  },
+  {
+    "label": "Travel",
+    "selected": true,
+    "width": 80.5234375
+  },
+  {
+    "label": "Travel",
+    "selected": false,
+    "width": 46.1953125
+  },
+  {
+    "label": "Family & relationships",
+    "selected": true,
+    "width": 163.796875
+  },
+  {
+    "label": "Family & relationships",
+    "selected": false,
+    "width": 160.2421875
+  },
+  {
+    "label": "Work & careers",
+    "selected": true,
+    "width": 194.078125
+  },
+  {
+    "label": "Work & careers",
+    "selected": false,
+    "width": 110.3515625
+  },
+  {
+    "label": "Learning & education",
+    "selected": true,
+    "width": 138.48828125
+  },
+  {
+    "label": "Learning & education",
+    "selected": false,
+    "width": 153.125
+  },
+  {
+    "label": "Health & wellbeing",
+    "selected": true,
+    "width": 195.8671875
+  },
+  {
+    "label": "Health & wellbeing",
+    "selected": false,
+    "width": 135.859375
+  },
+  {
+    "label": "Sports",
+    "selected": true,
+    "width": 80.953125
+  },
+  {
+    "label": "Sports",
+    "selected": false,
+    "width": 45.8203125
+  },
+  {
+    "label": "Hobbies & leisure",
+    "selected": true,
+    "width": 183.279296875
+  },
+  {
+    "label": "Hobbies & leisure",
+    "selected": false,
+    "width": 125.6796875
+  },
+  {
+    "label": "Arts & entertainment",
+    "selected": true,
+    "width": 179.55859375
+  },
+  {
+    "label": "Arts & entertainment",
+    "selected": false,
+    "width": 151.8203125
+  },
+  {
+    "label": "Languages & communication",
+    "selected": true,
+    "width": 195.37109375
+  },
+  {
+    "label": "Languages & communication",
+    "selected": false,
+    "width": 111.5859375
+  },
+  {
+    "label": "Culture & traditions",
+    "selected": true,
+    "width": 123.859375
+  },
+  {
+    "label": "Culture & traditions",
+    "selected": false,
+    "width": 141.4609375
+  },
+  {
+    "label": "History",
+    "selected": true,
+    "width": 94.98046875
+  },
+  {
+    "label": "History",
+    "selected": false,
+    "width": 54.34375
+  },
+  {
+    "label": "Nature & wildlife",
+    "selected": true,
+    "width": 176.462890625
+  },
+  {
+    "label": "Nature & wildlife",
+    "selected": false,
+    "width": 122.15625
+  },
+  {
+    "label": "Environment",
+    "selected": true,
+    "width": 164.91015625
+  },
+  {
+    "label": "Environment",
+    "selected": false,
+    "width": 94.453125
+  },
+  {
+    "label": "Science & discoveries",
+    "selected": true,
+    "width": 139.03125
+  },
+  {
+    "label": "Science & discoveries",
+    "selected": false,
+    "width": 150.5390625
+  },
+  {
+    "label": "Technology & digital life",
+    "selected": true,
+    "width": 168.9609375
+  },
+  {
+    "label": "Technology & digital life",
+    "selected": false,
+    "width": 146.8984375
+  },
+  {
+    "label": "Society & public life",
+    "selected": true,
+    "width": 164.7109375
+  },
+  {
+    "label": "Society & public life",
+    "selected": false,
+    "width": 139.9375
+  },
+  {
+    "label": "Space & astronomy",
+    "selected": true,
+    "width": 198.30859375
+  },
+  {
+    "label": "Space & astronomy",
+    "selected": false,
+    "width": 137.1171875
+  },
+  {
+    "label": "Business & entrepreneurship",
+    "selected": true,
+    "width": 183.265625
+  },
+  {
+    "label": "Business & entrepreneurship",
+    "selected": false,
+    "width": 123.4375
+  },
+  {
+    "label": "Design & architecture",
+    "selected": true,
+    "width": 152.59765625
+  },
+  {
+    "label": "Design & architecture",
+    "selected": false,
+    "width": 153.6953125
+  },
+  {
+    "label": "Philosophy & ethics",
+    "selected": true,
+    "width": 164.38671875
+  },
+  {
+    "label": "Philosophy & ethics",
+    "selected": false,
+    "width": 139.4375
+  },
+  {
+    "label": "Everyday story",
+    "selected": true,
+    "width": 184.98046875
+  },
+  {
+    "label": "Everyday story",
+    "selected": false,
+    "width": 106.1640625
+  },
+  {
+    "label": "Adventure story",
+    "selected": true,
+    "width": 167.716796875
+  },
+  {
+    "label": "Adventure story",
+    "selected": false,
+    "width": 115.546875
+  },
+  {
+    "label": "Detective story",
+    "selected": true,
+    "width": 154.314453125
+  },
+  {
+    "label": "Detective story",
+    "selected": false,
+    "width": 106.609375
+  },
+  {
+    "label": "Science fiction story",
+    "selected": true,
+    "width": 150.337890625
+  },
+  {
+    "label": "Science fiction story",
+    "selected": false,
+    "width": 142.8984375
+  },
+  {
+    "label": "Fantasy story",
+    "selected": true,
+    "width": 167.2734375
+  },
+  {
+    "label": "Fantasy story",
+    "selected": false,
+    "width": 95.953125
+  },
+  {
+    "label": "Fable",
+    "selected": true,
+    "width": 68.1640625
+  },
+  {
+    "label": "Fable",
+    "selected": false,
+    "width": 39.1875
+  },
+  {
+    "label": "Description",
+    "selected": true,
+    "width": 145.82421875
+  },
+  {
+    "label": "Description",
+    "selected": false,
+    "width": 83.1171875
+  },
+  {
+    "label": "Explainer",
+    "selected": true,
+    "width": 121.52734375
+  },
+  {
+    "label": "Explainer",
+    "selected": false,
+    "width": 69.1875
+  },
+  {
+    "label": "Fact file",
+    "selected": true,
+    "width": 98.97265625
+  },
+  {
+    "label": "Fact file",
+    "selected": false,
+    "width": 56.765625
+  },
+  {
+    "label": "FAQ",
+    "selected": true,
+    "width": 54.3125
+  },
+  {
+    "label": "FAQ",
+    "selected": false,
+    "width": 32.3203125
+  },
+  {
+    "label": "Interview",
+    "selected": true,
+    "width": 120.8125
+  },
+  {
+    "label": "Interview",
+    "selected": false,
+    "width": 68.8671875
+  },
+  {
+    "label": "Informational report",
+    "selected": true,
+    "width": 176.23828125
+  },
+  {
+    "label": "Informational report",
+    "selected": false,
+    "width": 147.625
+  },
+  {
+    "label": "News brief",
+    "selected": true,
+    "width": 136.1640625
+  },
+  {
+    "label": "News brief",
+    "selected": false,
+    "width": 78.515625
+  },
+  {
+    "label": "Reportage",
+    "selected": true,
+    "width": 128.05859375
+  },
+  {
+    "label": "Reportage",
+    "selected": false,
+    "width": 73.015625
+  },
+  {
+    "label": "Short review",
+    "selected": true,
+    "width": 159.2734375
+  },
+  {
+    "label": "Short review",
+    "selected": false,
+    "width": 90.5078125
+  },
+  {
+    "label": "Comparative review",
+    "selected": true,
+    "width": 207.267578125
+  },
+  {
+    "label": "Comparative review",
+    "selected": false,
+    "width": 142.21875
+  },
+  {
+    "label": "Opinion column",
+    "selected": true,
+    "width": 200.78515625
+  },
+  {
+    "label": "Opinion column",
+    "selected": false,
+    "width": 115.578125
+  },
+  {
+    "label": "Argumentative essay",
+    "selected": true,
+    "width": 185.8828125
+  },
+  {
+    "label": "Argumentative essay",
+    "selected": false,
+    "width": 148.8828125
+  },
+  {
+    "label": "Written debate",
+    "selected": true,
+    "width": 187.41796875
+  },
+  {
+    "label": "Written debate",
+    "selected": false,
+    "width": 107.4140625
+  },
+  {
+    "label": "Speech",
+    "selected": true,
+    "width": 88.5546875
+  },
+  {
+    "label": "Speech",
+    "selected": false,
+    "width": 50.8515625
+  },
+  {
+    "label": "Personal note",
+    "selected": true,
+    "width": 171.16015625
+  },
+  {
+    "label": "Personal note",
+    "selected": false,
+    "width": 97.140625
+  },
+  {
+    "label": "Message exchange",
+    "selected": true,
+    "width": 189.03125
+  },
+  {
+    "label": "Message exchange",
+    "selected": false,
+    "width": 130.2578125
+  },
+  {
+    "label": "Personal letter",
+    "selected": true,
+    "width": 153.158203125
+  },
+  {
+    "label": "Personal letter",
+    "selected": false,
+    "width": 103.6328125
+  },
+  {
+    "label": "Diary entry",
+    "selected": true,
+    "width": 142.16015625
+  },
+  {
+    "label": "Diary entry",
+    "selected": false,
+    "width": 81.2890625
+  },
+  {
+    "label": "Everyday conversation",
+    "selected": true,
+    "width": 161.2578125
+  },
+  {
+    "label": "Everyday conversation",
+    "selected": false,
+    "width": 160.9375
+  },
+  {
+    "label": "Personal blog post",
+    "selected": true,
+    "width": 190.748046875
+  },
+  {
+    "label": "Personal blog post",
+    "selected": false,
+    "width": 130.390625
+  },
+  {
+    "label": "Notice",
+    "selected": true,
+    "width": 80.17578125
+  },
+  {
+    "label": "Notice",
+    "selected": false,
+    "width": 47.375
+  },
+  {
+    "label": "Listing",
+    "selected": true,
+    "width": 86.82421875
+  },
+  {
+    "label": "Listing",
+    "selected": false,
+    "width": 49.921875
+  },
+  {
+    "label": "Menu",
+    "selected": true,
+    "width": 71.84375
+  },
+  {
+    "label": "Menu",
+    "selected": false,
+    "width": 42.0234375
+  },
+  {
+    "label": "Schedule",
+    "selected": true,
+    "width": 112.77734375
+  },
+  {
+    "label": "Schedule",
+    "selected": false,
+    "width": 64.2578125
+  },
+  {
+    "label": "Sample form",
+    "selected": true,
+    "width": 160.28125
+  },
+  {
+    "label": "Sample form",
+    "selected": false,
+    "width": 91.828125
+  },
+  {
+    "label": "Instructions",
+    "selected": true,
+    "width": 152.71875
+  },
+  {
+    "label": "Instructions",
+    "selected": false,
+    "width": 86.4375
+  },
+  {
+    "label": "Practical guide",
+    "selected": true,
+    "width": 153.884765625
+  },
+  {
+    "label": "Practical guide",
+    "selected": false,
+    "width": 104.84375
+  },
+  {
+    "label": "Business email",
+    "selected": true,
+    "width": 186.0703125
+  },
+  {
+    "label": "Business email",
+    "selected": false,
+    "width": 105.71875
+  },
+  {
+    "label": "Formal notice",
+    "selected": true,
+    "width": 173.46875
+  },
+  {
+    "label": "Formal notice",
+    "selected": false,
+    "width": 98.9140625
+  },
+  {
+    "label": "Progress report",
+    "selected": true,
+    "width": 163.19921875
+  },
+  {
+    "label": "Progress report",
+    "selected": false,
+    "width": 109.671875
+  },
+  {
+    "label": "IT meeting follow-up",
+    "selected": true,
+    "width": 134.61328125
+  },
+  {
+    "label": "IT meeting follow-up",
+    "selected": false,
+    "width": 148.96875
+  },
+  {
+    "label": "Picture & description",
+    "selected": true,
+    "width": 141.72265625
+  },
+  {
+    "label": "Picture & description",
+    "selected": false,
+    "width": 150.1328125
+  },
+  {
+    "label": "Picture story",
+    "selected": true,
+    "width": 160.72265625
+  },
+  {
+    "label": "Picture story",
+    "selected": false,
+    "width": 91.203125
+  },
+  {
+    "label": "Illustrated instructions",
+    "selected": true,
+    "width": 150.515625
+  },
+  {
+    "label": "Illustrated instructions",
+    "selected": false,
+    "width": 84.890625
+  },
+  {
+    "label": "Map & guide",
+    "selected": true,
+    "width": 154.49609375
+  },
+  {
+    "label": "Map & guide",
+    "selected": false,
+    "width": 90.3515625
+  },
+  {
+    "label": "Infographic & explanation",
+    "selected": true,
+    "width": 171.9921875
+  },
+  {
+    "label": "Infographic & explanation",
+    "selected": false,
+    "width": 98.546875
+  },
+  {
+    "label": "Chart & description",
+    "selected": true,
+    "width": 141.72265625
+  },
+  {
+    "label": "Chart & description",
+    "selected": false,
+    "width": 139.1328125
+  },
+  {
+    "label": "Visual report",
+    "selected": true,
+    "width": 165.703125
+  },
+  {
+    "label": "Visual report",
+    "selected": false,
+    "width": 93.578125
+  },
+  {
+    "label": "First introduction",
+    "selected": true,
+    "width": 185.26953125
+  },
+  {
+    "label": "First introduction",
+    "selected": false,
+    "width": 126.4609375
+  },
+  {
+    "label": "An ordinary day",
+    "selected": true,
+    "width": 168.09765625
+  },
+  {
+    "label": "An ordinary day",
+    "selected": false,
+    "width": 116.15625
+  },
+  {
+    "label": "Upcoming plans",
+    "selected": true,
+    "width": 183.671875
+  },
+  {
+    "label": "Upcoming plans",
+    "selected": false,
+    "width": 115.609375
+  },
+  {
+    "label": "What is where",
+    "selected": true,
+    "width": 163.7783203125
+  },
+  {
+    "label": "What is where",
+    "selected": false,
+    "width": 102.2265625
+  },
+  {
+    "label": "An important detail",
+    "selected": true,
+    "width": 154.4931640625
+  },
+  {
+    "label": "An important detail",
+    "selected": false,
+    "width": 140.765625
+  },
+  {
+    "label": "A special occasion",
+    "selected": true,
+    "width": 187.578125
+  },
+  {
+    "label": "A special occasion",
+    "selected": false,
+    "width": 129.28125
+  },
+  {
+    "label": "A request for help",
+    "selected": true,
+    "width": 185.4375
+  },
+  {
+    "label": "A request for help",
+    "selected": false,
+    "width": 127.078125
+  },
+  {
+    "label": "An invitation",
+    "selected": true,
+    "width": 150.009765625
+  },
+  {
+    "label": "An invitation",
+    "selected": false,
+    "width": 94.2421875
+  },
+  {
+    "label": "Clarifying details",
+    "selected": true,
+    "width": 175.9375
+  },
+  {
+    "label": "Clarifying details",
+    "selected": false,
+    "width": 120.15625
+  },
+  {
+    "label": "A shared choice",
+    "selected": true,
+    "width": 163.810546875
+  },
+  {
+    "label": "A shared choice",
+    "selected": false,
+    "width": 112.375
+  },
+  {
+    "label": "A misunderstanding",
+    "selected": true,
+    "width": 211.359375
+  },
+  {
+    "label": "A misunderstanding",
+    "selected": false,
+    "width": 145.703125
+  },
+  {
+    "label": "Feedback",
+    "selected": true,
+    "width": 108.5107421875
+  },
+  {
+    "label": "Feedback",
+    "selected": false,
+    "width": 68.53125
+  },
+  {
+    "label": "Unexpected discovery",
+    "selected": true,
+    "width": 134.087890625
+  },
+  {
+    "label": "Unexpected discovery",
+    "selected": false,
+    "width": 155.7265625
+  },
+  {
+    "label": "A change of plans",
+    "selected": true,
+    "width": 180.890625
+  },
+  {
+    "label": "A change of plans",
+    "selected": false,
+    "width": 125.3515625
+  },
+  {
+    "label": "Problem and solution",
+    "selected": true,
+    "width": 146.419921875
+  },
+  {
+    "label": "Problem and solution",
+    "selected": false,
+    "width": 152.8828125
+  },
+  {
+    "label": "An unsuccessful attempt",
+    "selected": true,
+    "width": 167.755859375
+  },
+  {
+    "label": "An unsuccessful attempt",
+    "selected": false,
+    "width": 115.3203125
+  },
+  {
+    "label": "An unexpected outcome",
+    "selected": true,
+    "width": 169.0869140625
+  },
+  {
+    "label": "An unexpected outcome",
+    "selected": false,
+    "width": 171.296875
+  },
+  {
+    "label": "Consequences of a decision",
+    "selected": true,
+    "width": 189.294921875
+  },
+  {
+    "label": "Consequences of a decision",
+    "selected": false,
+    "width": 129.875
+  },
+  {
+    "label": "How it works",
+    "selected": true,
+    "width": 150.359375
+  },
+  {
+    "label": "How it works",
+    "selected": false,
+    "width": 93.9375
+  },
+  {
+    "label": "Why it happens",
+    "selected": true,
+    "width": 176.828125
+  },
+  {
+    "label": "Why it happens",
+    "selected": false,
+    "width": 111.5703125
+  },
+  {
+    "label": "Comparing two options",
+    "selected": true,
+    "width": 174.0478515625
+  },
+  {
+    "label": "Comparing two options",
+    "selected": false,
+    "width": 165.7578125
+  },
+  {
+    "label": "Then and now",
+    "selected": true,
+    "width": 161.9697265625
+  },
+  {
+    "label": "Then and now",
+    "selected": false,
+    "width": 102.8984375
+  },
+  {
+    "label": "Expectations and reality",
+    "selected": true,
+    "width": 177.837890625
+  },
+  {
+    "label": "Expectations and reality",
+    "selected": false,
+    "width": 122.8359375
+  },
+  {
+    "label": "A common misconception",
+    "selected": true,
+    "width": 167.4970703125
+  },
+  {
+    "label": "A common misconception",
+    "selected": false,
+    "width": 185.625
+  },
+  {
+    "label": "What changed",
+    "selected": true,
+    "width": 163.361328125
+  },
+  {
+    "label": "What changed",
+    "selected": false,
+    "width": 103.34375
+  },
+  {
+    "label": "Decisions and next steps",
+    "selected": true,
+    "width": 195.025390625
+  },
+  {
+    "label": "Decisions and next steps",
+    "selected": false,
+    "width": 133.953125
+  },
+  {
+    "label": "A noticeable pattern",
+    "selected": true,
+    "width": 141.1015625
+  },
+  {
+    "label": "A noticeable pattern",
+    "selected": false,
+    "width": 144.6171875
+  },
+  {
+    "label": "Different viewpoints",
+    "selected": true,
+    "width": 124.265625
+  },
+  {
+    "label": "Different viewpoints",
+    "selected": false,
+    "width": 144.53125
+  },
+  {
+    "label": "A difficult choice",
+    "selected": true,
+    "width": 175.0703125
+  },
+  {
+    "label": "A difficult choice",
+    "selected": false,
+    "width": 120.1484375
+  },
+  {
+    "label": "Strengths and limitations",
+    "selected": true,
+    "width": 158.751953125
+  },
+  {
+    "label": "Strengths and limitations",
+    "selected": false,
+    "width": 99.515625
+  }
+]

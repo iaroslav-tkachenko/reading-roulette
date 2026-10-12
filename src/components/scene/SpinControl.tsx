@@ -4,7 +4,7 @@ import { useSpinPress } from '../../motion/useSpinPress'
 
 // The brass housing and native hit target stay fixed. Only the turquoise face moves.
 export function SpinControl({ onSpin, busy = false }: { onSpin: () => void; busy?: boolean }) {
-  const { locale, t } = useLocale()
+  const { t } = useLocale()
   const { pressed, handlers } = useSpinPress(onSpin, busy)
   return (
     <g id="spin-mechanism" className="spin-mechanism" data-layer="spin-mechanism" data-pressed={pressed}>
@@ -26,10 +26,12 @@ export function SpinControl({ onSpin, busy = false }: { onSpin: () => void; busy
           </svg>
           <path className="spin-face-shade" d="M640 605H930V675H640Z" fill="#041c20" />
           <g id="spin-caption" data-layer="spin-caption">
-            <g transform="translate(710 644) scale(.8) translate(-710 -664)">
-              <path d="M725 652a17 17 0 1 0 2 17 M725 644v10h-11" fill="none" stroke="#ffe7ba" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round" />
-            </g>
-            <text x={busy ? 748 : 756} y={busy ? 651 : 655} style={{ fontSize: busy ? '23px' : locale === 'ru' ? '28px' : '40px', fontWeight: '700', fill: '#ffe7ba', letterSpacing: busy || locale === 'ru' ? '1px' : '3px' }}>{t(busy ? 'spin.busy' : 'spin.action')}</text>
+            <foreignObject x="659" y="611" width="252" height="56">
+              <div className="spin-caption-content" data-busy={busy}>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 8a8 8 0 1 0 1 7M19 3v6h-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+                <span>{t(busy ? 'spin.busy' : 'spin.action')}</span>
+              </div>
+            </foreignObject>
           </g>
         </g>
       </g>

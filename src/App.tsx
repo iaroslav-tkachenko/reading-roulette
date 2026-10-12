@@ -29,8 +29,8 @@ function App() {
       <main className="scene-artboard">
         <h1 className="sr-only">Reading Roulette</h1>
         <div className="scene-actions">
-          <InterfaceLanguageSelect busy={!!run} closeSignal={String(helpOpen) + ':' + String(compact)} onChange={changeInterfaceLocale} />
           <HelpButton buttonRef={helpButtonRef} expanded={helpOpen} onClick={() => setHelpOpen(true)} />
+          <InterfaceLanguageSelect busy={!!run} closeSignal={String(helpOpen) + ':' + String(compact)} onChange={changeInterfaceLocale} />
         </div>
         <MachineScene compact={compact} settings={settings} combination={combination} onSettingsChange={changeSettings} onSpin={spin} run={run} onSpinComplete={finish} />
         <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">

@@ -3,7 +3,7 @@ import { formats } from '../data/formats'
 import { angles } from '../data/angles'
 import { catalogLabelsRu } from './catalogLabels.ru'
 import type { ContentProfile, ReadingTopic, ReadingFormat, ReadingAngle, ContentOption } from '../types/reading'
-import type { InterfaceLocale } from './locale'
+import { translate, type InterfaceLocale } from './locale'
 
 // Text only: IDs, eligibility, weights and structural rules stay in the canonical catalogs.
 const topicText: Record<string, readonly [string, string, string | null, string | null]> = {
@@ -138,7 +138,7 @@ export const formatsRu: Record<string, Pick<ReadingFormat, 'label' | 'promptHint
 export const anglesRu: Record<string, Pick<ReadingAngle, 'label' | 'promptHint' | 'simpleAction'>> = Object.fromEntries(angles.map(angle => [angle.id, { label: catalogLabelsRu[angle.id], promptHint: angleText[angle.id][0], simpleAction: angleText[angle.id][1] + ' Конкретная тема: {focus}.' }]))
 export function catalogLabel(option: Pick<ContentOption, 'id' | 'label'>, locale: InterfaceLocale): string {
  if (locale === 'en') return option.label
- if (option.id === '--') return 'Нажмите КРУТИТЬ'
+ if (option.id === '--') return translate(locale, 'reel.blank')
  const value = catalogLabelsRu[option.id]
  if (!value) throw new Error('Missing Russian catalog label: ' + option.id)
  return value

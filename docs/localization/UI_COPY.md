@@ -18,7 +18,8 @@
 | locale.busy | Change the language after the drums stop. | Язык можно изменить после остановки барабанов. |
 | locale.changed | Interface and prompt language changed to English. | Интерфейс и промпт переведены на русский. |
 | help.open | How to use | Как пользоваться |
-| settings.language | Language | Язык текста |
+| help.button | How to use | Инструкция |
+| settings.language | Text language | Язык текста |
 | settings.level | CEFR level | Уровень CEFR |
 | settings.length | Text length | Длина текста |
 | length.short | Short | Короткая |
@@ -27,19 +28,19 @@
 | reel.topic | Topic | Тема |
 | reel.format | Format | Формат |
 | reel.angle | Angle | Ракурс |
-| reel.blank | Press SPIN | Нажмите КРУТИТЬ |
+| reel.blank | Press SPIN | Нажмите «Крутить» |
 | reel.group | Topic, format and angle | Тема, формат и ракурс |
 | reel.description | Current result and neighboring entries from the real catalogs | Текущий результат и соседние варианты из каталогов |
-| spin.action | SPIN | КРУТИТЬ |
-| spin.busy | SPINNING… | КРУТИТСЯ… |
+| spin.action | SPIN | Крутить |
+| spin.busy | SPINNING… | Крутим… |
 | spin.wait | Roulette is spinning. Please wait for all three drums to stop. | Барабаны крутятся. Дождитесь остановки всех трёх. |
 | spin.result | Spin {count}: {topic}; {format}; {angle}. | Результат {count}: {topic}; {format}; {angle}. |
-| scene.instructions | Choose a language, CEFR level and text length, then press SPIN for a random result. | Выберите язык текста, уровень CEFR и длину, затем нажмите КРУТИТЬ, чтобы получить случайную идею. |
+| scene.instructions | Choose a language, CEFR level and text length, then press SPIN for a random result. | Выберите язык текста, уровень CEFR и длину, затем нажмите «Крутить», чтобы получить случайную идею. |
 | scene.result | Current combination: {topic}, {format}, {angle}. | Текущая комбинация: {topic}, {format}, {angle}. |
 | prompt.heading | Prompt preview | Готовый промпт |
 | prompt.accessibleName | Reading prompt | Промпт для чтения |
 | prompt.updated | Prompt updated | Промпт обновлён |
-| prompt.empty | Press SPIN to prepare a text for these settings. | Нажмите КРУТИТЬ, чтобы подготовить промпт с этими настройками. |
+| prompt.empty | Press SPIN to prepare a text for these settings. | Нажмите «Крутить», чтобы подготовить промпт с этими настройками. |
 | copy.action | Copy prompt | Копировать промпт |
 | copy.title | Copy the full prompt | Скопировать промпт целиком |
 | copy.idle | Paste into your preferred AI chat. | Вставьте промпт в удобный вам ИИ-чат. |
@@ -47,7 +48,7 @@
 | copy.success | Prompt copied. Paste it into your AI chat. | Промпт скопирован. Вставьте его в ИИ-чат. |
 | copy.error | Could not copy automatically. Select the prompt and copy it manually. | Не удалось скопировать автоматически. Выделите промпт и скопируйте вручную. |
 | copy.spinning | Roulette is spinning… Copy will be available when it stops. | Барабаны крутятся… Копирование станет доступно после остановки. |
-| copy.empty | Press SPIN to prepare a valid prompt. | Нажмите КРУТИТЬ, чтобы подготовить промпт. |
+| copy.empty | Press SPIN to prepare a valid prompt. | Нажмите «Крутить», чтобы подготовить промпт. |
 
 `locale.changed` используется только для фактического перехода в соответствующую локаль. Не озвучивать одновременно несколько почти одинаковых live-region сообщений: одно объявление должно сообщить, что интерфейс и промпт обновлены; полное содержимое промпта не читать автоматически.
 
@@ -82,7 +83,7 @@
 | length.compactWords | Short · 20–60 words | Короткая · 20–60 слов |
 | length.structure | {length} · structured text for {level} | {length} · структурированный текст уровня {level} |
 | length.words | {length} · {range} words | {length} · {range} слов |
-| length.needsSpin | {length} · press SPIN to find a text | {length} · нажмите КРУТИТЬ, чтобы получить идею |
+| length.needsSpin | {length} · press SPIN to find a text | {length} · нажмите «Крутить», чтобы получить идею |
 
 Ни один перевод helper не изменяет диапазон или модель измерения. Вариант Short в field-model остаётся единственным разрешённым вариантом, а китайский/японский не получают придуманный пересчёт в слова или знаки.
 
@@ -98,14 +99,15 @@
 | help.factLanguages | Languages | Языков для чтения |
 | help.factLevels | Levels | Уровни |
 | help.factLevelsValue | A1 to C2 | От A1 до C2 |
-| help.factTopics | Topics | Тем |
+| help.factIdeas | Reading ideas | Идей для чтения |
+| help.factIdeasValue | {readingIdeaCount} | {readingIdeaCount} |
 | help.stepsTitle | How to use | Как пользоваться |
 | help.step1 | Choose your reading language, level and text length. | Выберите язык учебного текста, уровень и длину. |
-| help.step2 | Press SPIN for a reading idea. | Нажмите КРУТИТЬ, чтобы получить идею для чтения. |
+| help.step2 | Press SPIN for a reading idea. | Нажмите «Крутить», чтобы получить идею для чтения. |
 | help.step3 | Press Copy prompt and paste it into an AI chat to create your practice text. | Нажмите «Копировать промпт» и вставьте его в ИИ-чат, чтобы создать учебный текст. |
 | help.localeNote | The language button changes the interface and prompt. Choose the reading language on the machine. | Кнопка языка переводит интерфейс и промпт. Язык учебного текста выбирается на машине. |
 
-Количество языков сейчас 11. В реализации неподтверждённое `4,300+` заменено на фактическое число тем: 26, из topics.length. Это сохраняет три информационных блока справки без неподтверждённой метрики. Старые help.factIdeas/help.factIdeasValue остаются резервными ключами и в справке не отображаются.
+Количество языков сейчас 11. Справка показывает согласованные `4,300+ / Reading ideas` и `4 300+ / Идей для чтения`: аудит подтверждает 4 310 уникальных допустимых троек Topic × Format × Angle по всем настройкам CEFR/длины, без умножения на языки. На узком экране счётчик идей занимает отдельную строку; языки и уровни расположены ниже. Исторический ключ help.factTopics в справке не отображается.
 
 ## Пользовательские ошибки
 
@@ -113,24 +115,24 @@
 
 | Предлагаемый код | English | Русский |
 | --- | --- | --- |
-| needs-higher-profile | This combination needs a higher content profile than {profile}. Press SPIN to find another text. | Эта комбинация требует более сложного содержания, чем допускает профиль {profile}. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| missing-disclosure | This topic has no approved disclosure for {profile}. Press SPIN to find another text. | Для этой темы нет сценария профиля {profile}. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| unsupported-length | This format is unavailable for {length}. Press SPIN to find another text. | Для этого формата недоступна выбранная длина: {length}. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| unavailable-family | This reading family is unavailable at this level. Press SPIN to find another text. | Эта группа форматов недоступна на выбранном уровне. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| incompatible-scenario | This topic, format and angle do not have an approved shared scenario. Press SPIN to find another text. | Для этой темы, формата и ракурса нет совместимого сценария. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| short-structure | The required structure does not fit Short for this angle. Press SPIN to find another text. | Для этого ракурса нужная структура не помещается в короткий текст. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| unknown-catalog-id | Unknown catalog entry. Press SPIN to find another text. | Не удалось найти вариант в каталоге. Нажмите КРУТИТЬ, чтобы получить другую идею. |
-| no-combinations | No compatible reading combinations for these settings. Change the settings and press SPIN. | Для этих настроек нет совместимых комбинаций. Измените настройки и нажмите КРУТИТЬ. |
-| needs-spin | Press SPIN to find a text for these settings. | Нажмите КРУТИТЬ, чтобы получить идею с этими настройками. |
-| prepare-failed | Could not prepare a reading prompt. Please try SPIN again. | Не удалось подготовить промпт. Нажмите КРУТИТЬ ещё раз. |
-| update-failed | Could not update the reading settings. Please press SPIN again. | Не удалось обновить настройки чтения. Нажмите КРУТИТЬ ещё раз. |
-| unknown-level | Unknown difficulty. Choose a level and press SPIN. | Неизвестный уровень сложности. Выберите уровень и нажмите КРУТИТЬ. |
-| unknown-length | Unknown text length. Choose a length and press SPIN. | Неизвестная длина текста. Выберите длину и нажмите КРУТИТЬ. |
-| unknown-reading-language | Unknown reading language. Choose a language and press SPIN. | Неизвестный язык текста. Выберите язык и нажмите КРУТИТЬ. |
+| needs-higher-profile | This combination needs a higher content profile than {profile}. Press SPIN to find another text. | Эта комбинация требует более сложного содержания, чем допускает профиль {profile}. Нажмите «Крутить», чтобы получить другую идею. |
+| missing-disclosure | This topic has no approved disclosure for {profile}. Press SPIN to find another text. | Для этой темы нет сценария профиля {profile}. Нажмите «Крутить», чтобы получить другую идею. |
+| unsupported-length | This format is unavailable for {length}. Press SPIN to find another text. | Для этого формата недоступна выбранная длина: {length}. Нажмите «Крутить», чтобы получить другую идею. |
+| unavailable-family | This reading family is unavailable at this level. Press SPIN to find another text. | Эта группа форматов недоступна на выбранном уровне. Нажмите «Крутить», чтобы получить другую идею. |
+| incompatible-scenario | This topic, format and angle do not have an approved shared scenario. Press SPIN to find another text. | Для этой темы, формата и ракурса нет совместимого сценария. Нажмите «Крутить», чтобы получить другую идею. |
+| short-structure | The required structure does not fit Short for this angle. Press SPIN to find another text. | Для этого ракурса нужная структура не помещается в короткий текст. Нажмите «Крутить», чтобы получить другую идею. |
+| unknown-catalog-id | Unknown catalog entry. Press SPIN to find another text. | Не удалось найти вариант в каталоге. Нажмите «Крутить», чтобы получить другую идею. |
+| no-combinations | No compatible reading combinations for these settings. Change the settings and press SPIN. | Для этих настроек нет совместимых комбинаций. Измените настройки и нажмите «Крутить». |
+| needs-spin | Press SPIN to find a text for these settings. | Нажмите «Крутить», чтобы получить идею с этими настройками. |
+| prepare-failed | Could not prepare a reading prompt. Please try SPIN again. | Не удалось подготовить промпт. Нажмите «Крутить» ещё раз. |
+| update-failed | Could not update the reading settings. Please press SPIN again. | Не удалось обновить настройки чтения. Нажмите «Крутить» ещё раз. |
+| unknown-level | Unknown difficulty. Choose a level and press SPIN. | Неизвестный уровень сложности. Выберите уровень и нажмите «Крутить». |
+| unknown-length | Unknown text length. Choose a length and press SPIN. | Неизвестная длина текста. Выберите длину и нажмите «Крутить». |
+| unknown-reading-language | Unknown reading language. Choose a language and press SPIN. | Неизвестный язык текста. Выберите язык и нажмите «Крутить». |
 | locale-rebuild-failed | Could not change the interface and prompt language. Please try again. | Не удалось изменить язык интерфейса и промпта. Попробуйте ещё раз. |
 
 ## Редакторские правила
 
-«Промпт» употребляется одинаково на кнопке, в справке и статусах. Angle переводится как «Ракурс», без возвращения Tone. «КРУТИТЬ» — видимая подпись SPIN; в справке и ошибках используется то же действие. Русский текст сохраняет вежливое обращение и не требует объяснять пользователю устройство каталогов или локализации.
+«Промпт» употребляется одинаково на кнопке, в справке и статусах. Angle переводится как «Ракурс», без возвращения Tone. «Крутить» — видимая подпись SPIN; в справке и ошибках используется то же действие. Русский текст сохраняет вежливое обращение и не требует объяснять пользователю устройство каталогов или локализации.
 
 Декоративные SVG title с названиями технических слоёв не нужно выводить пользователю: пометить соответствующий декор скрытым для assistive technology. Содержательные title/desc и aria-label активных групп переводить. Проверить также скрытые строки, резервирующие место для copy.error и prompt.updated: они должны брать значения текущего языка.

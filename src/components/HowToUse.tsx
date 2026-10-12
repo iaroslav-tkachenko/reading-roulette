@@ -1,5 +1,5 @@
 import { useLocale } from '../i18n/LocaleContext'
-import { topics } from '../data/topics'
+import { readingIdeaCount } from '../data/catalogStats'
 import { languages } from '../data/languages'
 import { useLayoutEffect, useRef } from 'react'
 import type { KeyboardEvent, RefObject } from 'react'
@@ -11,7 +11,8 @@ interface HowToUseProps {
 }
 
 export function HowToUse({ open, onClose, returnFocusRef }: HowToUseProps) {
-  const { t } = useLocale()
+  const { locale, t } = useLocale()
+  const ideas = new Intl.NumberFormat(locale === 'ru' ? 'ru-RU' : 'en-US').format(Math.floor(readingIdeaCount / 100) * 100) + '+'
   const dialogRef = useRef<HTMLDialogElement>(null)
   const closeRef = useRef<HTMLButtonElement>(null)
   const backdropPressed = useRef(false)
@@ -91,9 +92,9 @@ export function HowToUse({ open, onClose, returnFocusRef }: HowToUseProps) {
           <p className="how-to-lead">{t('help.lead')}</p>
           <p>{t('help.body')}</p>
           <dl className="how-to-facts">
+            <div className="how-to-ideas"><dt>{t('help.factIdeas')}</dt><dd>{t('help.factIdeasValue', { readingIdeaCount: ideas })}</dd></div>
             <div><dt>{t('help.factLanguages')}</dt><dd>{languages.length}</dd></div>
             <div><dt>{t('help.factLevels')}</dt><dd>{t('help.factLevelsValue')}</dd></div>
-            <div><dt>{t('help.factTopics')}</dt><dd>{topics.length}</dd></div>
           </dl>
           <h3 className="how-to-steps-title">{t('help.stepsTitle')}</h3>
           <ol className="how-to-steps">

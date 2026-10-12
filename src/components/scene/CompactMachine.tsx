@@ -51,7 +51,8 @@ export function CompactMachine({ settings, combination, onSettingsChange, onSpin
           <DrumTypography compact settings={settings} combination={combination} run={run} onComplete={onSpinComplete} />
         </svg>
         <button id="spin-control" className="compact-spin" type="button" aria-label={t(run ? 'spin.busy' : 'spin.action')} aria-controls="reading-prompt" aria-disabled={!!run} aria-busy={!!run} data-pressed={pressed} {...handlers}>
-          <span aria-hidden="true">↻ </span>{t(run ? 'spin.busy' : 'spin.action')}
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19 8a8 8 0 1 0 1 7M19 3v6h-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" /></svg>
+          <span>{t(run ? 'spin.busy' : 'spin.action')}</span>
         </button>
       </div>
     </div>

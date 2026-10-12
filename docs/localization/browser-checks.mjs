@@ -6,7 +6,7 @@ import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { createServer } from 'vite'
 const dir = path.dirname(fileURLToPath(import.meta.url))
-const out = path.join(dir, 'verification', process.env.READING_TEST_URL?.includes('/reading-roulette/') ? 'production' : '')
+const out = process.env.READING_TEST_OUTPUT_DIR ? path.resolve(process.env.READING_TEST_OUTPUT_DIR) : path.join(dir, 'verification', process.env.READING_TEST_URL?.includes('/reading-roulette/') ? 'production' : '')
 fs.mkdirSync(out, { recursive: true })
 const { chromium } = await import(process.env.READING_PLAYWRIGHT_MODULE ? pathToFileURL(process.env.READING_PLAYWRIGHT_MODULE).href : 'playwright')
 const browser = await chromium.launch({ headless: true })
@@ -82,7 +82,7 @@ try {
  assert.equal(await page.locator('.copy-appearance').isDisabled(), true)
  await choose('en'); await choose('ru')
  assert.equal(await page.locator('.copy-appearance').isDisabled(), true)
- assert.ok((await prompt()).includes('Нажмите КРУТИТЬ'))
+ assert.ok((await prompt()).includes('Нажмите «Крутить»'))
  check('A cleared incompatible result stays empty and translates its SPIN request')
  await page.locator('#spin-control').click()
  assert.equal(await locale().isDisabled(), true)
@@ -95,8 +95,8 @@ try {
  assert.equal(await page.locator('html').getAttribute('lang'), 'ru')
  assert.ok((await prompt()).includes('на английском языке'))
  check('Reload restores RU while preserving the independent initial reading language')
- const caption = await page.locator('#spin-caption text').evaluate(node => { const box = node.getBBox(); return { x: box.x, right: box.x + box.width } })
- check('Russian SPIN lettering fits inside the fixed button face', caption.x >= 740 && caption.right <= 918)
+ const captionFits = await page.locator('.spin-caption-content').evaluate(node => { const face = node.getBoundingClientRect(), text = node.querySelector('span').getBoundingClientRect(); return text.left >= face.left && text.right <= face.right && text.top >= face.top && text.bottom <= face.bottom })
+ check('Russian SPIN lettering fits inside the fixed button face', captionFits)
  const labelBoxes = await page.evaluate(markup => {
   const host = document.createElement('div')
   host.style.cssText = 'position:absolute;left:-3000px;top:0;width:1536px'

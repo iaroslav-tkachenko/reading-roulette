@@ -6,11 +6,11 @@ import { createServer } from 'vite'
 import { createElement } from 'react'
 import { renderToStaticMarkup } from 'react-dom/server'
 const root = fileURLToPath(new URL('../../', import.meta.url))
-const out = path.join(root, 'docs/localization/verification')
+const out = process.env.READING_TEST_OUTPUT_DIR ? path.resolve(process.env.READING_TEST_OUTPUT_DIR) : path.join(root, 'docs/localization/verification')
 fs.mkdirSync(out, { recursive: true })
 const server = await createServer({ root, server: { middlewareMode: true, hmr: false, ws: false }, appType: 'custom' })
 const api = {}
-const names = ['i18n/locale', 'i18n/messages', 'i18n/catalogs.ru', 'i18n/catalogLabels.ru', 'i18n/textLength', 'i18n/promptResources.ru', 'random/compatibility', 'data/cefrLevels', 'data/languages', 'data/textLengths', 'motion/drumSpinController', 'clipboard/promptCopier', 'prompt/buildPrompt', 'components/scene/drumData']
+const names = ['i18n/locale', 'i18n/messages', 'i18n/catalogs.ru', 'i18n/catalogLabels.ru', 'i18n/textLength', 'i18n/promptResources.ru', 'random/compatibility', 'data/cefrLevels', 'data/languages', 'data/textLengths', 'data/catalogStats', 'motion/drumSpinController', 'clipboard/promptCopier', 'prompt/buildPrompt', 'components/scene/drumData']
 try {
  for (const name of names) Object.assign(api, await server.ssrLoadModule('/src/' + name + '.ts'))
  const initial = await server.ssrLoadModule('/src/components/scene/initialReading.ts')
@@ -51,12 +51,14 @@ try {
  assert.equal(catalogFields, 419)
  check('All 419 catalog text fields, 100 labels and 119 disclosure profiles have Russian text')
  let prompts = 0, cells = 0
+ const uniqueIdeas = new Set()
  const coverage = { topics: new Set(), formats: new Set(), angles: new Set(), models: new Set(), statuses: new Set() }
  for (const cefrLevel of Object.keys(cefrLevels)) for (const textLength of Object.keys(textLengths)) {
   const baseSettings = { language: languages[0], cefrLevel, textLength }
   const allowed = api.enumerateCombinations(baseSettings)
   const representatives = new Map()
   for (const combination of allowed) {
+   uniqueIdeas.add([combination.topic.id, combination.format.id, combination.angle.id].join('/'))
    const prompt = buildPrompt(baseSettings, combination, 'ru')
    assert.ok(prompt.includes('на английском языке'))
    assert.ok(prompt.includes('«Полезная лексика»'))
@@ -86,6 +88,8 @@ try {
   }
  }
  assert.deepEqual(Object.values(coverage).map(set => set.size), [26,44,30,8,4])
+ assert.equal(uniqueIdeas.size, api.readingIdeaCount)
+ check('Reading-idea count equals the union of eligible topic/format/angle triples without multiplying settings or languages')
  check('RU covers every eligible tuple across 45 level/length settings, all languages and every conditional model/status')
  assert.equal(cells, 495)
  const initialSnapshot = { interfaceLocale: 'en', settings: initial.initialSettings, combination: initial.initialCombination, prompt: buildPrompt(initial.initialSettings, initial.initialCombination), revision: 0, spinCount: 0 }
@@ -146,13 +150,13 @@ try {
  const sheet = renderToStaticMarkup(wrap(createElement(PromptSheet, { prompt: russian.prompt })))
  assert.ok(sheet.includes('Копировать промпт')); assert.ok(sheet.includes('lang="ru"'))
  const help = renderToStaticMarkup(wrap(createElement(HowToUse, { open: false, onClose() {}, returnFocusRef: { current: null } })))
- assert.ok(help.includes('Читайте увереннее')); assert.ok(!help.includes('4,300+'))
+ assert.ok(help.includes('Читайте увереннее')); assert.ok(help.replace(/[\s,]/g, '').includes('4300+')); assert.ok(help.includes('Идей для чтения'))
  const select = renderToStaticMarkup(wrap(createElement(InterfaceLanguageSelect, { busy: false, closeSignal: '', onChange() {} })))
  assert.ok(select.includes('Язык интерфейса: Русский')); assert.ok(select.includes('aria-haspopup="listbox"'))
  check('Both scene layouts, help, prompt and selector render Russian semantic markup')
  fs.writeFileSync(path.join(out, 'sample-prompt.ru.txt'), russian.prompt + '\n')
  fs.writeFileSync(path.join(out, 'sample-prompt.en.txt'), initialSnapshot.prompt + '\n')
- const report = { date: '2026-10-12', checks, catalogFields, russianPrompts: prompts, readingSettings: cells, coverage: Object.fromEntries(Object.entries(coverage).map(([key,set]) => [key,set.size])), browser: 'SSR only; real browser is checked separately' }
+ const report = { date: '2026-10-12', checks, catalogFields, readingIdeas: uniqueIdeas.size, russianPrompts: prompts, readingSettings: cells, coverage: Object.fromEntries(Object.entries(coverage).map(([key,set]) => [key,set.size])), browser: 'SSR only; real browser is checked separately' }
  fs.writeFileSync(path.join(out, 'automated.json'), JSON.stringify(report, null, 2) + '\n')
  console.log(JSON.stringify(report, null, 2))
 } finally { await server.close() }

@@ -1,0 +1,4171 @@
+{
+  "date": "2026-10-12",
+  "url": "http://10.23.109.207:5175/reading-roulette/",
+  "browser": "153.0.8010.12",
+  "checksPassed": 201,
+  "failed": [],
+  "errors": [],
+  "layouts": [
+    {
+      "name": "en 320x568",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "scrollY": 0,
+      "documentWidth": 320,
+      "spin": {
+        "x": 24,
+        "y": 398.359375,
+        "width": 272,
+        "height": 48,
+        "top": 398.359375,
+        "right": 296,
+        "bottom": 446.359375,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 480.15625,
+        "width": 118.734375,
+        "height": 46,
+        "top": 480.15625,
+        "right": 146.734375,
+        "bottom": 526.15625,
+        "left": 28
+      },
+      "copy": {
+        "x": 154.734375,
+        "y": 478.359375,
+        "width": 137.265625,
+        "height": 49.59375,
+        "top": 478.359375,
+        "right": 292,
+        "bottom": 527.953125,
+        "left": 154.734375
+      },
+      "housing": {
+        "x": 12,
+        "y": 62.375,
+        "width": 296,
+        "height": 393.984375,
+        "top": 62.375,
+        "right": 308,
+        "bottom": 456.359375,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 213.5625,
+        "width": 272,
+        "height": 176.796875,
+        "top": 213.5625,
+        "right": 296,
+        "bottom": 390.359375,
+        "left": 24
+      },
+      "help": {
+        "x": 184,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 228,
+        "bottom": 48,
+        "left": 184
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        15.110844017094017,
+        15.110844017094017,
+        15.110844017094017
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 184,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 228,
+          "bottom": 48,
+          "left": 184
+        },
+        {
+          "id": "locale-trigger",
+          "x": 234,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 308,
+          "bottom": 48,
+          "left": 234
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 90.96875,
+          "width": 272,
+          "height": 44,
+          "top": 90.96875,
+          "right": 296,
+          "bottom": 134.96875,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 24,
+          "y": 161.5625,
+          "width": 132,
+          "height": 44,
+          "top": 161.5625,
+          "right": 156,
+          "bottom": 205.5625,
+          "left": 24
+        },
+        {
+          "id": "reading-length",
+          "x": 164,
+          "y": 161.5625,
+          "width": 132,
+          "height": 44,
+          "top": 161.5625,
+          "right": 296,
+          "bottom": 205.5625,
+          "left": 164
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 398.359375,
+          "width": 272,
+          "height": 48,
+          "top": 398.359375,
+          "right": 296,
+          "bottom": 446.359375,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 154.734375,
+          "y": 478.359375,
+          "width": 137.265625,
+          "height": 49.59375,
+          "top": 478.359375,
+          "right": 292,
+          "bottom": 527.953125,
+          "left": 154.734375
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 360x560",
+      "viewport": {
+        "width": 360,
+        "height": 560
+      },
+      "scrollY": 0,
+      "documentWidth": 360,
+      "spin": {
+        "x": 24,
+        "y": 347.390625,
+        "width": 312,
+        "height": 48,
+        "top": 347.390625,
+        "right": 336,
+        "bottom": 395.390625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 437.890625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 437.890625,
+        "right": 163.34375,
+        "bottom": 460.890625,
+        "left": 28
+      },
+      "copy": {
+        "x": 194.0625,
+        "y": 427.390625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 427.390625,
+        "right": 332,
+        "bottom": 471.390625,
+        "left": 194.0625
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 336,
+        "height": 349.390625,
+        "top": 56,
+        "right": 348,
+        "bottom": 405.390625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 312,
+        "height": 202.796875,
+        "top": 136.59375,
+        "right": 336,
+        "bottom": 339.390625,
+        "left": 24
+      },
+      "help": {
+        "x": 224,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 268,
+        "bottom": 48,
+        "left": 224
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        17.33306623931624,
+        17.33306623931624,
+        17.33306623931624
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 224,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 268,
+          "bottom": 48,
+          "left": 224
+        },
+        {
+          "id": "locale-trigger",
+          "x": 274,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 348,
+          "bottom": 48,
+          "left": 274
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 114.578125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 138.578125,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 146.578125,
+          "y": 84.59375,
+          "width": 85.9375,
+          "height": 44,
+          "top": 84.59375,
+          "right": 232.515625,
+          "bottom": 128.59375,
+          "left": 146.578125
+        },
+        {
+          "id": "reading-length",
+          "x": 240.515625,
+          "y": 84.59375,
+          "width": 95.484375,
+          "height": 44,
+          "top": 84.59375,
+          "right": 336,
+          "bottom": 128.59375,
+          "left": 240.515625
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 347.390625,
+          "width": 312,
+          "height": 48,
+          "top": 347.390625,
+          "right": 336,
+          "bottom": 395.390625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 194.0625,
+          "y": 427.390625,
+          "width": 137.9375,
+          "height": 44,
+          "top": 427.390625,
+          "right": 332,
+          "bottom": 471.390625,
+          "left": 194.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 390x600",
+      "viewport": {
+        "width": 390,
+        "height": 600
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 366.890625,
+        "width": 342,
+        "height": 48,
+        "top": 366.890625,
+        "right": 366,
+        "bottom": 414.890625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 457.390625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 457.390625,
+        "right": 163.34375,
+        "bottom": 480.390625,
+        "left": 28
+      },
+      "copy": {
+        "x": 224.0625,
+        "y": 446.890625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 490.890625,
+        "left": 224.0625
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 366,
+        "height": 368.890625,
+        "top": 56,
+        "right": 378,
+        "bottom": 424.890625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 342,
+        "height": 222.296875,
+        "top": 136.59375,
+        "right": 366,
+        "bottom": 358.890625,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 126.1875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 150.1875,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 84.59375,
+          "width": 94.640625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 252.828125,
+          "bottom": 128.59375,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 84.59375,
+          "width": 105.171875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 366,
+          "bottom": 128.59375,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 366.890625,
+          "width": 342,
+          "height": 48,
+          "top": 366.890625,
+          "right": 366,
+          "bottom": 414.890625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 224.0625,
+          "y": 446.890625,
+          "width": 137.9375,
+          "height": 44,
+          "top": 446.890625,
+          "right": 362,
+          "bottom": 490.890625,
+          "left": 224.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 412x640",
+      "viewport": {
+        "width": 412,
+        "height": 640
+      },
+      "scrollY": 0,
+      "documentWidth": 412,
+      "spin": {
+        "x": 24,
+        "y": 381.1875,
+        "width": 364,
+        "height": 48,
+        "top": 381.1875,
+        "right": 388,
+        "bottom": 429.1875,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 471.6875,
+        "width": 135.34375,
+        "height": 23,
+        "top": 471.6875,
+        "right": 163.34375,
+        "bottom": 494.6875,
+        "left": 28
+      },
+      "copy": {
+        "x": 246.0625,
+        "y": 461.1875,
+        "width": 137.9375,
+        "height": 44,
+        "top": 461.1875,
+        "right": 384,
+        "bottom": 505.1875,
+        "left": 246.0625
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 388,
+        "height": 383.1875,
+        "top": 56,
+        "right": 400,
+        "bottom": 439.1875,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 364,
+        "height": 236.59375,
+        "top": 136.59375,
+        "right": 388,
+        "bottom": 373.1875,
+        "left": 24
+      },
+      "help": {
+        "x": 276,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 320,
+        "bottom": 48,
+        "left": 276
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        20.221688034188034,
+        20.221688034188034,
+        20.221688034188034
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 276,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 320,
+          "bottom": 48,
+          "left": 276
+        },
+        {
+          "id": "locale-trigger",
+          "x": 326,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 400,
+          "bottom": 48,
+          "left": 326
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 134.703125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 158.703125,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 166.703125,
+          "y": 84.59375,
+          "width": 101.03125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 267.734375,
+          "bottom": 128.59375,
+          "left": 166.703125
+        },
+        {
+          "id": "reading-length",
+          "x": 275.734375,
+          "y": 84.59375,
+          "width": 112.265625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 388,
+          "bottom": 128.59375,
+          "left": 275.734375
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 381.1875,
+          "width": 364,
+          "height": 48,
+          "top": 381.1875,
+          "right": 388,
+          "bottom": 429.1875,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 246.0625,
+          "y": 461.1875,
+          "width": 137.9375,
+          "height": 44,
+          "top": 461.1875,
+          "right": 384,
+          "bottom": 505.1875,
+          "left": 246.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 386.4375,
+        "width": 342,
+        "height": 48,
+        "top": 386.4375,
+        "right": 366,
+        "bottom": 434.4375,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 476.9375,
+        "width": 135.34375,
+        "height": 23,
+        "top": 476.9375,
+        "right": 163.34375,
+        "bottom": 499.9375,
+        "left": 28
+      },
+      "copy": {
+        "x": 224.0625,
+        "y": 466.4375,
+        "width": 137.9375,
+        "height": 44,
+        "top": 466.4375,
+        "right": 362,
+        "bottom": 510.4375,
+        "left": 224.0625
+      },
+      "housing": {
+        "x": 12,
+        "y": 75.546875,
+        "width": 366,
+        "height": 368.890625,
+        "top": 75.546875,
+        "right": 378,
+        "bottom": 444.4375,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 156.140625,
+        "width": 342,
+        "height": 222.296875,
+        "top": 156.140625,
+        "right": 366,
+        "bottom": 378.4375,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 104.140625,
+          "width": 126.1875,
+          "height": 44,
+          "top": 104.140625,
+          "right": 150.1875,
+          "bottom": 148.140625,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 104.140625,
+          "width": 94.640625,
+          "height": 44,
+          "top": 104.140625,
+          "right": 252.828125,
+          "bottom": 148.140625,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 104.140625,
+          "width": 105.171875,
+          "height": 44,
+          "top": 104.140625,
+          "right": 366,
+          "bottom": 148.140625,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 386.4375,
+          "width": 342,
+          "height": 48,
+          "top": 386.4375,
+          "right": 366,
+          "bottom": 434.4375,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 224.0625,
+          "y": 466.4375,
+          "width": 137.9375,
+          "height": 44,
+          "top": 466.4375,
+          "right": 362,
+          "bottom": 510.4375,
+          "left": 224.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 768x1024",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "scrollY": 0,
+      "documentWidth": 768,
+      "spin": {
+        "x": 178,
+        "y": 431.9375,
+        "width": 412,
+        "height": 48,
+        "top": 431.9375,
+        "right": 590,
+        "bottom": 479.9375,
+        "left": 178
+      },
+      "preview": {
+        "x": 182,
+        "y": 522.4375,
+        "width": 135.34375,
+        "height": 23,
+        "top": 522.4375,
+        "right": 317.34375,
+        "bottom": 545.4375,
+        "left": 182
+      },
+      "copy": {
+        "x": 448.0625,
+        "y": 511.9375,
+        "width": 137.9375,
+        "height": 44,
+        "top": 511.9375,
+        "right": 586,
+        "bottom": 555.9375,
+        "left": 448.0625
+      },
+      "housing": {
+        "x": 166,
+        "y": 75.546875,
+        "width": 436,
+        "height": 414.390625,
+        "top": 75.546875,
+        "right": 602,
+        "bottom": 489.9375,
+        "left": 166
+      },
+      "drums": {
+        "x": 178,
+        "y": 156.140625,
+        "width": 412,
+        "height": 267.796875,
+        "top": 156.140625,
+        "right": 590,
+        "bottom": 423.9375,
+        "left": 178
+      },
+      "help": {
+        "x": 478,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 522,
+        "bottom": 48,
+        "left": 478
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        22.888621794871792,
+        22.888621794871792,
+        22.888621794871792
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 478,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 522,
+          "bottom": 48,
+          "left": 478
+        },
+        {
+          "id": "locale-trigger",
+          "x": 528,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 602,
+          "bottom": 48,
+          "left": 528
+        },
+        {
+          "id": "reading-language",
+          "x": 178,
+          "y": 104.140625,
+          "width": 153.28125,
+          "height": 44,
+          "top": 104.140625,
+          "right": 331.28125,
+          "bottom": 148.140625,
+          "left": 178
+        },
+        {
+          "id": "reading-cefr",
+          "x": 339.28125,
+          "y": 104.140625,
+          "width": 114.96875,
+          "height": 44,
+          "top": 104.140625,
+          "right": 454.25,
+          "bottom": 148.140625,
+          "left": 339.28125
+        },
+        {
+          "id": "reading-length",
+          "x": 462.25,
+          "y": 104.140625,
+          "width": 127.75,
+          "height": 44,
+          "top": 104.140625,
+          "right": 590,
+          "bottom": 148.140625,
+          "left": 462.25
+        },
+        {
+          "id": "spin-control",
+          "x": 178,
+          "y": 431.9375,
+          "width": 412,
+          "height": 48,
+          "top": 431.9375,
+          "right": 590,
+          "bottom": 479.9375,
+          "left": 178
+        },
+        {
+          "id": "copy-appearance",
+          "x": 448.0625,
+          "y": 511.9375,
+          "width": 137.9375,
+          "height": 44,
+          "top": 511.9375,
+          "right": 586,
+          "bottom": 555.9375,
+          "left": 448.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 900x700",
+      "viewport": {
+        "width": 900,
+        "height": 700
+      },
+      "scrollY": 0,
+      "documentWidth": 900,
+      "spin": {
+        "x": 244,
+        "y": 412.390625,
+        "width": 412,
+        "height": 48,
+        "top": 412.390625,
+        "right": 656,
+        "bottom": 460.390625,
+        "left": 244
+      },
+      "preview": {
+        "x": 248,
+        "y": 502.890625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 502.890625,
+        "right": 383.34375,
+        "bottom": 525.890625,
+        "left": 248
+      },
+      "copy": {
+        "x": 514.0625,
+        "y": 492.390625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 492.390625,
+        "right": 652,
+        "bottom": 536.390625,
+        "left": 514.0625
+      },
+      "housing": {
+        "x": 232,
+        "y": 56,
+        "width": 436,
+        "height": 414.390625,
+        "top": 56,
+        "right": 668,
+        "bottom": 470.390625,
+        "left": 232
+      },
+      "drums": {
+        "x": 244,
+        "y": 136.59375,
+        "width": 412,
+        "height": 267.796875,
+        "top": 136.59375,
+        "right": 656,
+        "bottom": 404.390625,
+        "left": 244
+      },
+      "help": {
+        "x": 544,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 588,
+        "bottom": 48,
+        "left": 544
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        22.888621794871792,
+        22.888621794871792,
+        22.888621794871792
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 544,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 588,
+          "bottom": 48,
+          "left": 544
+        },
+        {
+          "id": "locale-trigger",
+          "x": 594,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 668,
+          "bottom": 48,
+          "left": 594
+        },
+        {
+          "id": "reading-language",
+          "x": 244,
+          "y": 84.59375,
+          "width": 153.28125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 397.28125,
+          "bottom": 128.59375,
+          "left": 244
+        },
+        {
+          "id": "reading-cefr",
+          "x": 405.28125,
+          "y": 84.59375,
+          "width": 114.96875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 520.25,
+          "bottom": 128.59375,
+          "left": 405.28125
+        },
+        {
+          "id": "reading-length",
+          "x": 528.25,
+          "y": 84.59375,
+          "width": 127.75,
+          "height": 44,
+          "top": 84.59375,
+          "right": 656,
+          "bottom": 128.59375,
+          "left": 528.25
+        },
+        {
+          "id": "spin-control",
+          "x": 244,
+          "y": 412.390625,
+          "width": 412,
+          "height": 48,
+          "top": 412.390625,
+          "right": 656,
+          "bottom": 460.390625,
+          "left": 244
+        },
+        {
+          "id": "copy-appearance",
+          "x": 514.0625,
+          "y": 492.390625,
+          "width": 137.9375,
+          "height": 44,
+          "top": 492.390625,
+          "right": 652,
+          "bottom": 536.390625,
+          "left": 514.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en 844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "scrollY": 0,
+      "documentWidth": 844,
+      "spin": {
+        "x": 216,
+        "y": 412.390625,
+        "width": 412,
+        "height": 48,
+        "top": 412.390625,
+        "right": 628,
+        "bottom": 460.390625,
+        "left": 216
+      },
+      "preview": {
+        "x": 220,
+        "y": 502.890625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 502.890625,
+        "right": 355.34375,
+        "bottom": 525.890625,
+        "left": 220
+      },
+      "copy": {
+        "x": 486.0625,
+        "y": 492.390625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 492.390625,
+        "right": 624,
+        "bottom": 536.390625,
+        "left": 486.0625
+      },
+      "housing": {
+        "x": 204,
+        "y": 56,
+        "width": 436,
+        "height": 414.390625,
+        "top": 56,
+        "right": 640,
+        "bottom": 470.390625,
+        "left": 204
+      },
+      "drums": {
+        "x": 216,
+        "y": 136.59375,
+        "width": 412,
+        "height": 267.796875,
+        "top": 136.59375,
+        "right": 628,
+        "bottom": 404.390625,
+        "left": 216
+      },
+      "help": {
+        "x": 516,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 560,
+        "bottom": 48,
+        "left": 516
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        22.888621794871792,
+        22.888621794871792,
+        22.888621794871792
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 516,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 560,
+          "bottom": 48,
+          "left": 516
+        },
+        {
+          "id": "locale-trigger",
+          "x": 566,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 640,
+          "bottom": 48,
+          "left": 566
+        },
+        {
+          "id": "reading-language",
+          "x": 216,
+          "y": 84.59375,
+          "width": 153.28125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 369.28125,
+          "bottom": 128.59375,
+          "left": 216
+        },
+        {
+          "id": "reading-cefr",
+          "x": 377.28125,
+          "y": 84.59375,
+          "width": 114.96875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 492.25,
+          "bottom": 128.59375,
+          "left": 377.28125
+        },
+        {
+          "id": "reading-length",
+          "x": 500.25,
+          "y": 84.59375,
+          "width": 127.75,
+          "height": 44,
+          "top": 84.59375,
+          "right": 628,
+          "bottom": 128.59375,
+          "left": 500.25
+        },
+        {
+          "id": "spin-control",
+          "x": 216,
+          "y": 412.390625,
+          "width": 412,
+          "height": 48,
+          "top": 412.390625,
+          "right": 628,
+          "bottom": 460.390625,
+          "left": 216
+        },
+        {
+          "id": "copy-appearance",
+          "x": 486.0625,
+          "y": 492.390625,
+          "width": 137.9375,
+          "height": 44,
+          "top": 492.390625,
+          "right": 624,
+          "bottom": 536.390625,
+          "left": 486.0625
+        }
+      ],
+      "values": [
+        "Travel",
+        "Everyday story",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Travel. Destinations, lodging, sights and traveler experiences.\n\nFormat: Everyday story. A character, a concrete everyday situation, a sequence of actions and a clear ending.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Destinations, lodging, sights and traveler experiences. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Everyday story. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral narrative register, third-person narration. Use expression to support the plot; do not randomly switch perspective.\n\nContent status: fiction. You may invent characters, events, dialogue and fictional world rules. Do not present fiction as real events, authentic quotations or established science. An ordinary story needs no extra fiction notice.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en after rapid taps",
+      "viewport": {
+        "width": 390,
+        "height": 600
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 366.890625,
+        "width": 342,
+        "height": 48,
+        "top": 366.890625,
+        "right": 366,
+        "bottom": 414.890625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 457.390625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 457.390625,
+        "right": 163.34375,
+        "bottom": 480.390625,
+        "left": 28
+      },
+      "copy": {
+        "x": 224.0625,
+        "y": 446.890625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 490.890625,
+        "left": 224.0625
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 366,
+        "height": 368.890625,
+        "top": 56,
+        "right": 378,
+        "bottom": 424.890625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 342,
+        "height": 222.296875,
+        "top": 136.59375,
+        "right": 366,
+        "bottom": 358.890625,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 126.1875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 150.1875,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 84.59375,
+          "width": 94.640625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 252.828125,
+          "bottom": 128.59375,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 84.59375,
+          "width": 105.171875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 366,
+          "bottom": 128.59375,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 366.890625,
+          "width": 342,
+          "height": 48,
+          "top": 366.890625,
+          "right": 366,
+          "bottom": 414.890625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 224.0625,
+          "y": 446.890625,
+          "width": 137.9375,
+          "height": 44,
+          "top": 446.890625,
+          "right": 362,
+          "bottom": 490.890625,
+          "left": 224.0625
+        }
+      ],
+      "values": [
+        "Arts & entertainment",
+        "Personal letter",
+        "Unexpected discovery"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: approximately 250–350 words.\n\nTopic: Arts & entertainment. Music, films, literature, theatre, exhibitions and works of art; designing spaces belongs to design.\n\nFormat: Personal letter. A greeting, a coherent message to a specific recipient and a closing.\n\nAngle: Unexpected discovery. Discover an object or information that changes subsequent actions or understanding.\n\nApproved scenario for content profile B1: Music, films, literature, theatre, exhibitions and works of art; designing spaces belongs to design. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"Unexpected discovery\". Express this task through the mandatory structure of Personal letter. Keep one main subject; do not change the topic to make the format easier.\n\nConversational or neutral personal register, no compulsory slang. Use the sender's perspective; diary and blog use first person, exchanges separate voices.\n\nContent status: training. Use an explicitly fictional educational scenario. When a document, interview, personal experience or dataset could be mistaken for authentic material, include a brief notice in the selected language: \"Training example; people and circumstances are fictional\" or \"Training data\". Do not attribute invented experience or words to real people. A review may use a fictional object; real characteristics need evidence, and simulated use is not testimony.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "en browser bars resize",
+      "viewport": {
+        "width": 390,
+        "height": 540
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 366.890625,
+        "width": 342,
+        "height": 48,
+        "top": 366.890625,
+        "right": 366,
+        "bottom": 414.890625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 457.390625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 457.390625,
+        "right": 163.34375,
+        "bottom": 480.390625,
+        "left": 28
+      },
+      "copy": {
+        "x": 224.0625,
+        "y": 446.890625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 490.890625,
+        "left": 224.0625
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 366,
+        "height": 368.890625,
+        "top": 56,
+        "right": 378,
+        "bottom": 424.890625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 342,
+        "height": 222.296875,
+        "top": 136.59375,
+        "right": 366,
+        "bottom": 358.890625,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 126.1875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 150.1875,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 84.59375,
+          "width": 94.640625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 252.828125,
+          "bottom": 128.59375,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 84.59375,
+          "width": 105.171875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 366,
+          "bottom": 128.59375,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 366.890625,
+          "width": 342,
+          "height": 48,
+          "top": 366.890625,
+          "right": 366,
+          "bottom": 414.890625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 224.0625,
+          "y": 446.890625,
+          "width": 137.9375,
+          "height": 44,
+          "top": 446.890625,
+          "right": 362,
+          "bottom": 490.890625,
+          "left": 224.0625
+        }
+      ],
+      "values": [
+        "Work & careers",
+        "Schedule",
+        "What changed"
+      ],
+      "prompt": "Write an original reading text entirely in English for a language learner.\n\nDifficulty target: B1+ (an internal tuning point around the standard CEFR levels, not a separate official CEFR level). Use B1 language with richer descriptions, more varied connectors, and occasional complex sentences.\n\nLength: 8–12 menu or schedule entries. Use concise labels and necessary details; do not apply a prose word-count target or pad entries.\n\nTopic: Work & careers. Professions, tasks, teams, job seeking and career choices; founding and managing companies belongs to business.\n\nFormat: Schedule. Ordered events, times and necessary location details in a fictional timetable.\n\nAngle: What changed. Describe one concrete change, its extent and its meaning for affected people or a process.\n\nApproved scenario for content profile B1: Professions, tasks, teams, job seeking and career choices; founding and managing companies belongs to business. Use familiar examples, explicit causes, consequences or viewpoints; explain every necessary concept. Within this boundary, realize \"What changed\". Express this task through the mandatory structure of Schedule. Keep one main subject; do not change the topic to make the format easier.\n\nNeutral practical register; business email, formal notice, progress report and meeting follow-up use business register. The compiler or sender speaks; instructions address the person carrying out the task.\n\nContent status: training. Use an explicitly fictional educational scenario. When a document, interview, personal experience or dataset could be mistaken for authentic material, include a brief notice in the selected language: \"Training example; people and circumstances are fictional\" or \"Training data\". Do not attribute invented experience or words to real people. A review may use a fictional object; real characteristics need evidence, and simulated use is not testimony.\n\nEducational circumstances do not permit incorrect subject knowledge. Opinions do not permit invented evidence. Verify uncertain or changing factual claims even inside fiction or training scenarios. Keep invented data clearly labeled and consistent across values, units, categories and periods; conclusions must follow from the data and correlation must not be presented as causation.\n\nThe selected CEFR tuning controls language; the content profile above separately limits subject depth. Length, genre, illustrations or expressive tone never raise either limit. Do not add repetition, unsupported details or forced jargon to reach the volume target.\n\nReturn the reading text with any required brief training notice. Headings, notices, captions and dialogue count toward reading volume; field/item models retain their structural measure. The separate vocabulary section is excluded from reading volume and field/item counts, including for visual formats. Do not translate the whole reading text or add exercises or unrelated commentary. A short inability message does not have to reach the requested volume.\n\nVocabulary support: After the reading material and any required Sources block, add a final section titled \"Useful vocabulary\". Select useful words and short expressions that actually appear in the reading material and that a B1+ learner may find unfamiliar because of the topic or their contextual usage. Do not make the reading text harder just to populate this section. Keep the list proportionate to the actual material: usually 3–8 entries, fewer for very short or simple material and up to 12 for longer, vocabulary-rich material. Avoid duplicates and filler. For each entry, show the original English word or expression as used in the text, followed by a brief, simple English definition of its meaning in this context; add a familiar synonym only when helpful, rather than repeating the original word as its own meaning. Write these meanings in English, the language of this prompt, using the format \"original — meaning\". If no reading material can be produced, omit this section; never invent vocabulary entries.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 320x568",
+      "viewport": {
+        "width": 320,
+        "height": 568
+      },
+      "scrollY": 0,
+      "documentWidth": 320,
+      "spin": {
+        "x": 24,
+        "y": 398.359375,
+        "width": 272,
+        "height": 48,
+        "top": 398.359375,
+        "right": 296,
+        "bottom": 446.359375,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 480.15625,
+        "width": 118.734375,
+        "height": 46,
+        "top": 480.15625,
+        "right": 146.734375,
+        "bottom": 526.15625,
+        "left": 28
+      },
+      "copy": {
+        "x": 154.734375,
+        "y": 478.359375,
+        "width": 137.265625,
+        "height": 49.59375,
+        "top": 478.359375,
+        "right": 292,
+        "bottom": 527.953125,
+        "left": 154.734375
+      },
+      "housing": {
+        "x": 12,
+        "y": 62.375,
+        "width": 296,
+        "height": 393.984375,
+        "top": 62.375,
+        "right": 308,
+        "bottom": 456.359375,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 213.5625,
+        "width": 272,
+        "height": 176.796875,
+        "top": 213.5625,
+        "right": 296,
+        "bottom": 390.359375,
+        "left": 24
+      },
+      "help": {
+        "x": 184,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 228,
+        "bottom": 48,
+        "left": 184
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        15.110844017094017,
+        15.110844017094017,
+        15.110844017094017
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 184,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 228,
+          "bottom": 48,
+          "left": 184
+        },
+        {
+          "id": "locale-trigger",
+          "x": 234,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 308,
+          "bottom": 48,
+          "left": 234
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 90.96875,
+          "width": 272,
+          "height": 44,
+          "top": 90.96875,
+          "right": 296,
+          "bottom": 134.96875,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 24,
+          "y": 161.5625,
+          "width": 132,
+          "height": 44,
+          "top": 161.5625,
+          "right": 156,
+          "bottom": 205.5625,
+          "left": 24
+        },
+        {
+          "id": "reading-length",
+          "x": 164,
+          "y": 161.5625,
+          "width": 132,
+          "height": 44,
+          "top": 161.5625,
+          "right": 296,
+          "bottom": 205.5625,
+          "left": 164
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 398.359375,
+          "width": 272,
+          "height": 48,
+          "top": 398.359375,
+          "right": 296,
+          "bottom": 446.359375,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 154.734375,
+          "y": 478.359375,
+          "width": 137.265625,
+          "height": 49.59375,
+          "top": 478.359375,
+          "right": 292,
+          "bottom": 527.953125,
+          "left": 154.734375
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 360x560",
+      "viewport": {
+        "width": 360,
+        "height": 560
+      },
+      "scrollY": 0,
+      "documentWidth": 360,
+      "spin": {
+        "x": 24,
+        "y": 362.984375,
+        "width": 312,
+        "height": 48,
+        "top": 362.984375,
+        "right": 336,
+        "bottom": 410.984375,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 444.78125,
+        "width": 137.921875,
+        "height": 46,
+        "top": 444.78125,
+        "right": 165.921875,
+        "bottom": 490.78125,
+        "left": 28
+      },
+      "copy": {
+        "x": 173.921875,
+        "y": 442.984375,
+        "width": 158.078125,
+        "height": 49.59375,
+        "top": 442.984375,
+        "right": 332,
+        "bottom": 492.578125,
+        "left": 173.921875
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 336,
+        "height": 364.984375,
+        "top": 56,
+        "right": 348,
+        "bottom": 420.984375,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 152.1875,
+        "width": 312,
+        "height": 202.796875,
+        "top": 152.1875,
+        "right": 336,
+        "bottom": 354.984375,
+        "left": 24
+      },
+      "help": {
+        "x": 224,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 268,
+        "bottom": 48,
+        "left": 224
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        17.33306623931624,
+        17.33306623931624,
+        17.33306623931624
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 224,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 268,
+          "bottom": 48,
+          "left": 224
+        },
+        {
+          "id": "locale-trigger",
+          "x": 274,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 348,
+          "bottom": 48,
+          "left": 274
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 114.578125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 138.578125,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 146.578125,
+          "y": 100.1875,
+          "width": 85.9375,
+          "height": 44,
+          "top": 100.1875,
+          "right": 232.515625,
+          "bottom": 144.1875,
+          "left": 146.578125
+        },
+        {
+          "id": "reading-length",
+          "x": 240.515625,
+          "y": 84.59375,
+          "width": 95.484375,
+          "height": 44,
+          "top": 84.59375,
+          "right": 336,
+          "bottom": 128.59375,
+          "left": 240.515625
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 362.984375,
+          "width": 312,
+          "height": 48,
+          "top": 362.984375,
+          "right": 336,
+          "bottom": 410.984375,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 173.921875,
+          "y": 442.984375,
+          "width": 158.078125,
+          "height": 49.59375,
+          "top": 442.984375,
+          "right": 332,
+          "bottom": 492.578125,
+          "left": 173.921875
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 390x600",
+      "viewport": {
+        "width": 390,
+        "height": 600
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 366.890625,
+        "width": 342,
+        "height": 48,
+        "top": 366.890625,
+        "right": 366,
+        "bottom": 414.890625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 460.1875,
+        "width": 144.546875,
+        "height": 23,
+        "top": 460.1875,
+        "right": 172.546875,
+        "bottom": 483.1875,
+        "left": 28
+      },
+      "copy": {
+        "x": 188.328125,
+        "y": 446.890625,
+        "width": 173.671875,
+        "height": 49.59375,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 496.484375,
+        "left": 188.328125
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 366,
+        "height": 368.890625,
+        "top": 56,
+        "right": 378,
+        "bottom": 424.890625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 342,
+        "height": 222.296875,
+        "top": 136.59375,
+        "right": 366,
+        "bottom": 358.890625,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 126.1875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 150.1875,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 84.59375,
+          "width": 94.640625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 252.828125,
+          "bottom": 128.59375,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 84.59375,
+          "width": 105.171875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 366,
+          "bottom": 128.59375,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 366.890625,
+          "width": 342,
+          "height": 48,
+          "top": 366.890625,
+          "right": 366,
+          "bottom": 414.890625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 188.328125,
+          "y": 446.890625,
+          "width": 173.671875,
+          "height": 49.59375,
+          "top": 446.890625,
+          "right": 362,
+          "bottom": 496.484375,
+          "left": 188.328125
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 412x640",
+      "viewport": {
+        "width": 412,
+        "height": 640
+      },
+      "scrollY": 0,
+      "documentWidth": 412,
+      "spin": {
+        "x": 24,
+        "y": 381.1875,
+        "width": 364,
+        "height": 48,
+        "top": 381.1875,
+        "right": 388,
+        "bottom": 429.1875,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 474.484375,
+        "width": 144.546875,
+        "height": 23,
+        "top": 474.484375,
+        "right": 172.546875,
+        "bottom": 497.484375,
+        "left": 28
+      },
+      "copy": {
+        "x": 198.890625,
+        "y": 461.1875,
+        "width": 185.109375,
+        "height": 49.59375,
+        "top": 461.1875,
+        "right": 384,
+        "bottom": 510.78125,
+        "left": 198.890625
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 388,
+        "height": 383.1875,
+        "top": 56,
+        "right": 400,
+        "bottom": 439.1875,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 364,
+        "height": 236.59375,
+        "top": 136.59375,
+        "right": 388,
+        "bottom": 373.1875,
+        "left": 24
+      },
+      "help": {
+        "x": 276,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 320,
+        "bottom": 48,
+        "left": 276
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        20.221688034188034,
+        20.221688034188034,
+        20.221688034188034
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 276,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 320,
+          "bottom": 48,
+          "left": 276
+        },
+        {
+          "id": "locale-trigger",
+          "x": 326,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 400,
+          "bottom": 48,
+          "left": 326
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 134.703125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 158.703125,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 166.703125,
+          "y": 84.59375,
+          "width": 101.03125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 267.734375,
+          "bottom": 128.59375,
+          "left": 166.703125
+        },
+        {
+          "id": "reading-length",
+          "x": 275.734375,
+          "y": 84.59375,
+          "width": 112.265625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 388,
+          "bottom": 128.59375,
+          "left": 275.734375
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 381.1875,
+          "width": 364,
+          "height": 48,
+          "top": 381.1875,
+          "right": 388,
+          "bottom": 429.1875,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 198.890625,
+          "y": 461.1875,
+          "width": 185.109375,
+          "height": 49.59375,
+          "top": 461.1875,
+          "right": 384,
+          "bottom": 510.78125,
+          "left": 198.890625
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 390x844",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 386.4375,
+        "width": 342,
+        "height": 48,
+        "top": 386.4375,
+        "right": 366,
+        "bottom": 434.4375,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 479.734375,
+        "width": 144.546875,
+        "height": 23,
+        "top": 479.734375,
+        "right": 172.546875,
+        "bottom": 502.734375,
+        "left": 28
+      },
+      "copy": {
+        "x": 188.328125,
+        "y": 466.4375,
+        "width": 173.671875,
+        "height": 49.59375,
+        "top": 466.4375,
+        "right": 362,
+        "bottom": 516.03125,
+        "left": 188.328125
+      },
+      "housing": {
+        "x": 12,
+        "y": 75.546875,
+        "width": 366,
+        "height": 368.890625,
+        "top": 75.546875,
+        "right": 378,
+        "bottom": 444.4375,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 156.140625,
+        "width": 342,
+        "height": 222.296875,
+        "top": 156.140625,
+        "right": 366,
+        "bottom": 378.4375,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 104.140625,
+          "width": 126.1875,
+          "height": 44,
+          "top": 104.140625,
+          "right": 150.1875,
+          "bottom": 148.140625,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 104.140625,
+          "width": 94.640625,
+          "height": 44,
+          "top": 104.140625,
+          "right": 252.828125,
+          "bottom": 148.140625,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 104.140625,
+          "width": 105.171875,
+          "height": 44,
+          "top": 104.140625,
+          "right": 366,
+          "bottom": 148.140625,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 386.4375,
+          "width": 342,
+          "height": 48,
+          "top": 386.4375,
+          "right": 366,
+          "bottom": 434.4375,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 188.328125,
+          "y": 466.4375,
+          "width": 173.671875,
+          "height": 49.59375,
+          "top": 466.4375,
+          "right": 362,
+          "bottom": 516.03125,
+          "left": 188.328125
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 768x1024",
+      "viewport": {
+        "width": 768,
+        "height": 1024
+      },
+      "scrollY": 0,
+      "documentWidth": 768,
+      "spin": {
+        "x": 178,
+        "y": 431.9375,
+        "width": 412,
+        "height": 48,
+        "top": 431.9375,
+        "right": 590,
+        "bottom": 479.9375,
+        "left": 178
+      },
+      "preview": {
+        "x": 182,
+        "y": 522.4375,
+        "width": 144.546875,
+        "height": 23,
+        "top": 522.4375,
+        "right": 326.546875,
+        "bottom": 545.4375,
+        "left": 182
+      },
+      "copy": {
+        "x": 390.890625,
+        "y": 511.9375,
+        "width": 195.109375,
+        "height": 44,
+        "top": 511.9375,
+        "right": 586,
+        "bottom": 555.9375,
+        "left": 390.890625
+      },
+      "housing": {
+        "x": 166,
+        "y": 75.546875,
+        "width": 436,
+        "height": 414.390625,
+        "top": 75.546875,
+        "right": 602,
+        "bottom": 489.9375,
+        "left": 166
+      },
+      "drums": {
+        "x": 178,
+        "y": 156.140625,
+        "width": 412,
+        "height": 267.796875,
+        "top": 156.140625,
+        "right": 590,
+        "bottom": 423.9375,
+        "left": 178
+      },
+      "help": {
+        "x": 478,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 522,
+        "bottom": 48,
+        "left": 478
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        22.888621794871792,
+        22.888621794871792,
+        22.888621794871792
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 478,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 522,
+          "bottom": 48,
+          "left": 478
+        },
+        {
+          "id": "locale-trigger",
+          "x": 528,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 602,
+          "bottom": 48,
+          "left": 528
+        },
+        {
+          "id": "reading-language",
+          "x": 178,
+          "y": 104.140625,
+          "width": 153.28125,
+          "height": 44,
+          "top": 104.140625,
+          "right": 331.28125,
+          "bottom": 148.140625,
+          "left": 178
+        },
+        {
+          "id": "reading-cefr",
+          "x": 339.28125,
+          "y": 104.140625,
+          "width": 114.96875,
+          "height": 44,
+          "top": 104.140625,
+          "right": 454.25,
+          "bottom": 148.140625,
+          "left": 339.28125
+        },
+        {
+          "id": "reading-length",
+          "x": 462.25,
+          "y": 104.140625,
+          "width": 127.75,
+          "height": 44,
+          "top": 104.140625,
+          "right": 590,
+          "bottom": 148.140625,
+          "left": 462.25
+        },
+        {
+          "id": "spin-control",
+          "x": 178,
+          "y": 431.9375,
+          "width": 412,
+          "height": 48,
+          "top": 431.9375,
+          "right": 590,
+          "bottom": 479.9375,
+          "left": 178
+        },
+        {
+          "id": "copy-appearance",
+          "x": 390.890625,
+          "y": 511.9375,
+          "width": 195.109375,
+          "height": 44,
+          "top": 511.9375,
+          "right": 586,
+          "bottom": 555.9375,
+          "left": 390.890625
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 900x700",
+      "viewport": {
+        "width": 900,
+        "height": 700
+      },
+      "scrollY": 0,
+      "documentWidth": 900,
+      "spin": {
+        "x": 244,
+        "y": 412.390625,
+        "width": 412,
+        "height": 48,
+        "top": 412.390625,
+        "right": 656,
+        "bottom": 460.390625,
+        "left": 244
+      },
+      "preview": {
+        "x": 248,
+        "y": 502.890625,
+        "width": 144.546875,
+        "height": 23,
+        "top": 502.890625,
+        "right": 392.546875,
+        "bottom": 525.890625,
+        "left": 248
+      },
+      "copy": {
+        "x": 456.890625,
+        "y": 492.390625,
+        "width": 195.109375,
+        "height": 44,
+        "top": 492.390625,
+        "right": 652,
+        "bottom": 536.390625,
+        "left": 456.890625
+      },
+      "housing": {
+        "x": 232,
+        "y": 56,
+        "width": 436,
+        "height": 414.390625,
+        "top": 56,
+        "right": 668,
+        "bottom": 470.390625,
+        "left": 232
+      },
+      "drums": {
+        "x": 244,
+        "y": 136.59375,
+        "width": 412,
+        "height": 267.796875,
+        "top": 136.59375,
+        "right": 656,
+        "bottom": 404.390625,
+        "left": 244
+      },
+      "help": {
+        "x": 544,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 588,
+        "bottom": 48,
+        "left": 544
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        22.888621794871792,
+        22.888621794871792,
+        22.888621794871792
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 544,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 588,
+          "bottom": 48,
+          "left": 544
+        },
+        {
+          "id": "locale-trigger",
+          "x": 594,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 668,
+          "bottom": 48,
+          "left": 594
+        },
+        {
+          "id": "reading-language",
+          "x": 244,
+          "y": 84.59375,
+          "width": 153.28125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 397.28125,
+          "bottom": 128.59375,
+          "left": 244
+        },
+        {
+          "id": "reading-cefr",
+          "x": 405.28125,
+          "y": 84.59375,
+          "width": 114.96875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 520.25,
+          "bottom": 128.59375,
+          "left": 405.28125
+        },
+        {
+          "id": "reading-length",
+          "x": 528.25,
+          "y": 84.59375,
+          "width": 127.75,
+          "height": 44,
+          "top": 84.59375,
+          "right": 656,
+          "bottom": 128.59375,
+          "left": 528.25
+        },
+        {
+          "id": "spin-control",
+          "x": 244,
+          "y": 412.390625,
+          "width": 412,
+          "height": 48,
+          "top": 412.390625,
+          "right": 656,
+          "bottom": 460.390625,
+          "left": 244
+        },
+        {
+          "id": "copy-appearance",
+          "x": 456.890625,
+          "y": 492.390625,
+          "width": 195.109375,
+          "height": 44,
+          "top": 492.390625,
+          "right": 652,
+          "bottom": 536.390625,
+          "left": 456.890625
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru 844x390",
+      "viewport": {
+        "width": 844,
+        "height": 390
+      },
+      "scrollY": 0,
+      "documentWidth": 844,
+      "spin": {
+        "x": 216,
+        "y": 412.390625,
+        "width": 412,
+        "height": 48,
+        "top": 412.390625,
+        "right": 628,
+        "bottom": 460.390625,
+        "left": 216
+      },
+      "preview": {
+        "x": 220,
+        "y": 502.890625,
+        "width": 144.546875,
+        "height": 23,
+        "top": 502.890625,
+        "right": 364.546875,
+        "bottom": 525.890625,
+        "left": 220
+      },
+      "copy": {
+        "x": 428.890625,
+        "y": 492.390625,
+        "width": 195.109375,
+        "height": 44,
+        "top": 492.390625,
+        "right": 624,
+        "bottom": 536.390625,
+        "left": 428.890625
+      },
+      "housing": {
+        "x": 204,
+        "y": 56,
+        "width": 436,
+        "height": 414.390625,
+        "top": 56,
+        "right": 640,
+        "bottom": 470.390625,
+        "left": 204
+      },
+      "drums": {
+        "x": 216,
+        "y": 136.59375,
+        "width": 412,
+        "height": 267.796875,
+        "top": 136.59375,
+        "right": 628,
+        "bottom": 404.390625,
+        "left": 216
+      },
+      "help": {
+        "x": 516,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 560,
+        "bottom": 48,
+        "left": 516
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        22.888621794871792,
+        22.888621794871792,
+        22.888621794871792
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 516,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 560,
+          "bottom": 48,
+          "left": 516
+        },
+        {
+          "id": "locale-trigger",
+          "x": 566,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 640,
+          "bottom": 48,
+          "left": 566
+        },
+        {
+          "id": "reading-language",
+          "x": 216,
+          "y": 84.59375,
+          "width": 153.28125,
+          "height": 44,
+          "top": 84.59375,
+          "right": 369.28125,
+          "bottom": 128.59375,
+          "left": 216
+        },
+        {
+          "id": "reading-cefr",
+          "x": 377.28125,
+          "y": 84.59375,
+          "width": 114.96875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 492.25,
+          "bottom": 128.59375,
+          "left": 377.28125
+        },
+        {
+          "id": "reading-length",
+          "x": 500.25,
+          "y": 84.59375,
+          "width": 127.75,
+          "height": 44,
+          "top": 84.59375,
+          "right": 628,
+          "bottom": 128.59375,
+          "left": 500.25
+        },
+        {
+          "id": "spin-control",
+          "x": 216,
+          "y": 412.390625,
+          "width": 412,
+          "height": 48,
+          "top": 412.390625,
+          "right": 628,
+          "bottom": 460.390625,
+          "left": 216
+        },
+        {
+          "id": "copy-appearance",
+          "x": 428.890625,
+          "y": 492.390625,
+          "width": 195.109375,
+          "height": 44,
+          "top": 492.390625,
+          "right": 624,
+          "bottom": 536.390625,
+          "left": 428.890625
+        }
+      ],
+      "values": [
+        "Путешествия",
+        "Рассказ из жизни",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Путешествия. Места поездок, проживание, достопримечательности и впечатления путешественников.\n\nФормат: Рассказ из жизни. Персонаж, конкретная повседневная ситуация, последовательность действий и ясное завершение.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Места поездок, проживание, достопримечательности и впечатления путешественников. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Рассказ из жизни. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральное повествование от третьего лица. Выразительность поддерживает сюжет; не меняйте перспективу случайным образом.\n\nСтатус содержания: Художественный вымысел. Можно придумывать персонажей, события, диалоги и правила вымышленного мира. Не представляйте вымысел как реальные события, подлинные цитаты или установленное научное знание. Обычному рассказу не нужна дополнительная пометка о вымысле.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru after rapid taps",
+      "viewport": {
+        "width": 390,
+        "height": 600
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 366.890625,
+        "width": 342,
+        "height": 48,
+        "top": 366.890625,
+        "right": 366,
+        "bottom": 414.890625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 460.1875,
+        "width": 144.546875,
+        "height": 23,
+        "top": 460.1875,
+        "right": 172.546875,
+        "bottom": 483.1875,
+        "left": 28
+      },
+      "copy": {
+        "x": 188.328125,
+        "y": 446.890625,
+        "width": 173.671875,
+        "height": 49.59375,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 496.484375,
+        "left": 188.328125
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 366,
+        "height": 368.890625,
+        "top": 56,
+        "right": 378,
+        "bottom": 424.890625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 342,
+        "height": 222.296875,
+        "top": 136.59375,
+        "right": 366,
+        "bottom": 358.890625,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 126.1875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 150.1875,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 84.59375,
+          "width": 94.640625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 252.828125,
+          "bottom": 128.59375,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 84.59375,
+          "width": 105.171875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 366,
+          "bottom": 128.59375,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 366.890625,
+          "width": 342,
+          "height": 48,
+          "top": 366.890625,
+          "right": 366,
+          "bottom": 414.890625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 188.328125,
+          "y": 446.890625,
+          "width": 173.671875,
+          "height": 49.59375,
+          "top": 446.890625,
+          "right": 362,
+          "bottom": 496.484375,
+          "left": 188.328125
+        }
+      ],
+      "values": [
+        "История",
+        "Запись в дневнике",
+        "Неожиданное открытие"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: История. Прошлые эпохи, подтверждённые события, исторические изменения и жизнь в прошлом; различайте свидетельства и интерпретации.\n\nФормат: Запись в дневнике. События, наблюдения и личные реакции от первого лица вымышленного автора.\n\nРакурс: Неожиданное открытие. Находка предмета или информации, меняющая последующие действия или понимание.\n\nДопустимый сценарий для профиля содержания B1: Прошлые эпохи, подтверждённые события, исторические изменения и жизнь в прошлом; различайте свидетельства и интерпретации. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Неожиданное открытие». Реализуйте этот сценарий через обязательную структуру выбранного формата: Запись в дневнике. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nРазговорный или нейтральный личный регистр, без обязательного сленга. Перспектива отправителя; дневник и блог от первого лица, в переписке различайте голоса.\n\nСтатус содержания: Учебный пример. Используйте явно вымышленный учебный сценарий. Если документ, интервью, личный опыт или набор данных можно принять за подлинный материал, добавьте краткую пометку на выбранном языке чтения со смыслом «Учебный пример; люди и обстоятельства вымышлены» или «Учебные данные». Не приписывайте вымышленный опыт или слова реальным людям. Отзыв может описывать вымышленный объект; реальные характеристики требуют подтверждения, а условное использование не является свидетельством.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    },
+    {
+      "name": "ru browser bars resize",
+      "viewport": {
+        "width": 390,
+        "height": 540
+      },
+      "scrollY": 0,
+      "documentWidth": 390,
+      "spin": {
+        "x": 24,
+        "y": 366.890625,
+        "width": 342,
+        "height": 48,
+        "top": 366.890625,
+        "right": 366,
+        "bottom": 414.890625,
+        "left": 24
+      },
+      "preview": {
+        "x": 28,
+        "y": 460.1875,
+        "width": 144.546875,
+        "height": 23,
+        "top": 460.1875,
+        "right": 172.546875,
+        "bottom": 483.1875,
+        "left": 28
+      },
+      "copy": {
+        "x": 188.328125,
+        "y": 446.890625,
+        "width": 173.671875,
+        "height": 49.59375,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 496.484375,
+        "left": 188.328125
+      },
+      "housing": {
+        "x": 12,
+        "y": 56,
+        "width": 366,
+        "height": 368.890625,
+        "top": 56,
+        "right": 378,
+        "bottom": 424.890625,
+        "left": 12
+      },
+      "drums": {
+        "x": 24,
+        "y": 136.59375,
+        "width": 342,
+        "height": 222.296875,
+        "top": 136.59375,
+        "right": 366,
+        "bottom": 358.890625,
+        "left": 24
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "promptFont": 16,
+      "labelFonts": [
+        18.999732905982906,
+        18.999732905982906,
+        18.999732905982906
+      ],
+      "controls": [
+        {
+          "id": "help-button",
+          "x": 254,
+          "y": 4,
+          "width": 44,
+          "height": 44,
+          "top": 4,
+          "right": 298,
+          "bottom": 48,
+          "left": 254
+        },
+        {
+          "id": "locale-trigger",
+          "x": 304,
+          "y": 4,
+          "width": 74,
+          "height": 44,
+          "top": 4,
+          "right": 378,
+          "bottom": 48,
+          "left": 304
+        },
+        {
+          "id": "reading-language",
+          "x": 24,
+          "y": 84.59375,
+          "width": 126.1875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 150.1875,
+          "bottom": 128.59375,
+          "left": 24
+        },
+        {
+          "id": "reading-cefr",
+          "x": 158.1875,
+          "y": 84.59375,
+          "width": 94.640625,
+          "height": 44,
+          "top": 84.59375,
+          "right": 252.828125,
+          "bottom": 128.59375,
+          "left": 158.1875
+        },
+        {
+          "id": "reading-length",
+          "x": 260.828125,
+          "y": 84.59375,
+          "width": 105.171875,
+          "height": 44,
+          "top": 84.59375,
+          "right": 366,
+          "bottom": 128.59375,
+          "left": 260.828125
+        },
+        {
+          "id": "spin-control",
+          "x": 24,
+          "y": 366.890625,
+          "width": 342,
+          "height": 48,
+          "top": 366.890625,
+          "right": 366,
+          "bottom": 414.890625,
+          "left": 24
+        },
+        {
+          "id": "copy-appearance",
+          "x": 188.328125,
+          "y": 446.890625,
+          "width": 173.671875,
+          "height": 49.59375,
+          "top": 446.890625,
+          "right": 362,
+          "bottom": 496.484375,
+          "left": 188.328125
+        }
+      ],
+      "values": [
+        "Культура и традиции",
+        "Выступление",
+        "Приглашение"
+      ],
+      "prompt": "Напишите оригинальный учебный текст целиком на английском языке. Язык основного текста, его заголовков, обязательных пометок и подписей изображений должен соответствовать выбранному языку чтения. Отдельный заключительный словарик оформите по правилам ниже.\n\nЦелевая сложность: B1+. Это внутренняя настройка вокруг стандартных уровней CEFR, а не отдельный официальный уровень. Используйте язык B1 с более богатыми описаниями, разнообразными связками и отдельными сложными предложениями.\n\nДлина: примерно 250–350 слов.\n\nТема: Культура и традиции. Обычаи, праздники, этикет и культурные практики; исторический анализ относится к истории; избегайте стереотипов.\n\nФормат: Выступление. Определите конкретную цель и аудиторию, подходящие теме и ракурсу. Обратитесь к слушателям, изложите главную мысль, поддержите примерами и завершите выступление. Оно может быть информационным или торжественным; не навязывайте эмоциональное убеждение и не приписывайте новую речь реальному оратору.\n\nРакурс: Приглашение. Пригласите на конкретное событие, сообщите нужные детали и включите ответ, если формат позволяет.\n\nДопустимый сценарий для профиля содержания B1: Обычаи, праздники, этикет и культурные практики; исторический анализ относится к истории; избегайте стереотипов. Используйте знакомые примеры, явные причины, последствия или точки зрения; объясняйте каждое необходимое понятие. В рамках указанной границы раскройте ракурс «Приглашение». Реализуйте этот сценарий через обязательную структуру выбранного формата: Выступление. Сохраняйте один основной предмет; не меняйте тему ради упрощения формата.\n\nНейтральный или публицистический регистр и явная авторская позиция; различайте голоса в дискуссии. Для выступления используйте устную речь, подходящую аудитории.\n\nСтатус содержания: Учебный пример. Используйте явно вымышленный учебный сценарий. Если документ, интервью, личный опыт или набор данных можно принять за подлинный материал, добавьте краткую пометку на выбранном языке чтения со смыслом «Учебный пример; люди и обстоятельства вымышлены» или «Учебные данные». Не приписывайте вымышленный опыт или слова реальным людям. Отзыв может описывать вымышленный объект; реальные характеристики требуют подтверждения, а условное использование не является свидетельством.\n\nУчебный контекст не допускает неверных предметных знаний. Мнение не разрешает придумывать доказательства. Проверяйте сомнительные или меняющиеся фактические утверждения даже внутри вымышленного или учебного сценария. Явно обозначайте вымышленные данные и согласуйте значения, единицы, категории и периоды. Выводы должны следовать из данных; не представляйте корреляцию как причинность.\n\nВыбранная настройка CEFR ограничивает языковую сложность; указанный профиль содержания отдельно ограничивает глубину темы. Длина, жанр, иллюстрации и выразительность не повышают эти пределы. Не добавляйте повторы, неподтверждённые подробности или искусственный жаргон ради нужного объёма.\n\nВерните учебный текст с предусмотренной краткой пометкой об учебном примере, если она требуется.\n\nЗаголовки, пометки, подписи и реплики диалога входят в объём учебного материала. Для моделей с полями или позициями сохраняйте их структурную меру. Отдельные блоки источников и полезной лексики не входят в объём чтения; словарик также не входит в число полей или позиций, включая визуальные форматы. Не переводите учебный текст целиком и не добавляйте упражнения или посторонние комментарии. Краткое сообщение о невозможности выполнить задачу не обязано достигать запрошенного объёма.\n\nПомощь с лексикой: после учебного материала и обязательного блока источников добавьте заключительный раздел «Полезная лексика». Выберите полезные слова и короткие выражения, которые действительно встречаются в материале и могут быть незнакомы учащемуся уровня B1+ из-за темы или значения в контексте. Не усложняйте текст ради заполнения словарика. Соразмеряйте список с материалом: обычно 3–8 позиций, меньше для очень короткого или простого текста и до 12 для более длинного материала с богатой лексикой. Избегайте повторов и пустых добавлений. Для каждой позиции приведите исходное слово или выражение из текста, затем краткий перевод значения в этом контексте на русский. Объяснения пишите на русском, языке этого промпта, в формате «исходное выражение — значение». Если учебный материал создать невозможно, не добавляйте этот раздел и не выдумывайте словарные позиции.",
+      "copyDisabled": false
+    }
+  ],
+  "headers": [
+    {
+      "width": 320,
+      "height": 568,
+      "locale": "en",
+      "title": {
+        "x": 12,
+        "y": 4,
+        "width": 164,
+        "height": 50.375,
+        "top": 4,
+        "right": 176,
+        "bottom": 54.375,
+        "left": 12
+      },
+      "help": {
+        "x": 184,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 228,
+        "bottom": 48,
+        "left": 184
+      },
+      "language": {
+        "x": 234,
+        "y": 4,
+        "width": 74,
+        "height": 44,
+        "top": 4,
+        "right": 308,
+        "bottom": 48,
+        "left": 234
+      },
+      "machineTop": 62.375,
+      "preview": {
+        "x": 28,
+        "y": 480.15625,
+        "width": 118.734375,
+        "height": 46,
+        "top": 480.15625,
+        "right": 146.734375,
+        "bottom": 526.15625,
+        "left": 28
+      },
+      "copy": {
+        "x": 154.734375,
+        "y": 478.359375,
+        "width": 137.265625,
+        "height": 49.59375,
+        "top": 478.359375,
+        "right": 292,
+        "bottom": 527.953125,
+        "left": 154.734375
+      }
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "locale": "ru",
+      "title": {
+        "x": 12,
+        "y": 4,
+        "width": 164,
+        "height": 50.375,
+        "top": 4,
+        "right": 176,
+        "bottom": 54.375,
+        "left": 12
+      },
+      "help": {
+        "x": 184,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 228,
+        "bottom": 48,
+        "left": 184
+      },
+      "language": {
+        "x": 234,
+        "y": 4,
+        "width": 74,
+        "height": 44,
+        "top": 4,
+        "right": 308,
+        "bottom": 48,
+        "left": 234
+      },
+      "machineTop": 62.375,
+      "preview": {
+        "x": 28,
+        "y": 480.15625,
+        "width": 118.734375,
+        "height": 46,
+        "top": 480.15625,
+        "right": 146.734375,
+        "bottom": 526.15625,
+        "left": 28
+      },
+      "copy": {
+        "x": 154.734375,
+        "y": 478.359375,
+        "width": 137.265625,
+        "height": 49.59375,
+        "top": 478.359375,
+        "right": 292,
+        "bottom": 527.953125,
+        "left": 154.734375
+      }
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "locale": "en",
+      "title": {
+        "x": 12,
+        "y": 4,
+        "width": 234,
+        "height": 44,
+        "top": 4,
+        "right": 246,
+        "bottom": 48,
+        "left": 12
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "language": {
+        "x": 304,
+        "y": 4,
+        "width": 74,
+        "height": 44,
+        "top": 4,
+        "right": 378,
+        "bottom": 48,
+        "left": 304
+      },
+      "machineTop": 56,
+      "preview": {
+        "x": 28,
+        "y": 457.390625,
+        "width": 135.34375,
+        "height": 23,
+        "top": 457.390625,
+        "right": 163.34375,
+        "bottom": 480.390625,
+        "left": 28
+      },
+      "copy": {
+        "x": 224.0625,
+        "y": 446.890625,
+        "width": 137.9375,
+        "height": 44,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 490.890625,
+        "left": 224.0625
+      }
+    },
+    {
+      "width": 390,
+      "height": 600,
+      "locale": "ru",
+      "title": {
+        "x": 12,
+        "y": 4,
+        "width": 234,
+        "height": 44,
+        "top": 4,
+        "right": 246,
+        "bottom": 48,
+        "left": 12
+      },
+      "help": {
+        "x": 254,
+        "y": 4,
+        "width": 44,
+        "height": 44,
+        "top": 4,
+        "right": 298,
+        "bottom": 48,
+        "left": 254
+      },
+      "language": {
+        "x": 304,
+        "y": 4,
+        "width": 74,
+        "height": 44,
+        "top": 4,
+        "right": 378,
+        "bottom": 48,
+        "left": 304
+      },
+      "machineTop": 56,
+      "preview": {
+        "x": 28,
+        "y": 460.1875,
+        "width": 144.546875,
+        "height": 23,
+        "top": 460.1875,
+        "right": 172.546875,
+        "bottom": 483.1875,
+        "left": 28
+      },
+      "copy": {
+        "x": 188.328125,
+        "y": 446.890625,
+        "width": 173.671875,
+        "height": 49.59375,
+        "top": 446.890625,
+        "right": 362,
+        "bottom": 496.484375,
+        "left": 188.328125
+      }
+    },
+    {
+      "width": 901,
+      "height": 700,
+      "locale": "en",
+      "title": {
+        "x": 263.6899719238281,
+        "y": 4.484830856323242,
+        "width": 392.3905944824219,
+        "height": 69,
+        "top": 4.484830856323242,
+        "right": 656.08056640625,
+        "bottom": 73.48483085632324,
+        "left": 263.6899719238281
+      },
+      "help": {
+        "x": 685,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 809,
+        "bottom": 52,
+        "left": 685
+      },
+      "language": {
+        "x": 815,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 889,
+        "bottom": 52,
+        "left": 815
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 227.875,
+        "y": 420.859375,
+        "width": 205.1875,
+        "height": 28.75,
+        "top": 420.859375,
+        "right": 433.0625,
+        "bottom": 449.609375,
+        "left": 227.875
+      },
+      "copy": {
+        "x": 503.765625,
+        "y": 413.234375,
+        "width": 169.34375,
+        "height": 44,
+        "top": 413.234375,
+        "right": 673.109375,
+        "bottom": 457.234375,
+        "left": 503.765625
+      }
+    },
+    {
+      "width": 901,
+      "height": 700,
+      "locale": "ru",
+      "title": {
+        "x": 263.6899719238281,
+        "y": 4.484830856323242,
+        "width": 392.3905944824219,
+        "height": 69,
+        "top": 4.484830856323242,
+        "right": 656.08056640625,
+        "bottom": 73.48483085632324,
+        "left": 263.6899719238281
+      },
+      "help": {
+        "x": 685,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 809,
+        "bottom": 52,
+        "left": 685
+      },
+      "language": {
+        "x": 815,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 889,
+        "bottom": 52,
+        "left": 815
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 227.875,
+        "y": 413.234375,
+        "width": 192.546875,
+        "height": 57.5,
+        "top": 413.234375,
+        "right": 420.421875,
+        "bottom": 470.734375,
+        "left": 227.875
+      },
+      "copy": {
+        "x": 438.421875,
+        "y": 419.984375,
+        "width": 234.6875,
+        "height": 44,
+        "top": 419.984375,
+        "right": 673.109375,
+        "bottom": 463.984375,
+        "left": 438.421875
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "locale": "en",
+      "title": {
+        "x": 299.71331787109375,
+        "y": 5.331981658935547,
+        "width": 445.90625,
+        "height": 78,
+        "top": 5.331981658935547,
+        "right": 745.6195678710938,
+        "bottom": 83.33198165893555,
+        "left": 299.71331787109375
+      },
+      "help": {
+        "x": 808,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 932,
+        "bottom": 52,
+        "left": 808
+      },
+      "language": {
+        "x": 938,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1012,
+        "bottom": 52,
+        "left": 938
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 258.984375,
+        "y": 495.625,
+        "width": 205.1875,
+        "height": 28.75,
+        "top": 495.625,
+        "right": 464.171875,
+        "bottom": 524.375,
+        "left": 258.984375
+      },
+      "copy": {
+        "x": 603.078125,
+        "y": 484,
+        "width": 161.9375,
+        "height": 52,
+        "top": 484,
+        "right": 765.015625,
+        "bottom": 536,
+        "left": 603.078125
+      }
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "locale": "ru",
+      "title": {
+        "x": 299.71331787109375,
+        "y": 5.331981658935547,
+        "width": 445.90625,
+        "height": 78,
+        "top": 5.331981658935547,
+        "right": 745.6195678710938,
+        "bottom": 83.33198165893555,
+        "left": 299.71331787109375
+      },
+      "help": {
+        "x": 808,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 932,
+        "bottom": 52,
+        "left": 808
+      },
+      "language": {
+        "x": 938,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1012,
+        "bottom": 52,
+        "left": 938
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 258.984375,
+        "y": 495.625,
+        "width": 216.6875,
+        "height": 28.75,
+        "top": 495.625,
+        "right": 475.671875,
+        "bottom": 524.375,
+        "left": 258.984375
+      },
+      "copy": {
+        "x": 545.90625,
+        "y": 484,
+        "width": 219.109375,
+        "height": 52,
+        "top": 484,
+        "right": 765.015625,
+        "bottom": 536,
+        "left": 545.90625
+      }
+    },
+    {
+      "width": 1170,
+      "height": 640,
+      "locale": "en",
+      "title": {
+        "x": 342.4138488769531,
+        "y": 5.647423267364502,
+        "width": 509.5469055175781,
+        "height": 89.00000762939453,
+        "top": 5.647423267364502,
+        "right": 851.9607543945312,
+        "bottom": 94.64743089675903,
+        "left": 342.4138488769531
+      },
+      "help": {
+        "x": 954,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1078,
+        "bottom": 52,
+        "left": 954
+      },
+      "language": {
+        "x": 1084,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1158,
+        "bottom": 52,
+        "left": 1084
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 295.90625,
+        "y": 540.640625,
+        "width": 205.1875,
+        "height": 28.75,
+        "top": 540.640625,
+        "right": 501.09375,
+        "bottom": 569.390625,
+        "left": 295.90625
+      },
+      "copy": {
+        "x": 704.75,
+        "y": 533.015625,
+        "width": 169.34375,
+        "height": 44,
+        "top": 533.015625,
+        "right": 874.09375,
+        "bottom": 577.015625,
+        "left": 704.75
+      }
+    },
+    {
+      "width": 1170,
+      "height": 640,
+      "locale": "ru",
+      "title": {
+        "x": 342.4138488769531,
+        "y": 5.647423267364502,
+        "width": 509.5469055175781,
+        "height": 89.00000762939453,
+        "top": 5.647423267364502,
+        "right": 851.9607543945312,
+        "bottom": 94.64743089675903,
+        "left": 342.4138488769531
+      },
+      "help": {
+        "x": 954,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1078,
+        "bottom": 52,
+        "left": 954
+      },
+      "language": {
+        "x": 1084,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1158,
+        "bottom": 52,
+        "left": 1084
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 295.90625,
+        "y": 540.640625,
+        "width": 216.6875,
+        "height": 28.75,
+        "top": 540.640625,
+        "right": 512.59375,
+        "bottom": 569.390625,
+        "left": 295.90625
+      },
+      "copy": {
+        "x": 639.40625,
+        "y": 533.015625,
+        "width": 234.6875,
+        "height": 44,
+        "top": 533.015625,
+        "right": 874.09375,
+        "bottom": 577.015625,
+        "left": 639.40625
+      }
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "locale": "en",
+      "title": {
+        "x": 374.63006591796875,
+        "y": 5.665980339050293,
+        "width": 557.4063110351562,
+        "height": 98,
+        "top": 5.665980339050293,
+        "right": 932.036376953125,
+        "bottom": 103.6659803390503,
+        "left": 374.63006591796875
+      },
+      "help": {
+        "x": 1064,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1188,
+        "bottom": 52,
+        "left": 1064
+      },
+      "language": {
+        "x": 1194,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1268,
+        "bottom": 52,
+        "left": 1194
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 323.734375,
+        "y": 588.546875,
+        "width": 217.90625,
+        "height": 30.90625,
+        "top": 588.546875,
+        "right": 541.640625,
+        "bottom": 619.453125,
+        "left": 323.734375
+      },
+      "copy": {
+        "x": 786.90625,
+        "y": 582,
+        "width": 169.34375,
+        "height": 44,
+        "top": 582,
+        "right": 956.25,
+        "bottom": 626,
+        "left": 786.90625
+      }
+    },
+    {
+      "width": 1280,
+      "height": 640,
+      "locale": "ru",
+      "title": {
+        "x": 374.63006591796875,
+        "y": 5.665980339050293,
+        "width": 557.4063110351562,
+        "height": 98,
+        "top": 5.665980339050293,
+        "right": 932.036376953125,
+        "bottom": 103.6659803390503,
+        "left": 374.63006591796875
+      },
+      "help": {
+        "x": 1064,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1188,
+        "bottom": 52,
+        "left": 1064
+      },
+      "language": {
+        "x": 1194,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1268,
+        "bottom": 52,
+        "left": 1194
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 323.734375,
+        "y": 588.546875,
+        "width": 230.265625,
+        "height": 30.90625,
+        "top": 588.546875,
+        "right": 554,
+        "bottom": 619.453125,
+        "left": 323.734375
+      },
+      "copy": {
+        "x": 721.5625,
+        "y": 582,
+        "width": 234.6875,
+        "height": 44,
+        "top": 582,
+        "right": 956.25,
+        "bottom": 626,
+        "left": 721.5625
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "locale": "en",
+      "title": {
+        "x": 399.7915954589844,
+        "y": 6.153315544128418,
+        "width": 594.8748779296875,
+        "height": 105.00000762939453,
+        "top": 6.153315544128418,
+        "right": 994.6664733886719,
+        "bottom": 111.15332317352295,
+        "left": 399.7915954589844
+      },
+      "help": {
+        "x": 1150,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1274,
+        "bottom": 52,
+        "left": 1150
+      },
+      "language": {
+        "x": 1280,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1354,
+        "bottom": 52,
+        "left": 1280
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 345.484375,
+        "y": 645.796875,
+        "width": 230.078125,
+        "height": 32.984375,
+        "top": 645.796875,
+        "right": 575.5625,
+        "bottom": 678.78125,
+        "left": 345.484375
+      },
+      "copy": {
+        "x": 833.421875,
+        "y": 636.296875,
+        "width": 187.09375,
+        "height": 52,
+        "top": 636.296875,
+        "right": 1020.515625,
+        "bottom": 688.296875,
+        "left": 833.421875
+      }
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "locale": "ru",
+      "title": {
+        "x": 399.7915954589844,
+        "y": 6.153315544128418,
+        "width": 594.8748779296875,
+        "height": 105.00000762939453,
+        "top": 6.153315544128418,
+        "right": 994.6664733886719,
+        "bottom": 111.15332317352295,
+        "left": 399.7915954589844
+      },
+      "help": {
+        "x": 1150,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1274,
+        "bottom": 52,
+        "left": 1150
+      },
+      "language": {
+        "x": 1280,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1354,
+        "bottom": 52,
+        "left": 1280
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 345.484375,
+        "y": 645.796875,
+        "width": 243.28125,
+        "height": 32.984375,
+        "top": 645.796875,
+        "right": 588.765625,
+        "bottom": 678.78125,
+        "left": 345.484375
+      },
+      "copy": {
+        "x": 760.9375,
+        "y": 636.296875,
+        "width": 259.578125,
+        "height": 52,
+        "top": 636.296875,
+        "right": 1020.515625,
+        "bottom": 688.296875,
+        "left": 760.9375
+      }
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "locale": "en",
+      "title": {
+        "x": 449.5078125,
+        "y": 7,
+        "width": 668.984375,
+        "height": 118,
+        "top": 7,
+        "right": 1118.4921875,
+        "bottom": 125,
+        "left": 449.5078125
+      },
+      "help": {
+        "x": 1320,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1444,
+        "bottom": 52,
+        "left": 1320
+      },
+      "language": {
+        "x": 1450,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1524,
+        "bottom": 52,
+        "left": 1450
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 388.484375,
+        "y": 719.609375,
+        "width": 252.546875,
+        "height": 36.796875,
+        "top": 719.609375,
+        "right": 641.03125,
+        "bottom": 756.40625,
+        "left": 388.484375
+      },
+      "copy": {
+        "x": 945.59375,
+        "y": 712.015625,
+        "width": 201.921875,
+        "height": 52,
+        "top": 712.015625,
+        "right": 1147.515625,
+        "bottom": 764.015625,
+        "left": 945.59375
+      }
+    },
+    {
+      "width": 1536,
+      "height": 864,
+      "locale": "ru",
+      "title": {
+        "x": 449.5078125,
+        "y": 7,
+        "width": 668.984375,
+        "height": 118,
+        "top": 7,
+        "right": 1118.4921875,
+        "bottom": 125,
+        "left": 449.5078125
+      },
+      "help": {
+        "x": 1320,
+        "y": 8,
+        "width": 124,
+        "height": 44,
+        "top": 8,
+        "right": 1444,
+        "bottom": 52,
+        "left": 1320
+      },
+      "language": {
+        "x": 1450,
+        "y": 8,
+        "width": 74,
+        "height": 44,
+        "top": 8,
+        "right": 1524,
+        "bottom": 52,
+        "left": 1450
+      },
+      "machineTop": 0,
+      "preview": {
+        "x": 388.484375,
+        "y": 719.609375,
+        "width": 267.265625,
+        "height": 36.796875,
+        "top": 719.609375,
+        "right": 655.75,
+        "bottom": 756.40625,
+        "left": 388.484375
+      },
+      "copy": {
+        "x": 864.078125,
+        "y": 712.015625,
+        "width": 283.4375,
+        "height": 52,
+        "top": 712.015625,
+        "right": 1147.515625,
+        "bottom": 764.015625,
+        "left": 864.078125
+      }
+    }
+  ],
+  "fontEvidence": [
+    {
+      "selector": "#reading-prompt",
+      "fonts": [
+        {
+          "familyName": "JetBrains Mono",
+          "postScriptName": "JetBrainsMono-Regular",
+          "isCustomFont": true,
+          "glyphCount": 5323
+        }
+      ]
+    },
+    {
+      "selector": "#prompt-heading",
+      "fonts": [
+        {
+          "familyName": "EB Garamond",
+          "postScriptName": "EBGaramond-Bold",
+          "isCustomFont": true,
+          "glyphCount": 14
+        }
+      ]
+    },
+    {
+      "selector": ".compact-spin>span",
+      "fonts": [
+        {
+          "familyName": "EB Garamond",
+          "postScriptName": "EBGaramond-Bold",
+          "isCustomFont": true,
+          "glyphCount": 7
+        }
+      ]
+    }
+  ],
+  "promptMetrics": {
+    "size": "16px",
+    "adjust": "100%",
+    "family": "\"Reading Mono\", Consolas, \"Courier New\", monospace"
+  },
+  "limits": [
+    "Touch and reduced visible height are emulated, not a physical Android device"
+  ]
+}
